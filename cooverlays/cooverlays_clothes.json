@@ -1,0 +1,2414 @@
+[
+  {
+    "strName": "OutfitEVA03",
+    "strNameFriendly": "Бингам-12B, костюм для выхода в открытый космос",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit04",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit04Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA03",
+    "strCOBase": "OutfitEVA01",
+    "strCondLoot": "CNDOLOutfitEVA03",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA03",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA03",
+      "OutfitEVA01Off",
+      "OutfitEVA03Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA03Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA03Off",
+    "strNameFriendly": "Бингам-12B, костюм для выхода в открытый космос (выключен)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit04",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit04Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA03",
+    "strCOBase": "OutfitEVA01Off",
+    "strCondLoot": "CNDOLOutfitEVA03",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA03Off",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA03",
+      "OutfitEVA01Off",
+      "OutfitEVA03Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA03Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA03Dmg",
+    "strNameFriendly": "Бингам-12B, костюм для выхода в открытый космос (повреждён)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit04Dmg02",
+    "strImgNorm": "CrewSuit03n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA03Dmg02",
+    "strCOBase": "OutfitEVA01Dmg",
+    "strCondLoot": "CNDOLOutfitEVA03Dmg",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA03Dmg",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA03",
+      "OutfitEVA01Off",
+      "OutfitEVA03Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA03Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA05",
+    "strNameFriendly": "Бингам-12C, костюм для выхода в открытый космос",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit05",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit05Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA05",
+    "strCOBase": "OutfitEVA01",
+    "strCondLoot": "CNDOLOutfitEVA05",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA05",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA05",
+      "OutfitEVA01Off",
+      "OutfitEVA05Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA05Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA05Off",
+    "strNameFriendly": "Бингам-12C, костюм для выхода в открытый космос (выключен)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit05",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit05Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA05",
+    "strCOBase": "OutfitEVA01Off",
+    "strCondLoot": "CNDOLOutfitEVA05",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA05Off",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA05",
+      "OutfitEVA01Off",
+      "OutfitEVA05Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA05Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA05Dmg",
+    "strNameFriendly": "Бингам-12C, костюм для выхода в открытый космос (повреждён)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit05Dmg02",
+    "strImgNorm": "CrewSuit03n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA05Dmg02",
+    "strCOBase": "OutfitEVA01Dmg",
+    "strCondLoot": "CNDOLOutfitEVA05Dmg",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA05Dmg",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA05",
+      "OutfitEVA01Off",
+      "OutfitEVA05Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA05Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA06",
+    "strNameFriendly": "Бингам-12D, костюм для выхода в открытый космос",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit06",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit06Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA06",
+    "strCOBase": "OutfitEVA01",
+    "strCondLoot": "CNDOLOutfitEVA06",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA06",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA06",
+      "OutfitEVA01Off",
+      "OutfitEVA06Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA06Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA06Off",
+    "strNameFriendly": "Бингам-12D, костюм для выхода в открытый космос (выключен)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit06",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit06Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA06",
+    "strCOBase": "OutfitEVA01Off",
+    "strCondLoot": "CNDOLOutfitEVA06",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA06Off",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA06",
+      "OutfitEVA01Off",
+      "OutfitEVA06Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA06Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA06Dmg",
+    "strNameFriendly": "Бингам-12D, костюм для выхода в открытый космос (повреждён)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit06Dmg02",
+    "strImgNorm": "CrewSuit03n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA06Dmg02",
+    "strCOBase": "OutfitEVA01Dmg",
+    "strCondLoot": "CNDOLOutfitEVA06Dmg",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA06Dmg",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA06",
+      "OutfitEVA01Off",
+      "OutfitEVA06Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA06Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA07",
+    "strNameFriendly": "Бингам-12E, костюм для выхода в открытый космос",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже без питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit07",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit07Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA07",
+    "strCOBase": "OutfitEVA01",
+    "strCondLoot": "CNDOLOutfitEVA07",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA07",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA07",
+      "OutfitEVA01Off",
+      "OutfitEVA07Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA07Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA07Off",
+    "strNameFriendly": "Костюм Bingham-12E (выключен)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit07",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit07Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA07",
+    "strCOBase": "OutfitEVA01Off",
+    "strCondLoot": "CNDOLOutfitEVA07",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA07Off",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA07",
+      "OutfitEVA01Off",
+      "OutfitEVA07Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA07Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA07Dmg",
+    "strNameFriendly": "Костюм Bingham-12E (повреждён)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit07Dmg02",
+    "strImgNorm": "CrewSuit03n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA07Dmg02",
+    "strCOBase": "OutfitEVA01Dmg",
+    "strCondLoot": "CNDOLOutfitEVA07Dmg",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA07Dmg",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA07",
+      "OutfitEVA01Off",
+      "OutfitEVA07Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA07Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA08",
+    "strNameFriendly": "Костюм Bingham-12F EVA",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit08",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit08Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA08",
+    "strCOBase": "OutfitEVA01",
+    "strCondLoot": "CNDOLOutfitEVA08",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA08",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA08",
+      "OutfitEVA01Off",
+      "OutfitEVA08Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA08Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA08Off",
+    "strNameFriendly": "Костюм Bingham-12F EVA (выключен)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit08",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit08Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA08",
+    "strCOBase": "OutfitEVA01Off",
+    "strCondLoot": "CNDOLOutfitEVA08",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA08Off",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA08",
+      "OutfitEVA01Off",
+      "OutfitEVA08Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA08Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA08Dmg",
+    "strNameFriendly": "Костюм Bingham-12F EVA (повреждён)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit08Dmg02",
+    "strImgNorm": "CrewSuit03n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA08Dmg02",
+    "strCOBase": "OutfitEVA01Dmg",
+    "strCondLoot": "CNDOLOutfitEVA08Dmg",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA08Dmg",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA08",
+      "OutfitEVA01Off",
+      "OutfitEVA08Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA08Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA09",
+    "strNameFriendly": "Костюм Bingham-12G EVA",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit09",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit09Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA09",
+    "strCOBase": "OutfitEVA01",
+    "strCondLoot": "CNDOLOutfitEVA09",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA09",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA09",
+      "OutfitEVA01Off",
+      "OutfitEVA09Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA09Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA09Off",
+    "strNameFriendly": "Костюм Bingham-12G EVA (выключен)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit09",
+    "strImgNorm": "CrewSuit03n",
+    "strImgDamaged": "CrewSuit09Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA09",
+    "strCOBase": "OutfitEVA01Off",
+    "strCondLoot": "CNDOLOutfitEVA09",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA09Off",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA09",
+      "OutfitEVA01Off",
+      "OutfitEVA09Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA09Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitEVA09Dmg",
+    "strNameFriendly": "Костюм Bingham-12G EVA (повреждён)",
+    "strDesc": "Непроницаемый костюм, защищающий пользователя от жесткого вакуума благодаря собственному респиратору и баллону кислорода. Даже при отключении питания он лучше, чем ничего, на уровне примерно четырёх слоёв изоляции.",
+    "strImg": "CrewSuit09Dmg02",
+    "strImgNorm": "CrewSuit03n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitEVA09Dmg02",
+    "strCOBase": "OutfitEVA01Dmg",
+    "strCondLoot": "CNDOLOutfitEVA09Dmg",
+    "mapSlotEffects": [
+      "shirt_out",
+      "BodyEVA09Dmg",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitEVA01",
+      "OutfitEVA09",
+      "OutfitEVA01Off",
+      "OutfitEVA09Off",
+      "OutfitEVA01Dmg",
+      "OutfitEVA09Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitPS02",
+    "strNameFriendly": "Костюм под давлением",
+    "strDesc": "Защитный костюм Pathfinder, обеспечивающий изоляцию пользователя от жесткого вакуума и почти ничего другого. Внимание: запас воздуха ограничен тем, что находится внутри после герметизации, что обычно составляет лишь несколько минут.",
+    "strImg": "CrewSuitPS02",
+    "strImgNorm": "CrewSuit02n",
+    "strImgDamaged": "CrewSuitPS02Dmg02",
+    "strPortraitImg": "paperdoll/clothing/portOutfitPS02",
+    "strCOBase": "OutfitPS01",
+    "strCondLoot": "CNDOLOutfitPS02",
+    "mapSlotEffects": [
+      "shirt_mid",
+      "BodyPS02",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitPS01",
+      "OutfitPS02",
+      "OutfitPS01Dmg",
+      "OutfitPS02Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitPS02Dmg",
+    "strNameFriendly": "Костюм под давлением (повреждён)",
+    "strDesc": "Защитный костюм Pathfinder, обеспечивающий изоляцию пользователя от жесткого вакуума и почти ничего другого. Внимание: запас воздуха ограничен тем, что находится внутри после герметизации, что обычно составляет лишь несколько минут.",
+    "strImg": "CrewSuitPS02Dmg02",
+    "strImgNorm": "CrewSuit02n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitPS02Dmg02",
+    "strCOBase": "OutfitPS01",
+    "strCondLoot": "CNDOLOutfitPS02Dmg",
+    "mapSlotEffects": [
+      "shirt_mid",
+      "BodyPS02Dmg",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ],
+    "mapModeSwitches": [
+      "OutfitPS01",
+      "OutfitPS02",
+      "OutfitPS01Dmg",
+      "OutfitPS02Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitSuit09",
+    "strNameFriendly": "Портовый армейский костюм",
+    "strDesc": "Размерный предмет одежды, покрывающий весь корпус, также известный как бойлерсайт. Носить его защитит вашу скромность и ничем другим.\n\nСмешанный зелёный цвет — оптимальный выбор, если вы хотите одновременно передавать ощущение власти и строгости.",
+    "strImg": "ItmCrewOutfit09",
+    "strImgNorm": "ItmCrewOutfit02n",
+    "strPortraitImg": "paperdoll/clothing/portOutfitSuit09",
+    "strCOBase": "OutfitSuit02",
+    "strCondLoot": "CNDOLOutfitSuit09",
+    "mapSlotEffects": [
+      "shirt_mid",
+      "BodySuit09",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet04",
+    "strNameFriendly": "Шлем Bingham-12B из EVA",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet04",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "CrewHelmet04Dmg02",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet04",
+    "strCOBase": "OutfitHelmet03",
+    "strCondLoot": "CNDOLOutfitHelmet04",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA04",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet04",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet04Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet04Dmg",
+    "strNameFriendly": "Шлем Bingham-12B из EVA (повреждён)",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet04Dmg02",
+    "strImgNorm": "CrewHelmet03n",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet04Dmg02",
+    "strCOBase": "OutfitHelmet03Dmg",
+    "strCondLoot": "CNDOLOutfitHelmet04Dmg",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA04Dmg",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet04",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet04Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet05",
+    "strNameFriendly": "Шлем Bingham-12C из EVA",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet05",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "CrewHelmet05Dmg02",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet05",
+    "strCOBase": "OutfitHelmet03",
+    "strCondLoot": "CNDOLOutfitHelmet05",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA05",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet05",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet05Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet05Dmg",
+    "strNameFriendly": "Шлем Bingham-12C из EVA (повреждён)",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet05Dmg02",
+    "strImgNorm": "CrewHelmet03n",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet05Dmg02",
+    "strCOBase": "OutfitHelmet03Dmg",
+    "strCondLoot": "CNDOLOutfitHelmet05Dmg",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA05Dmg",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet05",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet05Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet06",
+    "strNameFriendly": "Шлем Bingham-12D из EVA",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet06",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "CrewHelmet06Dmg02",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet06",
+    "strCOBase": "OutfitHelmet03",
+    "strCondLoot": "CNDOLOutfitHelmet06",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA06",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet06",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet06Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet06Dmg",
+    "strNameFriendly": "Шлем Bingham-12D из EVA (повреждён)",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet06Dmg02",
+    "strImgNorm": "CrewHelmet03n",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet06Dmg02",
+    "strCOBase": "OutfitHelmet03Dmg",
+    "strCondLoot": "CNDOLOutfitHelmet06Dmg",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA06Dmg",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet06",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet06Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet07",
+    "strNameFriendly": "Шлем Bingham-12E из EVA",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet07",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "CrewHelmet07Dmg02",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet07",
+    "strCOBase": "OutfitHelmet03",
+    "strCondLoot": "CNDOLOutfitHelmet07",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA07",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet07",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet07Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet07Dmg",
+    "strNameFriendly": "Шлем Bingham-12E из EVA (повреждён)",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet07Dmg02",
+    "strImgNorm": "CrewHelmet03n",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet07Dmg02",
+    "strCOBase": "OutfitHelmet03Dmg",
+    "strCondLoot": "CNDOLOutfitHelmet07Dmg",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA07Dmg",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet07",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet07Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet08",
+    "strNameFriendly": "Шлем Bingham-12F из EVA",
+    "strDesc": "Должно быть очевидно, что герметичный костюм EVA значительно менее полезен без шлема. Тем не менее, в отчёте ИССБ указано, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, в каждом случае — смертельно.",
+    "strImg": "CrewHelmet08",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "CrewHelmet08Dmg02",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet08",
+    "strCOBase": "OutfitHelmet03",
+    "strCondLoot": "CNDOLOutfitHelmet08",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA08",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet08",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet08Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet08Dmg",
+    "strNameFriendly": "Шлем ЭВА Бингам-12F (повреждён)",
+    "strDesc": "Должно быть очевидно, что экипировка ЭВА с герметичным шлемом значительно менее полезна без шлема. Тем не менее, ИССБ сообщает, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, и в каждом случае это закончилось смертью.",
+    "strImg": "CrewHelmet08Dmg02",
+    "strImgNorm": "CrewHelmet03n",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet08Dmg02",
+    "strCOBase": "OutfitHelmet03Dmg",
+    "strCondLoot": "CNDOLOutfitHelmet08Dmg",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA08Dmg",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet08",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet08Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet09",
+    "strNameFriendly": "Шлем ЭВА Бингам-12G",
+    "strDesc": "Должно быть очевидно, что экипировка ЭВА с герметичным шлемом значительно менее полезна без шлема. Тем не менее, ИССБ сообщает, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, и в каждом случае это закончилось смертью.",
+    "strImg": "CrewHelmet09",
+    "strImgNorm": "CrewHelmet03n",
+    "strImgDamaged": "CrewHelmet09Dmg02",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet09",
+    "strCOBase": "OutfitHelmet03",
+    "strCondLoot": "CNDOLOutfitHelmet09",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA09",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet09",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet09Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitHelmet09Dmg",
+    "strNameFriendly": "Шлем ЭВА Бингам-12G (повреждён)",
+    "strDesc": "Должно быть очевидно, что экипировка ЭВА с герметичным шлемом значительно менее полезна без шлема. Тем не менее, ИССБ сообщает, что за 55 лет зафиксированной космической колонизации 37 пользователей вошли в вакуум без шлема, и в каждом случае это закончилось смертью.",
+    "strImg": "CrewHelmet09Dmg02",
+    "strImgNorm": "CrewHelmet03n",
+    "strPortraitImg": "paperdoll/clothing/porthelmetOutfitHelmet09Dmg02",
+    "strCOBase": "OutfitHelmet03Dmg",
+    "strCondLoot": "CNDOLOutfitHelmet09Dmg",
+    "mapSlotEffects": [
+      "head_out",
+      "HelmetEVA09Dmg",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ],
+    "mapModeSwitches": [
+      "OutfitHelmet03",
+      "OutfitHelmet09",
+      "OutfitHelmet03Dmg",
+      "OutfitHelmet09Dmg"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPants01",
+    "strNameFriendly": "Джинсы: синие",
+    "strDesc": "Широкие джинсы с дополнительными карманами.",
+    "strImg": "ItmCargoPants01",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPants01",
+    "strCOBase": "ItmPantsCargo01",
+    "strCondLoot": "CNDOLOutfitCargoPants01",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPants01",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPants02",
+    "strNameFriendly": "Джинсы: оранжевые",
+    "strDesc": "Широкие джинсы с дополнительными карманами.",
+    "strImg": "ItmCargoPants02",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPants02",
+    "strCOBase": "ItmPantsCargo01",
+    "strCondLoot": "CNDOLOutfitCargoPants02",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPants02",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPants03",
+    "strNameFriendly": "Джинсы: бежевые",
+    "strDesc": "Широкие джинсы с дополнительными карманами.",
+    "strImg": "ItmCargoPants03",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPants03",
+    "strCOBase": "ItmPantsCargo01",
+    "strCondLoot": "CNDOLOutfitCargoPants03",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPants03",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPants04",
+    "strNameFriendly": "Джинсы: кирпичные",
+    "strDesc": "Широкие джинсы с дополнительными карманами.",
+    "strImg": "ItmCargoPants04",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPants04",
+    "strCOBase": "ItmPantsCargo01",
+    "strCondLoot": "CNDOLOutfitCargoPants04",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPants04",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPantsStrapped01",
+    "strNameFriendly": "Джинсы с креплением: подсолнух",
+    "strDesc": "Широкие джинсы с дополнительными карманами и внешним креплением для фиксации больших предметов.",
+    "strImg": "ItmCargoPantsStrapped01",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPantsStrapped01",
+    "strCOBase": "ItmPantsCargoStrapped01",
+    "strCondLoot": "CNDOLOutfitCargoPantsStrapped01",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPantsStrapped01",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPantsStrapped02",
+    "strNameFriendly": "Джинсы с креплением: синий",
+    "strDesc": "Широкие джинсы с дополнительными карманами и внешним креплением для фиксации больших предметов.",
+    "strImg": "ItmCargoPantsStrapped02",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPantsStrapped02",
+    "strCOBase": "ItmPantsCargoStrapped01",
+    "strCondLoot": "CNDOLOutfitCargoPantsStrapped02",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPantsStrapped02",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPantsStrapped03",
+    "strNameFriendly": "Джинсы с креплением: серый",
+    "strDesc": "Широкие джинсы с дополнительными карманами и внешним креплением для фиксации больших предметов.",
+    "strImg": "ItmCargoPantsStrapped03",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPantsStrapped03",
+    "strCOBase": "ItmPantsCargoStrapped01",
+    "strCondLoot": "CNDOLOutfitCargoPantsStrapped03",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPantsStrapped03",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitCargoPantsStrapped04",
+    "strNameFriendly": "Штаны-костюм: серебристый",
+    "strDesc": "Штаны с дополнительными карманами.",
+    "strImg": "ItmCargoPantsStrapped04",
+    "strImgNorm": "ItmCargoPants01n",
+    "strPortraitImg": "paperdoll/clothing/portCargoPantsStrapped04",
+    "strCOBase": "ItmPantsCargoStrapped01",
+    "strCondLoot": "CNDOLOutfitCargoPantsStrapped04",
+    "mapSlotEffects": [
+      "pants_mid",
+      "BodyCargoPantsStrapped04",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01",
+    "strNameFriendly": "Сжимающие брюки: жёлтые",
+    "strImg": "clothing/ItmLeggings01",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01a",
+    "strNameFriendly": "Сжимающие брюки: красные",
+    "strImg": "clothing/ItmLeggings01a",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01a",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01a",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01a",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01b",
+    "strNameFriendly": "Сжимающие брюки: тёмно-зелёные",
+    "strImg": "clothing/ItmLeggings01b",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01b",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01b",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01c",
+    "strNameFriendly": "Сжимающие брюки: синие",
+    "strImg": "clothing/ItmLeggings01c",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01c",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01c",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01d",
+    "strNameFriendly": "Сжимающие брюки: каштановые",
+    "strImg": "clothing/ItmLeggings01d",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01d",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01d",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01d",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01e",
+    "strNameFriendly": "Сжимающие брюки: фиолетовые",
+    "strImg": "clothing/ItmLeggings01e",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01e",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01e",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01e",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01f",
+    "strNameFriendly": "Сжимающие брюки: чёрные",
+    "strImg": "clothing/ItmLeggings01f",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01f",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01f",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01f",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01g",
+    "strNameFriendly": "Сжимающие брюки: коричневые",
+    "strImg": "clothing/ItmLeggings01g",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01g",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01g",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01g",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01h",
+    "strNameFriendly": "Сжимающие брюки: оливковые",
+    "strImg": "clothing/ItmLeggings01h",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01h",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01h",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01h",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings01i",
+    "strNameFriendly": "Сжимающие брюки: розовые",
+    "strImg": "clothing/ItmLeggings01i",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings01i",
+    "strCOBase": "ItmLeggings01",
+    "strCondLoot": "CNDOLOutfitLeggings01i",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings01i",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02",
+    "strNameFriendly": "Брюки: галактика",
+    "strImg": "clothing/ItmLeggings02",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02a",
+    "strNameFriendly": "Брюки: полоски",
+    "strImg": "clothing/ItmLeggings02a",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02a",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02a",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02a",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02b",
+    "strNameFriendly": "Брюки: тёмная камуфляжная расцветка",
+    "strImg": "clothing/ItmLeggings02b",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02b",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02b",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02c",
+    "strNameFriendly": "Брюки: цифровая камуфляжная расцветка фиолетовая",
+    "strImg": "clothing/ItmLeggings02c",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02c",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02c",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02d",
+    "strNameFriendly": "Брюки: зелёная волна",
+    "strImg": "clothing/ItmLeggings02d",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02d",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02d",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02d",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02e",
+    "strNameFriendly": "Брюки: цифровая камуфляжная расцветка джунгли",
+    "strImg": "clothing/ItmLeggings02e",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02e",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02e",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02e",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02f",
+    "strNameFriendly": "Брюки: цифровая камуфляжная расцветка тундра",
+    "strImg": "clothing/ItmLeggings02f",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02f",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02f",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02f",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02g",
+    "strNameFriendly": "Брюки: цифровая камуфляжная расцветка Марс",
+    "strImg": "clothing/ItmLeggings02g",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02g",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02g",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02g",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02h",
+    "strNameFriendly": "Брюки: Розовые",
+    "strImg": "clothing/ItmLeggings02h",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02h",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02h",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02h",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02i",
+    "strNameFriendly": "Брюки: Заливные розовые",
+    "strImg": "clothing/ItmLeggings02i",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02i",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02i",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02i",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02j",
+    "strNameFriendly": "Брюки: Заливные безцветные",
+    "strImg": "clothing/ItmLeggings02j",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02j",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02j",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02j",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02k",
+    "strNameFriendly": "Брюки: Заливные синие",
+    "strImg": "clothing/ItmLeggings02k",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02k",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02k",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02k",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02l",
+    "strNameFriendly": "Брюки: Заливные зелёные",
+    "strImg": "clothing/ItmLeggings02l",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02l",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02l",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02l",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02m",
+    "strNameFriendly": "Брюк: Заливные магенты",
+    "strImg": "clothing/ItmLeggings02m",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02m",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02m",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02m",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitLeggings02n",
+    "strNameFriendly": "Брюки: Заливные серебряные",
+    "strImg": "clothing/ItmLeggings02n",
+    "strImgNorm": "clothing/ItmLeggings01n",
+    "strPortraitImg": "paperdoll/clothing/portLeggings02n",
+    "strCOBase": "ItmLeggings02",
+    "strCondLoot": "CNDOLOutfitLeggings02n",
+    "mapSlotEffects": [
+      "pants_in",
+      "BodyLeggings02n",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirt01",
+    "strNameFriendly": "Рубашка: Белая",
+    "strDesc": "Простая белая лёгкая рубашка, плотно облегающая тело.\n\nРубашки — одно из немногих модных заявлений, которое вы можете сделать под космической костюмировкой.",
+    "strImg": "ItmTShirt01",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirt01",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirt01",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirt01",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirt02",
+    "strNameFriendly": "Рубашка: Оранжевая",
+    "strDesc": "Оранжевая лёгкая, плотно облегающая рубашка.\n\nРубашки — одно из немногих модных заявлений, которое вы можете сделать под космической костюмировкой.",
+    "strImg": "ItmTShirt02",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirt02",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirt02",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirt02",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirt03",
+    "strNameFriendly": "Рубашка: Европа",
+    "strDesc": "Нavy-синяя рубашка с изображением Европы, плотно облегающая тело.\n\nРубашки — одно из немногих модных заявлений, которое вы можете сделать под космической костюмировкой.",
+    "strImg": "ItmTShirt03",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirt03",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirt03",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirt03",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirt04",
+    "strNameFriendly": "Рубашка: ASCII-голова",
+    "strDesc": "Аква, с изображением ASCII-головы, плотно облегающая рубашка.\n\nРубашки — одно из немногих модных заявлений, которое вы можете сделать под космической костической костюмировкой.",
+    "strImg": "ItmTShirt04",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirt04",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirt04",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirt04",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirt05",
+    "strNameFriendly": "Рубашка: Айотимива",
+    "strDesc": "Рубашка с брендом Айотимива, плотно облегающая тело.\n\nРубашки — одно из немногих модных заявлений, которое вы можете сделать под космической костюмировкой.",
+    "strImg": "ItmTShirt05",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirt05",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirt05",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirt05",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand01",
+    "strNameFriendly": "Рубашка: Облако-гонщик",
+    "strDesc": "Рубашка с изображением гонщика из облака Encantado на Гранде Премио ду Энкантидо, лёгкая, плотно облегающая тело.\n\nРубашки — одно из немногих модных заявлений, которое вы можете сделать под космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand01",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand01",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand01",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand01",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand01b",
+    "strNameFriendly": "Рубашка: Формула Венера",
+    "strDesc": "Лёгкая розовая футболка с изображением гоночных автомобилей Encantado на Гран-при Encantado.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand01b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand01b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand01b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand01b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand02",
+    "strNameFriendly": "Футболка: Weber Yellow",
+    "strDesc": "Лёгкая, брендированная футболка Weber в жёлтом цвете.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand02",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand02",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand02",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand02",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand02b",
+    "strNameFriendly": "Футболка: Weber White",
+    "strDesc": "Лёгкая, брендированная футболка Weber в белом цвете с полосами.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand02b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand02b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand02b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand02b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand02c",
+    "strNameFriendly": "Футболка: Weber Cyan",
+    "strDesc": "Лёгкая, брендированная футболка Weber в цвете циан.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand02c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand02c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand02c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand02c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand02d",
+    "strNameFriendly": "Футболка: Weber Teal",
+    "strDesc": "Лёгкая, брендированная футболка Weber в тусклом зелёном цвете.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand02d",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand02d",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand02d",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand02d",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand03",
+    "strNameFriendly": "Футболка: Testudo Black",
+    "strDesc": "Лёгкая, брендированная футболка Testudo в чёрном цвете.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand03",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand03",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand03",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand03",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand03b",
+    "strNameFriendly": "Футболка: Testudo \"T\"",
+    "strDesc": "Лёгкая, брендированная футболка Testudo в чёрном цвете и.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand03b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand03b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand03b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand03b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand03c",
+    "strNameFriendly": "Футболка: Testudo Yellow",
+    "strDesc": "Лёгкая, брендированная футболка Testudo в жёлтом цвете.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand03c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand03c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand03c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand03c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand04",
+    "strNameFriendly": "Футболка: Polaris",
+    "strDesc": "Лёгкая, брендированная футболка Polaris в красном цвете.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand04",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand04",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand04",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand04",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand04b",
+    "strNameFriendly": "Футболка: Polaris \"Rose\"",
+    "strDesc": "Лёгкая, брендированная футболка Polaris в красном и чёрном цветах.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand04b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand04b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand04b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand04b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand04c",
+    "strNameFriendly": "Футболка: Polaris \"North\"",
+    "strDesc": "Легкая футболка с брендом Polaris, облегающая тело, чёрного и белого цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand04c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand04c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand04c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand04c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand05",
+    "strNameFriendly": "Футболка: Halvorson",
+    "strDesc": "Легкая футболка с брендом Halvorson, облегающая тело, белого и красного цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand05",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand05",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand05",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand05",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand05b",
+    "strNameFriendly": "Футболка: Halvorson Red",
+    "strDesc": "Легкая футболка с брендом Halvorson, облегающая тело, красного цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand05b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand05b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand05b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand05b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand05c",
+    "strNameFriendly": "Футболка: Halvorson",
+    "strDesc": "Легкая футболка с брендом Halvorson, облегающая тело, белого и синего цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand05c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand05c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand05c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand05c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand05d",
+    "strNameFriendly": "Футболка: Halvorson Blue",
+    "strDesc": "Легкая футболка с брендом Halvorson, облегающая тело, синего цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand05d",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand05d",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand05d",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand05d",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand06",
+    "strNameFriendly": "Футболка: Black Bull Kape",
+    "strDesc": "Легкая футболка с брендом Black Bull Kape, облегающая тело, чёрного, белого и красного цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand06",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand06",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand06",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand06",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand07",
+    "strNameFriendly": "Футболка: Label 99",
+    "strDesc": "Легкая футболка с брендом Label 99, облегающая тело, красного и золотого цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand07",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand07",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand07",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand07",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand07b",
+    "strNameFriendly": "Футболка: Label 99 Gold",
+    "strDesc": "Легкая футболка с брендом Label 99, облегающая тело, золотого и красного цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand07b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand07b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand07b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand07b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand08",
+    "strNameFriendly": "Футболка: Bismertnaya",
+    "strDesc": "Легкая футболка с брендом Bismertnaya, облегающая тело, синего, красного и золотого цвета.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand08",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand08",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand08",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand08",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand08b",
+    "strNameFriendly": "Футболка: Bismertnaya Immortal",
+    "strDesc": "Легкая футболка с брендом Bismertnaya, с золотым коронованным черепом.\n\nФутболки — одно из немногих модных заявлений, которое вы можете сделать под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand08b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand08b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand08b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand08b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand09",
+    "strNameFriendly": "Футболка: DND Cola",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён фирменный оранжевый знак предупреждения DND Cola. «Не пейте». Уведомляем вас.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand09",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand09",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand09",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand09",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand09b",
+    "strNameFriendly": "Футболка: DND Cola Shatter",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён фирменный взрывной знак DND Cola. «Не пейте». Уведомляем вас.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand09b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand09b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand09b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand09b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand09c",
+    "strNameFriendly": "Футболка: DND Cola Skull",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён фирменный знак с костяной головой DND Cola. «Не пейте». Уведомляем вас.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand09c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand09c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand09c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand09c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand10",
+    "strNameFriendly": "Футболка: Viceroy's",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён фирменный знак Viceroy's от Sungura. «Перерыв на курение! Заказы Viceroy's!»\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand10",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand10",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand10",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand10",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand11",
+    "strNameFriendly": "Футболка: Mescaform",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён знак Mescaform. «Перерыв на курение! Заказы Viceroy's!»\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand11",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand11",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand11",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand11",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand12",
+    "strNameFriendly": "Футболка: Ubiq",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён фирменный логотип Ubiq Mobile в чёрном, синем и серебряном цветах.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand12",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand12",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand12",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand12",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand12b",
+    "strNameFriendly": "Футболка: Ubiq Blue",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён фирменный логотип Ubiq Mobile в синем, чёрном и серебряном цветах.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand12b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand12b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand12b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand12b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand13",
+    "strNameFriendly": "Футболка: Mariner",
+    "strDesc": "Лёгкая футболка с узким креплением, на которой изображён тревожный дизайн, слишком свободно нарушающий традиции космонавтов. Кто бы мог придумать что-то подобное?\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand13",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand13",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand13",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand13",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand14",
+    "strNameFriendly": "Футболка: Ultramutant",
+    "strDesc": "Лёгкая футболка, представляющая Ultramutant Tour 2079.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand14",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand14",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand14",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand14",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand15",
+    "strNameFriendly": "Футболка: Hangzhou",
+    "strDesc": "Лёгкая футболка с узким креплением, чёрного цвета, с символом Hangzhou Orbital — знаменитого жилища, расположенного на Марсе в точке L5.\n\nФутболки — один из немногих способов выразить моду под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand15",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand15",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand15",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand15",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand15b",
+    "strNameFriendly": "Футболка: Hangzhou Wheel",
+    "strDesc": "Легкий топ с узким креплением, на котором изображён стилизованный значок Hangzhou Orbital — знаменитого жилища, расположенного в точке Л5 на Марсе.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand15b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand15b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand15b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand15b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand15c",
+    "strNameFriendly": "Топ: Ханчжоу",
+    "strDesc": "Легкий топ с узким креплением и бордового цвета, на котором изображён значок Hangzhou Orbital — знаменитого жилища, расположенного в точке Л5 на Марсе.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand15c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand15c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand15c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand15c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand15d",
+    "strNameFriendly": "Топ: Ханчжоу Стар",
+    "strDesc": "Легкий топ с узким креплением и жёлтого цвета, на котором изображено логотип Hangzhou Orbital — знаменитого жилища, расположенного в точке Л5 на Марсе.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand15d",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand15d",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand15d",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand15d",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand15e",
+    "strNameFriendly": "Топ: Ханчжоу Скруль",
+    "strDesc": "Легкий топ с узким креплением и жёлтым цветом, на котором изображён мотив тройного цилиндра Hangzhou Orbital.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand15e",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand15e",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand15e",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand15e",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand15f",
+    "strNameFriendly": "Топ: Ханчжоу Легаси",
+    "strDesc": "Легкий топ с узким креплением и чёрным цветом, на котором изображено устаревшее логотип Hangzhou Orbital.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand15f",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand15f",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand15f",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand15f",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand16",
+    "strNameFriendly": "Топ: Ньюкал",
+    "strDesc": "Легкий топ с узким креплением и белым цветом, на котором изображено логотип «Ньюкал» — Новой Калифорнии, лидирующего аэростатического городского поселения на Венере.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand16",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand16",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand16",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand16",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand16b",
+    "strNameFriendly": "Топ: Ньюкал Чёрный",
+    "strDesc": "Легкий топ с узким креплением и чёрным цветом, на котором изображено логотип «Ньюкал» — Новой Калифорнии, лидирующего аэростатического городского поселения на Венере.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand16b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand16b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand16b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand16b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand16c",
+    "strNameFriendly": "Топ: Ньюкал Сеафоам",
+    "strDesc": "Легкий топ с узким креплением и цветом сеафоам, на котором изображено логотип «Ньюкал» — Новой Калифорнии, лидирующего аэростатического городского поселения на Венере.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand16c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand16c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand16c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand16c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand17",
+    "strNameFriendly": "Топ: Тарсис Ландинг",
+    "strDesc": "Легкий топ с узким креплением и чёрным цветом, на котором изображено логотип Тарсис Ландинга (Тасижен), старейшего городского государства на Марсе.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand17",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand17",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand17",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand17",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand17b",
+    "strNameFriendly": "Топ: Тасижен",
+    "strDesc": "Легкий топ с узким креплением и красным и чёрным цветами, на котором изображена флаг Тасижен (Тарсис Ландинг), старейшего городского государства на Марсе.\n\nТопы — одно из немногих модных заявлений, которое вы можете сделать в космической космической костюме.",
+    "strImg": "clothing/ItmTShirtBrand17b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand17b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand17b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand17b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand18",
+    "strNameFriendly": "Топ: Атлантида",
+    "strDesc": "Легкая, плотно облегающая белая футболка с эмблемой Атлантиды, подземной колонии на Европе, океана.\n\nФутболки — один из немногих способов выразить стиль под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand18",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand18",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand18",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand18",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand18b",
+    "strNameFriendly": "Футболка: Атлантида Дип",
+    "strDesc": "Легкая, плотно облегающая чёрная футболка с эмблемой Атлантиды, подземной колонии на Европе, океана.\n\nФутболки — один из немногих способов выразить стиль под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand18b",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand18b",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand18b",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand18b",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitTShirtBrand18c",
+    "strNameFriendly": "Футболка: Атлантида Блю",
+    "strDesc": "Легкая, плотно облегающая синяя футболка с эмблемой Атлантиды, подземной колонии на Европе, океана.\n\nФутболки — один из немногих способов выразить стиль под космической космической костюмировкой.",
+    "strImg": "clothing/ItmTShirtBrand18c",
+    "strImgNorm": "ItmTShirt01n",
+    "strPortraitImg": "paperdoll/clothing/portTShirtBrand18c",
+    "strCOBase": "ItmTShirt01",
+    "strCondLoot": "CNDOLOutfitTShirtBrand18c",
+    "mapSlotEffects": [
+      "shirt_in",
+      "BodyTShirtBrand18c",
+      "heldL",
+      "HeldItmDefaultSoftL",
+      "heldR",
+      "HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName": "OutfitShoeSneaker01L",
+    "strNameFriendly": "Обувь: Кроссовки (Левая)",
+    "strDesc": "Ретро обувь с шнурками, которые больше для внешнего вида, чем для функции.",
+    "strImg": "ItmSneaker01L",
+    "strImgNorm": "ItmSneaker01n",
+    "strPortraitImg": "paperdoll/clothing/portSneaker01L",
+    "strCOBase": "ItmShoe01L",
+    "strCondLoot": "CNDOLOutfitShoeSneaker01L",
+    "mapSlotEffects": [
+      "shoeL",
+      "BodyShoeSneaker01L",
+      "shoeR",
+      "BodyShoeSneaker01RWrong",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "OutfitShoeSneaker01R",
+    "strNameFriendly": "Обувь: Кроссовки (Правая)",
+    "strDesc": "Ретро обувь с шнурками, которые больше для внешнего вида, чем для функции.",
+    "strImg": "ItmSneaker01R",
+    "strImgNorm": "ItmSneaker01n",
+    "strPortraitImg": "paperdoll/clothing/portSneaker01R",
+    "strCOBase": "ItmShoe01R",
+    "strCondLoot": "CNDOLOutfitShoeSneaker01R",
+    "mapSlotEffects": [
+      "shoeR",
+      "BodyShoeSneaker01R",
+      "shoeL",
+      "BodyShoeSneaker01LWrong",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "OutfitShoeSneaker02L",
+    "strNameFriendly": "Обувь: Кроссовки (Левая)",
+    "strDesc": "Ретро обувь с шнурками, которые больше для внешнего вида, чем для функции.",
+    "strImg": "ItmSneaker02L",
+    "strImgNorm": "ItmSneaker01n",
+    "strPortraitImg": "paperdoll/clothing/portSneaker02L",
+    "strCOBase": "ItmShoe01L",
+    "strCondLoot": "CNDOLOutfitShoeSneaker02L",
+    "mapSlotEffects": [
+      "shoeL",
+      "BodyShoeSneaker02L",
+      "shoeR",
+      "BodyShoeSneaker02RWrong",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "OutfitShoeSneaker02R",
+    "strNameFriendly": "Обувь: Кроссовки (Правая)",
+    "strDesc": "Ретной обувь с шнурками, которые больше для внешнего вида, чем для функции.",
+    "strImg": "ItmSneaker02R",
+    "strImgNorm": "ItmSneaker01n",
+    "strPortraitImg": "paperdoll/clothing/portSneaker02R",
+    "strCOBase": "ItmShoe01R",
+    "strCondLoot": "CNDOLOutfitShoeSneaker02R",
+    "mapSlotEffects": [
+      "shoeR",
+      "BodyShoeSneaker02R",
+      "shoeL",
+      "BodyShoeSneaker02LWrong",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "OutfitShoeSneaker03L",
+    "strNameFriendly": "Обувь: Кроссовки (Левая)",
+    "strDesc": "Ретро обувь с шнурками, которые больше для внешнего вида, чем для функции.",
+    "strImg": "ItmSneaker03L",
+    "strImgNorm": "ItmSneaker01n",
+    "strPortraitImg": "paperdoll/clothing/portSneaker03L",
+    "strCOBase": "ItmShoe01L",
+    "strCondLoot": "CNDOLOutfitShoeSneaker03L",
+    "mapSlotEffects": [
+      "shoeL",
+      "BodyShoeSneaker03L",
+      "shoeR",
+      "BodyShoeSneaker03RWrong",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "OutfitShoeSneaker03R",
+    "strNameFriendly": "Обувь: Кроссовки (Правая)",
+    "strDesc": "Ретро обувь с шнурками, которые больше для внешнего вида, чем для функции.",
+    "strImg": "ItmSneaker03R",
+    "strImgNorm": "ItmSneaker01n",
+    "strPortraitImg": "paperdoll/clothing/portSneaker03R",
+    "strCOBase": "ItmShoe01R",
+    "strCondLoot": "CNDOLOutfitShoeSneaker03R",
+    "mapSlotEffects": [
+      "shoeR",
+      "BodyShoeSneaker03R",
+      "shoeL",
+      "BodyShoeSneaker03LWrong",
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "strName": "ACTFixerEntryUs",
+    "strTitle": "Исправитель",
+    "strMainText": "Убеди Исправителя дать тебе доступ к чёрному рынку."
+  },
+  {
+    "strName": "ACTPortAuthorityEntryUs",
+    "strTitle": "Терминальная администрация",
+    "strMainText": "Убеди сотрудника позволить тебе снятьDocking-плату на этот раз."
+  },
+  {
+    "strName": "ACTPoliceShakedownThem",
+    "strTitle": "Полицейская проверка",
+    "strMainText": "Убеди полицейских отпустить тебя заниматься своими делами, или хотя бы снизить штраф."
+  },
+  {
+    "strName": "ACTSTKTemplateThem",
+    "strTitle": "Попроси о помощи",
+    "strMainText": "Убеди их сделать тебе какое-то дело."
+  }
+]

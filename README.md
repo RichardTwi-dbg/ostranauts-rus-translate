@@ -36,6 +36,22 @@
 
 ## Скриншоты
 
+<details>
+<summary><b>Нажмите, чтобы развернуть галерею (13 фото)</b></summary>
 <p align="center">
-  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay" width="80%">
+  <img src="https://raw.githubusercontent.com/KubeRube-coder/ostranauts-rus-translate/refs/heads/cache-clean/img/Screenshot_1.png" alt="Ostranauts Gameplay 1" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 2" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 3" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 4" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 5" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 6" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 7" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 8" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 9" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 10" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 11" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 12" width="80%"><br><br>
+  <img src="https://githubusercontent.com" alt="Ostranauts Gameplay 13" width="80%"><br>
 </p>
+</details>
+

@@ -2,7 +2,7 @@
   {
     "strName": "SHIPUnDockAI",
     "strTitle": "Запрос на разъединение",
-    "strDesc": "[us-regID] готов к отъезду, запрашивает разъединение.",
+    "strDesc": "[us-regID] готов к отъезду и просит разрешение на отцепку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
     "aInverse": [
@@ -21,7 +21,7 @@
   {
     "strName": "SHIPUnDock",
     "strTitle": "Запрос на разъединение",
-    "strDesc": "[us-regID] готов к отъезду, запрашивает разъединение.",
+    "strDesc": "[us-regID] готов к отъезду и просит разрешение на отцепку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
     "aInverse": [
@@ -84,7 +84,7 @@
   },
   {
     "strName": "SHIPUndockAllowGranted",
-    "strTitle": "Разрешение на посадку предоставлено",
+    "strTitle": "Доступ к заходу разрешён",
     "strDesc": "Разрешение предоставлено для [them-regID].",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -98,7 +98,7 @@
   },
   {
     "strName": "SHIPUndockAllowGrantedAI",
-    "strTitle": "Разрешение на посадку предоставлено",
+    "strTitle": "Доступ к заходу разрешён",
     "strDesc": "Разрешение предоставлено для [them-regID].",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -107,7 +107,7 @@
   },
   {
     "strName": "SHIPUndockAllow",
-    "strTitle": "Разрешение на разъединение предоставлено",
+    "strTitle": "Разрешение на отцепку получено",
     "strDesc": "Разрешено на взлёт для [them-regID].",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -121,7 +121,7 @@
   },
   {
     "strName": "SHIPUndockAllowAI",
-    "strTitle": "Разрешение на разъединение предоставлено",
+    "strTitle": "Разрешение на отцепку получено",
     "strDesc": "Разрешено на взлёт для [them-regID].",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -130,7 +130,7 @@
   },
   {
     "strName": "SHIPUndockDeny",
-    "strTitle": "Заблокировать стыковку",
+    "strTitle": "Отказ в заходе",
     "strDesc": "[us-regID] отклоняет [them-regID] на отстыковку.",
     "strActionGroup": "Ship",
     "strColor": "StatusRed",
@@ -161,7 +161,7 @@
   {
     "strName": "SHIPDockSelect",
     "strTitle": "Стыковка",
-    "strDesc": "[them-shipfriendly] это [us-shipfriendly] просит разрешение на близкое приближение и стыковку.",
+    "strDesc": "[them-shipfriendly] это [us-ship",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
     "aInverse": [
@@ -190,7 +190,7 @@
   {
     "strName": "SHIPDock",
     "strTitle": "Запрос на разрешение на стыковку",
-    "strDesc": "[them-shipfriendly] это [us-shipfriendly] просит разрешение на близкое приближение и стыковку.",
+    "strDesc": "[them-shipfriendly] это [us-ship",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
     "aInverse": [
@@ -279,7 +279,7 @@
   },
   {
     "strName": "SHIPDockWithShipDeny",
-    "strTitle": "Отказ в разрешении на стыковку судном",
+    "strTitle": "Доступ к заходу запрещён судном",
     "strDesc": "Нет, [them-shipfriendly]. Вам не разрешено приближаться. Измените траекторию.",
     "strActionGroup": "Ship",
     "strColor": "StatusRed",
@@ -305,7 +305,7 @@
   {
     "strName": "SHIPDockWithShipDenyFriend",
     "strTitle": "Доступ к заходу запрещён дружественным судном",
-    "strDesc": "К сожалению, друг. Хотя бы хотелось увидеть ваше лицо на [us-shipfriendly], это отрицательно. Вам не разрешено приближаться.",
+    "strDesc": "Извините, друг. Хотя бы хотелось увидеть ваше лицо на [us-shipfriendly], это отрицательно. Вы не освобождены.",
     "strActionGroup": "Ship",
     "strColor": "StatusRed",
     "aInverse": [
@@ -318,7 +318,7 @@
   {
     "strName": "SHIPDockWithShipDenyEnemy",
     "strTitle": "Доступ к заходу запрещён дружественным судном",
-    "strDesc": "Я по-настоящему не позволю [them-shipfriendly] коснуться моего ценного судна. Вам не разрешено, капитан [them-captain]. Срочно измените траекторию.",
+    "strDesc": "Я в шоке, если дать [them-shipfriendly] коснуться моего ценного корабля. Вы не освобождены, капитан [them-captain]. Срочно измените курс.",
     "strActionGroup": "Ship",
     "strColor": "StatusRed",
     "aInverse": [
@@ -331,7 +331,7 @@
   {
     "strName": "SHIPDockAllow",
     "strTitle": "Доступ к заходу разрешён",
-    "strDesc": "Позитивно [them-ship",
+    "strDesc": "Позитивно [them-shipfriendly]. У нас есть ваша скорость и траектория. Вы разрешены на приближение и заход. Подтвердите направление и начните манёвры с двигателями RCS.",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
     "fTargetPointRange": 5,
@@ -447,7 +447,7 @@
   {
     "strName": "SHIPForceDockWithPenalty",
     "strTitle": "Инициировать процедуру незаконного захода",
-    "strDesc": "Внимание, [them-ship-shipfriendly], мы инициируем манёвры для принудительного захода.",
+    "strDesc": "Внимание, [them-shipfriendly], мы инициируем манёвры для принудительного захода.",
     "strActionGroup": "Ship",
     "strColor": "Dialogue",
     "aInverse": [
@@ -482,8 +482,8 @@
   },
   {
     "strName": "SHIPForceDockDenyRange",
-    "strTitle": "Отказ в заходе из-за дальности",
-    "strDesc": "КОД 6700: Цель вне диапазона. Повторите попытку в пределах 5 км.",
+    "strTitle": "Запрет парковки из-за диапазона",
+    "strDesc": "КОД 6700: Цель выходит за пределы диапазона. Повторите попытку в пределах 5 км.",
     "strActionGroup": "Ship",
     "strColor": "StatusRed",
     "fTargetPointRange": 40,
@@ -501,7 +501,7 @@
   },
   {
     "strName": "SHIPForceDockAllow",
-    "strTitle": "Разрешено принудительное захода",
+    "strTitle": "Парковка разрешена",
     "strDesc": "Капитан [them-captain], измените курс, вы неавторизованы. Повторяю, вы не освобождены для близкого приближения или захода.",
     "strActionGroup": "Ship",
     "strColor": "StatusRed",
@@ -624,7 +624,7 @@
   },
   {
     "strName": "SHIPHailCheerful",
-    "strTitle": "Призыв к им",
+    "strTitle": "Приветствую их",
     "strDesc": "Привет, [them-captain].",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -639,7 +639,7 @@
   },
   {
     "strName": "SHIPHailNeutral",
-    "strTitle": "Призыв к им",
+    "strTitle": "Приветствую их",
     "strDesc": "[us-regID] призывает [them-shipfriendly].",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -654,7 +654,7 @@
   },
   {
     "strName": "SHIPHailMaster",
-    "strTitle": "Призыв к им",
+    "strTitle": "Приветствую их",
     "strDesc": "[us-regID] призывает [them-regID].",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
@@ -1260,7 +1260,7 @@
   },
   {
     "strName": "SHIPRumorUnion",
-    "strTitle": "Слух о предложении",
+    "strTitle": "Предложение слуха",
     "strDesc": "Союз Разрывщиков не может собрать поддержку со стороны рядовых сотрудников для забастовки. Я начинаю думать, что Айо внедряет в это саботажников.",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -1271,7 +1271,7 @@
   },
   {
     "strName": "SHIPRumorMariner1",
-    "strTitle": "Слух о предложении",
+    "strTitle": "Предложение слуха",
     "strDesc": "Люди постоянно говорят, что видят что-то фиолетовое, висящее за пределами их корабля. Кто слышал о Маринере? Я не верю в суперститии, но этот случай... этот случай меня тревожит.",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -1282,7 +1282,7 @@
   },
   {
     "strName": "SHIPRumorMariner2",
-    "strTitle": "Слух о предложении",
+    "strTitle": "Предложение слуха",
     "strDesc": "Все больше панк-молодежи в ОКЛГ носит фиолетовые вещи и пьют каннабис. Я знаю, что они хотят, кого они ищут. Но я не скажу это.",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -1293,7 +1293,7 @@
   },
   {
     "strName": "SHIPRumorVenusPiracy",
-    "strTitle": "Слух о предложении",
+    "strTitle": "Предложение слуха",
     "strDesc": "Пиратство полностью потеряло контроль вокруг аэростатов Венеры. Они атаковали десять кораблей в прошлой неделе. Люди даже не хотят летать из Ньюкала в Энканто, чтобы посмотреть на гонки. Это ужасное дело, если вы спросите меня.",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -1304,7 +1304,7 @@
   },
   {
     "strName": "SHIPRumorPAClerk1",
-    "strTitle": "Слух о предлож-ении",
+    "strTitle": "Предложение слуха",
     "strDesc": "Новый сотрудник в Порт-Авторити кажется слабым. Мой друг убедил ее избежать нескольких платежей за пристань. Она красивая, но все же.",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -1315,7 +1315,7 @@
   },
   {
     "strName": "SHIPRumorPAClerk2",
-    "strTitle": "Слух о предложении",
+    "strTitle": "Предложение слуха",
     "strDesc": "Новый сотрудник в Порт-Авторити легко поддается. Они снизили мой платеж за пристань после того, как я им показал привычный взгляд из тюрьмы. Кто сказал, что вы не можете научиться в тюрьме?",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",
@@ -1326,7 +1326,7 @@
   },
   {
     "strName": "SHIPRumorStatic",
-    "strTitle": "Слух о предложении",
+    "strTitle": "Предложение слуха",
     "strDesc": "Мой друг, который работает портовым работником, слышал, как что-то билось в одной из их пустых кают вчера вечером. Думал, что это скрытый пассажир. Когда они проверили камеры, в центре изображения, рядом с кроватью, было шумовое шумение. Самое удивительное!",
     "strActionGroup": "Ship",
     "strColor": "SocialStatusGreen",

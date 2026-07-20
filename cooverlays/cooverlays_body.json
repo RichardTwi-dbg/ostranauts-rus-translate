@@ -1,7 +1,7 @@
 [
   {
     "strName": "BodyarmLowerLB",
-    "strNameFriendly": "Рука: нижняя левая",
+    "strNameFriendly": "Рука: Нижняя левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -19,7 +19,7 @@
   },
   {
     "strName": "BodyarmLowerLC",
-    "strNameFriendly": "Рука: нижняя левая",
+    "strNameFriendly": "Рука: Нижняя левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -37,7 +37,7 @@
   },
   {
     "strName": "BodyarmLowerRB",
-    "strNameFriendly": "Рука: нижняя правая",
+    "strNameFriendly": "Руы: Нижняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -55,7 +55,7 @@
   },
   {
     "strName": "BodyarmLowerRC",
-    "strNameFriendly": "Рука: нижняя правая",
+    "strNameFriendly": "Руы: Нижняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -73,7 +73,7 @@
   },
   {
     "strName": "BodyarmUpperLB",
-    "strNameFriendly": "Рука: верхняя левая",
+    "strNameFriendly": "Рука: Верхняя левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -91,7 +91,7 @@
   },
   {
     "strName": "BodyarmUpperLC",
-    "strNameFriendly": "Рука: верхняя левая",
+    "strNameFriendly": "Рука: Верхняя левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -109,7 +109,7 @@
   },
   {
     "strName": "BodyarmUpperRB",
-    "strNameFriendly": "Рука: верхняя правая",
+    "strNameFriendly": "Рука: Верхняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -127,7 +127,7 @@
   },
   {
     "strName": "BodyarmUpperRC",
-    "strNameFriendly": "Рука: верхняя правая",
+    "strNameFriendly": "Рука: Верхняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -145,7 +145,7 @@
   },
   {
     "strName": "BodylegLowerLB",
-    "strNameFriendly": "Нога: нижняя левая",
+    "strNameFriendly": "Нога: Нижняя левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -163,7 +163,7 @@
   },
   {
     "strName": "BodylegLowerLC",
-    "strNameFriendly": "Нога: нижняя левая",
+    "strNameFriendly": "Нога: Нижняя левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -253,7 +253,7 @@
   },
   {
     "strName": "BodylegUpperRB",
-    "strNameFriendly": "Ногной: верхняя правая",
+    "strNameFriendly": "Нога: верхняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -361,7 +361,7 @@
   },
   {
     "strName": "BodyhandLB",
-    "strNameFriendly": "Рука: Левая",
+    "strNameFriendly": "Рука: левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -379,7 +379,7 @@
   },
   {
     "strName": "BodyhandLC",
-    "strNameFriendly": "Рука: Левая",
+    "strNameFriendly": "Рука: левая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -397,7 +397,7 @@
   },
   {
     "strName": "BodyhandRB",
-    "strNameFriendly": "Рука: Правая",
+    "strNameFriendly": "Рука: правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -415,7 +415,7 @@
   },
   {
     "strName": "BodyhandRC",
-    "strNameFriendly": "Рука: Правая",
+    "strNameFriendly": "Рука: правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -487,7 +487,7 @@
   },
   {
     "strName": "BodyarmLowerRA02",
-    "strNameFriendly": "Рука: Нижняя правая",
+    "strNameFriendly": "Руы: Нижняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -505,7 +505,7 @@
   },
   {
     "strName": "BodyarmLowerRB02",
-    "strNameFriendly": "Рука: Нижняя правая",
+    "strNameFriendly": "Руы: Нижняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",
@@ -703,7 +703,7 @@
   },
   {
     "strName": "BodylegLowerRA02",
-    "strNameFriendly": "Нога: Нижняя правая",
+    "strNameFriendly": "Нога: нижняя правая",
     "strImg": "ItmBodyPart01",
     "strImgNorm": "ItmBodyPart01",
     "strPortraitImg": "ItmBodyPart01",

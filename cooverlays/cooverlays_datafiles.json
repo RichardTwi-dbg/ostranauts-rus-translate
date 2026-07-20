@@ -340,7 +340,7 @@
   },
   {
     "strName": "DataVIDBlackmail",
-    "strNameFriendly": "LEVERAGE.VID",
+    "strNameFriendly": "Проводник LEVERAGE.VID",
     "strDesc": "Скрываемое видео с сцены незабвенного свидания, включающего местного лидера.",
     "strCOBase": "DataFile",
     "strCondLoot": "CNDOLDatafileVID5k-15k"
@@ -471,14 +471,14 @@
   },
   {
     "strName": "DataSNDBreathing",
-    "strNameFriendly": "BREATH.SND",
+    "strNameFriendly": "Звук дыхания",
     "strDesc": "Трек белого шума ASMR о спокойном дыхании в герметичной вакуумной маске. Редкие хрипы, шёпоты, мультиязычные проклятия или повышенное дыхание нарушает монотонность.",
     "strCOBase": "DataFile",
     "strCondLoot": "CNDOLDatafileSND"
   },
   {
     "strName": "DataSNDPercussion",
-    "strNameFriendly": "BEATS.SND",
+    "strNameFriendly": "Звуковые удары",
     "strDesc": "Трек ASMR с близким микрофоном, зафиксированным эхами от битья по каждому возможному повседневному предмету и материалу в среде космонавта. Сам космонавт говорит спокойно и утешающе на красиво звучащем голосе.",
     "strCOBase": "DataFile",
     "strCondLoot": "CNDOLDatafileSND"

@@ -1,7 +1,7 @@
 [
   {
     "strName": "ItmDocumentMeatPackaging",
-    "strNameShort": "Packaging",
+    "strNameShort": "Упаковка",
     "strNameFriendly": "Упаковка: 'Проект Постоянного белка' — продукт из мяса",
     "strDesc": "Пустая промышленная упаковка для неудобного мясного продукта. Внутри остаются осколки белка и крови, а снаружи — старомодная реклама компании Brave New World, LLC.",
     "strItemDef": "ItmMeatPackaging01",
@@ -51,7 +51,7 @@
   },
   {
     "strName": "ItmMeat01",
-    "strNameShort": "Meat",
+    "strNameShort": "Мясо",
     "strItemDef": "ItmMeat01",
     "strDesc": "Огромный, неподвижный кусок сырых, полосатых мышц. Он почти кажется пульсирующим.",
     "strNameFriendly": "Мясо",
@@ -109,7 +109,7 @@
   },
   {
     "strName": "ItmMeat01Loose",
-    "strNameShort": "Meat",
+    "strNameShort": "Мясо",
     "strItemDef": "ItmMeat01Loose",
     "strDesc": "Небольшой кусок сырых, полосатых мышц.",
     "strNameFriendly": "Мясо (отдельно)",
@@ -158,7 +158,7 @@
   },
   {
     "strName": "ItmMeat01Eye",
-    "strNameShort": "Meat",
+    "strNameShort": "Мясо",
     "strItemDef": "ItmMeat01Eye",
     "strDesc": "Огромный, неподвижный кусок сырых, полосатых мышц. Внутри что-то круглое и гладкое кажется двигаться.",
     "strNameFriendly": "Мясо",
@@ -214,7 +214,7 @@
   },
   {
     "strName": "ItmMeat01EyeLoose",
-    "strNameShort": "Eye",
+    "strNameShort": "Глаз",
     "strItemDef": "ItmMeat01EyeLoose",
     "strDesc": "Огромный жёлтый глаз козы смотрит из выступающего куска сырых мышц.",
     "strNameFriendly": "Глаз (отдельно)",
@@ -262,7 +262,7 @@
   },
   {
     "strName": "ItmMeat01Altar",
-    "strNameShort": "Altar",
+    "strNameShort": "Алтарь",
     "strItemDef": "ItmMeat01Altar",
     "strDesc": "Алтарь, состоящий из четырёх мышечных ног козы, два огромных рога козы пронизывают огромный жёлтый глаз козы, смотрящий из выступающего куска сырых мышц.",
     "strNameFriendly": "Алтарь козы",
@@ -301,7 +301,7 @@
   },
   {
     "strName": "ItmMeat01Hoof",
-    "strNameShort": "Meat",
+    "strNameShort": "Мясо",
     "strItemDef": "ItmMeat01Hoof",
     "strDesc": "Огромный, неподвижный кусок сырых, полосатых мышц. В одной из мест видна твёрдая поверхность и узорчатые волосы.",
     "strNameFriendly": "Мясо",
@@ -360,7 +360,7 @@
   },
   {
     "strName": "ItmMeat01HoofLoose",
-    "strNameShort": "Hoof",
+    "strNameShort": "Нога",
     "strItemDef": "ItmMeat01HoofLoose",
     "strDesc": "Нога козы, выступающая из куска сырых мышц, покрыта мatted волосами.",
     "strNameFriendly": "Копыто (отдельно)",
@@ -407,7 +407,7 @@
   },
   {
     "strName": "ItmMeat01Horn",
-    "strNameShort": "Meat",
+    "strNameShort": "Мясо",
     "strItemDef": "ItmMeat01Horn",
     "strDesc": "Огромный, неподвижный кусок сырыых, полосатых мышц. Из него выступает твёрдая, острые выступающая часть.",
     "strNameFriendly": "Мясо",
@@ -466,7 +466,7 @@
   },
   {
     "strName": "ItmMeat01HornLoose",
-    "strNameShort": "Horn",
+    "strNameShort": "Рог",
     "strItemDef": "ItmMeat01HornLoose",
     "strDesc": "Твёрдый, острый рог, выступающий из куска сырых мышц.",
     "strNameFriendly": "Рог (отдельно)",
@@ -513,7 +513,7 @@
   },
   {
     "strName": "ItmPlanterMeat01",
-    "strNameShort": "Meat Planter",
+    "strNameShort": "Сажалка для мяса",
     "strNameFriendly": "Зажженный плантёр для мяса",
     "strItemDef": "ItmPlanterMeat01",
     "strType": "Item",
@@ -557,7 +557,7 @@
   },
   {
     "strName": "ItmPlanterMeat01Loose",
-    "strNameShort": "Meat Planter",
+    "strNameShort": "Сажалка для мяса",
     "strNameFriendly": "Зажженный плантёр для мяса (свободный)",
     "strItemDef": "ItmPlanterMeat01Loose",
     "strType": "Item",

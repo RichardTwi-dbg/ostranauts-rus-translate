@@ -52,7 +52,7 @@
   {
     "strName": "PLOTSnapPhotoTarget",
     "strTitle": "Снимает фото",
-    "strDesc": "[us] [snaps] фотографию [them] для [3",
+    "strDesc": "[us] [snaps] фотографию [them] для [3rd]",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -104,7 +104,7 @@
   },
   {
     "strName": "PLOT_Messenger_StartTrigger",
-    "strTitle": "Срабатывает триггер для начала сюжета «Проблемы с карьерой»",
+    "strTitle": "Срабатывает триггер для начала сюжета по проблемам карьеры у посланника",
     "strDesc": "[them] [reaches] [us], просит помощи с карьерной проблемой. [them-subj] [is] готов к встрече, когда возможно.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -128,7 +128,7 @@
   },
   {
     "strName": "PLOT_Messenger_StartTriggerRepeat",
-    "strTitle": "Срабатывает триггер для начала сюжета «Проблемы с карьерой»",
+    "strTitle": "Срабатывает триггер для начала сюжета по проблемам карьеры у посланника",
     "strDesc": "Опять [them] [reaches] [us], благодарит [us-obj] за предыдущую помощь в карьере и снова просит помощи с другой карьерной проблемой. [them-subj] [is] готов к встрече, когда возможно.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -145,7 +145,7 @@
   },
   {
     "strName": "PLOT_Messenger_StartTriggerFirst",
-    "strTitle": "Срабатывает триггер для начала сюжета «Проблемы с карьерой»",
+    "strTitle": "Срабатывает триггер для начала сюжета по проблемам карьеры у посланника",
     "strDesc": "[them] [reaches] [us], просит помощи с карьерной проблемой. [them-subj] [is] готов к встрече, когда возможно.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -195,8 +195,8 @@
   },
   {
     "strName": "PLOT_Messenger_OfferReply",
-    "strTitle": "Предложить помощь",
-    "strDesc": "[us] [объясняет] сложную проблему карьеры и [запрашивает], чтобы [они] поговорили с [3rd], чтобы помочь [us-obj].",
+    "strTitle": "Предложение",
+    "strDesc": "[us] [explains] a messy career problem and [asks] [them] to talk to [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -216,7 +216,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply01",
     "strTitle": "Предложение",
-    "strDesc": "[us] [ищет] информацию о профсоюзах в этой и других колониях и [запрашивает], чтобы [они] поговорили с [3rd], чтобы получить некоторый опыт.",
+    "strDesc": "[us] [seeks] информацию о профсоюзах в этой и других колониях и [asks] [them] to speak with [3rd] to lend some expertise.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -237,7 +237,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply02",
     "strTitle": "Предложение",
-    "strDesc": "[us] [описывает] риски работы [us-pos] и необходимость улучшения мер безопасности и оборудования, и [запрашивает], чтобы [они] поговорили с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] [describes] the hazards of [us-pos] work and the need for improved safety measures and equipment, and [asks] [them] to talk to [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -258,7 +258,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply03",
     "strTitle": "Предложение",
-    "strDesc": "[us] [объясняет] конфликт в отношении прав собственности на спасённые материалы и [запрашивает], чтобы [они] поговорили с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] [explains] a conflict regarding ownership rights of salvaged material and [asks] [them] to talk to [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -279,7 +279,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply04",
     "strTitle": "Предложение",
-    "strDesc": "[us] описывает возможность [us-subj] [иметь] для достойного повышения и [запрашивает], чтобы [они] организовали обсуждение с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] описывает возможность [us-subj] [has] на заслуженное повышение и [запрашивает] [им] провести переговоры с [3rd], чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -300,7 +300,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply05",
     "strTitle": "Предложение",
-    "strDesc": "[us] [хочет] перейти на менее рискованную должность и [запрашивает], чтобы [они] обсудили возможности с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] [wants] to switch to a less risky workforce role and [asks] [them] to discuss possibilities with [3rd] to help [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -321,7 +321,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply06",
     "strTitle": "Предложение",
-    "strDesc": "[us] [ищет] доступ к обучению по продвинутым техническим навыкам и [запрашивает], чтобы [они] выяснили возможности с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] [seeks] доступ к обучению по продвинутым техническим навыкам и [asks] [them] чтобы выяснили возможности с [3rd] чтобы помочь [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -342,7 +342,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply07",
     "strTitle": "Предложение",
-    "strDesc": "[us] [описывает] споры между рабочими группами и [запрашивает], чтобы [они] убедили [3rd] стать медиатором или найти кого-то, кто сможет это сделать.",
+    "strDesc": "[us] [describes] споры между рабочими группами и [asks] [them] чтобы убедить [3rd] стать медиатором или найти кого-то, кто сможет это сделать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -363,7 +363,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply08",
     "strTitle": "Предложение",
-    "strDesc": "[us] [объясняет] проблему с распределением рабочей нагрузки и [запрашивает], чтобы [они] поговорили с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] [explains] a problematic change in workload distribution and [asks] [them] to speak with [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -384,7 +384,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply09",
     "strTitle": "Предложение",
-    "strDesc": "[us] [объясняет] желание получить конкретные рекомендации по продвижению карьеры [us-pos] и [запрашивает], чтобы [они] поговорили с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] [explains] a desire for specific guidance in progressing [us-pos] career and [asks] [them] to speak with [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -405,7 +405,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply10",
     "strTitle": "Предложение",
-    "strDesc": "[us] [is] обеспокоен недавним спором о пересмотре заработной платы и [запрашивает] [им] поговорить с [3rd] для вмешательства.",
+    "strDesc": "[us] [is] обеспокоен недавним спором о пересмотре заработной платы и [asks] [them] поговорить с [3rd] для вмешательства.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -426,7 +426,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply11",
     "strTitle": "Предложение",
-    "strDesc": "[us] [описывает] спор о условиях контракта и [запрашивает] [им] поговорить с [3rd] для поиска объективного решения по этому вопросу.",
+    "strDesc": "[us] [describes] a disagreement over contract terms and [asks] [them] to speak with [3rd] to seek an objective resolution on the issue.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -447,7 +447,7 @@
   {
     "strName": "PLOT_Messenger_OfferReply12",
     "strTitle": "Предложение",
-    "strDesc": "[us] [пытается] создать профсоюз для улучшения представительства и [запрашивает] [им] поговорить с [3rd] для помощи [us-obj].",
+    "strDesc": "[us] [seeks] to form a union for improved representation and [asks] [them] to speak with [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -467,8 +467,8 @@
   },
   {
     "strName": "PLOT_Messenger_OfferTrigger",
-    "strTitle": "Событие, инициирующее предложение посланника",
-    "strDesc": "[us] должен согласиться или отклонить помощь [им] в решении [them-pos] вопроса, поговорив с [3rd].",
+    "strTitle": "Триггер для предложения Мессенджера",
+    "strDesc": "[us] должен согласиться или отклонить помощь [them] в вопросе [them-pos] через разговор с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -485,8 +485,8 @@
   },
   {
     "strName": "PLOT_Messenger_Agree",
-    "strTitle": "Согласиться помочь с вопросами карьеры",
-    "strDesc": "[us] [соглашается] помочь. В обмен на это [them] [предлагает] благодарность, удачи и [ожидает] возвращение [us-pos].",
+    "strTitle": "Согласиться помочь с карьерными проблемами",
+    "strDesc": "[us] [agrees] помочь. В обмен на это [them] [offers] благодарность, удачи и [awaits] [us-pos] возвращение.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -506,7 +506,7 @@
   },
   {
     "strName": "PLOT_Messenger_AgreeTrigger",
-    "strTitle": "Событие, инициирующее согласие посланника",
+    "strTitle": "Срабатывает мелодия согласия сообщающего",
     "strDesc": "[us] должен найти [3rd] и поставить им в хорошие вести.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -523,10 +523,10 @@
   },
   {
     "strName": "PLOT_Messenger_QuestionLegality",
-    "strTitle": "Спросить о законности помощи в карьере",
-    "strDesc": "[us] спрашивает [them] о законности запрашиваемой задачи.",
+    "strTitle": "Задать вопрос о законности помощи в карьере",
+    "strDesc": "[us] [asks] [them] о законности запрашиваемой задачи.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] сомневается в законности помощи, которую [them] ищет. Такой запрос может привести к отWithdrawal предложения [them-obj].",
+    "strTooltip": "[us] спрашивает о законности помощи, которую [them] [is] ищет. Этот запрос может привести к отWithdrawal предложения [them-obj].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_Messenger_QuestionLegalityReply,[them],[us],[3rd]"
@@ -548,7 +548,7 @@
   {
     "strName": "PLOT_Messenger_QuestionLegalityReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -570,7 +570,7 @@
   {
     "strName": "PLOT_Messenger_QuestionLegalityReplyShady",
     "strTitle": "Ответ",
-    "strDesc": "[us] осторожно спрашивает [them], не является ли что-то в жизни космонавтов строго законным.",
+    "strDesc": "[us] осторожно [asks] [them], законно ли что-либо в жизни космонавтов.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -591,7 +591,7 @@
   {
     "strName": "PLOT_Messenger_QuestionLegalityReplyLegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] обещает [them], что [us-subj] никогда не попросит кого-либо делать что-либо незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -612,7 +612,7 @@
   {
     "strName": "PLOT_Messenger_QuestionLegalityReplyIllegalLie",
     "strTitle": "Ответ",
-    "strDesc": "[us] [обещает] [им] никогда не просить кого-либо делать что-либо незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -633,7 +633,7 @@
   {
     "strName": "PLOT_Messenger_QuestionLegalityReplyIllegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] с уверенностью [признаёт] [им], что это, скорее всего, не является законным, но это правильное дело.",
+    "strDesc": "[us] уверенно [admits] [them], что это, вероятно, не законно, но это правильное дело.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -654,7 +654,7 @@
   {
     "strName": "PLOT_Messenger_QuestionLegalityReplyForgetIt",
     "strTitle": "Не важно",
-    "strDesc": "[us] [глядит] обеспокоенно и [утверждает], что оба должны забыть, что [us-subj] когда-либо упоминал это.",
+    "strDesc": "[us] [looks] обеспокоен и [insists], что они оба должны забыть, что [us-subj] когда-либо упоминал это.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -675,9 +675,9 @@
   {
     "strName": "PLOT_Messenger_QuestionPay",
     "strTitle": "Запрос вознаграждения за помощь в карьере",
-    "strDesc": "Пытаясь получить большую сумму, [us] [спрашивает] [им], насколько ценна запрашиваемая задача для [них-pos].",
+    "strDesc": "Пытаясь получить большую сумму, [us] [asks] [them] какова цена запрашиваемой задачи для [them-pos].",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] просит об обещании вознаграждения от [них] за помощь. Этот запрос может привести к тому, что [они-объект] откажутся или просто будут чувствовать негативное отношение к [us].",
+    "strTooltip": "[us] просит об обещании награды от [them] за помощь. Этот запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_Messenger_QuestionPayReply,[them],[us],[3rd]"
@@ -700,7 +700,7 @@
   {
     "strName": "PLOT_Messenger_QuestionPayReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -721,7 +721,7 @@
   {
     "strName": "PLOT_Messenger_QuestionPayReplyLow",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно [предлагает] [им] 300 долларов.",
+    "strDesc": "[us] неохотно [offers] [them] $300.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -742,7 +742,7 @@
   {
     "strName": "PLOT_Messenger_QuestionPayReplyMed",
     "strTitle": "Ответ",
-    "strDesc": "[us] неуверенно [предлагает] [им] 2000 долларов, \"Принимайте или оставьте.\"",
+    "strDesc": "[us] неохотно предлагает [имеет] $2000, \"Принимайте или оставайтесь без этого\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -763,7 +763,7 @@
   {
     "strName": "PLOT_Messenger_QuestionPayReplyHigh",
     "strTitle": "Ответ",
-    "strDesc": "После паузы [us] [предлагает] [им] 10 000 долларов, \"Это важно для меня.\"",
+    "strDesc": "После паузы [us] [offers] [them] 10 000 долларов, «Это важно для меня».",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -784,7 +784,7 @@
   {
     "strName": "PLOT_Messenger_QuestionPayReplyForgetIt",
     "strTitle": "Не важно",
-    "strDesc": "[us] [отводит] [us-pos] голову. \"Я понимаю. Забудьте об этом.\"",
+    "strDesc": "[us] [shakes] [us-pos] головой. \"Я понимаю. Просто забудьте это\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -807,7 +807,7 @@
   {
     "strName": "PLOT_Messenger_QuestionPayReplyForgetItReply",
     "strTitle": "",
-    "strDesc": "Кажется, [они] [не хотят] больше помогать [us-pos].",
+    "strDesc": "Кажется, [them] [doesn't] хочет помогать [us-pos].",
     "bIgnoreFeelings": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -820,8 +820,8 @@
   },
   {
     "strName": "PLOT_Messenger_Refuse",
-    "strTitle": "Отказаться от помощи в вопросах карьеры",
-    "strDesc": "[us] [отказывается] помочь с [them-pos] проблемой. [them-subj] решит это самостоятельно или не решит вообще.",
+    "strTitle": "Отказаться от помощи с проблемами карьеры",
+    "strDesc": "[us] [refuses] to help with [them-pos] issue. [them-subj] will sort it out on [them-pos] own, or not.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -841,8 +841,8 @@
   },
   {
     "strName": "PLOT_Messenger_RefuseTrigger",
-    "strTitle": "Инициатор для отказа от посланника",
-    "strDesc": "[us] [вспоминает] обоих [them] и [3rd].",
+    "strTitle": "Триггер для сцены отказа мессенджера",
+    "strDesc": "[us] [remembers] both [them] and [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -859,7 +859,7 @@
   {
     "strName": "PLOT_Messenger_Target",
     "strTitle": "Предлагаем хорошее слово для контакта",
-    "strDesc": "[us] [говорит] с [them] о карьерных вопросах, мучавших [3rd].",
+    "strDesc": "[us] [говорит] с [them] о проблемах карьеры, мучивших [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -881,7 +881,7 @@
   {
     "strName": "PLOT_Messenger_TargetReply",
     "strTitle": "",
-    "strDesc": "После разговора с [them], [us] [готов] и [способен] решить некоторые вопросы для [3rd].",
+    "strDesc": "После разговора с [them], [us] [is] готов и способен решить некоторые вопросы для [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -901,7 +901,7 @@
   },
   {
     "strName": "PLOT_Messenger_TargetTrigger",
-    "strTitle": "Инициатор для целевого бита посланника",
+    "strTitle": "Триггер для сцены цели мессенджера",
     "strDesc": "[us] должен сообщить [them] о разговоре.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -919,7 +919,7 @@
   {
     "strName": "PLOT_Messenger_TurnInSplit",
     "strTitle": "Сообщение о карьерной проблеме",
-    "strDesc": "[us] [отчитывается] перед [them] о разговоре с [3rd].",
+    "strDesc": "[us] [reports] to [them] about [us-pos] conversation with [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -944,8 +944,8 @@
   },
   {
     "strName": "PLOT_Messenger_TurnInLow",
-    "strTitle": "Отчитываемся",
-    "strDesc": "[us] [рассказывает] [them] о том, как прошёл разговор с [3rd], затем [спрашивает] о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -967,8 +967,8 @@
   },
   {
     "strName": "PLOT_Messenger_TurnInMed",
-    "strTitle": "Отчитываемся",
-    "strDesc": "[us] описывает [them] ход разговора с [3rd], затем [спрашивает] о вознаграждении.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] описывает [им] про разговор с [3rd], затем спрашивает о зарплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -990,8 +990,8 @@
   },
   {
     "strName": "PLOT_Messenger_TurnInHigh",
-    "strTitle": "Отчитываемся",
-    "strDesc": "[us] подробно описывает [them] ход разговора с [3rd], затем [спрашивает] о вознаграждении.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] подробно описывает [them] разговор с [3rd], затем [asks] о вознаграждении.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1013,8 +1013,8 @@
   },
   {
     "strName": "PLOT_Messenger_TurnIn",
-    "strTitle": "Отчитываемся",
-    "strDesc": "[us] [рассказывает] [them] о том, как прошёл разговор с [3rd].",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1035,8 +1035,8 @@
   },
   {
     "strName": "PLOT_Messenger_TurnInTrigger",
-    "strTitle": "Инициатор для возврата посланника",
-    "strDesc": "[them] [благодарит] [us] за помощь.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[them] [thanks] [us] за помощь.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1053,8 +1053,8 @@
   },
   {
     "strName": "PLOT_Messenger_TurnInPayTrigger",
-    "strTitle": "Инициатор для возврата посланника",
-    "strDesc": "[them] платит [us] за [us-pos] усилия.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[them] платит [us] за усилия [us-pos].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1071,8 +1071,8 @@
   },
   {
     "strName": "PLOT_Messenger_EndTrigger",
-    "strTitle": "Срабатывает триггер для завершения диалога посланника",
-    "strDesc": "[us] завершает сюжет по проблемам карьеры.",
+    "strTitle": "Срабатывает триггер для завершения хода посланника",
+    "strDesc": "[us] [ends] сюжет по проблемам карьеры.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1086,8 +1086,8 @@
   },
   {
     "strName": "PLOT_Messenger_CancelTrigger",
-    "strTitle": "Срабатывает триггер для отмены диалога посланника",
-    "strDesc": "[us] отменяет помощь в карьерной задаче для [them].",
+    "strTitle": "Срабатывает для Мессенджера: Отмена помощи",
+    "strDesc": "[us] [cancels] помощь с карьерной задачей для [them].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1104,7 +1104,7 @@
   {
     "strName": "PLOT_Messenger02_StartTrigger",
     "strTitle": "Срабатывает триггер для начала сюжета по проблемам карьеры у посланника",
-    "strDesc": "Опять [them] обращается к [us] за помощью. [them-contractIs] благодарен за предыдущую помощь в карьерных вопросах. [them-subj] хочет обсудить ситуацию вживую.",
+    "strDesc": "Опять [them] [reaches] out to [us] для помощи. [them-contractIs] благодарен за [us-pos] предыдущую помощь в карьерных вопросах. [them-subj] хочет обсудить ситуацию вживую.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1144,7 +1144,7 @@
   {
     "strName": "PLOT_Messenger02_Offer",
     "strTitle": "Задать вопрос о карьерной ситуации",
-    "strDesc": "[us] спрашивает [them], какую помощь [them-subj] может получить в карьере в этот раз.",
+    "strDesc": "[us] [asks] [them] what help [them-subj] could use with [them-pos] career this time.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1166,7 +1166,7 @@
   {
     "strName": "PLOT_Messenger02_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] объясняет, что карьера [us-pos] процветает благодаря помощи [them]. К сожалению, успех [us-pos] привлек пограничных конкурентов, из которых худшим является [3rd].\n[us-subj] хочет, чтобы [them] заставил [3rd] отступить, используя слова или страх, если нужно.",
+    "strDesc": "[us] объясняет, что карьера [us-pos] процветает благодаря помощи [them]. К сожалению, успех [us-pos] привлек злобных конкурентов, из которых худшим является [3rd].\n[us-subj] хочет, чтобы [them] заставил [3rd] отступить, используя слова или страх, если нужно.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1185,7 +1185,7 @@
   },
   {
     "strName": "PLOT_Messenger02_OfferTrigger",
-    "strTitle": "Срабатывает триггер для диалога о предложении посланника",
+    "strTitle": "Триггер для предложения Мессенджера",
     "strDesc": "[us] должен согласиться или отклонить помощь [them] в борьбе с карьерным конкурентом, убедив [3rd] в отступлении.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -1204,7 +1204,7 @@
   {
     "strName": "PLOT_Messenger02_Agree",
     "strTitle": "Согласиться помочь с карьерными проблемами",
-    "strDesc": "[us] соглашается помочь. [them] выражает благодарность, желает удачи и [awaits] возвращение [us-pos].",
+    "strDesc": "[us] [agrees] to help out. [them] [offers] thanks, good luck, and [awaits] [us-pos] return.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1224,7 +1224,7 @@
   },
   {
     "strName": "PLOT_Messenger02_AgreeTrigger",
-    "strTitle": "Срабатывает триг्гер для диалога о согласии посланника",
+    "strTitle": "Срабатывает мелодия согласия сообщающего",
     "strDesc": "[us] должен найти [3rd] и убедить [3rd-obj] отступить от карьерной конкуренции с [them].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -1242,9 +1242,9 @@
   {
     "strName": "PLOT_Messenger02_QuestionLegality",
     "strTitle": "Задать вопрос о законности помощи в карьере",
-    "strDesc": "[us] спрашивает у них о законности запрашиваемой задачи.",
+    "strDesc": "[us] [asks] [them] о законности запрашиваемой задачи.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] спрашивает о законности помощи, которую они ищут. Этот запрос может привести к отWithdrawal предложения со стороны [them-obj].",
+    "strTooltip": "[us] спрашивает о законности помощи, которую [them] [is] ищет. Этот запрос может привести к отWithdrawal предложения [them-obj].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_Messenger02_QuestionLegalityReply,[them],[us],[3rd]"
@@ -1266,7 +1266,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionLegalityReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1288,7 +1288,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionLegalityReplyShady",
     "strTitle": "Ответ",
-    "strDesc": "[us] поднимает бровь и говорит: всё зависит от методов, которые они выберут использовать.",
+    "strDesc": "[us] [raises] [us-pos] бровь и [says] it all depends on the methods [them] chooses to use.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1309,7 +1309,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionLegalityReplyLegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] обещает [them], что [us-subj] никогда не попросит кого-либо делать что-либо незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1330,7 +1330,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionLegalityReplyIllegalLie",
     "strTitle": "Ответ",
-    "strDesc": "[us] обещает [them], что [us-subj] никогда не попросит кого-либо делать что-либо незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1351,7 +1351,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionLegalityReplyIllegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] признаёт [them], что, вероятно, это не законно, но это важно для них.",
+    "strDesc": "[us] [admits] to [them] что, вероятно, не является законным, но важно для них.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1372,7 +1372,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionLegalityReplyForgetIt",
     "strTitle": "Не важно",
-    "strDesc": "[us] выглядит обеспокоенным и настаивает, чтобы они оба забыли, что [us-subj] когда-либо упоминал это.",
+    "strDesc": "[us] [looks] обеспокоен и [insists], что они оба должны забыть, что [us-subj] когда-либо упоминал это.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1393,9 +1393,9 @@
   {
     "strName": "PLOT_Messenger02_QuestionPay",
     "strTitle": "Запрос вознаграждения за помощь в карьере",
-    "strDesc": "Ищет большую выплату, [us] спрашивает [them], какова стоимость запрашиваемой задачи для них.",
+    "strDesc": "Ищет большую выплату, [us] [asks] [them], какова стоимость запрашиваемой задачи для них.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] просит обещание вознаграждения от [them] за помощь. Этот запрос может привести к отказу [them-obj] или вызвать у [them] негативные чувства к [us].",
+    "strTooltip": "[us] просит об обещании награды от [them] за помощь. Этот запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_Messenger02_QuestionPayReply,[them],[us],[3rd]"
@@ -1418,7 +1418,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionPayReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1439,7 +1439,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionPayReplyLow",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно предлагает [them] 300 долларов.",
+    "strDesc": "[us] неохотно [offers] [them] $300.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1460,7 +1460,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionPayReplyMed",
     "strTitle": "Ответ",
-    "strDesc": "[us] с трудом предлагает [им] 2000 долларов, «Принимайте или оставайтесь без этого».",
+    "strDesc": "[us] неохотно предлагает [имеет] $2000, \"Принимайте или оставайтесь без этого\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1480,8 +1480,8 @@
   },
   {
     "strName": "PLOT_Messenger02_QuestionPayReplyHigh",
-    "strTitle": "Ответить",
-    "strDesc": "Через мгновение [us] предлагает [им] 10 000 долларов, «Это важно для меня».",
+    "strTitle": "Ответ",
+    "strDesc": "После паузы [us] [offers] [them] 10 000 долларов, «Это важно для меня».",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1502,7 +1502,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionPayReplyForgetIt",
     "strTitle": "Не важно",
-    "strDesc": "[us] покачивает головой. «Я понимаю. Просто забудьте».",
+    "strDesc": "[us] [shakes] [us-pos] головой. \"Я понимаю. Просто забудьте это\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1525,7 +1525,7 @@
   {
     "strName": "PLOT_Messenger02_QuestionPayReplyForgetItReply",
     "strTitle": "",
-    "strDesc": "Кажется, [им] больше не хочет помогать [us-pos].",
+    "strDesc": "Кажется, [them] [doesn't] хочет помогать [us-pos].",
     "bIgnoreFeelings": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -1539,7 +1539,7 @@
   {
     "strName": "PLOT_Messenger02_Refuse",
     "strTitle": "Отказаться от помощи с проблемами карьеры",
-    "strDesc": "[us] отказывается помогать с карьерным конфликтом [им].",
+    "strDesc": "[us] [refuses] помочь в конкуренции [them] за карьеру.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1559,8 +1559,8 @@
   },
   {
     "strName": "PLOT_Messenger02_RefuseTrigger",
-    "strTitle": "Триггер для отказа Мессенджера",
-    "strDesc": "[us] вспоминает как [им] и [3rd].",
+    "strTitle": "Триггер для сцены отказа мессенджера",
+    "strDesc": "[us] [remembers] both [them] and [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1577,7 +1577,7 @@
   {
     "strName": "PLOT_Messenger02_Target",
     "strTitle": "Призвать завершить конфликт",
-    "strDesc": "[us] пытается убедить [им] в прекращении карьерного конфликта с [3rd].",
+    "strDesc": "[us] [tries] убеждать [them] в прекращении [them-pos] карьерной конкуренции с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1602,7 +1602,7 @@
   {
     "strName": "PLOT_Messenger02_TargetReplyPersuasion",
     "strTitle": "",
-    "strDesc": "Убедившись в убедительных доводах [им], [us] неохотно соглашается сдаться в конфликте с [3rd].",
+    "strDesc": "Убедившись в убедительных доводах [them], [us] неохотно соглашается сдаться в [us-pos] ривале с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1622,7 +1622,7 @@
   {
     "strName": "PLOT_Messenger02_TargetReplyEasy",
     "strTitle": "",
-    "strDesc": "[us] соглашается, как влажная бумага, сдаться в конфликте с [3rd]. Это было почти позорно.",
+    "strDesc": "[us] [folds] like wet paper, agreeing to relent in [us-pos] rivalry with [3rd]. That was almost pathetic.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1642,7 +1642,7 @@
   {
     "strName": "PLOT_Messenger02_TargetReplyHard",
     "strTitle": "",
-    "strDesc": "[us] явно не тип, который сдаётся в конфликте. Слова, вероятно, не приведут к желаемому результату для [3rd].",
+    "strDesc": "[us] [is] явно не тип, который сдаётся в конфликте. Слова, вероятно, не приведут к желаемому результату для [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1662,7 +1662,7 @@
   {
     "strName": "PLOT_Messenger02_TargetReplyFail",
     "strTitle": "",
-    "strDesc": "Несмотря на доводы [им], [us] не готов сдаться в конфликте с [3rd]. Возможно, другие методы будут более эффективны.",
+    "strDesc": "Несмотря на доводы [them], [us] [is] не готов сдаться в конфликте с [3rd]. Возможно, другие методы будут более эффективны.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1682,7 +1682,7 @@
   {
     "strName": "PLOT_Messenger02_TargetForce",
     "strTitle": "Завершить конфликт с угрозами",
-    "strDesc": "[us] угрожает [им], если [им-subj] откажет в прекращении карьерного конфликта с [3rd].",
+    "strDesc": "[us] [threatens] [them] if [them-subj] [refuses] to end [them-pos] карьерный конфликт с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1706,7 +1706,7 @@
   {
     "strName": "PLOT_Messenger02_TargetReplyForce",
     "strTitle": "",
-    "strDesc": "Убедившись силой, [us] с радостью обещает сдаться в конфликте с [3rd].",
+    "strDesc": "Убедившись силой, [us] с радостью [vows] сдаться в конфликте с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1726,7 +1726,7 @@
   {
     "strName": "PLOT_Messenger02_TargetReplyForceUnc",
     "strTitle": "",
-    "strDesc": "[им] почти не в сознании, но [им] отправляет ясное сообщение о том, что конфликт с [3rd] закончен.",
+    "strDesc": "[them] [is] слабо осознаваемый, но [them] передаёт чёткое сообщение о том, что реванш с [3rd] окончен.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1746,7 +1746,7 @@
   {
     "strName": "PLOT_Messenger02_TargetReplyForceDead",
     "strTitle": "Подтвердить окончание конкуренции в карьере",
-    "strDesc": "[them] умер, поэтому [3rd] не будет испытывать никаких проблем с конкуренцией от них. Другие проблемы, возможно.",
+    "strDesc": "[them] [is] dead, поэтому [3rd] не будет испытывать никаких проблем с конкуренцией от них. Другие проблемы, возможно.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1765,7 +1765,7 @@
   },
   {
     "strName": "PLOT_Messenger02_TargetTrigger",
-    "strTitle": "Срабатывает триггер для встречи с посланником",
+    "strTitle": "Триггер для сцены цели мессенджера",
     "strDesc": "[us] должен сообщить [them] о разговоре.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -1783,7 +1783,7 @@
   {
     "strName": "PLOT_Messenger02_TurnInSplit",
     "strTitle": "Успешная помощь в карьере",
-    "strDesc": "[us] сообщает [them] о успешном разговоре с [3rd].",
+    "strDesc": "[us] [reports] to [them] about [us-pos] successful conversation with [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1808,8 +1808,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInLow",
-    "strTitle": "Ответить",
-    "strDesc": "[us] рассказывает [them] о ходе разговора с [3-м], затем спрашивает о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1831,8 +1831,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInMed",
-    "strTitle": "Ответить",
-    "strDesc": "[us] описывает [them] ход разговора с [3rd], затем спрашивает о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [describes] для [them] ход разговора с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1854,8 +1854,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInHigh",
-    "strTitle": "Ответить",
-    "strDesc": "[us] подробно описывает [them] ход разговора с [3rd], затем спрашивает о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [describes] для [them] в деталях ход разговора с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1877,8 +1877,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnIn",
-    "strTitle": "Ответить",
-    "strDesc": "[us] рассказывает [them] о ходе разговора с [3rd].",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1900,7 +1900,7 @@
   {
     "strName": "PLOT_Messenger02_TurnInFail",
     "strTitle": "Дальнейшее обсуждение неудачной помощи в карьере",
-    "strDesc": "[us] говорит [them], что всё не вышло хорошо с [3rd], но [us-subj] готов попробовать снова.",
+    "strDesc": "[us] [tells] [them] что всё не вышло хорошо с [3rd], но [us-subj] [is] готов попробовать снова.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1924,7 +1924,7 @@
   {
     "strName": "PLOT_Messenger02_TurnInFailReply",
     "strTitle": "",
-    "strDesc": "[us] говорит, что [them] могут продолжать убеждать [3rd], или [them-subj] могут отказаться от попыток остановить конкуренцию, сократить убытки и перейти к новому этапу.",
+    "strDesc": "[us] [says] [them] могут продолжать убеждать [3rd], или [them-subj] могут отказаться от попыток остановить конкуренцию, сократить убытки и перейти к новому этапу.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1945,7 +1945,7 @@
   {
     "strName": "PLOT_Messenger02_TurnInFailReplyPay",
     "strTitle": "",
-    "strDesc": "[us] уточняет, что если [them] хотят получать предлагаемую выплату, [them-subj] могут продолжать убеждать [3rd], или [them-subj] могут признать неудачу, сократить убытки и перейти к новому этапу без выплаты.",
+    "strDesc": "[us] [clarifies] that if [them] wants the offered payout, [them-subj] can keep trying to persuade [3rd], or [them-subj] can admit failure, cut [them-pos] losses, and move on without pay.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1966,7 +1966,7 @@
   {
     "strName": "PLOT_Messenger02_TurnInReportFail",
     "strTitle": "Отказаться от помощи в карьере",
-    "strDesc": "[us] сообщает [them] о неудачном разговоре с [3rd]. Ожидать никаких вознаграждений или удовлетворения не стоит.",
+    "strDesc": "[us] [reports] to [them] about [us-pos] неудачную беседу с [3rd]. Не ожидайте никаких наград или теплых чувств.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1989,7 +1989,7 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInReportFailReply",
-    "strTitle": "Докладывай обратно",
+    "strTitle": "Доклад о ситуации",
     "strDesc": "[us] [reports] to [them] why things went poorly with [3rd]. Этот резонанс продолжится.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -2010,7 +2010,7 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInReportFailReplyPay",
-    "strTitle": "Докладывай обратно",
+    "strTitle": "Доклад о ситуации",
     "strDesc": "[us] [reports] to [them] why things went poorly with [3rd]. Нет вознаграждения, и этот резонанс продолжится.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -2032,8 +2032,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInTrigger",
-    "strTitle": "Срабатывает триггер для ходов посланника и возвращения",
-    "strDesc": "[them] [thanks] [us] for the effort.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[им] [благодарим] [нас] за усилия.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2051,8 +2051,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInTriggerDead",
-    "strTitle": "Срабатывает триггер для ходов посланника и возвращения",
-    "strDesc": "[them] [is] sorry [3rd] [is] dead, but [thanks] [us] for the effort on [them-pos] behalf.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[them] [is] sorry [3rd] [is] dead, но [thanks] [us] за усилия в их пользу.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2070,8 +2070,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInPayTrigger",
-    "strTitle": "Срабатывает триггер для ходов посланника и возвращения",
-    "strDesc": "[them] [pays] [us] for [us-pos] successful effort.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[them] [pays] [us] for [us-pos] успешную работу.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2089,8 +2089,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInPayTriggerDead",
-    "strTitle": "Срабатывает триг्гер для ходов посланника и возвращения",
-    "strDesc": "[them] [expresses] sympathy for the dead, then [pays] [us] for [us-pos] effort.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[them] [expresses] сожаление о погибших, затем [pays] [us] за [us-pos] усилия.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2108,8 +2108,8 @@
   },
   {
     "strName": "PLOT_Messenger02_TurnInFailTrigger",
-    "strTitle": "Срабатывает триггер для ходов посланника и возвращения",
-    "strDesc": "[them] [thanks] [us] for [us-pos] effort, despite lack of success.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[им] [благодарим] [нас] за [наш] усилия, несмотря на неудачу.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2127,7 +2127,7 @@
   {
     "strName": "PLOT_Messenger02_EndTrigger",
     "strTitle": "Срабатывает триггер для завершения хода посланника",
-    "strDesc": "[us] [ends] a career issue plot.",
+    "strDesc": "[us] [ends] сюжет по проблемам карьеры.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2142,7 +2142,7 @@
   {
     "strName": "PLOT_Messenger02_CancelTrigger",
     "strTitle": "Срабатывает триггер для отмены хода посланника02",
-    "strDesc": "[us] [cancels] helping with a career task for [them].",
+    "strDesc": "[us] [cancels] помощь с карьерной задачей для [them].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2158,7 +2158,7 @@
   },
   {
     "strName": "PLOT_MessengerCorp_StartTrigger",
-    "strTitle": "Срабатывает триггер для начала сюжета посланника по вопросам корпорации",
+    "strTitle": "Триггер для начала сцены «Письмо о проблемах корпорации»",
     "strDesc": "[them] [reaches] out to [us], seeking help with problems related to a local corp. They'd rather discuss it in person.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -2183,7 +2183,7 @@
   {
     "strName": "PLOT_MessengerCorp_StartTriggerRepeat",
     "strTitle": "Триггер для начала сцены «Письмо о проблемах корпорации»",
-    "strDesc": "Опять [они] [достигают] [нас], благодаря [нас-объект] за [нас-позицию] предыдущую помощь от корпорации, и снова просят помощи с новой проблемой, связанной с корпорацией. Они предпочитают обсудить это лично.",
+    "strDesc": "Опять [them] [reaches] out to [us], thanking [us-obj] for [us-pos] previous corporation help, and once again seeking help with another issue with the corporation. They'd rather discuss it in person.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2200,7 +2200,7 @@
   {
     "strName": "PLOT_MessengerCorp_StartTriggerFirst",
     "strTitle": "Триггер для начала сцены «Письмо о проблемах корпорации»",
-    "strDesc": "[Они] [достигают] [нас], чтобы получить помощь с проблемой карьеры. Они предпочитают обсудить это лично.",
+    "strDesc": "[them] [reaches] out to [us], seeking help with a career issue. They'd rather discuss it in person.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2217,7 +2217,7 @@
   {
     "strName": "PLOT_MessengerCorp_Offer",
     "strTitle": "Поговорить о проблемах корпорации",
-    "strDesc": "[Нас] [спрашивают] [они] о том, какую помощь [они-подлежащее] [нуждает] в связи с проблемами, возникающими в корпорации.",
+    "strDesc": "[us] [asks] [them] what help [them-subj] [needs] for [them-pos] issues with the corporation.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -2254,7 +2254,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[Нас] [объясняют] трудности, с которыми [они-договор] сталкиваются в связи с локальной корпорацией, и [просят] [они] поговорить с [третьим] для того, чтобы помочь [нас-объект].",
+    "strDesc": "[us] [объясняет] трудности, с которыми [us-contractIs] сталкивается в связи с локальной корпорацией, и [запрашивает] [им] поговорить с [3rd], чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2274,7 +2274,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferReply01",
     "strTitle": "Предложение",
-    "strDesc": "[Нас] [утверждает], что локальная корпорация устраивает [нас-объект] на вину за скрытые сделки, которые сейчас подлежат расследованию. [Нас-подлежащее] [просят] [они] поговорить с [третьим] для того, чтобы помочь [нас-объект] получить защитные рычаги.",
+    "strDesc": "[us] [утверждает], что локальная корпорация готовит [us-obj] к тому, чтобы взять на себя вину за некоторые скрытые сделки, которые сейчас находятся под расследованием. [us-subj] [запрашивает], чтобы [они] поговорили с [3rd], чтобы помочь [us-obj] обеспечить защитные рычаги.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2295,7 +2295,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferReply02",
     "strTitle": "Предложение",
-    "strDesc": "[Нас] беспокоит возможное приобретение локальной корпорацией и [просят] [они] поговорить с [третьим] для того, чтобы помочь [нас-объект].",
+    "strDesc": "[us] [is] обеспокоен возможным приобретением локальной корпорацией и [asks] [them] поговорить с [3rd], чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2316,7 +2316,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferReply03",
     "strTitle": "Предложение",
-    "strDesc": "[Нас] беспокоит обвинение в участии в корпоративной разведке с локальной корпорацией и [просят] [они] поговорить с [третьим] для того, чтобы помочь [нас-объект].",
+    "strDesc": "[us] [is] беспокоится из-за обвинений в корпоративной разведке с локальной корпорацией и [asks] [them] поговорить с [3rd] чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2337,7 +2337,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferReply04",
     "strTitle": "Предложение",
-    "strDesc": "[Нас] [ищут] информацию о случае корпоративной подрывной деятельности, связанной с локальной корпорацией, и [просят] [они] поговорить с [третьим] для того, чтобы помочь [нас-объект].",
+    "strDesc": "[us] [is] ищет информацию о происшествии корпоративного вмешательства, касающегося локальной корпорации, и [запрашивает] [им] поговорить с [3rd], чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2358,7 +2358,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferReply05",
     "strTitle": "Предложение",
-    "strDesc": "[Нас] [объясняют] трудности, связанные с распределением ресурсов между секторами локальной корпорации, и [просят] [они] поговорить с [третьим] для того, чтобы помочь [нас-объект].",
+    "strDesc": "[us] [объясняет] [us-pos] трудности с распределением ресурсов между секторами локальной корпорации и [запрашивает] [им] поговорить с [3rd], чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2379,7 +2379,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferReply06",
     "strTitle": "Предложение",
-    "strDesc": "[Нас] описывают трудности, возникающие из-за споров по стратегии между представителями локальной корпорации, и [просят] [они] поговорить с [третьим] для того, чтобы помочь [нас-объект].",
+    "strDesc": "[us] описывает трудности, возникающие из-за споров по стратегии между представителями локальной корпорации, и [asks] [them] поговорить с [3rd] чтобы помочь [us-obj] из.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2609,8 +2609,8 @@
   },
   {
     "strName": "PLOT_MessengerCorp_OfferTrigger",
-    "strTitle": "Триггер для предложения посланника",
-    "strDesc": "[us] должен согласиться или отказать в помощи [them] по вопросу [them-pos] поговорив с [3rd].",
+    "strTitle": "Триггер для предложения Мессенджера",
+    "strDesc": "[us] должен согласиться или отклонить помощь [them] в вопросе [them-pos] через разговор с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2628,7 +2628,7 @@
   {
     "strName": "PLOT_MessengerCorp_Agree",
     "strTitle": "Согласиться помочь с вопросами корпорации",
-    "strDesc": "[us] [agrees] помочь. В обмен на это [them] [offers] благодарность, удачи и [awaits] возвращение [us-pos].",
+    "strDesc": "[us] [agrees] помочь. В обмен на это [them] [offers] благодарность, удачи и [awaits] [us-pos] возвращение.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2648,7 +2648,7 @@
   },
   {
     "strName": "PLOT_MessengerCorp_AgreeTrigger",
-    "strTitle": "Триггер для согласия посланника",
+    "strTitle": "Срабатывает мелодия согласия сообщающего",
     "strDesc": "[us] должен найти [3rd] и посмотреть, как разрешить проблемы, которые корпорация вызывает у [them].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -2668,7 +2668,7 @@
     "strTitle": "Проверить законность помощи корпорации",
     "strDesc": "[us] [asks] [them] о законности запрашиваемой задачи.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] сомневается в законности помощи, которую ищет [them]. Такой запрос может привести к отмене предложения со стороны [them-obj].",
+    "strTooltip": "[us] спрашивает о законности помощи, которую [them] [is] ищет. Этот запрос может привести к отWithdrawal предложения [them-obj].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerCorp_QuestionLegalityReply,[them],[us],[3rd]"
@@ -2690,7 +2690,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionLegalityReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -2712,7 +2712,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionLegalityReplyShady",
     "strTitle": "Ответ",
-    "strDesc": "[us] осторожно [asks] [them], законно ли что-то в жизни космонавтов.",
+    "strDesc": "[us] осторожно [asks] [them], законно ли что-либо в жизни космонавтов.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2733,7 +2733,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionLegalityReplyLegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] [assures] [them] [us-subj] никогда не попросит кого-либо делать что-то незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2754,7 +2754,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionLegalityReplyIllegalLie",
     "strTitle": "Ответ",
-    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-то незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2795,8 +2795,8 @@
   },
   {
     "strName": "PLOT_MessengerCorp_QuestionLegalityReplyForgetIt",
-    "strTitle": "Не обращать внимания",
-    "strDesc": "[us] [looks] обеспокоенным и [insists], что оба должны забыть, что [us-subj] когда-либо упоминал это.",
+    "strTitle": "Не важно",
+    "strDesc": "[us] [looks] обеспокоен и [insists], что они оба должны забыть, что [us-subj] когда-либо упоминал это.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2817,9 +2817,9 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionPay",
     "strTitle": "Запрос вознаграждения за помощь корпорации",
-    "strDesc": "Ищем большего вознаграждения, [us] [asks] [them], насколько ценна для них запрашиваемая задача.",
+    "strDesc": "Ищет большую выплату, [us] [asks] [them], какова стоимость запрашиваемой задачи для них.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] просит об обещании вознаграждения от [them] за оказанную помощь. Такой запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
+    "strTooltip": "[us] просит об обещании награды от [them] за помощь. Этот запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerCorp_QuestionPayReply,[them],[us],[3rd]"
@@ -2842,7 +2842,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionPayReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -2863,7 +2863,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionPayReplyLow",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно [предлагает] [them] 300 долларов.",
+    "strDesc": "[us] неохотно [offers] [them] $300.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2884,7 +2884,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionPayReplyMed",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно [предлагает] [them] 2000 долларов, \"Принимайте или оставайтесь без этого.\"",
+    "strDesc": "[us] неохотно предлагает [имеет] $2000, \"Принимайте или оставайтесь без этого\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2905,7 +2905,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionPayReplyHigh",
     "strTitle": "Ответ",
-    "strDesc": "После паузы [us] [предлагает] [them] 10 000 долларов, \"Это важно для меня.\"",
+    "strDesc": "После паузы [us] [offers] [them] 10 000 долларов, «Это важно для меня».",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2926,7 +2926,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionPayReplyForgetIt",
     "strTitle": "Не важно",
-    "strDesc": "[us] [отводит] [us-pos] голову. \"Я понимаю. Просто забудем об этом.\"",
+    "strDesc": "[us] [shakes] [us-pos] головой. \"Я понимаю. Просто забудьте это\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -2949,7 +2949,7 @@
   {
     "strName": "PLOT_MessengerCorp_QuestionPayReplyForgetItReply",
     "strTitle": "",
-    "strDesc": "Кажется, [them] больше не хочет помогать [us].",
+    "strDesc": "Кажется, что [them] больше не хочет помогать [us].",
     "bIgnoreFeelings": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -2963,7 +2963,7 @@
   {
     "strName": "PLOT_MessengerCorp_Refuse",
     "strTitle": "Отказаться от помощи в корпоративных вопросах",
-    "strDesc": "[us] [отказывается] помогать с корпоративной проблемой [them]. Обычно лучше не раздражать корпорации.",
+    "strDesc": "[us] [refuses] to help with [them]'s corporation issue. It's usually best not to cross corporations.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -2983,8 +2983,8 @@
   },
   {
     "strName": "PLOT_MessengerCorp_RefuseTrigger",
-    "strTitle": "Триггер для бита отказа мессенджера",
-    "strDesc": "[us] [вспоминает] как [them] и [3rd].",
+    "strTitle": "Триггер для сцены отказа мессенджера",
+    "strDesc": "[us] [remembers] both [them] and [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3001,7 +3001,7 @@
   {
     "strName": "PLOT_MessengerCorp_Target",
     "strTitle": "Обсуждение корпоративной проблемы по отношению к контакту",
-    "strDesc": "[us] [говорит] с [them] о корпоративной проблеме, влияющей на [3rd].",
+    "strDesc": "[us] [speaks] с [them] о корпоративной проблеме, влияющей на [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -3023,7 +3023,7 @@
   {
     "strName": "PLOT_MessengerCorp_TargetReply",
     "strTitle": "",
-    "strDesc": "После разговора с [them] [us] [имеет] некоторые идеи по решению проблем для [3rd] и начнёт принимать соответствующие меры.",
+    "strDesc": "После разговора с [them] [us] [has] некоторые идеи по решению проблем для [3rd] и начнёт принимать соответствующие меры.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3043,7 +3043,7 @@
   },
   {
     "strName": "PLOT_MessengerCorp_TargetTrigger",
-    "strTitle": "Срабатывает триггер для диалога с целью поиска сообщения",
+    "strTitle": "Триггер для сцены цели мессенджера",
     "strDesc": "[us] должен сообщить [them] о разговоре.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -3086,8 +3086,8 @@
   },
   {
     "strName": "PLOT_MessengerCorp_TurnInLow",
-    "strTitle": "Сообщить о ситуации",
-    "strDesc": "[us] [tells] [them] как прошёл разговор с [3rd], затем [asks] о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3109,8 +3109,8 @@
   },
   {
     "strName": "PLOT_MessengerCorp_TurnInMed",
-    "strTitle": "Сообщить о ситуации",
-    "strDesc": "[us] описывает [them] как прошёл разговор с [3-м], затем [asks] о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] описывает [им] про разговор с [3rd], затем спрашивает о зарплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3132,8 +3132,8 @@
   },
   {
     "strName": "PLOT_MessengerCorp_TurnInHigh",
-    "strTitle": "Сообщить о ситуации",
-    "strDesc": "[us] подробно описывает [them] как прошёл разговор с [3rd], затем [asks] о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] подробно описывает [them] разговор с [3rd], затем [asks] о вознаграждении.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3155,8 +3155,8 @@
   },
   {
     "strName": "PLOT_MessengerCorp_TurnIn",
-    "strTitle": "Сообщить о ситуации",
-    "strDesc": "[us] [tells] [them] как прошёл разговор с [3rd].",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3177,7 +3177,7 @@
   },
   {
     "strName": "PLOT_MessengerCorp_TurnInTrigger",
-    "strTitle": "Срабатывает триггер для диалога с целью возврата",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
     "strDesc": "[them] [thanks] [us] за помощь.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -3195,7 +3195,7 @@
   },
   {
     "strName": "PLOT_MessengerCorp_TurnInPayTrigger",
-    "strTitle": "Срабатывает триггер для диалога с целью возврата",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
     "strDesc": "[them] платит [us] за усилия [us-pos].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -3213,7 +3213,7 @@
   },
   {
     "strName": "PLOT_MessengerCorp_EndTrigger",
-    "strTitle": "Срабатывает триггер для завершения диалога",
+    "strTitle": "Срабатывает триггер для завершения хода посланника",
     "strDesc": "[us] завершает сюжет по корпоративным вопросам.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -3270,7 +3270,7 @@
   {
     "strName": "PLOT_MessengerFamily_StartTriggerRepeat",
     "strTitle": "Триггер для начала сцены «Сообщения о семейных вопросах»",
-    "strDesc": "Once again, [them] [reaches] out to [us], thanking [us-obj] for [us-pos] previous help with [them-pos] family, and once again seeking help with another family matter. \"Find me when you have a moment.\"",
+    "strDesc": "Опять [them] [reaches] out to [us], благодаря [us-obj] за [us-pos] предыдущую помощь с [them-pos] семьёй, и снова просит о помощи с другой семейной проблемой. \"Найдите меня, когда у вас будет момент.\"",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3357,7 +3357,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply01",
     "strTitle": "Предложение",
-    "strDesc": "[us] wants to plan a surprise celebration for a dear relative and [asks] [them] to speak to [3rd] to help [us-obj] out.",
+    "strDesc": "[us] хочет организовать неожиданное празднование для близкого родственника и [asks] [them] to speak to [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3420,7 +3420,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply04",
     "strTitle": "Предложение",
-    "strDesc": "[us] describes a family dispute over inheritance details related to a recently deceased family member and [asks] [them] to speak to [3rd] to help [us-obj] out.",
+    "strDesc": "[us] описывает спор в семье по вопросам наследства, связанные с недавно умершим членом семьи, и [asks] [them] поговорить с [3rd] для того, чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3441,7 +3441,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply05",
     "strTitle": "Предложение",
-    "strDesc": "[us] summarizes an estranged relationship with a family member that [us-subj] would like to reconcile, and [asks] [them] to speak to [3rd] to help [us-obj] out.",
+    "strDesc": "[us] суммирует оторванное отношение с членом семьи, который [us-subj] хочет восстановить, и [asks] [them] поговорить с [3rd], чтобы помочь [us-obj] избавиться от этого.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3462,7 +3462,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply06",
     "strTitle": "Предложение",
-    "strDesc": "У нас потерял контакт с важным членом семьи и мы просим их поговорить с третьим лицом, чтобы помочь нам восстановить связь.",
+    "strDesc": "[us] [has] потерял контакт с важным членом семьи и [asks] [them] to speak to [3rd] to help [us-obj] re-establish the connection.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3483,7 +3483,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply07",
     "strTitle": "Предложение",
-    "strDesc": "У нас возник вопрос по поводу медицинских решений в отношении старшего члена семьи и мы просим их поговорить с третьим лицом, чтобы помочь нам в этом.",
+    "strDesc": "[us] описывает проблему, касающуюся медицинских решений в отношении старшего члена семьи, и [запрашивает] [им] поговорить с [3rd], чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3504,7 +3504,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply08",
     "strTitle": "Предложение",
-    "strDesc": "[us] [запрашивает] консультации по вопросам образования членов семьи и [просит] [них] поговорить с [3rd], чтобы помочь [us-obj] избавиться от ситуации.",
+    "strDesc": "[us] [seeks] консультации по вопросам образования членов семьи и [asks] [them] поговорить с [3rd], чтобы помочь [us-obj] избавиться от ситуации.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3524,8 +3524,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_OfferReply09",
-    "strTitle": "Предложить",
-    "strDesc": "[us] [запрашивает] помощь в урегулировании финансовой поддержки между членами семьи и [просит] [них] поговорить с [3rd], чтобы помочь [us-obj] избавиться от ситуации.",
+    "strTitle": "Предложение",
+    "strDesc": "[us] [seeks] помощь в урегулировании финансовой поддержки между членами семьи и [asks] [them] to speak to [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3545,8 +3545,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_OfferReply10",
-    "strTitle": "Предложить",
-    "strDesc": "[us] [находится] в крайнем нужде в консультациях по отношениям для устранения напряжения в семье и [просит] [них] поговорить с [3rd], чтобы помочь [us-obj] избавиться от ситуации.",
+    "strTitle": "Предложение",
+    "strDesc": "[us] [is] в крайнем нужде в консультациях по отношениям для устранения напряжения в семье и [asks] [them] поговорить с [3rd] чтобы помочь [us-obj] избавиться от ситуации.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3567,7 +3567,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply11",
     "strTitle": "Предложение",
-    "strDesc": "[us] суммирует неловкое конфликтное отношение, связанное с семейным бизнесом, и [запрашивает], чтобы [они] поговорили с [3-м] для урегулирования ситуации.",
+    "strDesc": "[us] суммирует неловкое конфликтное отношение, связанное с семейным бизнесом, и [asks] [them] чтобы поговорили с [3rd] для урегулирования ситуации.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3588,7 +3588,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferReply12",
     "strTitle": "Предложение",
-    "strDesc": "[us] [объясняет] [us-pos] недавние проблемы в отношениях, возникшие из-за межколониальных гражданских союзов, и [запрашивает], чтобы [они] поговорили с [3-м] для того, чтобы помочь [us-obj] выйти из ситуации.",
+    "strDesc": "[us] [explains] [us-pos] недавние проблемы в отношениях, возникшие из-за межколониальных гражданских союзов, и [asks] [them] чтобы поговорили с [3rd] чтобы помочь [us-obj] выйти из ситуации.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3608,8 +3608,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_OfferTrigger",
-    "strTitle": "Срабатывает предложение по посланию о помощи",
-    "strDesc": "[us] должен согласиться или отклонить помощь [ним] в решении семейной проблемы, поговорив с [3-м].",
+    "strTitle": "Триггер для предложения Мессенджера",
+    "strDesc": "[us] должен согласиться или отклонить помощь [them] с [them-pos] семейной проблемой, поговорив с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3627,7 +3627,7 @@
   {
     "strName": "PLOT_MessengerFamily_Agree",
     "strTitle": "Согласиться помочь с семейными вопросами",
-    "strDesc": "[us] [соглашается] помочь. В обмен на это [они] [предлагают] благодарность, удачи и [ожидает] возвращение [us-pos].",
+    "strDesc": "[us] [agrees] помочь. В обмен на это [them] [offers] благодарность, удачи и [awaits] [us-pos] возвращение.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3647,8 +3647,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_AgreeTrigger",
-    "strTitle": "Срабатывает предложение по согласию на помощь",
-    "strDesc": "[us] должен найти [3-го] и попытаться улучшить отношения между [ними].",
+    "strTitle": "Срабатывает мелодия согласия сообщающего",
+    "strDesc": "[us] должен найти [3rd] и попытаться улучшить отношения между [them].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3665,9 +3665,9 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionLegality",
     "strTitle": "Спросить о законности помощи от семьи",
-    "strDesc": "[us] спрашивает [them] о законности запрашиваемой задачи.",
+    "strDesc": "[us] [asks] [them] о законности запрашиваемой задачи.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] спрашивает о законности помощи, которую [them] ищет. Этот запрос может привести к тому, что [them-obj] откажется от предложения.",
+    "strTooltip": "[us] спрашивает о законности помощи, которую [them] [is] ищет. Этот запрос может привести к отWithdrawal предложения [them-obj].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerFamily_QuestionLegalityReply,[them],[us],[3rd]"
@@ -3689,7 +3689,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionLegalityReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -3711,7 +3711,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionLegalityReplyShady",
     "strTitle": "Ответ",
-    "strDesc": "[us] осторожно спрашивает [them], законно ли что-либо в жизни космонавтов.",
+    "strDesc": "[us] осторожно [asks] [them], законно ли что-либо в жизни космонавтов.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3732,7 +3732,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionLegalityReplyLegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] обещает [them], что [us-subj] никогда не попросит кого-либо делать что-либо незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3753,7 +3753,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionLegalityReplyIllegalLie",
     "strTitle": "Ответ",
-    "strDesc": "[us] обещает [them], что [us-subj] никогда не попросит кого-либо делать что-либо незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3774,7 +3774,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionLegalityReplyIllegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] уверенно признаёт [them], что это, вероятно, не законно, но это правильное дело.",
+    "strDesc": "[us] уверенно [admits] [them], что это, вероятно, не законно, но это правильное дело.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3794,8 +3794,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_QuestionLegalityReplyForgetIt",
-    "strTitle": "Не обращать внимания",
-    "strDesc": "[us] выглядит обеспокоенным и настаивает, чтобы они оба забыли, что [us-subj] когда-либо упоминал это.",
+    "strTitle": "Не важно",
+    "strDesc": "[us] [looks] обеспокоен и [insists], что они оба должны забыть, что [us-subj] когда-либо упоминал это.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3816,9 +3816,9 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionPay",
     "strTitle": "Запросить вознаграждение за помощь от семьи",
-    "strDesc": "Ищет большую выплату, [us] спрашивает [them], какова стоимость запрашиваемой задачи для них.",
+    "strDesc": "Ищет большую выплату, [us] [asks] [them], какова стоимость запрашиваемой задачи для них.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] просит об обязательстве получить вознаграждение от [them] за оказанную помощь. Этот запрос может привести к тому, что [them-obj] откажется или просто испытает негативные чувства к [us].",
+    "strTooltip": "[us] просит об обещании награды от [them] за помощь. Этот запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerFamily_QuestionPayReply,[them],[us],[3rd]"
@@ -3841,7 +3841,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionPayReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -3862,7 +3862,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionPayReplyLow",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно предлагает [them] 300 долларов.",
+    "strDesc": "[us] неохотно [offers] [them] $300.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3883,7 +3883,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionPayReplyMed",
     "strTitle": "Ответ",
-    "strDesc": "[us] с неуверенностью предложил [им] 2000 долларов, «Принимайте или оставайтесь без этого».",
+    "strDesc": "[us] неохотно предлагает [имеет] $2000, \"Принимайте или оставайтесь без этого\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3904,7 +3904,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionPayReplyHigh",
     "strTitle": "Ответ",
-    "strDesc": "Через мгновение [us] предложил [им] 10 000 долларов, «Это важно для меня».",
+    "strDesc": "После паузы [us] [offers] [them] 10 000 долларов, «Это важно для меня».",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3924,8 +3924,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_QuestionPayReplyForgetIt",
-    "strTitle": "Пропустить",
-    "strDesc": "[us] покачал [us-pos] головой. «Понимаю, как это есть. Пропустим».",
+    "strTitle": "Не важно",
+    "strDesc": "[us] [shakes] [us-pos] головой. \"Я понимаю. Просто забудьте это\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -3948,7 +3948,7 @@
   {
     "strName": "PLOT_MessengerFamily_QuestionPayReplyForgetItReply",
     "strTitle": "",
-    "strDesc": "Кажется, [them] больше не хочет получить помощь от [us].",
+    "strDesc": "Кажется, что [them] больше не хочет помогать [us].",
     "bIgnoreFeelings": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -3962,7 +3962,7 @@
   {
     "strName": "PLOT_MessengerFamily_Refuse",
     "strTitle": "Отказаться от помощи в семейных вопросах",
-    "strDesc": "[us] отказывается помогать с семейными вопросами [them]. [them-subj] скорее всего должен решать это самостоятельно.",
+    "strDesc": "[us] [refuses] to help with [them]'s family issues. [them-subj] should probably deal with it first hand.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3982,8 +3982,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_RefuseTrigger",
-    "strTitle": "Триггер для отказа мессенджера",
-    "strDesc": "[us] вспоминает обоих [them] и [3rd].",
+    "strTitle": "Триггер для сцены отказа мессенджера",
+    "strDesc": "[us] [remembers] both [them] and [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4000,7 +4000,7 @@
   {
     "strName": "PLOT_MessengerFamily_Target",
     "strTitle": "Обсудить семейный вопрос с контактом",
-    "strDesc": "[us] говорит с [them] о семейных вопросах, касающихся [3rd].",
+    "strDesc": "[us] [speaks] с [them] о семейных вопросах, касающихся [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -4022,7 +4022,7 @@
   {
     "strName": "PLOT_MessengerFamily_TargetReply",
     "strTitle": "",
-    "strDesc": "После разговора с [them] [us] готов помочь в решении вопроса [3rd].",
+    "strDesc": "После разговора с [them] [us] [is] готов помочь в решении вопроса [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4042,7 +4042,7 @@
   },
   {
     "strName": "PLOT_MessengerFamily_TargetTrigger",
-    "strTitle": "Триггер для мессенджера, направленного на цель",
+    "strTitle": "Триггер для сцены цели мессенджера",
     "strDesc": "[us] должен сообщить [them] о разговоре.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -4059,8 +4059,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_TurnInSplit",
-    "strTitle": "Сообщить о семейных вопросах",
-    "strDesc": "[us] сообщает [them] о разговоре с [3-м].",
+    "strTitle": "Отчёт о семейных вопросах",
+    "strDesc": "[us] [reports] to [them] about [us-pos] conversation with [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -4085,8 +4085,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_TurnInLow",
-    "strTitle": "Сообщить о семейных вопросах",
-    "strDesc": "[us] рассказывает [them] о том, как прошёл разговор с [3rd], затем спрашивает о выплате.",
+    "strTitle": "Отчёт о семейных вопросах",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4109,7 +4109,7 @@
   {
     "strName": "PLOT_MessengerFamily_TurnInMed",
     "strTitle": "Отчёт о семейных вопросах",
-    "strDesc": "[us] описывает [им] ход разговора с [3rd], затем спрашивает о зарплате.",
+    "strDesc": "[us] описывает [им] про разговор с [3rd], затем спрашивает о зарплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4132,7 +4132,7 @@
   {
     "strName": "PLOT_MessengerFamily_TurnInHigh",
     "strTitle": "Отчёт о семейных вопросах",
-    "strDesc": "[us] подробно описывает [им] ход разговора с [3rd], затем спрашивает о зарплате.",
+    "strDesc": "[us] подробно описывает [them] разговор с [3rd], затем [asks] о вознаграждении.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4155,7 +4155,7 @@
   {
     "strName": "PLOT_MessengerFamily_TurnIn",
     "strTitle": "Отчёт о семейных вопросах",
-    "strDesc": "[us] рассказывает [им] о ходе дел с [3rd].",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4176,8 +4176,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_TurnInTrigger",
-    "strTitle": "Срабатывает мессенджер для завершения шага",
-    "strDesc": "[им] благодарит [us] за помощь. Семья всегда хаотична, но, надеемся, теперь немного спокойнее.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[им] [thanks] [us] за помощь. Семья всегда хаотична, но, надеемся, теперь немного меньше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4194,8 +4194,8 @@
   },
   {
     "strName": "PLOT_MessengerFamily_TurnInPayTrigger",
-    "strTitle": "Срабатывает мессенджер для завершения шага",
-    "strDesc": "[им] платит [us] за [us-pos] усилия. Иногда независимая медиация бесценна.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[them] pays [us] for [us-pos] effort. Sometimes independent mediation is priceless.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4212,7 +4212,7 @@
   },
   {
     "strName": "PLOT_MessengerFamily_EndTrigger",
-    "strTitle": "Срабатывает мессен и для завершения шага",
+    "strTitle": "Срабатывает триггер для завершения хода посланника",
     "strDesc": "[us] завершает семейный конфликт.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -4228,7 +4228,7 @@
   {
     "strName": "PLOT_MessengerFamily_CancelTrigger",
     "strTitle": "Срабатывает мессенджер для отмены помощи в семейном вопросе",
-    "strDesc": "[us] отменяет помощь в семейном вопросе для [им].",
+    "strDesc": "[us] отменяет помощь в семейном вопросе для [them].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4244,8 +4244,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_StartTrigger",
-    "strTitle": "Срабатывает мессенджер для начала сюжета по правовым вопросам",
-    "strDesc": "[им] обращается к [us], чтобы получить помощь с правовым вопросом. Они предпочитают обсуждать его лично, когда будет удобно.",
+    "strTitle": "Срабатывает триггер для начала сценария по юридическим вопросам",
+    "strDesc": "[them] [reaches] out to [us], seeking help with a legal issue. They'd rather discuss it in person when it's convenient.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -4268,8 +4268,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_StartTriggerRepeat",
-    "strTitle": "Срабатывает мессенджер для начала сюжета по правовым вопросам",
-    "strDesc": "[им] обращается к [us], благодарит [us-obj] за предыдущую правовую помощь и снова просит о помощи с другим правовым вопросом. Они предпочитают обсуждать его лично, когда будет удобно.",
+    "strTitle": "Срабатывает триггер для начала сценария по юридическим вопросам",
+    "strDesc": "[them] [reaches] out to [us], thanking [us-obj] for [us-pos] previous legal assistance, and once again seeking help with another legal issue. They'd rather discuss it in person when it's convenient.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4285,8 +4285,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_StartTriggerFirst",
-    "strTitle": "Срабатывает мессенджер для начала сюжета по правовым вопросам",
-    "strDesc": "[им] обращается к [us], чтобы получить помощь с правовым вопросом. Они предпочитают обсуждать его лично, когда будет удобно.",
+    "strTitle": "Срабатывает триггер для начала сценария по юридическим вопросам",
+    "strDesc": "[them] [reaches] out to [us], seeking help with a legal issue. They'd rather discuss it in person when it's convenient.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4303,7 +4303,7 @@
   {
     "strName": "PLOT_MessengerLegal_Offer",
     "strTitle": "Спросить о правовых вопросах",
-    "strDesc": "[us] [asks] [them] что помощь [them-subj] [needs] для [them-pos] вопросов.",
+    "strDesc": "[us] [asks] [them] о том, какую помощь [them-subj] [needs] для [them-pos] проблем.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -4341,7 +4341,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] [explains] сложную правовую проблему, с которой [us-subj] [is] сталкивается. [us-subj] [says] это было бы огромной помощью для [us-obj], если бы [them] поговорили с офицером [3rd] о [us-pos] вариантах.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4361,7 +4361,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply01",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] использует код, чтобы объяснить чувствительную ситуацию с угрозой выступления, если [us-subj] [goes] в правоохранительные органы. [us-subj] [asks] [them] тихо поговорить с офицером [3rd] от имени [us-pos].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4382,8 +4382,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply02",
-    "strTitle": "Предложить",
-    "strDesc": "[us] [explains] сложную правовую проблему, с которой [us-subj] [is] сталкивается в связи с правом собственности на редкий спасательный материал. [us-subj] [says] это было бы огромной помощью для [us-obj], если бы [them] поговорили с офицером [3-й] от имени [us-pos].",
+    "strTitle": "Предложение",
+    "strDesc": "[us] [explains] a snarl of a legal problem [us-subj] [is] facing regarding ownership of rare salvage. [us-subj] [says] it would help [us-obj] immensely if [them] spoke with Officer [3rd] on [us-pos] behalf.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4403,7 +4403,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply03",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] описывает сложную правовую ответственность, с которой [us-subj] [is] сталкивается в связи с недавним аварийным инцидентом. [us-subj] [says] это было бы огромной помощью для [us-obj], если бы [them] поговорили с офицером [3rd] от имени [us-pos].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4424,7 +4424,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply04",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] [needs] помощь в обеспечении выполнения правового договора. [us-subj] [asks] [them] поговорить с офицером [3rd] от имени [us-pos].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4445,7 +4445,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply05",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] [seeks] помощь в поиске компетентного правового представителя для подачи искового заявления против локального отделения уберкорпорации. [us-subj] [asks] [them] поговорить с офицером [3rd] о возможных вариантах.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4466,7 +4466,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply06",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] [needs] помощь в понимании правовых нюансов споров, используемых Xinhua. [us-subj] [asks] [them] поговорить с офицером [3rd] от имени [us-pos].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4487,7 +4487,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply07",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] [claims] права на интеллектуальную собственность были нарушены конкурентом. [us-subj] [asks] [them] поговорить с офицером [3rd] от имени [us-pos].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4508,7 +4508,7 @@
   },
   {
     "strName": "PLOT_MessengerLegal_OfferReply08",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] [is] в сложной ситуации из-за несоблюдения новых норм локального управляющего органа. [us-subj] [asks] [them] поговорить с офицером [3rd] от имени [us-pos].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -4530,7 +4530,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply09",
     "strTitle": "Предложение",
-    "strDesc": "Организация подаёт иск о клевете и считает, что ситуация вышла из-под контроля. Организация просит, чтобы они поговорили с офицером [3rd] о поиске более чистого решения.",
+    "strDesc": "[us] [is] подаёт иск о клевете и считает, что ситуация вышла из-под контроля. [us-subj] [asks] [them] чтобы поговорить с офицером [3rd] о поиске более чистого решения.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4551,7 +4551,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply10",
     "strTitle": "Предложение",
-    "strDesc": "Организация требует помощи в переговорах о продлении срока погашения долгов. Организация просит, чтобы они поговорили с офицером [3rd] от имени организации.",
+    "strDesc": "Организация требует помощи в переговорах о продлении срока погашения долгов. [us-subj] [asks] [them] to speak with Officer [3rd] on [us-pos] behalf.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4572,7 +4572,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply11",
     "strTitle": "Предложение",
-    "strDesc": "Организация нуждается в доступе к деньгам, захваченным у непокорного заемщика, который отказывается платить. Организация просит, чтобы они поговорили с офицером [3rd] о возможностях, которые позволят заставить заемщика выполнить свои обязательства.",
+    "strDesc": "[us] [needs] доступ к деньгам, заложенным у неприятного заемщика, который отказывается платить. [us-subj] [asks] [them] to speak with Officer [3rd] about options available for inducing the borrower to comply.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4593,7 +4593,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply12",
     "strTitle": "Предложение",
-    "strDesc": "Организация участвовала в схеме, которая оказалась незаконной, и хочет заключить сделку с упрощением ответственности. Организация просит, чтобы они поговорили с офицером [3rd] о возможностях до того, как они готовы признать свою вину.",
+    "strDesc": "[us] участвовал в схеме, которая оказалась незаконной, и хочет заключить сделку с упрощением ответственности. [us-subj] [asks] [them] чтобы они поговорили с офицером [3rd] о [us-pos] возможностях до того, как они готовы признать свою вину.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4614,7 +4614,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply13",
     "strTitle": "Предложение",
-    "strDesc": "Организация недавно была обманута в местном баре и знает точно, кто это сделал, но местные органы власти медленно реагируют. Организация просит, чтобы они поговорили с офицером [3rd] о продвижении дела.",
+    "strDesc": "[us] недавно был обманут в местном баре и знает точно, кто это сделал, но местные органы власти медленно реагируют. [us-subj] [asks] [them] чтобы поговорить с офицером [3rd] о продвижении дела.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4635,7 +4635,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply14",
     "strTitle": "Предложение",
-    "strDesc": "Организация нуждается в помощи при обработке страхового случая по поводу недавно потерянного спасательного оборудования и других товаров. Организация просит, чтобы они поговорили с офицером [3rd] от имени организации.",
+    "strDesc": "[us] [needs] помощь в обработке страхового заявления по некоторым недавним потерянным спасательным средствам и другим товарам. [us-subj] [asks] [them] to speak with Officer [3rd] on [us-pos] behalf.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4656,7 +4656,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply15",
     "strTitle": "Предложение",
-    "strDesc": "Организация приобрела право собственности на разработанную часть станции и хочет начать получать арендные платежи и дивиденды, но нуждается в поддержке местных властей для безопасного осуществления этого. Организация просит, чтобы они поговорили с офицером [3rd] от имени организации.",
+    "strDesc": "[us] получил право собственности на разработанную часть станции и хочет начать собирать арендную плату и дивиденды, но [needs] поддержку местной власти, чтобы это сделать безопасно. [us-subj] [asks] [them] поговорить с офицером [3rd] на [us-pos] behalf.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4677,7 +4677,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply16",
     "strTitle": "Предложение",
-    "strDesc": "Организация больше не терпит действий местных банд, которые занимаются преступной деятельностью в отношении защиты бизнеса организации. Организация просит, чтобы они поговорили с офицером [3rd] от имени организации.",
+    "strDesc": "[us] [has] имел достаточно от местных банд, которые занимаются рэкетом в целях «защиты» [us-pos] бизнеса. [us-subj] [asks] [them] чтобы поговорить с офицером [3rd] от имени [us-pos].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4698,7 +4698,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply17",
     "strTitle": "Предложение",
-    "strDesc": "Организация утверждает, что имеет доказательства коррупции среди высокопоставленных сотрудников местных властей. Организация просит, чтобы они поговорили с офицером [3rd] о следующих шагах, поскольку они — единственный офицер, которому доверяет организация.",
+    "strDesc": "[us] [claims] to have evidence of corruption among high-ranking officials of the local authority. [us-subj] [asks] [them] to speak with Officer [3rd] about next steps since they [is] the only officer [us-subj] trust with the information.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4719,7 +4719,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferReply18",
     "strTitle": "Предложение",
-    "strDesc": "Организация описывает, как она находится в сложной ситуации по долгам перед жестоким кредитным шарком. Организация просит, чтобы они поговорили с офицером [3rd] о возможностях получения защитной арестной меры или отправки в тюрьму (что кажется более приемлемым, чем гнев кредитного шарка).",
+    "strDesc": "[us] описывает, как [us-subj] [is] под водой по долгам перед жестоким кредитным шарком. [us-subj] [asks] [them] чтобы поговорить с офицером [3rd] о возможностях получения защитной арестной меры или отправки в тюрьму (что кажется более приемлемым, чем гнев кредитного шарка).",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4758,7 +4758,7 @@
   {
     "strName": "PLOT_MessengerLegal_Agree",
     "strTitle": "Согласиться помочь с юридическими вопросами",
-    "strDesc": "[us] [agrees] помочь. В обмен [them] [offers] благодарность, удачи и [awaits] возвращение [us-pos].",
+    "strDesc": "[us] [agrees] помочь. В обмен на это [them] [offers] благодарность, удачи и [awaits] [us-pos] возвращение.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4798,7 +4798,7 @@
     "strTitle": "Проверить законность юридической помощи",
     "strDesc": "[us] [asks] [them] о законности запрашиваемой задачи.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] сомневается в законности помощи, которую [them] ищет. Это может привести к отмене предложения [them-obj].",
+    "strTooltip": "[us] спрашивает о законности помощи, которую [them] [is] ищет. Этот запрос может привести к отWithdrawal предложения [them-obj].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerLegal_QuestionLegalityReply,[them],[us],[3rd]"
@@ -4820,7 +4820,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionLegalityReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -4842,7 +4842,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionLegalityReplyShady",
     "strTitle": "Ответ",
-    "strDesc": "[us] осторожно [asks] [them], законно ли что-то в жизни космонавтов.",
+    "strDesc": "[us] осторожно [asks] [them], законно ли что-либо в жизни космонавтов.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4863,7 +4863,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionLegalityReplyLegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] [assures] [them] [us-subj] никогда не попросит кого-либо делать что-то незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4884,7 +4884,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionLegalityReplyIllegalLie",
     "strTitle": "Ответ",
-    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-то незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4925,8 +4925,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_QuestionLegalityReplyForgetIt",
-    "strTitle": "Не обращать внимания",
-    "strDesc": "[us] [looks] обеспокоенным и [insists], что оба должны забыть, что [us-subj] когда-либо упоминал это.",
+    "strTitle": "Не важно",
+    "strDesc": "[us] [looks] обеспокоен и [insists], что они оба должны забыть, что [us-subj] когда-либо упоминал это.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4947,9 +4947,9 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionPay",
     "strTitle": "Запрос вознаграждения за юридическую помощь",
-    "strDesc": "Ищем большего вознаграждения, [us] [asks] [them], насколько оценена запрашиваемая задача для них.",
+    "strDesc": "Ищет большую выплату, [us] [asks] [them], какова стоимость запрашиваемой задачи для них.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] просит об обещании вознаграждения от [them] за оказанную помощь. Такой запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
+    "strTooltip": "[us] просит об обещании награды от [them] за помощь. Этот запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerLegal_QuestionPayReply,[them],[us],[3rd]"
@@ -4972,7 +4972,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionPayReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -4993,7 +4993,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionPayReplyLow",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно [предлагает] [them] 300 долларов.",
+    "strDesc": "[us] неохотно [offers] [them] $300.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5014,7 +5014,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionPayReplyMed",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно [предлагает] [them] 2000 долларов, \"Принимайте или оставайтесь без этого.\"",
+    "strDesc": "[us] неохотно предлагает [имеет] $2000, \"Принимайте или оставайтесь без этого\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5035,7 +5035,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionPayReplyHigh",
     "strTitle": "Ответ",
-    "strDesc": "После паузы [us] [предлагает] [them] 10 000 долларов, \"Это важно для меня.\"",
+    "strDesc": "После паузы [us] [offers] [them] 10 000 долларов, «Это важно для меня».",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5056,7 +5056,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionPayReplyForgetIt",
     "strTitle": "Не важно",
-    "strDesc": "[us] [ударяет] [us-pos] головой. \"Я понимаю. Просто забудьте об этом.\"",
+    "strDesc": "[us] [shakes] [us-pos] головой. \"Я понимаю. Просто забудьте это\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -5079,7 +5079,7 @@
   {
     "strName": "PLOT_MessengerLegal_QuestionPayReplyForgetItReply",
     "strTitle": "",
-    "strDesc": "Кажется, [them] больше не хочет получать помощь от [us].",
+    "strDesc": "Кажется, что [them] больше не хочет помогать [us].",
     "bIgnoreFeelings": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -5093,7 +5093,7 @@
   {
     "strName": "PLOT_MessengerLegal_Refuse",
     "strTitle": "Отказаться от помощи с юридическими вопросами",
-    "strDesc": "[us] [отказывается] помогать с проблемой [them]. [them-subj] решит это самостоятельно или не решит.",
+    "strDesc": "[us] [refuses] to help with [them]'s issue. [them-subj] will sort it out on [them-pos] own, or not.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5114,7 +5114,7 @@
   {
     "strName": "PLOT_MessengerLegal_RefuseTrigger",
     "strTitle": "Триггер для сцены «Мессенджер — Отказ от юридической помощи»",
-    "strDesc": "[us] [вспоминает] как [them] и [3rd].",
+    "strDesc": "[us] [remembers] both [them] and [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5131,7 +5131,7 @@
   {
     "strName": "PLOT_MessengerLegal_Target",
     "strTitle": "Обсуждение юридических вопросов для контакта",
-    "strDesc": "[us] [говорит] с [them] о том, как преодолеть сложности, юридические пробелы и варианты, связанные с юридическими вопросами [3rd].",
+    "strDesc": "[us] [говорит] с [ними] о том, как навигировать через сложности, юридические пробелы и варианты, действующие в [3rd]'s конкретных юридических вопросах.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -5191,7 +5191,7 @@
   {
     "strName": "PLOT_MessengerLegal_TurnInSplit",
     "strTitle": "Сообщить о правовых вопросах",
-    "strDesc": "[us] сообщает [them] о разговоре с [3rd].",
+    "strDesc": "[us] [reports] to [them] about [us-pos] conversation with [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -5216,8 +5216,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_TurnInLow",
-    "strTitle": "Сообщить о правовых вопросах",
-    "strDesc": "[us] рассказывает [them] о ходе дел с [3rd], затем спрашивает о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5239,8 +5239,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_TurnInMed",
-    "strTitle": "Сообщить о правовых вопросах",
-    "strDesc": "[us] описывает [them] ход разговора с [3rd], затем спрашивает о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] описывает [им] про разговор с [3rd], затем спрашивает о зарплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5262,8 +5262,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_TurnInHigh",
-    "strTitle": "Сообщить о правовых вопросах",
-    "strDesc": "[us] подробно описывает [them] ход разговора с [3rd], затем спрашивает о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] подробно описывает [them] разговор с [3rd], затем [asks] о вознаграждении.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5285,8 +5285,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_TurnIn",
-    "strTitle": "Сообщить о правовых вопросах",
-    "strDesc": "[us] рассказывает [them] о ходе дел с [3rd].",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5307,8 +5307,8 @@
   },
   {
     "strName": "PLOT_MessengerLegal_TurnInTrigger",
-    "strTitle": "Срабатывает для Мессенджера: Возврат по закону, удар по сценарию",
-    "strDesc": "[them] благодарит [us] за помощь.",
+    "strTitle": "Срабатывает для Мессенджера: Возврат по закону, удар по сцену",
+    "strDesc": "[them] [thanks] [us] за помощь.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5515,7 +5515,7 @@
   {
     "strName": "PLOT_MessengerRomantic_Offer",
     "strTitle": "Запрос о желании поиска партнёра",
-    "strDesc": "[us] [asks] [them] what help [them-subj] [needs] for [them-pos] issues.",
+    "strDesc": "[us] [asks] [them] о том, какую помощь [them-subj] [needs] для [them-pos] проблем.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -5543,7 +5543,7 @@
   {
     "strName": "PLOT_MessengerRomantic_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [explains] [us-pos] desire for a change in [us-pos] love life and [asks] for [them]'s help in finding an open-minded partner of any gender.",
+    "strDesc": "[us] [explains] [us-pos] желание изменить [us-pos] жизнь в любви и [asks] о помощи [them]'s в поиске открыто мыслящего партнёра любого пола.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5563,7 +5563,7 @@
   {
     "strName": "PLOT_MessengerRomantic_OfferReplyMenWomen",
     "strTitle": "Предложение",
-    "strDesc": "[us] [explains] [us-pos] desire for a change in [us-pos] love life and [asks] for [them]'s help in finding an open-minded male or female partner.",
+    "strDesc": "[us] [explains] [us-pos] желание изменить [us-pos] жизнь в любви и [asks] о помощи [them]'s в поиске открыто мыслящего партнёра — мужчины или женщины.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5583,7 +5583,7 @@
   {
     "strName": "PLOT_MessengerRomantic_OfferReplyMenNB",
     "strTitle": "Предложение",
-    "strDesc": "[us] [explains] [us-pos] desire for a change in [us-pos] love life and [asks] for [them]'s help in finding an open-minded male or non-binary partner.",
+    "strDesc": "[us] [explains] [us-pos] желание изменить [us-pos] жизнь в любви и [asks] о помощи [them]'s в поиске открыто мыслящего мужчины или не-binарного партнёра.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5682,7 +5682,7 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_OfferTrigger",
-    "strTitle": "Триггер для сцены предложения сообщения",
+    "strTitle": "Триггер для предложения Мессенджера",
     "strDesc": "[us] должен согласиться или отклонить помощь [them] в решении [them-pos] проблемы путём поиска подходящего партнёра, готового попробовать.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -5720,7 +5720,7 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_AgreeTrigger",
-    "strTitle": "Триггер для сцены согласия на помощь",
+    "strTitle": "Срабатывает мелодия согласия сообщающего",
     "strDesc": "[us] должен найти потенциального романтического партнёра для [them] и поставить на него хорошие слова.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -5879,9 +5879,9 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionLegality",
     "strTitle": "Спросить о законности организации свиданий",
-    "strDesc": "[us] спрашивает [them] о законности запрашиваемой задачи.",
+    "strDesc": "[us] [asks] [them] о законности запрашиваемой задачи.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] спрашивает о законности помощи, которую [them] ищет. Этот запрос может привести к отWithdrawal предложения [them-obj].",
+    "strTooltip": "[us] спрашивает о законности помощи, которую [them] [is] ищет. Этот запрос может привести к отWithdrawal предложения [them-obj].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerRomantic_QuestionLegalityReply,[them],[us]"
@@ -5903,7 +5903,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionLegalityReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -5925,7 +5925,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionLegalityReplyShady",
     "strTitle": "Ответ",
-    "strDesc": "[us] говорит, что это просто романтическая связь между добровольцами, и [them] не должно беспокоиться о гражданстве или месте жительства.",
+    "strDesc": "[us] [says] это просто роман между добровольцами, и [them] не должны беспокоиться о гражданстве или месте жительства.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5946,7 +5946,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionLegalityReplyLegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] обещает [them], что [us-subj] никогда не попросит кого-то делать что-то незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5967,7 +5967,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionLegalityReplyIllegalLie",
     "strTitle": "Ответ",
-    "strDesc": "[us] обещает [them], что [us-subj] никогда не попросит кого-то делать что-то незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5988,7 +5988,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionLegalityReplyIllegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] уверенно признавается [them], что это, вероятно, не законно, но это правильное дело.",
+    "strDesc": "[us] уверенно [admits] [them], что это, вероятно, не законно, но это правильное дело.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6008,8 +6008,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_QuestionLegalityReplyForgetIt",
-    "strTitle": "Пренебречь",
-    "strDesc": "[us] выглядит обеспокоенным и настаивает, чтобы оба забыли, что [us-subj] когда-либо упоминал это.",
+    "strTitle": "Не важно",
+    "strDesc": "[us] [looks] обеспокоен и [insists], что они оба должны забыть, что [us-subj] когда-либо упоминал это.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6030,9 +6030,9 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionPay",
     "strTitle": "Запрос вознаграждения за помощь в организации свиданий",
-    "strDesc": "Ищет большую выплату, [us] спрашивает [them], какова стоимость запрашиваемой задачи для них.",
+    "strDesc": "Ищет большую выплату, [us] [asks] [them], какова стоимость запрашиваемой задачи для них.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] просит обещание вознаграждения от [them] за оказанную помощь. Этот запрос может привести к отказу [them-obj] или вызвать негативные чувства к [us].",
+    "strTooltip": "[us] просит об обещании награды от [them] за помощь. Этот запрос может привести к тому, что [them-obj] откажется или просто испытает негативное отношение к [us].",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerRomantic_QuestionPayReply,[them],[us]"
@@ -6055,7 +6055,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionPayReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6076,7 +6076,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionPayReplyLow",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно предлагает [them] 300 долларов.",
+    "strDesc": "[us] неохотно [offers] [them] $300.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6097,7 +6097,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionPayReplyMed",
     "strTitle": "Ответ",
-    "strDesc": "[us] с неохотой предлагает [им] 2000 долларов, «Принимайте или оставайтесь без этого».",
+    "strDesc": "[us] неохотно предлагает [имеет] $2000, \"Принимайте или оставайтесь без этого\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6118,7 +6118,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionPayReplyHigh",
     "strTitle": "Ответ",
-    "strDesc": "Через мгновение [us] предлагает [им] 10 000 долларов, «Это важно для меня».",
+    "strDesc": "После паузы [us] [offers] [them] 10 000 долларов, «Это важно для меня».",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6138,8 +6138,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_QuestionPayReplyForgetIt",
-    "strTitle": "Продолжим",
-    "strDesc": "[us] покачивает головой. «Я понимаю. Продолжим».",
+    "strTitle": "Не важно",
+    "strDesc": "[us] [shakes] [us-pos] головой. \"Я понимаю. Просто забудьте это\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6162,7 +6162,7 @@
   {
     "strName": "PLOT_MessengerRomantic_QuestionPayReplyForgetItReply",
     "strTitle": "",
-    "strDesc": "Кажется, [them] больше не хочет помощи [us].",
+    "strDesc": "Кажется, что [them] больше не хочет помогать [us].",
     "bIgnoreFeelings": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -6176,7 +6176,7 @@
   {
     "strName": "PLOT_MessengerRomantic_Refuse",
     "strTitle": "Отказаться от помощи в поиске пары",
-    "strDesc": "[us] отказывается помогать с проблемой [them]. Их личная жизнь — это их собственная проблема.",
+    "strDesc": "[us] [refuses] to help with [them]'s issue. Their love life is [them-pos] own problem.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6196,8 +6196,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_RefuseTrigger",
-    "strTitle": "Срабатывает триггер «Отказаться от помощи мессенджера»",
-    "strDesc": "[us] вспоминает [them].",
+    "strTitle": "Триггер для сцены отказа мессенджера",
+    "strDesc": "[us] [remembers] [them].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6214,7 +6214,7 @@
   {
     "strName": "PLOT_MessengerRomantic_TargetMen",
     "strTitle": "Предложить помощь в поиске пары через контакт",
-    "strDesc": "[us] говорит с [them] о возможностях романтических отношений с [3rd].",
+    "strDesc": "[us] [speaks] с [them] о возможностях романтических отношений с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6239,7 +6239,7 @@
   {
     "strName": "PLOT_MessengerRomantic_TargetNB",
     "strTitle": "Предложить помощь в поиске пары через контакт",
-    "strDesc": "[us] говорит с [them] о возможностях романтических отношений с [3-м].",
+    "strDesc": "[us] [speaks] с [them] о возможностях романтических отношений с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6264,7 +6264,7 @@
   {
     "strName": "PLOT_MessengerRomantic_TargetWomen",
     "strTitle": "Предложить помощь в поиске пары через контакт",
-    "strDesc": "[us] говорит с [them] о возможностях романтических отношений с [3-м].",
+    "strDesc": "[us] [speaks] с [them] о возможностях романтических отношений с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6289,7 +6289,7 @@
   {
     "strName": "PLOT_MessengerRomantic_TargetReplyFail",
     "strTitle": "",
-    "strDesc": "Стало ясно, что [us] не заинтересован в романтических отношениях с [3-м].",
+    "strDesc": "Стало ясно, что [us] [is] не заинтересован в романтических отношениях с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6311,7 +6311,7 @@
   {
     "strName": "PLOT_MessengerRomantic_TargetReplyAgree",
     "strTitle": "",
-    "strDesc": "После разговора с [them] [us] готов к контакту с [3-м] по поводу романтических возможностей.",
+    "strDesc": "После разговора с [them] [us] [is] готов к контакту с [3rd] по поводу романтических возможностей.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6335,7 +6335,7 @@
   {
     "strName": "GainRomanticAttraction",
     "strTitle": "",
-    "strDesc": "[us] привлекается к [3-му], находит в них романтическую привлекательность.",
+    "strDesc": "[us] [is] привлекается к [3rd], находя в них романтическое привлечение.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6395,7 +6395,7 @@
   {
     "strName": "GainRomanticAttractionWomen",
     "strTitle": "",
-    "strDesc": "[us] [is] привлечен к [3-му], находя в женщинах романтический интерес.",
+    "strDesc": "[us] [is] привлечен к [3rd], находя в женщинах романтический интерес.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6437,7 +6437,7 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_TargetTrigger",
-    "strTitle": "Срабатывает триггер для бита Мессенджера-Цель",
+    "strTitle": "Триггер для сцены цели мессенджера",
     "strDesc": "[us] должен сообщить [them] о разговоре с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -6481,8 +6481,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_TurnInLow",
-    "strTitle": "Сообщение о поиске пары",
-    "strDesc": "[us] рассказывает [them] о том, как прошёл разговор с [3rd], затем [спрашивает] о выплате.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6506,8 +6506,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_TurnInMed",
-    "strTitle": "Сообщение о поиске пары",
-    "strDesc": "[us] описывает [them] разговор с [3rd], затем [спрашивает] о вознаграждении.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] описывает [им] про разговор с [3rd], затем спрашивает о зарплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6531,8 +6531,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_TurnInHigh",
-    "strTitle": "Сообщение о поиске пары",
-    "strDesc": "[us] подробно описывает [them] разговор с [3rd], затем [спрашивает] о вознаграждении.",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] подробно описывает [them] разговор с [3rd], затем [asks] о вознаграждении.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6556,8 +6556,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_TurnIn",
-    "strTitle": "Сообщение о поиске пары",
-    "strDesc": "[us] рассказывает [them] о том, как прошёл разговор с [3rd].",
+    "strTitle": "Доклад о ситуации",
+    "strDesc": "[us] [tells] [them] о том, как прошёл разговор с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -6598,7 +6598,7 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_TurnInTrigger",
-    "strTitle": "Срабатывает триггер для бита Мессенджера-Возврат",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
     "strDesc": "[them] [thanks] [us] за помощь.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -6616,8 +6616,8 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_TurnInPayTrigger",
-    "strTitle": "Срабатывает триггер для этапа возврата сообщения о выполнении задания",
-    "strDesc": "[them] платит [us] за [us-pos] усилия.",
+    "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
+    "strDesc": "[them] платит [us] за усилия [us-pos].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6634,7 +6634,7 @@
   },
   {
     "strName": "PLOT_MessengerRomantic_EndTrigger",
-    "strTitle": "Срабатывает триггер для завершения этапа сообщения о выполнении задания",
+    "strTitle": "Срабатывает триггер для завершения хода посланника",
     "strDesc": "[us] завершает сценарий по поиску партнёров.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -6819,7 +6819,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply03",
     "strTitle": "Предложение",
-    "strDesc": "О [us] описывает некоторые важные цифровые данные, которые [us-subj] не может получить, и просит [them] поговорить с [3rd], чтобы помочь [us-obj].",
+    "strDesc": "[us] описывает некоторые важные цифровые данные, которые [us-subj] не может получить, и просит [them] поговорить с [3rd], чтобы помочь [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6840,7 +6840,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply04",
     "strTitle": "Предложение",
-    "strDesc": "О [us] жалуется на нарушения цепочки поставок, которые оставили [us-obj] с ограниченным количеством компонентов и материалов, необходимых для проекта. [us-subj] просит [them] поговорить с [3-м], чтобы помочь [us-obj].",
+    "strDesc": "[us] жалуется на нарушения цепочки поставок, которые оставили [us-obj] с ограниченным количеством компонентов и материалов, необходимых для проекта. [us-subj] [asks] [them] поговорить с [3rd], чтобы помочь [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6861,7 +6861,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply05",
     "strTitle": "Предложение",
-    "strDesc": "[us] [ищет] помощь в поиске решения споров по распределению энергии и [запрашивает] [им] поговорить с [3rd] для того, чтобы помочь [us-obj].",
+    "strDesc": "[us] [seeks] помощь в поиске решения споров по распределению энергии и [asks] [them] поговорить с [3rd] для того, чтобы помочь [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6882,7 +6882,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply06",
     "strTitle": "Предложение",
-    "strDesc": "[us] [требует] помощи в определении ответственности за недавние сбои в системах безопасности. [us-subj] [запрашивает] [им] поговорить с [3rd] для того, чтобы помочь [us-obj].",
+    "strDesc": "[us] [needs] помощи в определении ответственности за недавние сбои в системах безопасности. [us-subj] [asks] [them] поговорить с [3rd] для того, чтобы помочь [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6903,7 +6903,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply07",
     "strTitle": "Предложение",
-    "strDesc": "[us] [утверждает], что локальная коммуникационная способность снижается и [запрашивает] [им] поговорить с [3rd] для того, чтобы помочь [us-obj].",
+    "strDesc": "[us] [claims] что локальная коммуникационная способность снижается и [asks] [them] to speak with [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6924,7 +6924,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply08",
     "strTitle": "Предложение",
-    "strDesc": "У нас возникли проблемы с подключением к сети и мы просим поговорить с [3rd], чтобы помочь нам.",
+    "strDesc": "[us] жалуется на ограничение скорости сети и [asks] [them] поговорить с [3rd] для помощи [us-obj]",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6945,7 +6945,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply09",
     "strTitle": "Предложение",
-    "strDesc": "У нас возникли технические трудности с новой технологией управления и утилизацией отходов, и мы просим поговорить с [3rd], чтобы помочь нам.",
+    "strDesc": "[us] [seeks] help with a technical hang-up in a new generation of waste management and disposal technology and [asks] [them] to speak with [3rd] to help [us-obj] out.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6966,7 +6966,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply10",
     "strTitle": "Предложение",
-    "strDesc": "[us] [утверждает], что система жизнедеятельности [находится] в глубокой необходимости оптимизации, изменений или замены, и [просит] [них] поговорить с [3-м] для помощи [us-obj].",
+    "strDesc": "[us] [утверждает], что система жизнеобеспечения [is] глубоко нуждается в оптимизации, изменении или замене, и [запрашивает] [им] поговорить с [3rd], чтобы помочь [us-obj] извлечь выгоду.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6987,7 +6987,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferReply11",
     "strTitle": "Предложение",
-    "strDesc": "[us] не может обновить программное обеспечение PDA Renbao, но старая версия больше не поддерживает критические приложения. [us-subj] [просит] [них] привлечь [3-го] для помощи [us-obj].",
+    "strDesc": "[us] не может обновить программное обеспечение PDA Renbao, но старая версия больше не поддерживает критические приложения. [us-subj] [asks] [them] to enlist [3rd] to help [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7008,7 +7008,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferTrigger",
     "strTitle": "Триггер для предложения Мессенджера",
-    "strDesc": "[us] должен согласиться или отклонить помощь [ним] с [ним-поз] технической проблемой, поговорив с [3-м]",
+    "strDesc": "[us] должен согласиться или отказать в помощи [them] с [them-pos] технической проблемой, обсуждая с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7066,7 +7066,7 @@
     "strTitle": "Спросить о законности технической помощи",
     "strDesc": "[us] [asks] [them] о законности запрашиваемой задачи.",
     "strActionGroup": "Talk",
-    "strTooltip": "[us] сомневается в законности помощи, которую [them] ищет. Такой запрос может заставить их отменить предложение.",
+    "strTooltip": "[us] сомневается в законности помощи, которую [them] [is] ищет. Такой запрос может заставить их отменить предложение.",
     "bIgnoreFeelings": true,
     "aInverse": [
       "PLOT_MessengerTechnical_QuestionLegalityReply,[them],[us],[3rd]"
@@ -7088,7 +7088,7 @@
   {
     "strName": "PLOT_MessengerTechnical_QuestionLegalityReply",
     "strTitle": "",
-    "strDesc": "[us] решает, как ответить.",
+    "strDesc": "[us] решает, как отреагировать.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -7131,7 +7131,7 @@
   {
     "strName": "PLOT_MessengerTechnical_QuestionLegalityReplyLegal",
     "strTitle": "Ответ",
-    "strDesc": "[us] [assures] [them] [us-subj] никогда не попросит кого-либо делать что-либо незаконное.",
+    "strDesc": "[us] [assures] [them] [us-sub-] никогда не попросит кого-либо делать что-либо незаконное.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7261,7 +7261,7 @@
   {
     "strName": "PLOT_MessengerTechnical_QuestionPayReplyLow",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно предлагает [them] 300 долларов.",
+    "strDesc": "[us] неохотно [offers] [them] $300.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7282,7 +7282,7 @@
   {
     "strName": "PLOT_MessengerTechnical_QuestionPayReplyMed",
     "strTitle": "Ответ",
-    "strDesc": "[us] неохотно предлагает [them] 2000 долларов, «Принимайте или оставайтесь без этого».",
+    "strDesc": "[us] неохотно предлагает [имеет] $2000, \"Принимайте или оставайтесь без этого\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7303,7 +7303,7 @@
   {
     "strName": "PLOT_MessengerTechnical_QuestionPayReplyHigh",
     "strTitle": "Ответ",
-    "strDesc": "После паузы [us] предлагает [them] 10 000 долларов, «Это важно для меня».",
+    "strDesc": "После паузы [us] [offers] [them] 10 000 долларов, «Это важно для меня».",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7324,7 +7324,7 @@
   {
     "strName": "PLOT_MessengerTechnical_QuestionPayReplyForgetIt",
     "strTitle": "Не важно",
-    "strDesc": "[us] качает головой. «Я понимаю. Просто забудьте это».",
+    "strDesc": "[us] [shakes] [us-pos] головой. \"Я понимаю. Просто забудьте это\".",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -7361,7 +7361,7 @@
   {
     "strName": "PLOT_MessengerTechnical_Refuse",
     "strTitle": "Отказаться от помощи с техническими вопросами",
-    "strDesc": "[us] отказывается помогать с технической проблемой [them]. [them-subj] решит это самостоятельно или не решит.",
+    "strDesc": "[us] [refuses] to help with [them]'s technical issue. [them-subj] will sort it out on [them-pos] own, or not.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7382,7 +7382,7 @@
   {
     "strName": "PLOT_MessengerTechnical_RefuseTrigger",
     "strTitle": "Триггер для сцены отказа мессенджера",
-    "strDesc": "[us] вспоминает как [them] и [3rd].",
+    "strDesc": "[us] [remembers] both [them] and [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7399,7 +7399,7 @@
   {
     "strName": "PLOT_MessengerTechnical_Target",
     "strTitle": "Найти техническое решение по контакту",
-    "strDesc": "[us] говорит с [them] о технической проблеме, мучившей [3rd].",
+    "strDesc": "[us] [speaks] с [them] о технической проблеме, мучившей [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -7421,7 +7421,7 @@
   {
     "strName": "PLOT_MessengerTechnical_TargetReply",
     "strTitle": "",
-    "strDesc": "После разговора с [them] [us] готов и способен предложить [3rd] рабочее решение проблемы.",
+    "strDesc": "После разговора с [them] [us] [is] готов и способен предложить [3rd] рабочее решение проблемы.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7459,7 +7459,7 @@
   {
     "strName": "PLOT_MessengerTechnical_TurnInSplit",
     "strTitle": "Доклад о технической проблеме",
-    "strDesc": "[us] сообщает [them] о техническом разговоре [us-pos] с [3rd].",
+    "strDesc": "[us] [reports] to [them] about [us-pos] техническое общение с [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -7485,7 +7485,7 @@
   {
     "strName": "PLOT_MessengerTechnical_TurnInLow",
     "strTitle": "Доклад о ситуации",
-    "strDesc": "[us] сообщает [them] о рекомендованных решениях [3rd], затем спрашивает о выплате.",
+    "strDesc": "[us] [tells] [them] о рекомендованных решениях [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7508,7 +7508,7 @@
   {
     "strName": "PLOT_MessengerTechnical_TurnInMed",
     "strTitle": "Доклад о ситуации",
-    "strDesc": "[us] описывает [them] рекомендованные решения [3rd], затем спрашивает о выплате.",
+    "strDesc": "[us] описывает [them] рекомендованные решения [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7531,7 +7531,7 @@
   {
     "strName": "PLOT_MessengerTechnical_TurnInHigh",
     "strTitle": "Доклад о ситуации",
-    "strDesc": "[us] подробно описывает [them] все аспекты рекомендованных решений [3rd], затем спрашивает о выплате.",
+    "strDesc": "[us] подробно описывает [them] все аспекты рекомендованных решений [3rd], затем [asks] о выплате.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7554,7 +7554,7 @@
   {
     "strName": "PLOT_MessengerTechnical_TurnIn",
     "strTitle": "Доклад о ситуации",
-    "strDesc": "[us] сообщает [them] о рекомендованных решениях [3-х].",
+    "strDesc": "[us] [tells] [them] о рекомендованных решениях [3rd].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7576,7 +7576,7 @@
   {
     "strName": "PLOT_MessengerTechnical_TurnInTrigger",
     "strTitle": "Срабатывает триггер для хода посланника TurnIn Beat",
-    "strDesc": "[them] благодарно [us] за помощь.",
+    "strDesc": "[them] благодарно [thanks] [us] за помощь.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7659,7 +7659,7 @@
   },
   {
     "strName": "PLOTChoices01",
-    "strTitle": "Вариант: 01",
+    "strTitle": "Вариант: -01",
     "strDesc": "[us] выбирает 01.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -7681,7 +7681,7 @@
   {
     "strName": "PLOTChoicesStartTrigger",
     "strTitle": "Срабатывает сценарий выборов: начало акта",
-    "strDesc": "[us] имеет несколько вариантов выбора.",
+    "strDesc": "[us] [has] несколько вариантов выбора.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7895,7 +7895,7 @@
   },
   {
     "strName": "PLOTChoicesDialogue01",
-    "strTitle": "Вариант: 01",
+    "strTitle": "Вариант: -01",
     "strDesc": "[us] выбирает 01.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -8066,7 +8066,7 @@
   {
     "strName": "PLOTChoicesDialogue02bTrigger",
     "strTitle": "Срабатывает диалог выбора, этап 2b",
-    "strDesc": "[us] выбирает 0-2a.",
+    "strDesc": "[us] выбирает 02a.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -8278,7 +8278,7 @@
   },
   {
     "strName": "PLOTChoiceFanBreakoutTeamReplyNo",
-    "strTitle": "Не согласен",
+    "strTitle": "Согласиться",
     "strDesc": "[us] [wrinkles] [us-pos] нос и [scoffs] на [them-pos] неправильное мнение.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -8384,7 +8384,7 @@
   },
   {
     "strName": "PLOTChoiceFanSmokesReplyViceroyNo",
-    "strTitle": "Не согласен",
+    "strTitle": "Согласиться",
     "strDesc": "[us] [wrinkles] [us-pos] нос и [scoffs] на [them-pos] неправильное мнение.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -8536,8 +8536,8 @@
   },
   {
     "strName": "PLOTOKLGCritter02",
-    "strTitle": "Поставить руку внутрь",
-    "strDesc": "[us] [reaches] [us-pos] пальцы между ржавыми пластинами [them]. Что-то острые порезало их.",
+    "strTitle": "Достучитесь до руки внутрь",
+    "strDesc": "[us] [reaches] [us-pos] пальцы между ржавыми пластинами [them]. Что-то острые кусает их.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -8595,8 +8595,8 @@
   },
   {
     "strName": "PLOTOKLGCritter03",
-    "strTitle": "Слайднуть в пищу",
-    "strDesc": "[us] [слезает] маленькие кусочки пищи в отверстие и [отходит] чтобы подождать.",
+    "strTitle": "Поставить немного еды",
+    "strDesc": "[us] [slips] маленькие кусочки пищи в отверстие и [backs] away to wait.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -8659,7 +8659,7 @@
   {
     "strName": "PLOTOKLGCritter03b",
     "strTitle": "Достучитесь до руки внутрь",
-    "strDesc": "[us] [достаёт] [us-pos] пальцы между ржавыми пластинами [them]. Что-то острые кусает их.",
+    "strDesc": "[us] [reaches] [us-pos] пальцы между ржавыми пластинами [them]. Что-то острые кусает их.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -8695,7 +8695,7 @@
   {
     "strName": "PLOTOKLGCritter04a",
     "strTitle": "Погладить щенка",
-    "strDesc": "[us] [достаёт] сквозь отверстие и [гладит] шерсть нового друга-собаки, и [гладит] за мягкую ушную часть.\nОно наклоняет голову и умиротворенно шепчет. Его глаза передают надежду, что [us] [приходит] снова.",
+    "strDesc": "[us] [достигает] сквозь вентиль и [гладит] шерсть нового друга-кличного, и [теркает] за слабым ухом. \nОно наклоняет голову и умиротворенно шепчет. Его глаза передают надежду — [us] [comes] back.",
     "strActionGroup": "Use",
     "strTooltip": "Оно точно выглядит как бродячий пес в той комнате. Позволит ли оно вам погладить?",
     "bIgnoreFeelings": true,
@@ -8717,7 +8717,7 @@
   {
     "strName": "PLOTOKLGCritter04b",
     "strTitle": "Погладить кота",
-    "strDesc": "[us] [достаёт] сквозь отверстие и [гладит] шерсть нового друга-кота, и [гладит] под живой челюстью.\nОно показывает живот и умиротворенно шипит. Его глаза передают надежду, что [us] [приходит] снова.",
+    "strDesc": "[us] [достигает] сквозь вентиль и [гладит] шерсть нового друга-кошачьего, и [теркает] под энергичным подбородком. \nОно показывает живот и умиротворенно мурлыкает. Его глаза передают надежду — [us] [возвращается].",
     "strActionGroup": "Use",
     "strTooltip": "Оно точно выглядит как бродячий кот в той комнате. Позволит ли оно вам погладить?",
     "bIgnoreFeelings": true,
@@ -8739,7 +8739,7 @@
   {
     "strName": "PLOTOKLGCritter04c",
     "strTitle": "Погладить мышь",
-    "strDesc": "[us] [достаёт] сквозь отверстие и [гладит] шерсть нового друга-мышь, и [гладит] живую голову между мелкими глазами.\nОно прижимает своё тело к отверстию и умиротворенно скрипит. Его глаза передают надежду, что [us] [приходит] снова.",
+    "strDesc": "[us] [достигает] сквозь вентиль и [гладит] шерсть нового друга-зверя, и [теркает] энергичную лобную часть между мелкими глазами. \nОно прижимает своё тело к вентилю и шепчет умиротворенно. Его глаза передают надежду — [us] [возвращается].",
     "strActionGroup": "Use",
     "strTooltip": "Оно точно выглядит как дружелюбная мышь в той комнате. Позволит ли оно вам погладить?",
     "bIgnoreFeelings": true,
@@ -8761,7 +8761,7 @@
   {
     "strName": "PLOTOKLGCritter04d",
     "strTitle": "Погладить хвостатого дракона",
-    "strDesc": "[us] [достаіт] сквозь отверстие и [гладит] прохладные чешуи нового друга-рептилии.\nОно закрывает глаза и умиротворенно колеблется хвостом. Его глаза передают надежду, что [us] [приходит] снова.",
+    "strDesc": "[us] [reaches] через отверстие и [scratches] прохладные чешуи нового друга-рептилии.\nОно закрывает глаза и умиротворенно колеблется хвостом. Его глаза передают надежду, что [us] [comes] снова.",
     "strActionGroup": "Use",
     "strTooltip": "Оно точно выглядит как хвостатый дракон в той комнате. Позволит ли оно вам погладить?",
     "bIgnoreFeelings": true,
@@ -8783,7 +8783,7 @@
   {
     "strName": "PLOTOKLGCritter04Trigger",
     "strTitle": "Разряд для бита животного 4",
-    "strDesc": "Кто знает, как оно выживает там. Может, оно улучшено благодаря Hyun Lee Petware. В любом случае, [us] [ожидает] увидеть его здесь периодически.",
+    "strDesc": "Кто знает, как оно выживает там. Может, оно улучшено благодаря Hyun Lee Petware. В любом случае, [us] [expects] увидеть его здесь периодически.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -8799,7 +8799,7 @@
   {
     "strName": "PLOTOKLGCritter05a",
     "strTitle": "Играть с Пупом",
-    "strDesc": "Когда [us] [приближается], Пуп бьётся, дышит и катается рядом с решёткой, толкая хвостом в слишком узкие трубы.\nПосле бодрых игр, которые трясут стены, в конце концов оно уходит неохотно.\nЕго глаза надеются, что [us] [придёт] снова позже.",
+    "strDesc": "Когда [us] [approaches], Пуп бьётся, дышит и катается рядом с решёткой, толкая хвостом в слишком узкие трубы.\nПосле бодрых игр, которые трясут стены, в конце концов оно уходит неохотно.\nЕго глаза надеются, что [us] [comes] снова позже.",
     "strActionGroup": "Use",
     "strTooltip": "Пуп снова у решётки? Может, он хочет поиграть.",
     "bIgnoreFeelings": true,
@@ -8821,7 +8821,7 @@
   {
     "strName": "PLOTOKLGCritter05aAllow",
     "strTitle": "После игры с Пупом",
-    "strDesc": "После бодрых игр, которые трясут стены, в конце концов оно уходит неохотно.\nЕго глаза светятся с надеждой, что [us] [придёт] снова позже.",
+    "strDesc": "После бодрых игр, которые трясут стены, в конце концов оно уходит неохотно.\nЕго глаза светятся с надеждой, что [us] [comes] снова позже.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -8842,7 +8842,7 @@
   {
     "strName": "PLOTOKLGCritter05b",
     "strTitle": "Играть с Котом",
-    "strDesc": "Когда [us] [приближается], кот расправляется и держит хвост в воздухе.",
+    "strDesc": "Когда [us] [approaches], кот расправляется и держит хвост в воздухе.",
     "strActionGroup": "Use",
     "strTooltip": "Кот снова у решётки? Может, он хочет поиграть.",
     "bIgnoreFeelings": true,
@@ -8864,7 +8864,7 @@
   {
     "strName": "PLOTOKLGCritter05bAllow",
     "strTitle": "После игры с Котом",
-    "strDesc": "После ласковых прикосновений и мурлык, которые раздаются по стенам, в конце концов оно уходит неохотно.\nЕго глаза светятся с надеждой, что [us] [придёт] снова позже.",
+    "strDesc": "После ласковых прикосновений и мурлык, которые раздаются по стенам, в конце концов оно уходит неохотно.\nЕго глаза светятся с надеждой, что [us] [comes] снова позже.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -8885,7 +8885,7 @@
   {
     "strName": "PLOTOKLGCritter05c",
     "strTitle": "Играть с Мышью",
-    "strDesc": "Когда [us] [приближается], полузверёный хищник бросает то, что ест, чтобы поиграть.",
+    "strDesc": "Когда [us] [approaches], полузверёный хищник бросает то, что ест, чтобы поиграть.",
     "strActionGroup": "Use",
     "strTooltip": "Та же мышь снова у решётки? Может, она хочет поиграть.",
     "bIgnoreFeelings": true,
@@ -8907,7 +8907,7 @@
   {
     "strName": "PLOTOKLGCritter05cAllow",
     "strTitle": "После игры с Мышью",
-    "strDesc": "После того, как оно катается по пальцам и отвечает на слова звуками, похожими на умные, оно уходит неохотно.\nЕго глаза светятся с надеждой, что [us] [придёт] снова позже.",
+    "strDesc": "После того, как оно катается по пальцам и отвечает на слова звуками, похожими на умные, оно уходит неохотно.\nЕго глаза светятся с надеждой, что [us] [comes] снова позже.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -8928,7 +8928,7 @@
   {
     "strName": "PLOTOKLGCritter05d",
     "strTitle": "Играть с Крокодилом-с бородой",
-    "strDesc": "Когда [us] [приближается], спокойный рептилий выглядит довольным.",
+    "strDesc": "Когда [us] [approaches], спокойный рептилий выглядит довольным.",
     "strActionGroup": "Use",
     "strTooltip": "Та же крокодил-с бородой снова у решётки? Может, он хочет поиграть.",
     "bIgnoreFeelings": true,
@@ -9042,7 +9042,7 @@
   },
   {
     "strName": "PLOT_OKLGEmbassy_PreReadyTrigger",
-    "strTitle": "Триггер для готовности сюжета в Посольстве OKLG",
+    "strTitle": "Тригетод для готовности сюжета в Посольстве OKLG",
     "strDesc": "[us] [considers] свой законный статус и шансы получить выход с этой планеты.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -9134,7 +9134,7 @@
   {
     "strName": "SOCSeekVENCVisaLocalSponsor",
     "strTitle": "Искать поддержку визы у VENC",
-    "strDesc": "[us] спрашивает [them], будут ли [them-subj] поддерживать [us-pos] заявку на статус постоянного жителя в Encantado.",
+    "strDesc": "[us] [спрашивает] [them] whether [them-subj] would sponsor [us-pos] application for Permanent Resident status on Encantado.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -9175,7 +9175,7 @@
   {
     "strName": "SOCSeekVNCAVisaLocalSponsor",
     "strTitle": "Искать поддержку визы у VNCA",
-    "strDesc": "[us] спрашивает [them], будут ли [them-subj] поддерживать [us-pos] заявку на статус постоянного жителя в Newcal.",
+    "strDesc": "[us] [спрашивает] [them] если [them-subj] поддержит [us-pos] заявку на статус постоянного жителя в Newcal.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -9216,7 +9216,7 @@
   {
     "strName": "SOCSeekVENCVisaAuthoritySponsorOKLG",
     "strTitle": "Искать поддержку у властей у VENC",
-    "strDesc": "[us] спрашивает [them], будут ли [them-sub-ж] поддерживать [us-pos] заявку на статус постоянного жителя в Encantado.",
+    "strDesc": "[us] [спрашивает] [them] whether [them-subj] would sponsor [us-pos] application for Permanent Resident status on Encantado.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -9258,7 +9258,7 @@
   {
     "strName": "SOCSeekVNCAVisaAuthoritySponsorOKLG",
     "strTitle": "Искать поддержку у властей у VNCA",
-    "strDesc": "[us] спрашивает [them], будут ли [them-subj] поддерживать [us-pos] заявку на статус постоянного жителя в Newcal.",
+    "strDesc": "[us] [спрашивает] [them] whether [them-subj] would sponsor [us-pos] application for Permanent Resident status on Newcal.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -9299,8 +9299,8 @@
   },
   {
     "strName": "CargoKioskVENCPriceChangePermRes",
-    "strTitle": "Проверить улучшенные ставки для жителей",
-    "strDesc": "[them] повышает ставки для [us] на основе выгод постоянного жителя.",
+    "strTitle": "Проверка повышенных ставок для жителей",
+    "strDesc": "[them] повышает ставки для [us] на основе выгод, предоставляемых постоянным жителям.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9476,7 +9476,7 @@
   {
     "strName": "PLGAIChoicePanhandling_SolicitPlayerDo",
     "strTitle": "Просьба о деньгах",
-    "strDesc": "[us] может использовать деньги и просит у [them] 250 долларов.",
+    "strDesc": "[us] может использовать деньги и [asks] [them] за 250 долларов.",
     "strActionGroup": "Talk",
     "nLogging": 1,
     "bSocial": true,
@@ -9504,7 +9504,7 @@
   },
   {
     "strName": "PLOTChoicePanhandlingStartTriggerRequestAllow",
-    "strTitle": "Передать 250 долларов",
+    "strTitle": "Дать $250",
     "strDesc": "[us] совершает перевод средств на счет [them].",
     "strActionGroup": "Talk",
     "strTooltip": "Передать [them-obj] деньги. Что идёт, то и возвращается. Может быть, в следующий раз вы будете просить их. Жизнь космонавтов — тяжёлая повсюду.",
@@ -9528,7 +9528,7 @@
   },
   {
     "strName": "PLOTChoicePanhandlingStartTriggerRequestAllowSelfless",
-    "strTitle": "Передать 25 000 долларов",
+    "strTitle": "Дать $250",
     "strDesc": "[us] с радостью передаёт кредиты [them].",
     "strActionGroup": "Talk",
     "strTooltip": "Дай [them-obj] деньги. Жизнь трудная, и каждый человек заслуживает достоинства, не говоря уже о том, чтобы делиться едой, а не только тем, кто имеет экономическую ценность.",
@@ -9577,7 +9577,7 @@
   {
     "strName": "PLOTChoicePanhandlingStartTriggerRequestDeny",
     "strTitle": "Отказаться от $250",
-    "strDesc": "[us] [отказывается] давать [them] деньги.",
+    "strDesc": "[us] [refuses] to give [them] деньги.",
     "strActionGroup": "Talk",
     "strTooltip": "Безусловно, если не можешь позволить себе или не хочешь — отказывайся от денег.",
     "bIgnoreFeelings": true,
@@ -9600,7 +9600,7 @@
   {
     "strName": "PLOTChoicePanhandling_SolicitPlayerEnd",
     "strTitle": "Запрошено деньги",
-    "strDesc": "[us] [имеет] запрошено [them] деньги.",
+    "strDesc": "[us] [has] запрошено [them] деньги.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9713,7 +9713,7 @@
   {
     "strName": "PLOT_Lonesome_StartTrigger",
     "strTitle": "Триггер для начала сцены «Одинокость»",
-    "strDesc": "[us] начал думать о одиночестве.",
+    "strDesc": "[us] [has] начал думать о одиночестве.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9730,7 +9730,7 @@
   {
     "strName": "PLOT_Lonesome_Stage01Trigger",
     "strTitle": "Триггер для перехода к этапу 01 арки «Одинокость»",
-    "strDesc": "[us] начал думать о одиночестве.",
+    "strDesc": "[us] [has] начал думать о одиночестве.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9747,7 +9747,7 @@
   {
     "strName": "PLOT_Lonesome_Stage01EndTrigger",
     "strTitle": "Триггер для завершения этапа 01 арки «Одинокость»",
-    "strDesc": "Подходит для завершения арки «Одинокость».",
+    "strDesc": "Условие завершения арки «Одиночество».",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9765,7 +9765,7 @@
   {
     "strName": "PLOT_Lonesome_01a",
     "strTitle": "Желаю лучшей любовной жизни",
-    "strDesc": "[us] представляет себе лучшую любовную жизнь.",
+    "strDesc": "[us] [imagines] лучшую любовную жизнь.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.003,
@@ -9975,7 +9975,7 @@
   {
     "strName": "PLOT_Lonesome_Stage02EndTrigger",
     "strTitle": "Срабатывает для завершения бита этапа 02 арки «Одинокий»",
-    "strDesc": "Условие для завершения арки «Одинокий»",
+    "strDesc": "Условие завершения арки «Одиночество».",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0,
@@ -9992,7 +9992,7 @@
   {
     "strName": "PLOT_Lonesome_02a",
     "strTitle": "Разговаривать о любви",
-    "strDesc": "Рассматривает [них] как доверенного друга, [мы] откровенно делаем [наш] пожелания по улучшению жизни в любви.",
+    "strDesc": "Рассматривая [them] как доверенного друга, [we] [share] искренне о [us-pos] желании иметь более здоровую любовную жизнь.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bRandomInverse": true,
@@ -10066,7 +10066,7 @@
   {
     "strName": "PLOT_Lonesome_02b",
     "strTitle": "Раздражаться по поводу любви",
-    "strDesc": "[мы] раздражаемся [них] по поводу желания иметь более активную любовную жизнь.",
+    "strDesc": "[us] [rants] to [them] about craving a more active love life.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bRandomInverse": true,
@@ -10139,7 +10139,7 @@
   {
     "strName": "PLOT_Lonesome_02c",
     "strTitle": "Потреблять неприличные материалы",
-    "strDesc": "[мы] изучаем любые развлекательные материалы, которые [мы] можем найти на [них].",
+    "strDesc": "[us] [peruses] through whatever rousing media [us-subj] can find on [them].",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.003,
@@ -10160,7 +10160,7 @@
   {
     "strName": "PLOT_Lonesome_02d",
     "strTitle": "Жалеем их красоту",
-    "strDesc": "[мы] тихо горим от зависти к привлекательному внешнему виду [них].",
+    "strDesc": "[us] тихо горит от зависти к [them-pos] привлекательному внешнему виду.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.001,
@@ -10182,7 +10182,7 @@
   {
     "strName": "PLOT_Lonesome_02e",
     "strTitle": "Жалеем их общительность",
-    "strDesc": "[мы] желаем, чтобы [мы] были столь же общительными, как [они]. [они] должны проводить много встреч.",
+    "strDesc": "[us] [wishes] [us-subj] были столь же общительными, как [them]. [them-subj] должны проводить много встреч.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.001,
@@ -10204,7 +10204,7 @@
   {
     "strName": "PLOT_Lonesome_02f",
     "strTitle": "Посмотреть на них",
-    "strDesc": "[мы] открыто смотрим на [них].",
+    "strDesc": "[us] openly [checks] [them] out.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.001,
@@ -10227,7 +10227,7 @@
   {
     "strName": "PLOT_Lonesome_02g",
     "strTitle": "Спрашивать, свободны ли они",
-    "strDesc": "[мы] спрашиваем [них] о их любовной жизни.",
+    "strDesc": "[us] [asks] [them] about [them-pos] любовную жизнь.",
     "strActionGroup": "Talk",
     "aInverse": [
       "PLOT_Lonesome_02gReplyPartner",
@@ -10254,8 +10254,8 @@
   },
   {
     "strName": "PLOT_Lonesome_02gReplyPartner",
-    "strTitle": "Разговаривать о партнёре в цикле",
-    "strDesc": "[мы] рассказываем [ним] о нашем партнёре в цикле [3-го лица].",
+    "strTitle": "Разговор о Loopmate",
+    "strDesc": "[us] [is] рассказывает [им] о [us-pos] loopmate [3rd].",
     "strActionGroup": "Talk",
     "bSocial": true,
     "aInverse": [
@@ -10333,7 +10333,7 @@
   {
     "strName": "PLOT_Lonesome_02gReplyLoverMore",
     "strTitle": "Разговор о Crush",
-    "strDesc": "[us] [elaborates] к [them] о [us-pos] crush [",
+    "strDesc": "[us] [elaborates] к [them] о [us-pos] crush [3rd]",
     "strActionGroup": "Talk",
     "bSocial": true,
     "aInverse": [
@@ -10791,7 +10791,7 @@
   {
     "strName": "Plot_NewOKLGFixer_SolicitPlayerDo01AskAbout3rd",
     "strTitle": "Спросить, как контакт может помочь",
-    "strDesc": "[us] [asks] [them] как [3rd] должен помочь в вопросе ухода их общего друга.",
+    "strDesc": "[us] [asks] [them] как [3rd] [is] должен помочь в вопросе ухода их общего друга.",
     "strActionGroup": "Talk",
     "nLogging": 1,
     "bSocial": true,
@@ -10924,7 +10924,7 @@
   {
     "strName": "PLOT_NewOKLGFixer_TalkToFixerNewReply",
     "strTitle": "Обсуждение роли Фиксера",
-    "strDesc": "[us] слушает [them], спрашивает о [3-е], затем [agrees] взять на себя рискованную роль посредника в подполье К-Лега. [us-subj] будет организовывать путь к Мескаформу.",
+    "strDesc": "[us] слушает [them], спрашивает о [3rd], затем [agrees] взять на себя рискованную роль посредника в подполье К-Лега. [us-subj] будет организовывать путь к Мескаформу.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11018,8 +11018,8 @@
   },
   {
     "strName": "PLOT_ScavFetch_Offer",
-    "strTitle": "Спросить о потребностях в исследовательском проекте",
-    "strDesc": "[us] [asks] [them] о том, какую помощь [them-subj] [needs] для [them-pos] проекта по инженерным исследованиям.",
+    "strTitle": "Спросить о потребностях исследовательского проекта",
+    "strDesc": "[us] [запрашивает] [им] о том, что [them-subj] [нуждается] в помощи для [them-pos] проекта по инженерным исследованиям.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11040,7 +11040,7 @@
   },
   {
     "strName": "PLOT_ScavFetch_OfferReply",
-    "strTitle": "Предложить",
+    "strTitle": "Предложение",
     "strDesc": "[us] описывает [them] свою потребность в сотрудничестве с независимым скавером, не подчиняющимся контролю Айотимиwy.\nОни [is] готовы заплатить хорошие деньги за 20 штук отработанного углеродного волокна.",
     "strActionGroup": "Talk",
     "aInverse": [],
@@ -11059,7 +11059,7 @@
   },
   {
     "strName": "PLOT_ScavFetch_OfferTrigger",
-    "strTitle": "Триггер бита предложения Скава Фетч",
+    "strTitle": "Триггер для бита предложения ScavFetch",
     "strDesc": "[us] должен принести [them] 20 штук отработанного углеродного волокна.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -11126,7 +11126,7 @@
   },
   {
     "strName": "PLOT_ScavFetch_DeliverReply",
-    "strTitle": "Благодарность",
+    "strTitle": "Спасибо",
     "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
@@ -11145,7 +11145,7 @@
   },
   {
     "strName": "PLOT_ScavFetch_DeliverFail",
-    "strTitle": "Не хватает предметов",
+    "strTitle": "Недостаточно предметов",
     "strDesc": "Не удалось выполнить задачу: [us] [is] не несёт 20 штук отработанного углеродного волокна.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -11166,8 +11166,8 @@
   },
   {
     "strName": "PLOT_ScavFetch_DeliverReplyFail",
-    "strTitle": "Принимайте свой собственный темп",
-    "strDesc": "[us] [обещает] [им] [им-подлежащее], что [они-подлежащее] могут потратить [они-предложении] время. [мы-подлежащее] подождём.",
+    "strTitle": "Принимайте свой срок",
+    "strDesc": "[us] [assures] [them] [them-subj] могут взять [them-pos] время. [us-subj] будет ждать.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11184,8 +11184,8 @@
   },
   {
     "strName": "PLOT_ScavFetch_DeliverTrigger",
-    "strTitle": "Срабатывает триггер доставки ScavFetch Deliver Beat",
-    "strDesc": "[us] выполнил то, что [them] хотел. Возможно, [us-подлежащее] в будущем найдёт ещё что-то.",
+    "strTitle": "Триггер доставки ScavFetch",
+    "strDesc": "[us] выполнил то, что [them] хотели. Возможно, [us-subj] в будущем будет искать ещё больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11218,7 +11218,7 @@
   {
     "strName": "PLOT_ScavFetch02_StartTrigger",
     "strTitle": "Продолжение сценария Scav Fetch Plot Continued Start Beat",
-    "strDesc": "[them] [предупреждает] [us], что [them-подлежащее] может потребовать больше помощи в [them-предложении] проекте по исследованию инженерии. Спросите [them-предмет] об этом для получения дополнительной информации.",
+    "strDesc": "[them] [alerts] [us] that [them-subj] could use more help with [them-pos] проект по инженерным исследованиям. Спросите у [them-obj] об этом для получения дополнительной информации.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11237,8 +11237,8 @@
   },
   {
     "strName": "PLOT_ScavFetch02_Offer",
-    "strTitle": "Спросить о потребностях в проекте исследований",
-    "strDesc": "[us] [спрашивает] [them] о помощи, которую [them-подлежащее] [нуждает] в [them-предложении] проекте по исследованию инженерии.",
+    "strTitle": "Спросить о потребностях исследовательского проекта",
+    "strDesc": "[us] [запрашивает] [им] о том, что [them-subj] [нуждается] в помощи для [them-pos] проекта по инженерным исследованиям.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11260,7 +11260,7 @@
   {
     "strName": "PLOT_ScavFetch02_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [благодарит] [them] за [them-предложении] предыдущую помощь и [повторяет] [us-предложении] необходимость независимого партнёра, хорошо знающего корабли.\nОни [is] готовы заплатить 10 000 долларов за четыре неповреждённых регулятора ввода RCS Kang.",
+    "strDesc": "[us] [thanks] [them] за [them-pos] предыдущую помощь и [reiterates] [us-pos] необходимость независимого партнёра, хорошо знающего корабли.\nОни [is] готовы заплатить 10 000 долларов за четыре неповреждённых регулятора ввода RCS Kang.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11278,7 +11278,7 @@
   },
   {
     "strName": "PLOT_ScavFetch02_OfferTrigger",
-    "strTitle": "Срабатывает триггер предложения ScavFetch Offer Beat",
+    "strTitle": "Триггер для бита предложения ScavFetch",
     "strDesc": "[us] должен принести [them] 4 регулятора ввода RCS Kang.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -11296,7 +11296,7 @@
   {
     "strName": "PLOT_ScavFetch02_Deliver",
     "strTitle": "Доставить регулятор ввода RCS Kang",
-    "strDesc": "[us] [дает] [them] регулятор ввода RCS Kang.",
+    "strDesc": "[us] [gives] [them] регулятор ввода RCS Kang.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11322,7 +11322,7 @@
   {
     "strName": "PLOT_ScavFetch02_DeliverAllow01",
     "strTitle": "Доставить регулятор ввода RCS Kang (1/4)",
-    "strDesc": "[us] [дает] [them] регулятор ввода RCS Kang (1/4).",
+    "strDesc": "[us] [дает] [им] регулятор всасывания Kang (1/4).",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11346,7 +11346,7 @@
   {
     "strName": "PLOT_ScavFetch02_DeliverAllow02",
     "strTitle": "Доставить регуойтор ввода RCS Kang (2/4)",
-    "strDesc": "[us] [дает] [them] ещё один регулятор ввода RCS Kang (2/4).",
+    "strDesc": "[us] [дает] [им] еще один регулятор всасывания (Kang, 2/4)",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11370,7 +11370,7 @@
   {
     "strName": "PLOT_ScavFetch02_DeliverAllow03",
     "strTitle": "Доставить регулятор ввода RCS Kang (3/4)",
-    "strDesc": "[us] [дает] [им] еще один регулятор ввода Kang (3/4)",
+    "strDesc": "[us] [gives] [them] another Kang-brand RCS Intake Regulator (3/4)",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11394,7 +11394,7 @@
   {
     "strName": "PLOT_ScavFetch02_DeliverAllowLast",
     "strTitle": "Доставка регулятора ввода Kang (4/4)",
-    "strDesc": "[us] [дает] [им] последний регулятор ввода Kang-бренда (4/ 4)",
+    "strDesc": "[us] [дает] [им] конечный регулятор всасывания Канга (4/4).",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11420,7 +11420,7 @@
   {
     "strName": "PLOT_ScavFetch02_DeliverReply",
     "strTitle": "Спасибо",
-    "strDesc": "[us] [принимает] доставку и завершает сделку",
+    "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11439,8 +11439,8 @@
   },
   {
     "strName": "PLOT_ScavFetch02_DeliverFail",
-    "strTitle": "Отсутствуют предметы",
-    "strDesc": "Не удалось выполнить задачу: [us] [не несёт] исправный регулятор ввода Kang-бренда.",
+    "strTitle": "Не хватает предметов",
+    "strDesc": "Не удалось выполнить задачу: [us] [is] не несёт исправный регулятор ввода Kang-бренда.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11460,8 +11460,8 @@
   },
   {
     "strName": "PLOT_ScavFetch02_DeliverReplyFail",
-    "strTitle": "Берите свой ритм",
-    "strDesc": "[us] убеждает [них], что [они] могут взять [себе] время. [us] довольны тем, что работает над другими проектами, пока [us] ждёт.",
+    "strTitle": "Принимайте свой срок",
+    "strDesc": "[us] [обещает] [им], что [them-subj] могут взять [them-pos] время. [us-subj] [is] удовлетворён тем, что работает над другими проектами, пока [us-subj] [ждёт].",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11478,8 +11478,8 @@
   },
   {
     "strName": "PLOT_ScavFetch02_DeliverTrigger",
-    "strTitle": "Триггер для бита доставки ScavFetch",
-    "strDesc": "[us] выполнил то, что [они] хотели. Возможно, [us] в будущем будет искать ещё больше.",
+    "strTitle": "Триггер доставки ScavFetch",
+    "strDesc": "[us] выполнил то, что [them] хотели. Возможно, [us-subj] в будущем будет искать ещё больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11497,7 +11497,7 @@
   {
     "strName": "PLOT_ScavFetch03_StartTrigger",
     "strTitle": "Продолжение бита Scav Fetch",
-    "strDesc": "[они] [предупреждают] [us], что у [них] есть ещё одна задача, которая поможет в исследовательском проекте. Спросите [них] об этом для получения дополнительной информации.",
+    "strDesc": "[им] [предупреждает] [us], что [them-subj] имеют ещё одну задачу, которая поможет [them-pos] проекту по исследованию. Запросите [them-obj] об этом для получения дополнительной информации.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11517,7 +11517,7 @@
   {
     "strName": "PLOT_ScavFetch03_Offer",
     "strTitle": "Спросить о потребностях исследовательского проекта",
-    "strDesc": "[us] [спрашивает] [них], что помощи [они] [нуждаются] для [их] исследовательского проекта.",
+    "strDesc": "[us] [спрашивает] [them] что помощи [them-subj] [нуждается] для [them-pos] исследовательского проекта.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11539,7 +11539,7 @@
   {
     "strName": "PLOT_ScavFetch03_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [благодарит] [них] сердечно за предыдущую помощь. Сейчас они ищут редкий предмет, который всё ещё работает.\nОни готовы заплатить 40 000 долларов за исправный регулятор ввода Miura-бренда.",
+    "strDesc": "[us] [thanks] [them] warmly for [them-pos] previous assistance. This time, they're seeking a rare piece that is still in working order. They [is] willing to pay $40,000 for an intact Miura-brand RCS Intake Regulator.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11558,7 +11558,7 @@
   {
     "strName": "PLOT_ScavFetch03_OfferTrigger",
     "strTitle": "Триггер для бита предложения ScavFetch",
-    "strDesc": "[us] должен принести [ним] регулятор ввода Miura-бренда.",
+    "strDesc": "[us] должен принести [them] регулятор ввода Miura-бренда.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11574,8 +11574,8 @@
   },
   {
     "strName": "PLOT_ScavFetch03_Deliver",
-    "strTitle": "Доставить регулятор ввода Miura",
-    "strDesc": "[us] [дает] [им] регулятор ввода Miura.",
+    "strTitle": "Доставить регулятор ввода Miura RCS",
+    "strDesc": "[us] [дает] [им] регулятор всасывания Miura",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11598,7 +11598,7 @@
   {
     "strName": "PLOT_ScavFetch03_DeliverAllow",
     "strTitle": "Доставить регулятор ввода Miura RCS",
-    "strDesc": "[us] [дает] [им] регулятор ввода Miura.",
+    "strDesc": "[us] [дает] [им] регулятор всасывания Miura",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11624,7 +11624,7 @@
   {
     "strName": "PLOT_ScavFetch03_DeliverReply",
     "strTitle": "Спасибо",
-    "strDesc": "[us] [принимает] доставку и завершает сделку.",
+    "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11643,7 +11643,7 @@
   {
     "strName": "PLOT_ScavFetch03_DeliverFail",
     "strTitle": "Отсутствует предмет",
-    "strDesc": "Не удалось выполнить задачу: [us] [не] несёт исправный регулятор ввода Miura.",
+    "strDesc": "Не удалось выполнить задачу: [us] [is] не несёт исправный регулятор ввода Miura.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11664,7 +11664,7 @@
   {
     "strName": "PLOT_ScavFetch03_DeliverReplyFail",
     "strTitle": "Принимайте свой срок",
-    "strDesc": "[us] убеждает [них], что [они] могут взять [себя] время. [us] продолжает работать над другими проектами, пока [us] ждёт.",
+    "strDesc": "[us] успокаивает [them] — [them-subj] могут взять [them-pos] время. [us-subj] всё ещё работает над другими проектами, пока [us-subj] [is] ждёт.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11682,7 +11682,7 @@
   {
     "strName": "PLOT_ScavFetch03_DeliverTrigger",
     "strTitle": "Триггер доставки ScavFetch",
-    "strDesc": "[us] выполнил то, что [они] хотели. Возможно, [они] в будущем будут искать ещё больше.",
+    "strDesc": "[us] delivered what [them] wanted. Perhaps [them-subj] will seek more in the future.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11699,7 +11699,7 @@
   },
   {
     "strName": "PLOT_VLAFetch_PreStartTrigger",
-    "strTitle": "Триггер начала поиска VLA",
+    "strTitle": "Срабатывает триггер начала бита поиска VLA",
     "strDesc": "Находит цель для поиска VLA.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -11721,7 +11721,7 @@
   {
     "strName": "PLGAI_VLAFetch_SolicitPlayerDo",
     "strTitle": "Предлагает выгодную работу",
-    "strDesc": "[us] [говорит], что [они] имеют новое лицо, и [спрашивает], хотят ли они заработать от $10 000 до $100 000, просто перемещая вещи на Венере.",
+    "strDesc": "[us] [says] [them] [has] новое лицо, и [asks] если они хотят заработать от $10 000 до $100 000, просто перемещая вещи вокруг Венеры.",
     "strActionGroup": "Talk",
     "nLogging": 1,
     "bSocial": true,
@@ -11749,7 +11749,7 @@
   {
     "strName": "PLOT_VLAFetchStartTriggerRequestDeny",
     "strTitle": "Отказ от интереса к заработку денег",
-    "strDesc": "[us] [говорит] [ним], что [они] не заинтересованы в заработке денег в данный момент.",
+    "strDesc": "[us] [tells] [them] [us-subj] не интересуются заработком в этот момент.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11771,7 +11771,7 @@
   {
     "strName": "PLOT_VLAFetchStartTriggerRequestDenyReply",
     "strTitle": "Принимайте свой срок",
-    "strDesc": "[us] [обещает] [ним], что [они] могут взять [себя] время. [us] будет ждать. Вернитесь и найдите [us] позже.",
+    "strDesc": "[us] [assures] [them] [them-subj] могут взять [them-pos] время. [us-subj] будет ждать. Вернитесь и найдёте [us-obj] позже.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11790,7 +11790,7 @@
   {
     "strName": "PLOT_VLAFetch_SolicitPlayerEnd",
     "strTitle": "Запрошены работы в VLA",
-    "strDesc": "[us] [запрашивает] [them] на выполнение работ по транспортировке VLA.",
+    "strDesc": "[us] [has] solicited [them] для выполнения работ по транспортировке VLA.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11805,7 +11805,7 @@
   {
     "strName": "PLOT_VLAFetch_StartTrigger",
     "strTitle": "Срабатывает триггер начала бита поиска VLA",
-    "strDesc": "[them] [распространяется] к [us], ищет помощь в высокооплачиваемом инженерном проекте среди аэростатов Венеры. Попросите [them-obj] об этом для получения дополнительной информации.",
+    "strDesc": "[them] [reaches] out to [us], seeking help with a highly lucrative engineering project among the Venus aerostats. Ask [them-obj] about it for further details.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11827,8 +11827,8 @@
   },
   {
     "strName": "PLOT_VLAFetch_Offer",
-    "strTitle": "Попросить о заработке",
-    "strDesc": "[us] [спрашивает] [them], как [us-subj] может зарабатывать деньги, перемещая предметы по Венере.",
+    "strTitle": "Спросить о заработке денег",
+    "strDesc": "[us] [asks] [them], как [us-subj] может зарабатывать деньги, перемещая предметы по Венере.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11851,7 +11851,7 @@
   {
     "strName": "PLOT_VLAFetch_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [спрашивает] [them], были ли они в запрещённой зоне района Лос-Анджелеса? Там всё ещё строится, используя технологии, которые были обещаны, но не переданы старым аэростатным колониям.\n[us] представляет клиентов Encantado и Cloudbreak, готовых заплатить 2-0 000 долларов за ключевые проприетарные строительные материалы. В настоящее время это означает 20 единиц отработанного пластика Caylon, найденного при демонтаже аэродинамических стен или оболочек аэростатов.",
+    "strDesc": "[us] спрашивает [them], посетили ли они запрещённый район Лос-Анджелеса? Он всё ещё строится, используя технологии, которые обещались, но не были переданы, старым аэростатным колониям.\n[us] представляет клиентов Encantado и Cloudbreak, готовых платить 20 000 долларов за ключевые проприетарные строительные материалы. В настоящее время это означает 20 единиц отходного кайлона, найденных при демонтаже аэродинамических стен или оболочек аэростатов.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11870,7 +11870,7 @@
   },
   {
     "strName": "PLOT_VLAFetch_OfferTrigger",
-    "strTitle": "Срабатывает триггер начала бита предложения VLA",
+    "strTitle": "Триггер для получения предложения VLAFetch Offer Beat",
     "strDesc": "[us] должен принести [them] 20 единиц отработанного пластика Caylon.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -11912,7 +11912,7 @@
   {
     "strName": "PLOT_VLAFetch_DeliverAllow",
     "strTitle": "Доставить 20 пластика Caylon",
-    "strDesc": "[us] [передаёт] [them] 20 единиц отработанного пластика Caylon.",
+    "strDesc": "[us] [дает] [им] 20 отходов пластиковых Кейлонов.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11939,7 +11939,7 @@
   {
     "strName": "PLOT_VLAFetch_DeliverReply",
     "strTitle": "Спасибо",
-    "strDesc": "[us] [принимает] доставку и совершает сделку.",
+    "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -11958,7 +11958,7 @@
   {
     "strName": "PLOT_VLAFetch_DeliverFail",
     "strTitle": "Недостаточно предметов",
-    "strDesc": "Не удалось выполнить задачу: [us] [не] несёт 20 единиц отработанного пластика Caylon.",
+    "strDesc": "Не удалось выполнить задачу: [us] [is] не несёт 20 единиц отработанного пластика Caylon.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -11979,7 +11979,7 @@
   {
     "strName": "PLOT_VLAFetch_DeliverFailCombat",
     "strTitle": "Занято прямо сейчас",
-    "strDesc": "[them] [заняты] в бою прямо сейчас. Подождите, пока [them-subj] [будет] в безопасности.",
+    "strDesc": "[them] [is] заняты в бою прямо сейчас. Подождите, пока [them-subj] [is] в безопасности.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -11997,8 +11997,8 @@
   },
   {
     "strName": "PLOT_VLAFetch_DeliverReplyFail",
-    "strTitle": "Принимайте своё время",
-    "strDesc": "[us] [обещает] [им] [им-подлежащее], что [им-подлежащее] могут взять [им-предложное] время. [us-подлежащее] будет ждать.",
+    "strTitle": "Принимайте свой срок",
+    "strDesc": "[us] [assures] [them] [them-subj] могут взять [them-pos] время. [us-subj] будет ждать.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12015,8 +12015,8 @@
   },
   {
     "strName": "PLOT_VLAFetch_DeliverTrigger",
-    "strTitle": "Срабатывает триггер для получения VLAFetch и передачи бита",
-    "strDesc": "[us] выполнил то, что [them] хотел. Возможно, [us-подлежащее] в будущем будет искать что-то ещё.",
+    "strTitle": "Триггер для получения данных дрона VLAFetch",
+    "strDesc": "[us] выполнил то, что [them] хотели. Возможно, [us-subj] в будущем будет искать ещё больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12048,8 +12048,8 @@
   },
   {
     "strName": "PLOT_VLAFetch02_StartTrigger",
-    "strTitle": "Срабатывает триггер для начала сценария получения VLA Fetch 02",
-    "strDesc": "[them] [предупреждает] [us], что [them-подлежащее] имеют больше работы по перемещению частей вокруг Венеры. Спросите [them-предмет] об этом для получения дополнительной информации.",
+    "strTitle": "Триггер для запуска поиска VLA Fetch Plot 02",
+    "strDesc": "[them] [alerts] [us] that [them-subj] have more work moving parts around Venus. Ask [them-obj] about it for further details.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -12069,7 +12069,7 @@
   {
     "strName": "PLOT_VLAFetch02_Offer",
     "strTitle": "Спросить о заработке денег",
-    "strDesc": "[us] [спрашивает] [them] о помощи, которую [them-подлежащее] [нуждает] при перемещении частей.",
+    "strDesc": "[us] спрашивает [them], что нужно [them-subj] для движущих частей.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12091,7 +12091,7 @@
   {
     "strName": "PLOT_VLAFetch02_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [благодарит] [them] за предыдущую помощь и тайну.\nОни [is] готовы заплатить 10 000 долларов за неповреждённую аэродинамическую наклонную стенку (либо 1x3, 1x2 или 1x1) из зоны строительства в LA.",
+    "strDesc": "[us] [thanks] [them] за предыдущую помощь и тайну.\nОни [is] готовы заплатить 10 000 долларов за неповреждённую аэродинамическую наклонную стенку (либо 1x3, 1x2 или 1x1) из зоны строительства в LA.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12109,7 +12109,7 @@
   },
   {
     "strName": "PLOT_VLAFetch02_OfferTrigger",
-    "strTitle": "Срабатывает триггер для предложения получения VLAFetch",
+    "strTitle": "Триггер для получения предложения VLAFetch Offer Beat",
     "strDesc": "[us] должен принести [them] аэродинамическую наклонную стенку.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -12126,8 +12126,8 @@
   },
   {
     "strName": "PLOT_VLAFetch02_Deliver",
-    "strTitle": "Доставить аэродинамическую наклонную стенку",
-    "strDesc": "[us] [дает] [them] аэродинамическую наклонную стенку.",
+    "strTitle": "Доставить аэродинамическую стену под углом",
+    "strDesc": "[us] [дает] [им] стену с аэродинамическим наклоном.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12151,7 +12151,7 @@
   {
     "strName": "PLOT_VLAFetch02_DeliverAllow01",
     "strTitle": "Доставить наклонную стенку 1x3 (1/4)",
-    "strDesc": "[us] [дает] [them] наклонную стенку 1x3 (1/4).",
+    "strDesc": "[us] [дает] [им] наклонную стену 1x3 (1/4).",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12175,7 +12175,7 @@
   {
     "strName": "PLOT_VLAFetch02_DeliverAllow02",
     "strTitle": "Доставить наклонную стенку 1-го размера 1x3 (2/4)",
-    "strDesc": "[us] [дает] [them] ещё одну наклонную стенку 1x3 (2/4).",
+    "strDesc": "[us] [gives] [them] ещё одну наклонную стенку 1x3 (2/4).",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12199,7 +12199,7 @@
   {
     "strName": "PLOT_VLAFetch02_DeliverAllow03",
     "strTitle": "Доставить наклонную стенку 1x3 (3/4)",
-    "strDesc": "[us] [дает] [им] еще одну стену 1x3 под углом (3/4).",
+    "strDesc": "[us] [дает] [им] еще одну наклонную стену 1x3 (3/4).",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12223,7 +12223,7 @@
   {
     "strName": "PLOT_VLAFetch02_DeliverAllowLast",
     "strTitle": "Доставить аэродинамическую стену под углом",
-    "strDesc": "[us] [дает] [им] аэродинамическую стену под углом.",
+    "strDesc": "[us] [дает] [им] стену с аэродинамическим наклоном.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12249,7 +12249,7 @@
   {
     "strName": "PLOT_VLAFetch02_DeliverReply",
     "strTitle": "Спасибо",
-    "strDesc": "[us] [принимает] доставку и совершает сделку.",
+    "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12269,7 +12269,7 @@
   {
     "strName": "PLOT_VLAFetch02_DeliverFail",
     "strTitle": "Не хватает предметов",
-    "strDesc": "Не можем доставить: [us] [не] несёт исправную аэродинамическую стену под углом.",
+    "strDesc": "Не можем доставить: [us] [is] не несёт исправную аэродинамическую стену под углом.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12289,8 +12289,8 @@
   },
   {
     "strName": "PLOT_VLAFetch02_DeliverReplyFail",
-    "strTitle": "Берите свой ритм",
-    "strDesc": "[us] убеждает [них], что [они] могут взять столько времени, сколько нужно. [us] довольны тем, что работают над другими проектами, пока ждут.",
+    "strTitle": "Принимайте свой срок",
+    "strDesc": "[us] успокаивает [them] — [them-subj] могут взять [them-pos] время. [us-subj] [is] довольствуется работой над другими проектами, пока [us-subj] ждёт.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12307,8 +12307,8 @@
   },
   {
     "strName": "PLOT_VLAFetch02_DeliverTrigger",
-    "strTitle": "Триггер для получения доставки VLAFetch Deliver Beat",
-    "strDesc": "[us] выполнил то, что [они] хотели. Возможно, [us] в будущем будет искать ещё больше.",
+    "strTitle": "Триггер для получения данных дрона VLAFetch",
+    "strDesc": "[us] выполнил то, что [them] хотели. Возможно, [us-subj] в будущем будет искать ещё больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12326,7 +12326,7 @@
   {
     "strName": "PLOT_VLAFetch03_StartTrigger",
     "strTitle": "Триггер для запуска VLA Fetch Plot 03",
-    "strDesc": "[они] [предупреждают] [us], что у [них] есть ещё одну выгодную задачу по перевозке на Венере. Спросите [них] об этом для получения подробностей.",
+    "strDesc": "[them] [alerts] [us] that [them-subj] have another lucrative hauling task on Venus. Ask [them-obj] about it for further details.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -12346,7 +12346,7 @@
   {
     "strName": "PLOT_VLAFetch03_Offer",
     "strTitle": "Спросить о перевозке за деньги",
-    "strDesc": "[us] [спрашивает] [них], что [они] [нуждаются] в перевозке.",
+    "strDesc": "[us] [asks] [them] what [them-subj] [needs] hauled.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12368,7 +12368,7 @@
   {
     "strName": "PLOT_VLAFetch03_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [благодарит] [них] искренне за предыдущую помощь. Сейчас они ищут ценную деталь, которая всё ещё работает.\nОни готовы заплатить 100 000 долларов за исправный рабочий стабилизатор.",
+    "strDesc": "[us] [thanks] [them] warmly for [them-pos] previous assistance. This time, they're seeking a valuable piece that is still in working order. They [is] willing to pay $100,000 for an intact active stabilizer.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12387,7 +12387,7 @@
   {
     "strName": "PLOT_VLAFetch03_OfferTrigger",
     "strTitle": "Триггер для получения предложения VLAFetch Offer Beat",
-    "strDesc": "[us] должен принести [ним] рабочий стабилизатор.",
+    "strDesc": "[us] должен принести [them] рабочий стабилизатор.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -12403,8 +12403,8 @@
   },
   {
     "strName": "PLOT_VLAFetch03_Deliver",
-    "strTitle": "Доставить рабочий стабилизатор",
-    "strDesc": "[us] [дает] [им] активный стабилизатор.",
+    "strTitle": "Доставить активный стабилизатор",
+    "strDesc": "[us] [gives] [them] активный стабилизатор.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12428,7 +12428,7 @@
   {
     "strName": "PLOT_VLAFetch03_DeliverAllow",
     "strTitle": "Доставить активный стабилизатор",
-    "strDesc": "[us] [дает] [им] активный стабилизатор.",
+    "strDesc": "[us] [gives] [them] активный стабилизатор.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12454,7 +12454,7 @@
   {
     "strName": "PLOT_VLAFetch03_DeliverReply",
     "strTitle": "Спасибо",
-    "strDesc": "[us] [принимает] доставку и завершает сделку.",
+    "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12473,7 +12473,7 @@
   {
     "strName": "PLOT_VLAFetch03_DeliverFail",
     "strTitle": "Отсутствует предмет",
-    "strDesc": "Не удалось выполнить задачу: [us] [не] несёт активный стабилизатор.",
+    "strDesc": "Не удалось выполнить задачу: [us] [is] не несёт активный стабилизатор.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12493,8 +12493,8 @@
   },
   {
     "strName": "PLOT_VLAFetch03_DeliverReplyFail",
-    "strTitle": "Берите свой ритм",
-    "strDesc": "[us] успокаивает [них], [они] могут взять [им] время. [us] всё ещё работает над другими проектами, пока [они] ждут.",
+    "strTitle": "Принимайте свой срок",
+    "strDesc": "[us] успокаивает [them] — [them-subj] могут взять [them-pos] время. [us-subj] всё ещё работает над другими проектами, пока [us-subj] ждёт.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12511,8 +12511,8 @@
   },
   {
     "strName": "PLOT_VLAFetch03_DeliverTrigger",
-    "strTitle": "Триггер для получения доставки VLAFetch Deliver Beat",
-    "strDesc": "[us] выполнил то, что [они] хотели. Возможно, [us] в будущем будет искать ещё что-то.",
+    "strTitle": "Триггер для получения данных дрона VLAFetch",
+    "strDesc": "[us] выполнил то, что [them] хотели. Возможно, [us-subj] в будущем будет искать ещё больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12530,7 +12530,7 @@
   {
     "strName": "PLOT_VLAFetch04_StartTrigger",
     "strTitle": "Триггер для запуска поиска VLA Fetch Plot 04",
-    "strDesc": "[они] [предупреждают] [us], что у [них] есть ещё одну выгодную задачу по перевозке на Венере. Спросите [них] об этом для получения дополнительной информации.",
+    "strDesc": "[them] [alerts] [us] that [them-subj] have another lucrative hauling task on Venus. Ask [them-obj] about it for further details.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -12550,7 +12550,7 @@
   {
     "strName": "PLOT_VLAFetch04_Offer",
     "strTitle": "Спросить о перевозке за деньги",
-    "strDesc": "[us] [спрашивает] [них], что [они] [нуждаются] в перевозке.",
+    "strDesc": "[us] [asks] [them] what [them-subj] [needs] hauled.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12572,7 +12572,7 @@
   {
     "strName": "PLOT_VLAFetch04_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [благодарит] [них] искренне за предыдущую помощь. Сейчас они ищут ценную деталь, которая всё ещё работает.\nОни готовы заплатить 75 000 долларов за исправный тяговый ротор.",
+    "strDesc": "[us] [thanks] [them] warmly for [them-pos] previous assistance. This time, they're seeking a valuable piece that is still in working order.\nThey [is] willing to pay $75,000 for an intact heavy lift rotor.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12591,7 +12591,7 @@
   {
     "strName": "PLOT_VLAFetch04_OfferTrigger",
     "strTitle": "Триггер для получения предложения VLAFetch Offer Beat",
-    "strDesc": "[us] должен принести [ним] тяговой ротор.",
+    "strDesc": "[us] должен принести [them] тяговой ротор.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -12607,7 +12607,7 @@
   },
   {
     "strName": "PLOT_VLAFetch04_Deliver",
-    "strTitle": "Доставить тяговой ротор",
+    "strTitle": "Доставить тяжелый подъемный ротор",
     "strDesc": "[us] [дает] [им] тяжелый подъемный ротор.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -12658,7 +12658,7 @@
   {
     "strName": "PLOT_VLAFetch04_DeliverReply",
     "strTitle": "Спасибо",
-    "strDesc": "[us] [принимает] доставку и завершает сделку.",
+    "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12677,7 +12677,7 @@
   {
     "strName": "PLOT_VLAFetch04_DeliverFail",
     "strTitle": "Отсутствует предмет",
-    "strDesc": "Невозможно выполнить задачу: [us] [не несёт] тяжелый подъемный ротор.",
+    "strDesc": "Невозможно выполнить задачу: [us] [is] не несёт тяжелый подъемный ротор.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12697,8 +12697,8 @@
   },
   {
     "strName": "PLOT_VLAFetch04_DeliverReplyFail",
-    "strTitle": "Берите свой собственный темп",
-    "strDesc": "[us] убеждает [них], что [них-подлежащее] могут взять [них-предложении] время. [us-подлежащее] всё ещё работает над другими проектами, пока [us-подлежащее] ждёт.",
+    "strTitle": "Принимайте свой срок",
+    "strDesc": "[us] успокаивает [them] — [them-subj] могут взять [them-pos] время. [us-subj] всё ещё работает над другими проектами, пока [us-subj] ждёт.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12715,8 +12715,8 @@
   },
   {
     "strName": "PLOT_VLAFetch04_DeliverTrigger",
-    "strTitle": "Триггер для получения доставки VLAFetch Deliver Beat",
-    "strDesc": "[us] доставил то, что [них] хотели. Возможно, [us-подлежащее] в будущем будет искать ещё больше.",
+    "strTitle": "Триггер для получения данных дрона VLAFetch",
+    "strDesc": "[us] выполнил то, что [them] хотели. Возможно, [us-subj] в будущем будет искать ещё больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12734,7 +12734,7 @@
   {
     "strName": "PLOT_VLAFetch05_StartTrigger",
     "strTitle": "Триггер для запуска поиска VLA Fetch Plot 02",
-    "strDesc": "[них] [предупреждают] [us], что [них-подлежащее] имеют больше работы по сбору частей вокруг Венеры. Спросите [них-предмет] об этом для получения дополнительной информации.",
+    "strDesc": "[them] [is] уведомляет [us], что [them-subj] [has] больше работы по сбору частей вокруг Венеры. Спросите [them-obj] об этом для получения дополнительной информации.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -12754,7 +12754,7 @@
   {
     "strName": "PLOT_VLAFetch05_Offer",
     "strTitle": "Спросить о перевозке за деньги",
-    "strDesc": "[us] [спрашивает] [них] о том, какие части [них-подлежащее] [нуждаются] в сборе.",
+    "strDesc": "[us] [asks] [them] what parts [them-subj] [needs] collected.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12776,7 +12776,7 @@
   {
     "strName": "PLOT_VLAFetch05_OfferReply",
     "strTitle": "Предложение",
-    "strDesc": "[us] [благодарит] [них] за предыдущую помощь и тщательность.\nОни [готовы] заплатить 15 000 долларов за один файл данных операционной системы дронов Бейдата, найденный в процессе строительства или при работе инспекторов в зоне строительства в LA. Будьте осторожны!",
+    "strDesc": "[us] [thanks] [them] для предыдущей помощи и тщательности.\nОни [is] готовы заплатить 15 000 долларов за один файл данных операционной системы дронов Бейдата, найденный в процессе строительства или при работе инспекторов в зоне строительства в LA. Будьте осторожны!",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12795,7 +12795,7 @@
   {
     "strName": "PLOT_VLAFetch05_OfferTrigger",
     "strTitle": "Триггер для получения предложения VLAFetch Offer Beat",
-    "strDesc": "[us] должен принести [ним] файл данных операционной системы дрона.",
+    "strDesc": "[us] должен принести [them] файл данных операционной системы дрона.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -12811,8 +12811,8 @@
   },
   {
     "strName": "PLOT_VLAFetch05_Deliver",
-    "strTitle": "Доставить файл данных операционной системы дрона",
-    "strDesc": "[us] [дает] [им] файл данных операционной системы дрона.",
+    "strTitle": "Доставить операционную систему дрона",
+    "strDesc": "[us] [gives] [them] файл данных операционной системы дрона.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12836,7 +12836,7 @@
   {
     "strName": "PLOT_VLAFetch05_DeliverAllow01",
     "strTitle": "Доставить операционную систему дрона",
-    "strDesc": "[us] [дает] [им] файл данных операционной системы дрона.",
+    "strDesc": "[us] [gives] [them] файл данных операционной системы дрона.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12862,7 +12862,7 @@
   {
     "strName": "PLOT_VLAFetch05_DeliverReply",
     "strTitle": "Спасибо",
-    "strDesc": "[us] [принимает] доставку и завершает сделку.",
+    "strDesc": "[us] [accepts] доставку и завершает сделку.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12882,7 +12882,7 @@
   {
     "strName": "PLOT_VLAFetch05_DeliverFail",
     "strTitle": "Отсутствует предмет",
-    "strDesc": "Не может доставить: [us] [не] несёт файл данных операционной системы дрона.",
+    "strDesc": "Не может доставить: [us] [is] не несёт файл данных операционной системы дрона.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -12903,7 +12903,7 @@
   {
     "strName": "PLOT_VLAFetch05_DeliverReplyFail",
     "strTitle": "Принимайте свой срок",
-    "strDesc": "[us] убеждает [них], что [они] могут взять столько времени, сколько нужно. [us] довольствуется тем, что работает над другими проектами, пока ждёт.",
+    "strDesc": "[us] успокаивает [them] — [them-subj] могут взять [them-pos] время. [us-subj] [is] довольствуется работой над другими проектами, пока [us-subj] ждёт.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -12921,7 +12921,7 @@
   {
     "strName": "PLOT_VLAFetch05_DeliverTrigger",
     "strTitle": "Триггер для получения данных дрона VLAFetch",
-    "strDesc": "[us] выполнил то, что [они] хотели. Возможно, [us] в будущем будет искать ещё больше.",
+    "strDesc": "[us] выполнил то, что [them] хотели. Возможно, [us-subj] в будущем будет искать ещё больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [

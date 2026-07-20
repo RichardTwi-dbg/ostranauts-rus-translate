@@ -1,7 +1,7 @@
 [
   {
     "strName": "ItmKioskCargo01BCER",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (BCER)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -18,7 +18,7 @@
   },
   {
     "strName": "ItmKioskCargo01BCRS",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (BCRS)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -35,7 +35,7 @@
   },
   {
     "strName": "ItmKioskCargo01EJDR",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (EJDR)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -52,7 +52,7 @@
   },
   {
     "strName": "ItmKioskCargo01HQCH",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (HQCH)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -69,7 +69,7 @@
   },
   {
     "strName": "ItmKioskCargo01JATL",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (JATL)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -86,7 +86,7 @@
   },
   {
     "strName": "ItmKioskCargo01JFTS",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (JFTS)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -103,7 +103,7 @@
   },
   {
     "strName": "ItmKioskCargo01JPTN",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (JPTN)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -120,7 +120,7 @@
   },
   {
     "strName": "ItmKioskCargo01MHNG",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (MHNG)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -137,7 +137,7 @@
   },
   {
     "strName": "ItmKioskCargo01MLAB",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (MLAB)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -154,7 +154,7 @@
   },
   {
     "strName": "ItmKioskCargo01MSUZ",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (MSUZ)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -171,7 +171,7 @@
   },
   {
     "strName": "ItmKioskCargo01MTRS",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (MTRS)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -188,7 +188,7 @@
   },
   {
     "strName": "ItmKioskCargo01MVOL",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (MVOL)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -205,7 +205,7 @@
   },
   {
     "strName": "ItmKioskCargo01OKLG",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (OKLG)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -222,7 +222,7 @@
   },
   {
     "strName": "ItmKioskCargo01OFLT",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (OFLT)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -239,7 +239,7 @@
   },
   {
     "strName": "ItmKioskCargo01SVIR",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (SVIR)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -256,7 +256,7 @@
   },
   {
     "strName": "ItmKioskCargo01VCBR",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (VCBR)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -273,7 +273,7 @@
   },
   {
     "strName": "ItmKioskCargo01VENC",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (VENC)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -290,7 +290,7 @@
   },
   {
     "strName": "ItmKioskCargo01VNCA",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (VNCA)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",
@@ -307,7 +307,7 @@
   },
   {
     "strName": "ItmKioskCargo01VORB",
-    "strNameShort": "Kiosk",
+    "strNameShort": "Киоск",
     "strNameFriendly": "Контейнерный киоск (VORB)",
     "strCOBase": "ItmKioskCargo01",
     "strCondLoot": "CNDOLKioskCargo01",

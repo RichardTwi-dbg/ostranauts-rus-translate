@@ -214,7 +214,7 @@
   },
   {
     "strName": "AICrimeArrestOKLGLEOStart",
-    "strNameFriendly": "Арестовать преступника",
+    "strNameFriendly": "Арест преступника",
     "strType": "crime",
     "strIATrigger": "PLGAICrimeOKLGLEOArrest",
     "aIAEnd": null,
@@ -224,7 +224,7 @@
   },
   {
     "strName": "AICrimeArrestOKLGLEOStolenShipStart",
-    "strNameFriendly": "Арестовать преступника",
+    "strNameFriendly": "Арест преступника",
     "strType": "crime",
     "strIATrigger": "PLGAICrimeOKLGLEOArrestStolenShip",
     "aIAEnd": null,
@@ -234,7 +234,7 @@
   },
   {
     "strName": "AICrimeArrestVenusLEOStart",
-    "strNameFriendly": "Арестовать преступника",
+    "strNameFriendly": "Арест преступника",
     "strType": "crime",
     "strIATrigger": "PLGAICrimeVenusLEOArrest",
     "aIAEnd": null,
@@ -519,7 +519,7 @@
   },
   {
     "strName": "AutoClose",
-    "strNameFriendly": "Закрытие",
+    "strNameFriendly": "Закрыть",
     "strType": "repeat",
     "strIATrigger": "PLGAutoClose",
     "aIAEnd": null,
@@ -564,7 +564,7 @@
   },
   {
     "strName": "StandTable",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTable",
     "aIAEnd": null,
@@ -573,7 +573,7 @@
   },
   {
     "strName": "StandTerminal",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminal",
     "aIAEnd": null,
@@ -582,7 +582,7 @@
   },
   {
     "strName": "StandKiosk",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandKiosk",
     "aIAEnd": null,
@@ -591,7 +591,7 @@
   },
   {
     "strName": "StandTerminalBingham",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalBingham",
     "aIAEnd": null,
@@ -608,7 +608,7 @@
   },
   {
     "strName": "StandTerminalRenbao",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalRenbao",
     "aIAEnd": null,
@@ -617,7 +617,7 @@
   },
   {
     "strName": "StandTerminalGEC",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalGEC",
     "aIAEnd": null,
@@ -626,7 +626,7 @@
   },
   {
     "strName": "StandTerminalClothes",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalClothes",
     "aIAEnd": null,
@@ -635,7 +635,7 @@
   },
   {
     "strName": "StandTerminalShoes",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalShoes",
     "aIAEnd": null,
@@ -644,7 +644,7 @@
   },
   {
     "strName": "StandTerminalCollectiveElectric",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalCollectiveElectric",
     "aIAEnd": null,
@@ -653,7 +653,7 @@
   },
   {
     "strName": "StandTerminalRakow",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalRakow",
     "aIAEnd": null,
@@ -662,7 +662,7 @@
   },
   {
     "strName": "StandTerminalKang",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalKang",
     "aIAEnd": null,
@@ -671,7 +671,7 @@
   },
   {
     "strName": "StandTerminalSulaiman",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalSulaiman",
     "aIAEnd": null,
@@ -680,7 +680,7 @@
   },
   {
     "strName": "StandTerminalWeber",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalWeber",
     "aIAEnd": null,
@@ -689,7 +689,7 @@
   },
   {
     "strName": "StandTerminalHorang",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalHorang",
     "aIAEnd": null,
@@ -698,7 +698,7 @@
   },
   {
     "strName": "StandTerminalHalvorson",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalHalvorson",
     "aIAEnd": null,
@@ -707,7 +707,7 @@
   },
   {
     "strName": "StandTerminalBlackWing",
-    "strNameFriendly": "Остаться на месте",
+    "strNameFriendly": "Стой",
     "strType": "repeat",
     "strIATrigger": "PLGStandTerminalBlackWing",
     "aIAEnd": null,

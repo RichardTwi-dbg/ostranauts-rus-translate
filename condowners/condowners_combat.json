@@ -1,7 +1,7 @@
 [
   {
     "strName": "ItmAmmo12Gauge",
-    "strNameShort": "Ammo: Shotshell",
+    "strNameShort": "Патроны: пуля из гильзы",
     "strNameFriendly": "Патроны: 12-дюймовый патрон с дробью",
     "strItemDef": "ItmAmmo12Gauge",
     "strType": "Item",
@@ -41,7 +41,7 @@
   },
   {
     "strName": "ItmAmmo12Gauge02",
-    "strNameShort": "Ammo: Shotshell",
+    "strNameShort": "Патроны: пуля из гильзы",
     "strNameFriendly": "Патроны: специальный 12-дюймовый патрон с дробью",
     "strItemDef": "ItmAmmo12Gauge02",
     "strType": "Item",
@@ -81,7 +81,7 @@
   },
   {
     "strName": "ItmAmmo38",
-    "strNameShort": "Ammo: .38",
+    "strNameShort": "Патроны: .38",
     "strNameFriendly": "Патроны: .38 Special",
     "strDesc": "Редкие патроны из старой Земли, известные своей низкой отдачей, точностью и использованием в оружии в эпоху Западного Веста. Выстрел из них в космосе, скорее всего, приведёт к стремительному неожиданному разгерметизации.",
     "strItemDef": "ItmAmmo38",
@@ -121,7 +121,7 @@
   },
   {
     "strName": "ItmAmmo45",
-    "strNameShort": "Ammo: .45",
+    "strNameShort": "Патроны: .45",
     "strNameFriendly": "Патроны: .45 ACP",
     "strDesc": "Сильный патрон из старой Земли, известный своей мощностью и сильной отдачей, готовый проникать в тела и перегородки.",
     "strItemDef": "ItmAmmo45",
@@ -161,7 +161,7 @@
   },
   {
     "strName": "ItmAmmo556",
-    "strNameShort": "Ammo: 5.56",
+    "strNameShort": "Патроны: 5.56",
     "strNameFriendly": "Патроны: 5.56",
     "strItemDef": "ItmAmmo556",
     "strType": "Item",
@@ -197,7 +197,7 @@
   },
   {
     "strName": "ItmAmmo55602",
-    "strNameShort": "Ammo: 5.56",
+    "strNameShort": "Патроны: 5.56",
     "strNameFriendly": "Патроны: специальный 5.56",
     "strItemDef": "ItmAmmo55602",
     "strType": "Item",
@@ -237,7 +237,7 @@
   },
   {
     "strName": "ItmAmmo55603",
-    "strNameShort": "Ammo: 5.56",
+    "strNameShort": "Патроны: 5.56",
     "strNameFriendly": "Патроны: особый 5.-56",
     "strItemDef": "ItmAmmo55603",
     "strType": "Item",
@@ -277,7 +277,7 @@
   },
   {
     "strName": "ItmAmmo9mm",
-    "strNameShort": "Ammo: 9mm",
+    "strNameShort": "Патроны: 9 мм",
     "strNameFriendly": "Патроны: 9 мм",
     "strDesc": "Ранее распространённый патрон из старой Земли, способный разрушить герметичный отсек, несмотря на меньший размер и энергию выстрела по сравнению с другими патронами старой Земли.",
     "strItemDef": "ItmAmmo9mm",
@@ -317,7 +317,7 @@
   },
   {
     "strName": "ItmAmmoHullsafe",
-    "strNameShort": "Ammo: HG",
+    "strNameShort": "Патроны: HG",
     "strNameFriendly": "Патроны: HG",
     "strDesc": "Стандартный патрон против людей, изготовленный с помощью технологии hollowgel, при ударе рассеивает кремниевые шарики, что минимизирует риск разгерметизации корпуса.",
     "strItemDef": "ItmAmmoHullsafe",
@@ -357,7 +357,7 @@
   },
   {
     "strName": "ItmAmmoBolt",
-    "strNameShort": "Ammo: Bolt",
+    "strNameShort": "Патроны: болт",
     "strNameFriendly": "Патроны: стрелы из лука",
     "strItemDef": "ItmAmmoBolt",
     "strType": "Item",
@@ -400,7 +400,7 @@
   },
   {
     "strName": "ItmAmmoCasings01",
-    "strNameShort": "Ammo Casings",
+    "strNameShort": "Остатки патронов",
     "strNameFriendly": "Остатки патронов",
     "strItemDef": "ItmAmmoCasings01",
     "strType": "Item",
@@ -433,7 +433,7 @@
   },
   {
     "strName": "ItmAmmoPowerCell01",
-    "strNameShort": "Ammo: Power Cell",
+    "strNameShort": "Патроны: энергетическая ячейка",
     "strNameFriendly": "Патроны: энергетическая ячейка",
     "strDesc": "Блок питания для высокотехнологичного энергетического оружия.",
     "strItemDef": "ItmAmmoPowerCell01",
@@ -483,7 +483,7 @@
   },
   {
     "strName": "ItmWeaponBaseballBat01",
-    "strNameShort": "Bat",
+    "strNameShort": "Бат",
     "strNameFriendly": "Бат",
     "strDesc": "Классический оружейный предмет из прошлого Земли, обычно из алюминия или стекловолокна.",
     "strItemDef": "ItmWeaponBaseballBat01",
@@ -529,7 +529,7 @@
   },
   {
     "strName": "ItmWeaponBaseballBat02",
-    "strNameShort": "Bat",
+    "strNameShort": "Бат",
     "strNameFriendly": "Слугер",
     "strDesc": "Редкая деревянная версия классического оружия для взятия, созданного в прошлом на Земле, с выцветшим подписью и перепакованным хвостом.",
     "strItemDef": "ItmWeaponBaseballBat02",
@@ -576,7 +576,7 @@
   },
   {
     "strName": "ItmWeaponCrossbow01",
-    "strNameShort": "CrossBow",
+    "strNameShort": "Луноход",
     "strNameFriendly": "Составная лука",
     "strDesc": "Составная лука, которая эффективно выбрасывает острые стрелы даже в микрогравитации. Эта изогнутая версия представляет собой современный вариант средневековых конструкций с механизмом перезарядки сзади.",
     "strItemDef": "ItmWeaponCrossbow01",
@@ -634,7 +634,7 @@
   },
   {
     "strName": "ItmWeaponCrossbow02",
-    "strNameShort": "CrossBow",
+    "strNameShort": "Луноход",
     "strNameFriendly": "Безопорная лука",
     "strDesc": "Безопорная лука, которая эффективно выбрасывает острые стрелы даже в микрогравитации. Эта конструкция компактнее классических изогнутых моделей, но всё равно требует отдельного механизма перезарядки.",
     "strItemDef": "ItmWeaponCrossbow02",
@@ -689,7 +689,7 @@
   },
   {
     "strName": "ItmWeaponCutlass01",
-    "strNameShort": "Cutlass",
+    "strNameShort": "Катласса",
     "strNameFriendly": "Катласса",
     "strDesc": "Этот оружие эпохи парусных судов может показаться архаичным, но в правильных руках короткая изогнутая лезвие может быть эффективной против неоснащённых целей в узких пространствах.",
     "strItemDef": "ItmWeaponCutlass01",
@@ -740,7 +740,7 @@
   },
   {
     "strName": "ItmWeaponGoat01",
-    "strNameShort": "Spinal Scepter",
+    "strNameShort": "Спинной щит",
     "strNameFriendly": "Спинной щит",
     "strDesc": "Необычное оружие, изготовленное из черепа и позвоночника гигантского козы-человека, барбарианское для некоторых, но эффективное. Оно позволяет проникать и рубить через большинство защитных покрытий.",
     "strItemDef": "ItmWeaponGoat01",
@@ -792,7 +792,7 @@
   },
   {
     "strName": "ItmWeaponKatana01",
-    "strNameShort": "Katana",
+    "strNameShort": "Катана",
     "strNameFriendly": "Катана",
     "strDesc": "Длинное изогнутое меч с лезвием длиной 70 см и вплетённым односторонним или двусторонним удержанием. Спроектировано для равновесия, точности и стиля, но иногда слишком длинно для узких пространств.",
     "strItemDef": "ItmWeaponKatana01",
@@ -844,7 +844,7 @@
   },
   {
     "strName": "ItmWeaponKnife01",
-    "strNameShort": "Tac Knife",
+    "strNameShort": "Тактический нож",
     "strNameFriendly": "Тактический нож",
     "strDesc": "Классический нож длиной 30,5 см из углеродистой стали с ручкой из кожи и частично шероховатым лезвием.",
     "strItemDef": "ItmWeaponKnife01",
@@ -894,7 +894,7 @@
   },
   {
     "strName": "ItmWeaponKnuckles01",
-    "strNameShort": "Knuckleduster",
+    "strNameShort": "Кулаки",
     "strNameFriendly": "Кулаки",
     "strDesc": "Медные кулаки для скрытого увеличения веса и звука при ударах.",
     "strItemDef": "ItmWeaponKnuckles01",
@@ -941,7 +941,7 @@
   },
   {
     "strName": "ItmWeaponMachete01",
-    "strNameShort": "Machete",
+    "strNameShort": "Махете",
     "strNameFriendly": "Махете",
     "strDesc": "Городской махете с лезвием из термически обработанной стали длиной 46 см и текстурированной синтетической ручкой. Спроектирован для резки и разрушения препятствий.",
     "strItemDef": "ItmWeaponMachete01",
@@ -991,7 +991,7 @@
     "strAudioEmitter": "ItmBigBladeSound"
   },
   {
-    "strNameShort": "Billy Club",
+    "strNameShort": "Билли-клуб",
     "strName": "ItmWeaponNightstick01",
     "strNameFriendly": "Короткий биль-клуб",
     "strDesc": "Короткий биль-клуб с боковым ручком, изготовленный из алюминия, стекловолокна или углеродного композита. Различные батоны часто носят офицеры обеспечения в качестве инструмента для поддержания порядка.",
@@ -1039,7 +1039,7 @@
   },
   {
     "strName": "ItmWeaponNightstick02",
-    "strNameShort": "Nightstick",
+    "strNameShort": "Ночная палка",
     "strNameFriendly": "Ночная палка",
     "strDesc": "Длинный, с боковым ручком, т-образный батон из алюминия, стекловолокна или углеродного композита. Оружие в стиле тонфы часто носят сотрудники исполнительной власти как инструмент обеспечения соблюдения правил и защиты.",
     "strItemDef": "ItmWeaponNightstick02",
@@ -1087,7 +1087,7 @@
   },
   {
     "strName": "ItmWeaponPistol01",
-    "strNameShort": ".45 Handgun",
+    "strNameShort": ".45 пистолет",
     "strNameFriendly": "Пистолет Deltec «1911»",
     "strDesc": "Классический оружие Земли, пистолет с одиночным действием и вставной ручкой из дерева. Это полусамообслуживаемое оружие, работающее за счет отдачи, обычно вмещает 8 патронов .45 ACP.",
     "strItemDef": "ItmWeaponPistol01",
@@ -1146,7 +1146,7 @@
   },
   {
     "strName": "ItmWeaponPistol02",
-    "strNameShort": "9mm Handgun",
+    "strNameShort": "Пистолет 9 мм",
     "strNameFriendly": "Пистолет Deltec «Барракуда» 9 мм",
     "strDesc": "Полимерный каркас, оружие из старой Земли, легкий полуавтоматический пистолет, обычно вмещает 17 патронов 9 мм в отдельный магазин.",
     "strItemDef": "ItmWeaponPistol02",
@@ -1203,7 +1203,7 @@
   },
   {
     "strName": "ItmWeaponPistol03",
-    "strNameShort": ".38 Revolver",
+    "strNameShort": ".38 винтовка",
     "strNameFriendly": "Пистолет Cathcart North «Детектив» .38",
     "strDesc": "Даже для оружия Земли, этот пистолет с рамкой К-фрейма является устаревшим, вмещает 6 патронов .38 Special в поворотный цилиндр.",
     "strItemDef": "ItmWeaponPistol03",
@@ -1261,7 +1261,7 @@
   },
   {
     "strName": "ItmWeaponPistol04",
-    "strNameShort": "RiP Gun",
+    "strNameShort": "Пистолет RiP",
     "strNameFriendly": "Пистолет RiP",
     "strDesc": "Изобретенный из запасных или печатных деталей оружие, такие пистолеты предназначены для того, чтобы держаться только достаточно, чтобы выстрелить один или два крупных патрона Земли, встроенных в оружие.",
     "strItemDef": "ItmWeaponPistol04",
@@ -1314,7 +1314,7 @@
   },
   {
     "strName": "ItmWeaponPistolStun01",
-    "strNameShort": "Stun Pistol",
+    "strNameShort": "Пистолет-ударник",
     "strNameFriendly": "Пистолет-ударник",
     "strDesc": "Электронный ударный пистолет, предназначенный для ослабления через боль и неосознанное сокращение мышц. Питается от одноразовых батареек.",
     "strItemDef": "ItmWeaponPistolStun01",
@@ -1368,7 +1368,7 @@
   },
   {
     "strName": "ItmWeaponPistolEnergy01",
-    "strNameShort": "HG Handgun",
+    "strNameShort": "Пистолет HG",
     "strNameFriendly": "Пистолет Smartlink «Квиксерлин»",
     "strDesc": "Популярный, легкий пистолет из полимерного корпуса, широко рекламируемый Smartlink как «безопасный для корпуса» из-за использования стандартных патронов из полимерного геля (HG).",
     "strItemDef": "ItmWeaponPistolEnergy01",
@@ -1426,7 +1426,7 @@
   },
   {
     "strName": "ItmWeaponPocketKnife01",
-    "strNameShort": "Pocketknife",
+    "strNameShort": "Нож-карманник",
     "strNameFriendly": "Нож-карманник",
     "strDesc": "Маленький складной нож, который помещается в карман.",
     "strItemDef": "ItmWeaponPocketKnife01",
@@ -1475,7 +1475,7 @@
   },
   {
     "strName": "ItmWeaponRifle01",
-    "strNameShort": "Rifle",
+    "strNameShort": "Ружье",
     "strNameFriendly": "Пистолет Deltec «Кобб»",
     "strDesc": "Автоматический пистолет с патронами, вмещающими 30 патронов 5,56 мм, с легким ручным упором. Очень опасен в условиях повышенного давления в конструкциях. Часто используется для контроля толпы и демонстрации силы, но стреляется только в разрешенных сражениях.",
     "strItemDef": "ItmWeaponRifle01",
@@ -1537,7 +1537,7 @@
   },
   {
     "strName": "ItmWeaponRifleEnergy01",
-    "strNameShort": "Energy Rifle",
+    "strNameShort": "Энергетическое ружье",
     "strNameFriendly": "Пистолет Deltec LAR-10, энергетический",
     "strDesc": "Титановое высокотехнологичное энергетическое оружие, требующее стандартной отсоединяемой батареи. Очень эффективно против большинства традиционных видов защиты.",
     "strItemDef": "ItmWeaponRifleEnergy01Empty",
@@ -1602,7 +1602,7 @@
   },
   {
     "strName": "ItmWeaponShiv01",
-    "strNameShort": "Shiv",
+    "strNameShort": "Шив",
     "strNameFriendly": "Шив",
     "strDesc": "Нечто временно созданное из острого металла или стекла, обернутое тканью, веревкой или другими подобными материалами для защиты руки, удерживающей оружие.",
     "strItemDef": "ItmWeaponShiv01",
@@ -1652,7 +1652,7 @@
   },
   {
     "strName": "ItmWeaponShockProd01",
-    "strNameShort": "Shock Prod",
+    "strNameShort": "Ударный пистолет",
     "strNameFriendly": "Ударный пистолет",
     "strDesc": "Электрический стунон, предназначенный для передачи останавливающегося удара через физическое соприкосновение с электрической дугой между двумя проводящими иглами. Питается от одноразовых батареек.",
     "strItemDef": "ItmWeaponShockProd01",
@@ -1707,7 +1707,7 @@
   },
   {
     "strName": "ItmWeaponShotgun01",
-    "strNameShort": "Shotgun",
+    "strNameShort": "Пулемет",
     "strNameFriendly": "Cathcart North \"Shindig\" Пистолет-пушка",
     "strDesc": "Старая Земная пистолет-пушка с механизмом подачи пороха, стреляющая мелкими шариками в разброс, обычно с 6-шариковым магазином. Очень эффективна при ближнем бою. Не рекомендуется использовать в условиях повышенного давления в конструкциях.\n\nПуля обладает дополнительными преимуществами: наносит меньше ущерба герметичной оболочке на любом расстоянии и труднее обнаруживается при судебно-психологическом анализе.",
     "strItemDef": "ItmWeaponShotgun01",
@@ -1769,7 +1769,7 @@
   },
   {
     "strName": "ItmWeaponShotgunEnergy01",
-    "strNameShort": "Energy Shotgun",
+    "strNameShort": "Энергетический пулемет",
     "strNameFriendly": "Smartlink \"Helix\" Энергетическая пистолет-пушка",
     "strDesc": "Титан-созданное, передовое энергетическое оружие, требующее стандартной, отсоединяемой батареи, стреляет огнестрельными пулями, проникающими сквозь броню, в разброс.\n\nНесмотря на то, что оно не обладает тонкостью и энергетической эффективностью пистолета, это оружие делает промах трудным и повреждение случайных объектов трудным избежать.",
     "strItemDef": "ItmWeaponShotgunEnergy01Empty",
@@ -1835,7 +1835,7 @@
   },
   {
     "strName": "ItmWeaponSpear01",
-    "strNameShort": "Spear",
+    "strNameShort": "Лук",
     "strNameFriendly": "Лук",
     "strDesc": "Лук с острым стальным наконечником на ручке длиной один метр.",
     "strItemDef": "ItmWeaponSpear01",

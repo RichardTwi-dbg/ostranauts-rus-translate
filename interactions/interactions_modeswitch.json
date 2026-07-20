@@ -2,7 +2,7 @@
   {
     "strName": "MSAICargo01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -22,7 +22,7 @@
   {
     "strName": "MSAICargo01OffLooseAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -42,7 +42,7 @@
   {
     "strName": "MSAirPump02Damage",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -52,7 +52,7 @@
   {
     "strName": "MSAirPump02Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -62,7 +62,7 @@
   {
     "strName": "MSAirPump02LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -72,7 +72,7 @@
   {
     "strName": "MSAirPump02LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -82,7 +82,7 @@
   {
     "strName": "MSAirPump02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -102,7 +102,7 @@
   {
     "strName": "MSAirPump02OnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -122,7 +122,7 @@
   {
     "strName": "MSAlarmDmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -132,7 +132,7 @@
   {
     "strName": "MSAlarmDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -142,7 +142,7 @@
   {
     "strName": "MSAlarmCO2Dmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -152,7 +152,7 @@
   {
     "strName": "MSAlarmCO2DmgLoose",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -162,7 +162,7 @@
   {
     "strName": "MSAlarmContaminantsDmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -172,7 +172,7 @@
   {
     "strName": "MSAlarmContaminantsDmgLoose",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -242,7 +242,7 @@
   {
     "strName": "MSAlarmCO2SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] к зелёному.",
+    "strDesc": "[us] [switches] на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -304,7 +304,7 @@
   {
     "strName": "MSAlarmCO2SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -324,7 +324,7 @@
   {
     "strName": "MSAlarmCO2SwitchRedAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на красный.",
+    "strDesc": "[us] [switches] на красный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -345,7 +345,7 @@
   {
     "strName": "MSAlarmContaminantsSwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на зелёный.",
+    "strDesc": "[us] [switches] на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -366,7 +366,7 @@
   {
     "strName": "MSAlarmContaminantsSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -386,7 +386,7 @@
   {
     "strName": "MSAlarmContaminantsSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -406,7 +406,7 @@
   {
     "strName": "MSAlarmContaminantsSwitchRedAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на красный.",
+    "strDesc": "[us] [switches] на красный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -427,7 +427,7 @@
   {
     "strName": "MSAlarmN2SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на зелёный.",
+    "strDesc": "[us] [switches] на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -448,7 +448,7 @@
   {
     "strName": "MSAlarmN2SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -468,7 +468,7 @@
   {
     "strName": "MSAlarmN2SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -488,7 +488,7 @@
   {
     "strName": "MSAlarmN2SwitchRedAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на красный.",
+    "strDesc": "[us] [switches] на красный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -509,7 +509,7 @@
   {
     "strName": "MSAlarmO2SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на зелёный.",
+    "strDesc": "[us] [switches] на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -530,7 +530,7 @@
   {
     "strName": "MSAlarmO2SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -550,7 +550,7 @@
   {
     "strName": "MSAlarmO2SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -570,7 +570,7 @@
   {
     "strName": "MSAlarmO2SwitchRedAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на красный.",
+    "strDesc": "[us] [switches] на красный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -591,7 +591,7 @@
   {
     "strName": "MSAlarmTempSwitchBlueAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на синий.",
+    "strDesc": "[us] [switches] к синему.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -612,7 +612,7 @@
   {
     "strName": "MSAlarmTempSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -632,7 +632,7 @@
   {
     "strName": "MSAlarmTempSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -652,7 +652,7 @@
   {
     "strName": "MSAlarmTempSwitchRedAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на красный.",
+    "strDesc": "[us] [switches] на красный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -671,7 +671,7 @@
   {
     "strName": "MSAlarmTempSwitchWhiteAllow",
     "strTitle": "",
-    "strDesc": "[us] переключается на белый.",
+    "strDesc": "[us] [switches] на белый.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -690,7 +690,7 @@
   {
     "strName": "MSAmmoSpentDefault",
     "strTitle": "",
-    "strDesc": "[us] расходуется.",
+    "strDesc": "[us] [is] израсходован.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -706,7 +706,7 @@
   {
     "strName": "MSArcadeGame01Damage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -716,7 +716,7 @@
   {
     "strName": "MSArcadeGame01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -736,7 +736,7 @@
   {
     "strName": "MSArcadeGame01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -746,7 +746,7 @@
   {
     "strName": "MSArcadeGame01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -786,7 +786,7 @@
   {
     "strName": "MSAntenna01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -816,7 +816,7 @@
   {
     "strName": "MSAntenna01SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [переключается] на зелёный.",
+    "strDesc": "[us] [switches] на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -836,7 +836,7 @@
   {
     "strName": "MSAntenna01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -856,7 +856,7 @@
   {
     "strName": "MSAntenna01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -876,7 +876,7 @@
   {
     "strName": "MSAntenna02Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -906,7 +906,7 @@
   {
     "strName": "MSAntenna02SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [переключается] на зелёный.",
+    "strDesc": "[us] [switches] на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -926,7 +926,7 @@
   {
     "strName": "MSAntenna02SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -946,7 +946,7 @@
   {
     "strName": "MSAntenna02SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -976,7 +976,7 @@
   {
     "strName": "MSAtmoScrubber01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -986,7 +986,7 @@
   {
     "strName": "MSAtmoScrubber01LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] [is] поврretched.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -996,7 +996,7 @@
   {
     "strName": "MSAtmoScrubber01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1006,7 +1006,7 @@
   {
     "strName": "MSAtmoScrubber01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1026,7 +1026,7 @@
   {
     "strName": "MSAtmoScrubber01OnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1056,7 +1056,7 @@
   {
     "strName": "MSAtmoScrubber02Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1076,7 +1076,7 @@
   {
     "strName": "MSAtmoScrubber02LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1086,7 +1086,7 @@
   {
     "strName": "MSAtmoScrubber02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1106,7 +1106,7 @@
   {
     "strName": "MSAtmoScrubber02OnAllow",
     "strTitle": "",
-    "strDesc": "[us] [powers] up.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1126,7 +1126,7 @@
   {
     "strName": "MSBed01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] off.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1146,7 +1146,7 @@
   {
     "strName": "MSBed01OnAllow",
     "strTitle": "",
-    "strDesc": "[us] [powers] up.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1166,7 +1166,7 @@
   {
     "strName": "MSBedMedical01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] off.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1186,7 +1186,7 @@
   {
     "strName": "MSBedMedical01OnAllow",
     "strTitle": "",
-    "strDesc": "[us] [powers] up.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1276,7 +1276,7 @@
   {
     "strName": "MSCargoPod01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1306,7 +1306,7 @@
   {
     "strName": "MSCargoPodClimate01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1336,7 +1336,7 @@
   {
     "strName": "MSCargoPodRad01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1346,7 +1346,7 @@
   {
     "strName": "MSCargoPodRad01LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] [is] поврiguous.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1366,7 +1366,7 @@
   {
     "strName": "MSCargoPodSpec01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1396,7 +1396,7 @@
   {
     "strName": "MSChair01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1426,7 +1426,7 @@
   {
     "strName": "MSChair02Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1456,7 +1456,7 @@
   {
     "strName": "MSChairStrap01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1476,7 +1476,7 @@
   {
     "strName": "MSChairStrap01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1526,7 +1526,7 @@
   {
     "strName": "MSChargerBattDrill01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1546,7 +1546,7 @@
   {
     "strName": "MSChargerBattDrill01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1556,7 +1556,7 @@
   {
     "strName": "MSChargerDrill01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] off.",
+    "strDesc": "[us] [switches] выключается.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1566,7 +1566,7 @@
   {
     "strName": "MSChargerDrill01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] on.",
+    "strDesc": "[us] [switches] на.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1586,7 +1586,7 @@
   {
     "strName": "MSChargerBattEVADestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1596,7 +1596,7 @@
   {
     "strName": "MSChargerBattEVALooseDamage",
     "strTitle": "",
-    "strDesc": "[us] [is] поврiguous.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1606,7 +1606,7 @@
   {
     "strName": "MSChargerBattEVALooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1616,7 +1616,7 @@
   {
     "strName": "MSChargerEVASwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] off.",
+    "strDesc": "[us] [switches] выключается.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1626,7 +1626,7 @@
   {
     "strName": "MSChargerEVASwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] on.",
+    "strDesc": "[us] [switches] на.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1646,7 +1646,7 @@
   {
     "strName": "MSChargerBattery04Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1666,7 +1666,7 @@
   {
     "strName": "MSChargerBattery04LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1676,7 +1676,7 @@
   {
     "strName": "MSCharger04SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] off.",
+    "strDesc": "[us] [switches] выключается.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1686,7 +1686,7 @@
   {
     "strName": "MSCharger04SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] on.",
+    "strDesc": "[us] [switches] на.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1706,7 +1706,7 @@
   {
     "strName": "MSChargerBattWelder01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1726,7 +1726,7 @@
   {
     "strName": "MSChargerBattWelder01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1736,7 +1736,7 @@
   {
     "strName": "MSChargerWelder01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1746,7 +1746,7 @@
   {
     "strName": "MSChargerWelder01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1766,7 +1766,7 @@
   {
     "strName": "MSConduit00Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1786,7 +1786,7 @@
   {
     "strName": "MSConduit00LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1806,7 +1806,7 @@
   {
     "strName": "MSCooler01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1826,7 +1826,7 @@
   {
     "strName": "MSCooler01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1836,7 +1836,7 @@
   {
     "strName": "MSCooler01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1856,7 +1856,7 @@
   {
     "strName": "MSCooler01OnAllow",
     "strTitle": "",
-    "strDesc": "[us] [заряжается].",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1876,7 +1876,7 @@
   {
     "strName": "MSCrate01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1898,7 +1898,7 @@
   {
     "strName": "MSCrate01LockAllow",
     "strTitle": "",
-    "strDesc": "[us] [закрывается].",
+    "strDesc": "[us] [закрывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1918,7 +1918,7 @@
   {
     "strName": "MSCrate01UnlockAllow",
     "strTitle": "",
-    "strDesc": "[us] [открывается].",
+    "strDesc": "[us] [разблокирует]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1951,7 +1951,7 @@
   {
     "strName": "MSDamageBed01Loose",
     "strTitle": "",
-    "strDesc": "[us] [is] поврiguous.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -1964,7 +1964,7 @@
   {
     "strName": "MSDestroyBed01",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -1977,7 +1977,7 @@
   {
     "strName": "MSDestroyBed02",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -1990,7 +1990,7 @@
   {
     "strName": "MSDestroyBedMedical01",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2003,7 +2003,7 @@
   {
     "strName": "MSDamageBedMedical01",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2016,7 +2016,7 @@
   {
     "strName": "MSDamageBedMedical01Loose",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2029,7 +2029,7 @@
   {
     "strName": "MSDestroyClothes",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2042,7 +2042,7 @@
   {
     "strName": "MSDestroyDefault",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2085,7 +2085,7 @@
   {
     "strName": "MSDestroyPressureSuitDmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2111,7 +2111,7 @@
   {
     "strName": "MSDestroyEVASuitDmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2146,7 +2146,7 @@
   {
     "strName": "MSDolly01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -2168,7 +2168,7 @@
   {
     "strName": "MSHatch01Dmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -2178,7 +2178,7 @@
   {
     "strName": "MSHelmet03Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2217,7 +2217,7 @@
   {
     "strName": "MSHelmet02Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2230,7 +2230,7 @@
   {
     "strName": "MSDestroyMeat",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2282,7 +2282,7 @@
   {
     "strName": "MSDestroyMeatEye",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2295,7 +2295,7 @@
   {
     "strName": "MSDestroyMeatHoof",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2308,7 +2308,7 @@
   {
     "strName": "MSDestroyMeatHorn",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2334,7 +2334,7 @@
   {
     "strName": "MSDestroyMech",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2347,7 +2347,7 @@
   {
     "strName": "MSDestroyDrill",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2412,7 +2412,7 @@
   {
     "strName": "MSBattery02Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2438,7 +2438,7 @@
   {
     "strName": "MSBattery02LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2464,7 +2464,7 @@
   {
     "strName": "MSBattery02bDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2490,7 +2490,7 @@
   {
     "strName": "MSBattery02bLooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2516,7 +2516,7 @@
   {
     "strName": "MSBattery02cDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2542,7 +2542,7 @@
   {
     "strName": "MSBattery02cLooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2568,7 +2568,7 @@
   {
     "strName": "MSBattery03Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2594,7 +2594,7 @@
   {
     "strName": "MSBattery04Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2620,7 +2620,7 @@
   {
     "strName": "MSBatteryDrill01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2646,7 +2646,7 @@
   {
     "strName": "MSBatteryWelder01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2672,7 +2672,7 @@
   {
     "strName": "MSCapacitor01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2698,7 +2698,7 @@
   {
     "strName": "MSCapacitor01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2711,7 +2711,7 @@
   {
     "strName": "MSDestroySolderingIron",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2763,7 +2763,7 @@
   {
     "strName": "MSDestroyPDA",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2776,7 +2776,7 @@
   {
     "strName": "MSDestroyPlastic",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2789,7 +2789,7 @@
   {
     "strName": "MSDestroyWelder",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2815,7 +2815,7 @@
   {
     "strName": "MSDestroyTech",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2841,7 +2841,7 @@
   {
     "strName": "MSDestroyLaser",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2854,7 +2854,7 @@
   {
     "strName": "MSAeroParts3x301Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -2896,7 +2896,7 @@
   {
     "strName": "MSAeroParts3x302Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -2951,7 +2951,7 @@
   {
     "strName": "MSDestroyCargoAIShell",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2964,7 +2964,7 @@
   {
     "strName": "MSDestroyCargoAILoose",
     "strTitle": "",
-    "strDesc": "[us] [is] поврежд",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -2998,7 +2998,7 @@
   {
     "strName": "MSDockSysCloseAllow",
     "strTitle": "",
-    "strDesc": "[us] [закрывается].",
+    "strDesc": "[us] [закрывает].",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3019,7 +3019,7 @@
   {
     "strName": "MSDockSysCloseAllowAddAuto",
     "strTitle": "",
-    "strDesc": "[us] [закрывается].",
+    "strDesc": "[us] [закрывает].",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3040,7 +3040,7 @@
   {
     "strName": "MSDockSysOpenAllow",
     "strTitle": "",
-    "strDesc": "[us] [открывается].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3061,7 +3061,7 @@
   {
     "strName": "MSDockSysOpenAllowRemoveAuto",
     "strTitle": "",
-    "strDesc": "[us] [открывается].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3092,7 +3092,7 @@
   {
     "strName": "MSDoor01ClosedDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -3112,7 +3112,7 @@
   {
     "strName": "MSDoor01ClosedLooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -3142,7 +3142,7 @@
   {
     "strName": "MSDoor01ClosedLockedShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3162,7 +3162,7 @@
   {
     "strName": "MSDoor01ClosedOnOpenAllow",
     "strTitle": "",
-    "strDesc": "[us] [открывается].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3183,7 +3183,7 @@
   {
     "strName": "MSDoor01ClosedOnOpenAllowRemoveAuto",
     "strTitle": "",
-    "strDesc": "[us] [открывается].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3204,7 +3204,7 @@
   {
     "strName": "MSDoor01ClosedOpenAllow",
     "strTitle": "",
-    "strDesc": "[us] [открывается].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3224,7 +3224,7 @@
   {
     "strName": "MSDoor01ClosedOpenDeny",
     "strTitle": "",
-    "strDesc": "[us] [не] имеет питания.",
+    "strDesc": "[us] [doesn't] не имеет энергии.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3264,7 +3264,7 @@
   {
     "strName": "MSDoor01ClosedPowerupAllow",
     "strTitle": "",
-    "strDesc": "[us] [запускается] в режиме повышенной мощности.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3284,7 +3284,7 @@
   {
     "strName": "MSDoor01ClosedShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3304,7 +3304,7 @@
   {
     "strName": "MSDoor01OpenLockedShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3324,7 +3324,7 @@
   {
     "strName": "MSDoor01OpenLockedPowerupAllow",
     "strTitle": "",
-    "strDesc": "[us] [запускается] в режиме повышенной мощности.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3365,7 +3365,7 @@
   {
     "strName": "MSDoor01OpenOnCloseAllow",
     "strTitle": "",
-    "strDesc": "[us] [закрывается].",
+    "strDesc": "[us] [закрывает].",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3386,7 +3386,7 @@
   {
     "strName": "MSDoor01OpenOnCloseAllowAddAuto",
     "strTitle": "",
-    "strDesc": "[us] [закрывается].",
+    "strDesc": "[us] [закрывает].",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3407,7 +3407,7 @@
   {
     "strName": "MSDoor01OpenedCloseDeny",
     "strTitle": "",
-    "strDesc": "[us] [не] имеет питания.",
+    "strDesc": "[us] [doesn't] не имеет энергии.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3447,7 +3447,7 @@
   {
     "strName": "MSDoor01OpenPowerupAllow",
     "strTitle": "",
-    "strDesc": "[us] [запускается] в режиме повышенной мощности.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3467,7 +3467,7 @@
   {
     "strName": "MSDoor01OpenShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3487,7 +3487,7 @@
   {
     "strName": "MSCrate01LockAllowSelf",
     "strTitle": "",
-    "strDesc": "[us] [заблокирован].",
+    "strDesc": "[us] [закрывает]",
     "fTargetPointRange": 0,
     "fDuration": 0.0,
     "strThemType": "Self",
@@ -3498,7 +3498,7 @@
   {
     "strName": "MSCrate01UnlockAllowSelf",
     "strTitle": "",
-    "strDesc": "[us] [разблокирован].",
+    "strDesc": "[us] [разблокирует]",
     "fTargetPointRange": 0,
     "fDuration": 0.0,
     "strThemType": "Self",
@@ -3509,7 +3509,7 @@
   {
     "strName": "MSDoor01ClosedLockAllow",
     "strTitle": "",
-    "strDesc": "[us] [заблокирован].",
+    "strDesc": "[us] [закрывает]",
     "fTargetPointRange": 0,
     "fDuration": 0.0,
     "strThemType": "Self",
@@ -3520,7 +3520,7 @@
   {
     "strName": "MSDoor01ClosedUnlockAllow",
     "strTitle": "",
-    "strDesc": "[us] [разблокирован].",
+    "strDesc": "[us] [разблокирует]",
     "fTargetPointRange": 0,
     "fDuration": 0.0,
     "strThemType": "Self",
@@ -3531,7 +3531,7 @@
   {
     "strName": "MSDoor01OpenLockAllow",
     "strTitle": "",
-    "strDesc": "[us] [заблокирован].",
+    "strDesc": "[us] [закрывает]",
     "fTargetPointRange": 0,
     "fDuration": 0.0,
     "strThemType": "Self",
@@ -3542,7 +3542,7 @@
   {
     "strName": "MSDoor01OpenUnlockAllow",
     "strTitle": "",
-    "strDesc": "[us] [разблокирован].",
+    "strDesc": "[us] [разблокирует]",
     "fTargetPointRange": 0,
     "fDuration": 0.0,
     "strThemType": "Self",
@@ -3553,7 +3553,7 @@
   {
     "strName": "MSLightSwitchOrangeOffCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3572,7 +3572,7 @@
   {
     "strName": "MSLightSwitchOrangeOnCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3591,7 +3591,7 @@
   {
     "strName": "MSLightSwitchOffCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3610,7 +3610,7 @@
   {
     "strName": "MSLightSwitchOnCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3629,7 +3629,7 @@
   {
     "strName": "MSLightSwitchOffOrangeCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3648,7 +3648,7 @@
   {
     "strName": "MSLightSwitchOnOrangeCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3667,7 +3667,7 @@
   {
     "strName": "MSLightSwitchOffRedCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3686,7 +3686,7 @@
   {
     "strName": "MSLightSwitchOnRedCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3705,7 +3705,7 @@
   {
     "strName": "MSLightSwitchOffVibrantPurpleCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3724,7 +3724,7 @@
   {
     "strName": "MSLightSwitchOnVibrantPurpleCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3743,7 +3743,7 @@
   {
     "strName": "MSLightSwitchOffVibrantGreenCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3762,7 +3762,7 @@
   {
     "strName": "MSLightSwitchOnVibrantGreenCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3811,7 +3811,7 @@
   {
     "strName": "MSElectricalBox01Damage",
     "strTitle": "",
-    "strDesc": "[us] [получает] повреждения.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -3821,7 +3821,7 @@
   {
     "strName": "MSElectricalBox01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -3831,7 +3831,7 @@
   {
     "strName": "MSElectricalBox01LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] [получает] повреждения.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -3841,7 +3841,7 @@
   {
     "strName": "MSElectricalBox01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -3851,7 +3851,7 @@
   {
     "strName": "MSElectricalBox01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3871,7 +3871,7 @@
   {
     "strName": "MSElectricalBox01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3891,7 +3891,7 @@
   {
     "strName": "MSEVASwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3911,7 +3911,7 @@
   {
     "strName": "MSEVASwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3931,7 +3931,7 @@
   {
     "strName": "MSFloor01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3994,7 +3994,7 @@
   {
     "strName": "MSFloor4x401Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4036,7 +4036,7 @@
   {
     "strName": "MSFloorPlastic01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4129,7 +4129,7 @@
   {
     "strName": "MSFridge01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4149,7 +4149,7 @@
   {
     "strName": "MSFridge01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4179,7 +4179,7 @@
   {
     "strName": "MSFusionReactorCore01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4189,7 +4189,7 @@
   {
     "strName": "MSFusionReactorCore01LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] [is] повр-than.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4199,7 +4199,7 @@
   {
     "strName": "MSFusionReactorCore01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4209,7 +4209,7 @@
   {
     "strName": "MSFusionReactorCore01SwitchBattAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] питание с сетевого шкафа на аккумулятор.",
+    "strDesc": "[us] [switches] силовую линию на аккумулятор.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4229,7 +4229,7 @@
   {
     "strName": "MSFusionReactorCore01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выключен.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4250,7 +4250,7 @@
   {
     "strName": "MSFusionReactorCore01SwitchIgnitionAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] включает зажигание.",
+    "strDesc": "[us] [switches] на зажигание.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4281,7 +4281,7 @@
   {
     "strName": "MSFusionCorePump01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4301,7 +4301,7 @@
   {
     "strName": "MSFusionCorePump01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4311,7 +4311,7 @@
   {
     "strName": "MSFusionCorePump01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выключен.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4361,7 +4361,7 @@
   {
     "strName": "MSFusionCryoPump01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4381,7 +4381,7 @@
   {
     "strName": "MSFusionCryoPump01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4391,7 +4391,7 @@
   {
     "strName": "MSFusionCryoPump01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4441,7 +4441,7 @@
   {
     "strName": "MSFusionFieldCoils01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4461,7 +4461,7 @@
   {
     "strName": "MSFusionFieldCoils01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4471,7 +4471,7 @@
   {
     "strName": "MSFusionFieldCoils01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4521,7 +4521,7 @@
   {
     "strName": "MSFusionFuelRegulator01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4541,7 +4541,7 @@
   {
     "strName": "MSFusionFuelRegulator01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4551,7 +4551,7 @@
   {
     "strName": "MSFusionFuelRegulator01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4601,7 +4601,7 @@
   {
     "strName": "MSFusionLaserArray01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4621,7 +4621,7 @@
   {
     "strName": "MSFusionLaserArray01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4631,7 +4631,7 @@
   {
     "strName": "MSFusionLaserArray01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4671,7 +4671,7 @@
   {
     "strName": "MSFusionMHDGenerator01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4724,7 +4724,7 @@
   {
     "strName": "MSFusionMHDGenerator01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -4750,7 +4750,7 @@
   {
     "strName": "MSFusionMHDGenerator01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -4773,7 +4773,7 @@
   {
     "strName": "MSFusionPelletFeeder01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4793,7 +4793,7 @@
   {
     "strName": "MSFusionPelletFeeder01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4803,7 +4803,7 @@
   {
     "strName": "MSFusionPelletFeeder01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4853,7 +4853,7 @@
   {
     "strName": "MSHeater01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4873,7 +4873,7 @@
   {
     "strName": "MSHeater01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4883,7 +4883,7 @@
   {
     "strName": "MSHeater01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4943,7 +4943,7 @@
   {
     "strName": "MSHeavyLiftRotor01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -4953,7 +4953,7 @@
   {
     "strName": "MSHeavyLiftRotor01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4973,7 +4973,7 @@
   {
     "strName": "MSHeavyLiftRotor01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4993,7 +4993,7 @@
   {
     "strName": "MSJukeboxSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5013,7 +5013,7 @@
   {
     "strName": "MSJukeboxSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5033,7 +5033,7 @@
   {
     "strName": "MSLightOrangeSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5053,7 +5053,7 @@
   {
     "strName": "MSLightOrangeSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5073,7 +5073,7 @@
   {
     "strName": "MSLightSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5093,7 +5093,7 @@
   {
     "strName": "MSLightSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5113,7 +5113,7 @@
   {
     "strName": "MSLightSwitchOffOrangeAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5133,7 +5133,7 @@
   {
     "strName": "MSLightSwitchOnOrangeAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5153,7 +5153,7 @@
   {
     "strName": "MSLightSwitchOffRedAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5173,7 +5173,7 @@
   {
     "strName": "MSLightSwitchOnRedAllow",
     "strTitle": "",
-    "strDesc": "[us] включает.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5193,7 +5193,7 @@
   {
     "strName": "MSLightSwitchOffVibrantPurpleAllow",
     "strTitle": "",
-    "strDesc": "[us] выключает.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5213,7 +5213,7 @@
   {
     "strName": "MSLightSwitchOnVibrantPurpleAllow",
     "strTitle": "",
-    "strDesc": "[us] включает.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5233,7 +5233,7 @@
   {
     "strName": "MSLightSwitchOffVibrantGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] выключает.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5253,7 +5253,7 @@
   {
     "strName": "MSLightSwitchOnVibrantGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] включает.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5273,7 +5273,7 @@
   {
     "strName": "MSLitWallDmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5282,8 +5282,8 @@
   },
   {
     "strName": "MSPortalCloseStart",
-    "strTitle": "Закрытие",
-    "strDesc": "[us] [начинает] закрывать [them].",
+    "strTitle": "Закрыть",
+    "strDesc": "[us] [starts] закрывать [them].",
     "strTooltip": "Закрывает дверь. Предупреждение: атмосферные условия могут значительно отличаться с другой стороны!",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -5310,8 +5310,8 @@
   },
   {
     "strName": "MSPortalCloseStartAddAuto",
-    "strTitle": "Закрытие",
-    "strDesc": "[us] [начинает] закрывать [them].",
+    "strTitle": "Закрыть",
+    "strDesc": "[us] [starts] закрывать [them].",
     "strTooltip": "Закрывает дверь, перезапускает автоподключение, если ранее было отключено. Внимание: атмосферные условия могут значительно отличаться с другой стороны!",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -5339,7 +5339,7 @@
   {
     "strName": "MSPortalOpenStart",
     "strTitle": "Открыть",
-    "strDesc": "[us] [начинает] открывать [them].",
+    "strDesc": "[us] [starts] открывать [them].",
     "strTooltip": "Открывает дверь. Предупреждение: атмосферные условия могут значительно отличаться с другой стороны!",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -5368,7 +5368,7 @@
   {
     "strName": "MSPortalOpenStartRemoveAuto",
     "strTitle": "Открыть",
-    "strDesc": "[us] [начинает] открывать [them].",
+    "strDesc": "[us] [starts] открывать [them].",
     "strTooltip": "Открывает дверь, временно отключает автоподключение до ручного закрытия. Внимание: атмосферные условия могут значительно отличаться с другой стороны!",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -5396,7 +5396,7 @@
   {
     "strName": "MSRack1x101Damage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5406,7 +5406,7 @@
   {
     "strName": "MSRack1x101LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5416,7 +5416,7 @@
   {
     "strName": "MSRack1x101DormDamage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "nLogging": 1,
@@ -5674,7 +5674,7 @@
   {
     "strName": "MSRCSCluster01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5694,7 +5694,7 @@
   {
     "strName": "MSRCSCluster01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5704,7 +5704,7 @@
   {
     "strName": "MSRCSCluster01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] off.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5754,7 +5754,7 @@
   {
     "strName": "MSRCSDistro01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5774,7 +5774,7 @@
   {
     "strName": "MSRCSDistro01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5784,7 +5784,7 @@
   {
     "strName": "MSRCSDistro01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5824,7 +5824,7 @@
   {
     "strName": "MSRCSDistro02Damage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5834,7 +5834,7 @@
   {
     "strName": "MSRCSDistro02Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5844,7 +5844,7 @@
   {
     "strName": "MSRCSDistro02LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5854,7 +5854,7 @@
   {
     "strName": "MSRCSDistro02LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5864,7 +5864,7 @@
   {
     "strName": "MSRCSDistro02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5904,7 +5904,7 @@
   {
     "strName": "MSReactor02SwitchBattAllow",
     "strTitle": "",
-    "strDesc": "[us] переключает питание с шин на аккумулятор.",
+    "strDesc": "[us] [switches] силовую линию на аккумулятор.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5924,7 +5924,7 @@
   {
     "strName": "MSReactor02SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5944,7 +5944,7 @@
   {
     "strName": "MSReactor02SwitchIgnitionAllow",
     "strTitle": "",
-    "strDesc": "[us] включает зажигание.",
+    "strDesc": "[us] [switches] на зажигание.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5964,7 +5964,7 @@
   {
     "strName": "MSReactorIC03Damage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5974,7 +5974,7 @@
   {
     "strName": "MSReactorIC03DamageExplode",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5984,7 +5984,7 @@
   {
     "strName": "MSReactorIC03Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -5994,7 +5994,7 @@
   {
     "strName": "MSReactorIC03LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6004,7 +6004,7 @@
   {
     "strName": "MSReactorIC03LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6014,7 +6014,7 @@
   {
     "strName": "MSReactor03SwitchBattAllow",
     "strTitle": "",
-    "strDesc": "[us] переключает питание с шин на аккумулятор.",
+    "strDesc": "[us] [switches] силовую линию на аккумулятор.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6034,7 +6034,7 @@
   {
     "strName": "MSReactor03SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6055,7 +6055,7 @@
   {
     "strName": "MSReactor03SwitchIgnitionAllow",
     "strTitle": "",
-    "strDesc": "[us] включает зажигание.",
+    "strDesc": "[us] [switches] на зажигание.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6076,7 +6076,7 @@
   {
     "strName": "MSRTACO2Dmg",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6086,7 +6086,7 @@
   {
     "strName": "MSRTACO2DmgLoose",
     "strTitle": "",
-    "strDesc": "[us] поврнойдён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6096,7 +6096,7 @@
   {
     "strName": "MSRTAN2Dmg",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6106,7 +6106,7 @@
   {
     "strName": "MSRTAN2DmgLoose",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6116,7 +6116,7 @@
   {
     "strName": "MSRTAO2Dmg",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6146,7 +6146,7 @@
   {
     "strName": "MSScrapClothDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6156,7 +6156,7 @@
   {
     "strName": "MSSignNeon01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6196,7 +6196,7 @@
   {
     "strName": "MSSignNeon01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6206,7 +6206,7 @@
   {
     "strName": "MSSplintDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6226,7 +6226,7 @@
   {
     "strName": "MSStationNavDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6246,7 +6246,7 @@
   {
     "strName": "MSStationNavLooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6256,7 +6256,7 @@
   {
     "strName": "MSStationNavSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6276,7 +6276,7 @@
   {
     "strName": "MSStationNavSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6314,7 +6314,7 @@
   {
     "strName": "MSStrengthTrainer01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "nLogging": 1,
@@ -6323,7 +6323,7 @@
   {
     "strName": "MSStrengthTrainer01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6371,7 +6371,7 @@
   {
     "strName": "MSSwitch01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6391,7 +6391,7 @@
   {
     "strName": "MSSwitch01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6401,7 +6401,7 @@
   {
     "strName": "MSSwitchSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6421,7 +6421,7 @@
   {
     "strName": "MSSwitchSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6441,7 +6441,7 @@
   {
     "strName": "MSSwitchSwitchOnAllowTut",
     "strTitle": "OKLG Chargen Tutorial version",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6485,7 +6485,7 @@
   {
     "strName": "MSTerminal01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6525,7 +6525,7 @@
   {
     "strName": "MSToolBox01Dmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6535,7 +6535,7 @@
   {
     "strName": "MSToolBox02Dmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6545,7 +6545,7 @@
   {
     "strName": "MSToolFireEx01Dmg",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6555,7 +6555,7 @@
   {
     "strName": "MSTowingBrace01Damage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6565,7 +6565,7 @@
   {
     "strName": "MSTowingBrace01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6575,7 +6575,7 @@
   {
     "strName": "MSTowingBrace01DamageSecured",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6585,7 +6585,7 @@
   {
     "strName": "MSTowingBrace01LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6595,7 +6595,7 @@
   {
     "strName": "MSTowingBrace01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6605,7 +6605,7 @@
   {
     "strName": "MSTowingBrace01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6645,7 +6645,7 @@
   {
     "strName": "MSTowingBrace01OffSecuredAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6685,7 +6685,7 @@
   {
     "strName": "MSTransponder01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6695,7 +6695,7 @@
   {
     "strName": "MSTransponder01Dmg",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6705,7 +6705,7 @@
   {
     "strName": "MSTransponder01DmgLoose",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6715,7 +6715,7 @@
   {
     "strName": "MSTransponder01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6735,7 +6735,7 @@
   {
     "strName": "MSTransponder01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6755,7 +6755,7 @@
   {
     "strName": "MSTreadmill01Damage",
     "strTitle": "",
-    "strDesc": "[us] повреждён.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "nLogging": 1,
@@ -6764,7 +6764,7 @@
   {
     "strName": "MSTreadmill01LooseDamage",
     "strTitle": "",
-    "strDesc": "[us] поврretched.",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "nLogging": 1,
@@ -6773,7 +6773,7 @@
   {
     "strName": "MSTreadmill01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "nLogging": 1,
@@ -6782,7 +6782,7 @@
   {
     "strName": "MSTreadmill01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6801,7 +6801,7 @@
   {
     "strName": "MSTreadmill01OnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6820,7 +6820,7 @@
   {
     "strName": "MSTV01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6830,7 +6830,7 @@
   {
     "strName": "MSTV01LooseDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6840,7 +6840,7 @@
   {
     "strName": "MSTV01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] выключается.",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6860,7 +6860,7 @@
   {
     "strName": "MSTV01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] включается.",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6880,7 +6880,7 @@
   {
     "strName": "MSVent01Dmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6890,7 +6890,7 @@
   {
     "strName": "MSVent02Dmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -6900,7 +6900,7 @@
   {
     "strName": "MSVent01CloseAllow",
     "strTitle": "",
-    "strDesc": "[us] закрывается.",
+    "strDesc": "[us] [закрывает].",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6920,8 +6920,8 @@
   },
   {
     "strName": "MSVentCloseStart",
-    "strTitle": "Закрытие",
-    "strDesc": "[us] [начинает] закрывать [them].",
+    "strTitle": "Закрыть",
+    "strDesc": "[us] [starts] закрывать [them].",
     "strTooltip": "Закрывает [them], чтобы предотвратить свободный обмен газом и давлением между отсеками.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -6948,7 +6948,7 @@
   {
     "strName": "MSVent01OpenAllow",
     "strTitle": "",
-    "strDesc": "[us] [открывает].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6968,7 +6968,7 @@
   {
     "strName": "MSVentOpenStart",
     "strTitle": "Открыть",
-    "strDesc": "[us] [начинает] открывать [them].",
+    "strDesc": "[us] [starts] открывать [them].",
     "strTooltip": "Открывает [them], чтобы обеспечить свободный обмен газом и давлением между отсеками.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -7037,7 +7037,7 @@
   {
     "strName": "MSVent02OpenAllow",
     "strTitle": "",
-    "strDesc": "[us] [открывает].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7057,7 +7057,7 @@
   {
     "strName": "MSVent02OpenO2Allow",
     "strTitle": "",
-    "strDesc": "[us] [открывает].",
+    "strDesc": "[us] [открывает]",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7077,7 +7077,7 @@
   {
     "strName": "MSVent02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7097,7 +7097,7 @@
   {
     "strName": "MSVent02OnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [имеет] силу.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7117,7 +7117,7 @@
   {
     "strName": "MSWall1x1Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7139,7 +7139,7 @@
   {
     "strName": "MSWall1x1Dmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7160,7 +7160,7 @@
   {
     "strName": "MSWallPlastic1x1Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7182,7 +7182,7 @@
   {
     "strName": "MSWallPlastic1x1Dmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7203,7 +7203,7 @@
   {
     "strName": "MSWallAero1x1Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7225,7 +7225,7 @@
   {
     "strName": "MSWallAero1x1Dmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7246,7 +7246,7 @@
   {
     "strName": "MSWallAero1x2SlantDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7268,7 +7268,7 @@
   {
     "strName": "MSWallAero1x2SlantDmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7289,7 +7289,7 @@
   {
     "strName": "MSWallAero1x3SlantDestroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7311,7 +7311,7 @@
   {
     "strName": "MSWallAero1x3SlantDmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7332,7 +7332,7 @@
   {
     "strName": "MSWallThin1x1Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7354,7 +7354,7 @@
   {
     "strName": "MSWallWindow1x1Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7376,7 +7376,7 @@
   {
     "strName": "MSWallWindow1x1Dmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7397,7 +7397,7 @@
   {
     "strName": "MSWallWindow1x1SqDmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7418,7 +7418,7 @@
   {
     "strName": "MSToolWorkLamp01Dmg",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -7428,7 +7428,7 @@
   {
     "strName": "MSWorkLampSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключает].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7448,7 +7448,7 @@
   {
     "strName": "MSWorkLampSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включает].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7468,7 +7468,7 @@
   {
     "strName": "MSCigStub",
     "strTitle": "",
-    "strDesc": "[us] [сокращается до пустоты].",
+    "strDesc": "[us] [is] уменьшен до палки.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -7480,7 +7480,7 @@
   {
     "strName": "MSStabilizerActive01Dmg",
     "strTitle": "",
-    "strDesc": "[us] [повреждён].",
+    "strDesc": "[us] [is] повреждён.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -7500,7 +7500,7 @@
   {
     "strName": "MSStabilizerActive01Destroy",
     "strTitle": "",
-    "strDesc": "[us] разрушен.",
+    "strDesc": "[us] [is] разрушен.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -7510,7 +7510,7 @@
   {
     "strName": "MSStabilizerActive01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [выключается].",
+    "strDesc": "[us] [switches] выключается.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -7530,7 +7530,7 @@
   {
     "strName": "MSStabilizerActive01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [включается].",
+    "strDesc": "[us] [switches] на.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,

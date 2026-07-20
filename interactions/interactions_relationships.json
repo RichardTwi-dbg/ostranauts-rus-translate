@@ -1,7 +1,7 @@
 [
   {
     "strName": "CGAssignAttraction",
-    "strTitle": "Добавляет романтические предпочтения для нас",
+    "strTitle": "Добавляет романтические предпочтения нам",
     "strDesc": "[us] [gains] романтические предпочтения.",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -269,7 +269,7 @@
   },
   {
     "strName": "PSPAssignAttractionNB",
-    "strTitle": "Добавляет романтические предпочтения для нас как NB",
+    "strTitle": "Добавляет романтические предпочтения нам как НБ",
     "strDesc": null,
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -633,7 +633,7 @@
   {
     "strName": "SeekIntimacySolo",
     "strTitle": "Потребляет острые медиа",
-    "strDesc": "[мы] изучаем любые развлекательные материалы, которые [мы] можем найти на [них].",
+    "strDesc": "[us] [peruses] through whatever rousing media [us-subj] can find on [them].",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.003,
@@ -652,8 +652,8 @@
   },
   {
     "strName": "SOCFlirtStartDeny",
-    "strTitle": "Не будет ловить",
-    "strDesc": "[us] [isn't] заинтересован в ловле [them].",
+    "strTitle": "Не лезть в флирт",
+    "strDesc": "[us] [isn't] интересуется флиртом с [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -671,7 +671,7 @@
   {
     "strName": "SOCFlirtStartMan",
     "strTitle": "Лёгкий контакт",
-    "strDesc": "[us] [checks] если [us-contractIs] привлекается к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [raises] [us-pos] брови с намёком на [them]",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -696,7 +696,7 @@
   {
     "strName": "SOCFlirtStartWoman",
     "strTitle": "Лёгкий контакт",
-    "strDesc": "[us] [checks] если [us-contractIs] привлекается к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [raises] [us-pos] брови с намёком на [them]",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -721,8 +721,8 @@
   {
     "strName": "SOCFlirtStartNB",
     "strTitle": "Лёгкий контакт",
-    "strDesc": "[us] [checks] если [us-contractIs] привлекается к [them].",
-    "strTooltip": "[us] [raises] [us-pos] брови с намёком на [",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
+    "strTooltip": "[us] [raises] [us-pos] брови с намёком на [them]",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -746,7 +746,7 @@
   {
     "strName": "SOCFlirtStartManPlayer",
     "strTitle": "Лёгкий контакт",
-    "strDesc": "[us] [checks] если [us-contractIs] привлекается к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [pretends] делать намёки на [them]",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -772,7 +772,7 @@
   {
     "strName": "SOCFlirtStartWomanPlayer",
     "strTitle": "Лёгкий контакт",
-    "strDesc": "[us] [checks] если [us-contractIs] привлекается к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [pretends] делать намёки на [them]",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -798,7 +798,7 @@
   {
     "strName": "SOCFlirtStartNBPlayer",
     "strTitle": "Лёгкий контакт",
-    "strDesc": "[us] [checks] если [us-contractIs] привлекается к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [pretends] делать намёки на [them]",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -824,7 +824,7 @@
   {
     "strName": "SOCFlirtStart",
     "strTitle": "Лёгкий контакт",
-    "strDesc": "[us] [checks] если привлекается к [them].",
+    "strDesc": "[us] [проверяет], притягивается ли к [them].",
     "strTooltip": "[us] [raises] [us-pos] брови с намёком на [them]",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -889,7 +889,7 @@
   {
     "strName": "SOCBawdyCommentaryNB",
     "strTitle": "Мечтать о привлекательных людях",
-    "strDesc": "[us] [делает] комментарии о привлекательных людях.",
+    "strDesc": "[us] [makes] комментарии о привлекательных людях.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -907,7 +907,7 @@
   {
     "strName": "SOCFlirtContinueDeny",
     "strTitle": "Не лезть в флирт",
-    "strDesc": "[us] [не интересуется] флиртом с [ними].",
+    "strDesc": "[us] [isn't] интересуется флиртом с [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -925,8 +925,8 @@
   {
     "strName": "SOCFlirtContinue",
     "strTitle": "Отвечать флиртом",
-    "strDesc": "[us] [проверяет], привлекает ли [us] к [ним].",
-    "strTooltip": "[us] [отвечает] флиртово на [них]",
+    "strDesc": "[us] [проверяет], притягивается ли к [them].",
+    "strTooltip": "[us] [responds] ласково к [them]",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -953,7 +953,7 @@
   {
     "strName": "SOCFlirtContinueMan",
     "strTitle": "Отвечать флиртом",
-    "strDesc": "[us] [отвечает] флиртово на [них].",
+    "strDesc": "[us] [responds] ласково к [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -976,7 +976,7 @@
   {
     "strName": "SOCFlirtContinueWoman",
     "strTitle": "Отвечать флиртом",
-    "strDesc": "[us] [отвечает] флиртово на [них].",
+    "strDesc": "[us] [responds] ласково к [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -999,7 +999,7 @@
   {
     "strName": "SOCFlirtContinueNB",
     "strTitle": "Отвечать флиртом",
-    "strDesc": "[us] [отвечает] флитрово на [них].",
+    "strDesc": "[us] [responds] ласково к [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -1022,8 +1022,8 @@
   {
     "strName": "SOCFlirtContinueManPlayer",
     "strTitle": "Отвечать флиртом",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [ним].",
-    "strTooltip": "[us] [дружит] с [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
+    "strTooltip": "[us] [flirts] с [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -1048,8 +1048,8 @@
   {
     "strName": "SOCFlirtContinueWomanPlayer",
     "strTitle": "Отвечать флиртом",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [ним].",
-    "strTooltip": "[us] [дружит] с [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
+    "strTooltip": "[us] [flirts] с [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -1074,8 +1074,8 @@
   {
     "strName": "SOCFlirtContinueNBPlayer",
     "strTitle": "Отвечать флиртом",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [ним].",
-    "strTooltip": "[us] [дружит] с [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
+    "strTooltip": "[us] [flirts] с [them].",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -1100,7 +1100,7 @@
   {
     "strName": "SOCRepeatSexuallyMen",
     "strTitle": "Повторить, сексуально",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [ним].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [repeats] то, что [them] только что сказал, но сексуально.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1124,7 +1124,7 @@
   {
     "strName": "SOCRepeatSexuallyWomen",
     "strTitle": "Повторить, сексуально",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [repeats] то, что [them] только что сказал, но сексуально.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1148,7 +1148,7 @@
   {
     "strName": "SOCRepeatSexuallyNB",
     "strTitle": "Повторить, сексуально",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [repeats] то, что [them] только что сказал, но сексуально.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1172,8 +1172,8 @@
   {
     "strName": "SOCInviteDrinkMan",
     "strTitle": "Приглашение на напиток",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
-    "strTooltip": "[us] с намёком [спрашивает], хочет ли [them] выпить что-то.",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
+    "strTooltip": "[us] с намёком [asks] если [them] хотят выпить что-то.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -1199,8 +1199,8 @@
   {
     "strName": "SOCInviteDrinkWoman",
     "strTitle": "Приглашение на напиток",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
-    "strTooltip": "[us] с намёком [спрашивает], хочет ли [them] выпить что-то.",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
+    "strTooltip": "[us] с намёком [asks] если [them] хотят выпить что-то.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -1226,8 +1226,8 @@
   {
     "strName": "SOCInviteDrinkNB",
     "strTitle": "Приглашение на напиток",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
-    "strTooltip": "[us] с намёком [спрашивает], хочет ли [them] выпить что-то.",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
+    "strTooltip": "[us] с намёком [asks] если [them] хотят выпить что-то.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
     "strActionGroup": "Talk",
@@ -1253,7 +1253,7 @@
   {
     "strName": "SOCLeadTheWayMan",
     "strTitle": "Пусть ведёт",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [shrugs] и [tells] [them] пусть ведёт.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1276,7 +1276,7 @@
   {
     "strName": "SOCLeadTheWayWoman",
     "strTitle": "Пусть ведёт",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [shrugs] и [tells] [them] пусть ведёт.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1299,7 +1299,7 @@
   {
     "strName": "SOCLeadTheWayNB",
     "strTitle": "Пусть ведёт",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [shrugs] и [tells] [them] пусть ведёт.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1322,7 +1322,7 @@
   {
     "strName": "SOCLeadTheWayEnthusedMan",
     "strTitle": "Пусть ведёт",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [smiles] и [leads] ведёт.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1345,7 +1345,7 @@
   {
     "strName": "SOCLeadTheWayEnthusedWoman",
     "strTitle": "Пусть ведёт",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [smiles] и [leads] ведёт.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1368,7 +1368,7 @@
   {
     "strName": "SOCLeadTheWayEnthusedNB",
     "strTitle": "Пусть ведёт",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] [smiles] и [leads] ведёт.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1391,7 +1391,7 @@
   {
     "strName": "SOCSmokeSaucyBreakMan",
     "strTitle": "Острый перерыв на курение",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] и [them] наслаждаются близостью, чувственными взглядами, совместным дыханием и намёками, которые подчёркивают двойной смысл, пока курят.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1415,7 +1415,7 @@
   {
     "strName": "SOCSmokeSaucyBreakWoman",
     "strTitle": "Острый перерыв на курение",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] и [them] наслаждаются близостью, чувственными взглядами, совместным дыханием и намёками, которые подчёркивают двойной смысл, пока курят.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1439,7 +1439,7 @@
   {
     "strName": "SOCSmokeSaucyBreakNB",
     "strTitle": "Острый перерыв на курение",
-    "strDesc": "[us] [проверяет], привлекает ли [us-contractIs] к [them].",
+    "strDesc": "[us] [checks] if [us-contractIs] привлекает к [them].",
     "strTooltip": "[us] и [them] наслаждаются близостью, чувственными взглядами, совместным дыханием и намёками, которые подчёркивают двойной смысл, пока курят.",
     "strTargetPoint": "talk",
     "strAnim": "Idle",
@@ -1462,8 +1462,8 @@
   },
   {
     "strName": "SOCInviteToLoopMan",
-    "strTitle": "Приглашение в романтический цикл",
-    "strDesc": "[us] [приглашает] [them] пройти в официальное романтическое партнерство, инициируя традицию спейсеров закрепления цикла.",
+    "strTitle": "Приглашение пройти романтический цикл",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1502,8 +1502,8 @@
   },
   {
     "strName": "SOCInviteToLoopWoman",
-    "strTitle": "Приглашение в романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтическую парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strTitle": "Приглашение пройти романтический цикл",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1543,7 +1543,7 @@
   {
     "strName": "SOCInviteToLoopNB",
     "strTitle": "Приглашение пройти романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтическую парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1583,7 +1583,7 @@
   {
     "strName": "SOCInviteToLoopAIPolyMan",
     "strTitle": "Приглашение пройти романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтическую парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1623,7 +1623,7 @@
   {
     "strName": "SOCInviteToLoopAIPolyWoman",
     "strTitle": "Приглашение пройти романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтичной парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1663,7 +1663,7 @@
   {
     "strName": "SOCInviteToLoopAIPolyNB",
     "strTitle": "Приглашение пройти романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтическую парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1703,7 +1703,7 @@
   {
     "strName": "SOCInviteToLoopMonoMan",
     "strTitle": "Приглашение пройти романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтическую парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1742,7 +1742,7 @@
   {
     "strName": "SOCInviteToLoopMonoWoman",
     "strTitle": "Приглашение пройти романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтическую парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1781,7 +1781,7 @@
   {
     "strName": "SOCInviteToLoopMonoNB",
     "strTitle": "Приглашение пройти романтический цикл",
-    "strDesc": "[us] приглашает [them] пройти формальную романтическую парную связь, инициируя традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [invites] [them] to enter a formal romantic partnership, initiating the spacer tradition of sealing a loop.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1820,7 +1820,7 @@
   {
     "strName": "SOCInviteToLoopAcceptMan",
     "strTitle": "Закрепить романтический цикл",
-    "strDesc": "[us] принимает предложение от [them] пройти формальную романтическую парную связь, завершая традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [accepts] предложение от [them] пройти формальную романтическую парную связь, завершая традицию спейсера по закреплению цикла.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1844,7 +1844,7 @@
   {
     "strName": "SOCInviteToLoopAcceptWoman",
     "strTitle": "Закрепить романтический цикл",
-    "strDesc": "[us] принимает предложение от [them] пройти формальную романтическую парную связь, завершая традицию спейсеров по закреплению цикла.",
+    "strDesc": "[us] [accepts] предложение от [them] пройти формальную романтическую парную связь, завершая традицию спейсера по закреплению цикла.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1964,7 +1964,7 @@
   {
     "strName": "SOCInviteToLoopAcceptMonoManCheck",
     "strTitle": "Уточнить ожидания по моногамии",
-    "strDesc": "[us] [is] заинтересован, но [clarifies], что [us-subj] [expects] иметь только одного романтического партнёра, спрашивает, согласен ли [them] перед закреплением любого цикла.",
+    "strDesc": "[us] [is] заинтересован, но [clarifies], что [us-subj] [expects] иметь только одного романтического партнёра, спрашивает, согласен ли [them] перед тем, как закрепить любой цикл.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -1990,7 +1990,7 @@
   {
     "strName": "SOCInviteToLoopAcceptMonoWomanCheck",
     "strTitle": "Уточнить ожидания по моногамии",
-    "strDesc": "[us] [is] заинтересован, но [clarifies], что [us-subj] [expects] иметь только одного романтического партнёра, спрашивает, согласен ли [them] перед закреплением любого цикла.",
+    "strDesc": "[us] [is] заинтересован, но [clarifies], что [us-subj] [expects] иметь только одного романтического партнёра, спрашивает, согласен ли [them] перед тем, как закрепить любой цикл.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -2016,7 +2016,7 @@
   {
     "strName": "SOCInviteToLoopAcceptMonoNBCheck",
     "strTitle": "Уточнить ожидания по моногамии",
-    "strDesc": "[us] [is] заинтересован, но [clarifies], что [us-subj] [expects] иметь только одного романтического партнёра, спрашивает, согласен ли [them] перед закреплением любого цикла.",
+    "strDesc": "[us] [is] заинтересован, но [clarifies], что [us-subj] [expects] иметь только одного романтического партнёра, спрашивает, согласен ли [them] перед тем, как закрепить любой цикл.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -2331,8 +2331,8 @@
   },
   {
     "strName": "SOCBreakUp",
-    "strTitle": "Разорвать романтический цикл",
-    "strDesc": "[us] [informs] [them] что они разрывают цикл. Они прекратили эту романтическую пару.",
+    "strTitle": "Разрыв романтического цикла",
+    "strDesc": "[us] [informs] [them] что они разрывают цикл. Они больше не хотят этого романтического партнёрства.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",
@@ -2356,7 +2356,7 @@
   },
   {
     "strName": "SOCBreakUpEasy",
-    "strTitle": "Разорвать романтический цикл",
+    "strTitle": "Разрыв романтического цикла",
     "strDesc": "[us] [informs] [them] что они разрывают цикл. Они больше не хотят этого романтического партнёрства.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
@@ -2710,7 +2710,7 @@
   {
     "strName": "SOCPartnerAdvancesDeny",
     "strTitle": "Отклонить продвижение",
-    "strDesc": "[us] [отклоняет] продвижение [them-pos].",
+    "strDesc": "[us] [rebuffs] [them-pos] advances.",
     "strTargetPoint": "talk",
     "strAnim": "No",
     "strActionGroup": "Talk",
@@ -2732,7 +2732,7 @@
   {
     "strName": "SOCPartnerAdvancesHygieneDeny",
     "strTitle": "Отклонить из-за гигиены",
-    "strDesc": "[us] [отклоняет] продвижение [them-pos] и советует немного очиститься сначала.",
+    "strDesc": "[us] [rebuffs] [them-pos] продвигается и советует сначала немного очистить.",
     "strTargetPoint": "talk",
     "strAnim": "No",
     "strActionGroup": "Talk",
@@ -2784,7 +2784,7 @@
   {
     "strName": "PLGAIJealousTowardPartnerAdd",
     "strTitle": "Получить присягу на противостояние зависти",
-    "strDesc": "[us] заметил [them] что-то романтичное с [3rd], и остановился. [us-subj] выглядит раздражённым.",
+    "strDesc": "[us] заметил [them] что-то романтичное с [3rd], и остановился. [us-sub-ж] выглядит раздражённым.",
     "strTargetPoint": null,
     "strAnim": "Angry",
     "strActionGroup": "Talk",
@@ -2806,7 +2806,7 @@
   },
   {
     "strName": "PLGAIJealousAboutPartnerAdd",
-    "strTitle": "Противостоять зависти",
+    "strTitle": "Сопротивляться зависти",
     "strDesc": "[us] заметил [them] что-то романтичное с [3rd], и остановился. [us-sub-ж] выглядит раздражённым.",
     "strTargetPoint": null,
     "strAnim": "Angry",
@@ -2833,7 +2833,7 @@
   {
     "strName": "PLGAIJealousAboutCrush",
     "strTitle": "Наблюдать с завистью",
-    "strDesc": "[us] с тоской [наблюдает] за [them] и [3rd], которые делятся близостью.",
+    "strDesc": "[us] с тоской [watches] [them] и [3rd] share intimacy together.",
     "strTargetPoint": null,
     "strAnim": "Angry",
     "strActionGroup": "Talk",
@@ -2858,7 +2858,7 @@
   {
     "strName": "PLGAIJealousAboutCrushShim",
     "strTitle": "Наблюдать с завистью",
-    "strDesc": "[them] с тоской [наблюдает] за [us] и [3rd], которые делятся близостью.",
+    "strDesc": "[them] с тоской [watches] [us] и [3rd] share intimacy together.",
     "strTargetPoint": null,
     "strAnim": "Angry",
     "strActionGroup": "Talk",
@@ -2901,8 +2901,8 @@
   },
   {
     "strName": "SOCJealousTowardPartner",
-    "strTitle": "Противостоять зависти",
-    "strDesc": "[us] с завистью [противостоит] [them] за предательство [us-obj].",
+    "strTitle": "Сопротивляться зависти",
+    "strDesc": "[us] с завистью [confronts] [them] about cheating on [us-obj].",
     "strTargetPoint": "talk",
     "strAnim": "Angry",
     "strActionGroup": "Talk",
@@ -2926,8 +2926,8 @@
   },
   {
     "strName": "SOCJealousAboutPartner",
-    "strTitle": "Противостоять зависти",
-    "strDesc": "[us] с завистью [противостоит] [them] за то, что они начинают с [3rd].",
+    "strTitle": "Сопротивляться зависти",
+    "strDesc": "[us] с завистью [confronts] [them] за то, что они начинают с [3rd].",
     "strTargetPoint": "talk",
     "strAnim": "Angry",
     "strActionGroup": "Talk",
@@ -3025,7 +3025,7 @@
   {
     "strName": "SOCInviteToLoopForceLoverAllow",
     "strTitle": "Принудить их видеть нас как объект привязанности",
-    "strDesc": "[us] [motivides] [them] к тому, чтобы испытывать к [us-obj] привязанность.",
+    "strDesc": "[us] [motivates] [them] к тому, чтобы испытывать к [us-obj] привязанность.",
     "strTargetPoint": "talk",
     "strAnim": "Talk",
     "strActionGroup": "Talk",

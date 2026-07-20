@@ -1,7 +1,7 @@
 [
   {
     "strName": "ItmCigViceroyBox01",
-    "strNameShort": "Cigarette Box",
+    "strNameShort": "Ящик с сигаретами",
     "strNameFriendly": "Коробка с сигаретами Viceroy",
     "strDesc": "Коробка из 20 сигарет бренда Viceroy.\n\nНа передней стороне изображён знаменитый красный кролик в классической позе приветствия, которую спейсеры используют для сигнализации о перерыве.\n\n\"Перерыв на сигареты. Приказы Viceroy.\"",
     "strItemDef": "ItmCigViceroyBox01Empty",
@@ -56,7 +56,7 @@
   },
   {
     "strName": "ItmCigViceroy01",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Сигарета Viceroy",
     "strDesc": "Сигарета бренда Viceroy.\n\nБез фильтра и жёсткая, предпочтительный бренд для тех, кто хочет ощутить сырой вкус после тяжёлой работы.\n\n\"Свежее, чем кислород.\"",
     "strItemDef": "ItmCigViceroy01",
@@ -108,7 +108,7 @@
   },
   {
     "strName": "ItmCigViceroy01Lit",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Сигарета Viceroy (зажжена)",
     "strDesc": "Сигарета бренда Viceroy.\n\nБез фильтра и жёсткая, предпочтительный бренд для тех, кто хочет ощутить сырой вкус после тяжёлой работы.\n\n\"Свежее, чем кислород.\"",
     "strItemDef": "ItmCigViceroy01Lit",
@@ -175,7 +175,7 @@
   },
   {
     "strName": "ItmCigViceroyBox02",
-    "strNameShort": "Cigarette Box",
+    "strNameShort": "Ящик с сигаретами",
     "strNameFriendly": "Коробка с сигаретами Viceroy с ментолом",
     "strDesc": "Коробка из 20 сигарет бренда Viceroy с ментоловым вкусом, обеспечивающая более чистое горение.\n\nНа передней стороне изображён знаменитый красный кролик в классической позе приветствия, которую спейсеры используют для сигнализации о перерыве.\n\n\"Свежее, чем кислород.\"",
     "strItemDef": "ItmCigViceroyBox02Empty",
@@ -230,7 +230,7 @@
   },
   {
     "strName": "ItmCigViceroy02",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Сигарета Viceroy с ментолом",
     "strDesc": "Сигарета с ментоловым вкусом бренда Viceroy, обеспечивающая более чистое горение.\n\nСлегка отфильтрованный и гигиенически обработанный вкус предпочтительного бренда для тех, кто хочет ощутить сырой вкус после тяжёлой работы.\n\n\"Половина сажи, вдвое больше приветствия.\"",
     "strItemDef": "ItmCigViceroy02",
@@ -282,7 +282,7 @@
   },
   {
     "strName": "ItmCigViceroy02Lit",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Сигарета Viceroy с ментолом (зажжена)",
     "strDesc": "Сигарета с ментоловым вкусом бренда Viceroy, обеспечивающая более чистое горение.\n\nСлегка отфильтрованный и гигиенически обработанный вкус предпочтительного бренда для тех, кто хочет ощутить сырой вкус после тяжёлой работы.\n\n\"Свежее, чем кислород.\"",
     "strItemDef": "ItmCigViceroy02Lit",
@@ -347,7 +347,7 @@
   },
   {
     "strName": "ItmCigDamaskRoseBox01",
-    "strNameShort": "Cigarette Box",
+    "strNameShort": "Ящик с сигаретами",
     "strNameFriendly": "Коробка с сигаретами Damask Rose",
     "strDesc": "Коробка из 10 сигарет бренда Damask Rose, выпущенная компанией The Green Energy Company, расположенной в Rosebud на Tharsis Landing.\n\nНа передней стороне изображена знаменитая пастельно-розовая и синяя цветочная композиция, характерная для основного продукта сативы в системе.\n\n\"Сигарета с розой.\"",
     "strItemDef": "ItmCigDamaskRoseBox01Empty",
@@ -402,7 +402,7 @@
   },
   {
     "strName": "ItmCigDamaskRose01",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Сигарета Damask Rose",
     "strDesc": "Сигарета Damask Rose.\n\nЛидерский бренд марихуаны за пределами Земли благодаря своей истории, качеству и доступности. Пуристическая сатива, выращенная в неблагоприятных условиях.\n\n\"Цветок оазиса.\"",
     "strItemDef": "ItmCigDamaskRose01",
@@ -450,7 +450,7 @@
   },
   {
     "strName": "ItmCigDamaskRose01Lit",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Сигарета Damask Rose (зажжена)",
     "strDesc": "Сигарета Damask Rose.\n\nЛидерский бренд марихуаны за пределами Земли благодаря своей истории, качеству и доступности. Пуристическая сатива, выращенная в неблагоприятных условиях.\n\n\"Улететь.\"",
     "strItemDef": "ItmCigDamaskRose01Lit",
@@ -515,7 +515,7 @@
   },
   {
     "strName": "ItmCigUnicornDreamBox01",
-    "strNameShort": "Cigarette Box",
+    "strNameShort": "Ящик с сигаретами",
     "strNameFriendly": "Коробка с сигаретами Unicorn Dream",
     "strDesc": "Коробка из 10 сигарет бренда Unicorn Dream, выпущенная компанией The Green Energy Company, расположенной в Rosebud на Tharsis Landing.\n\nБолее земная версия знаменитого цветочного дизайна Damask Rose украшает переднюю сторону, с более толстыми листьями, указывающими на наличие индик-сигареты.\n\n\"Мифический полёт.\"",
     "strItemDef": "ItmCigUnicornDreamBox01Empty",
@@ -570,7 +570,7 @@
   },
   {
     "strName": "ItmCigUnicornDream01",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Дым из мечты",
     "strDesc": "Курительная сигарета «Дым из мечты».\n\nСестринская линия к лидеру бренда марихуаны за пределами Земли благодаря истории, качеству и доступности. Пуристическая индика-сорт, выведенный для роста в неблагоприятных условиях.\n\n«Лист мечты».",
     "strItemDef": "ItmCigUnicornDream01",
@@ -622,7 +622,7 @@
   },
   {
     "strName": "ItmCigUnicornDream01Lit",
-    "strNameShort": "Cigarette",
+    "strNameShort": "Курительный табак",
     "strNameFriendly": "Курительная сигарета «Дым из мечты» (зажжена)",
     "strDesc": "Курительная сигарета «Дым из мечты».\n\nСестринская линия к лидеру бренда марихуаны за пределами Земли благодаря истории, качеству и доступности. Пуристическая индика-сорт, выведенный для роста в неблагоприятных условиях.\n\n«Добивайся мечты».",
     "strItemDef": "ItmCigUnicornDream01Lit",
@@ -691,7 +691,7 @@
   },
   {
     "strName": "ItmCigStub",
-    "strNameShort": "Cig Stub",
+    "strNameShort": "Остаток сигареты",
     "strNameFriendly": "Остаток сигареты",
     "strDesc": "Остаток сигареты. Остатки и желтая бумага.",
     "strItemDef": "ItmCigStub",
@@ -738,7 +738,7 @@
   {
     "strName": "Plot_Whodunnit_VictimDNA",
     "strNameFriendly": "Биологические образцы из жертвы",
-    "strNameShort": "DNA Samples",
+    "strNameShort": "Образцы ДНК",
     "strDesc": "Образцы волос, кожи и других биологических веществ с тела жертвы.",
     "strItemDef": "ItmCigStub",
     "strType": "Item",
@@ -774,7 +774,7 @@
   },
   {
     "strName": "ItmHygieneWipes01",
-    "strNameShort": "Hygiene Pack",
+    "strNameShort": "Пакет гигиены",
     "strNameFriendly": "Пакет гигиены",
     "strDesc": "Персональный пакет гигиены, стандартный расходный комплект с предметами для ухода за собой и чистотой в условиях невесомости.\n\nПомимо общих влажных салфеток, в комплекте обычно содержатся мыло, средства для бритья, отбеливатель и упаковка может служить одноразовым комб- или щеткой для волос. В элитных комплектах также могут быть включены зубная нить, бальзам для губ, крем для кожи, ножницы для ногтей, маска для сна и наушники.\n\nПакеты часто заполняются из предпочтительных или доступных брендов.",
     "strItemDef": "ItmHygieneWipes01",

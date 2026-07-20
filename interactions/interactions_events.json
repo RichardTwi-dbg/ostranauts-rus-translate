@@ -142,7 +142,7 @@
   {
     "strName": "EVTBark_PrettyBad",
     "strTitle": "Большой страх Барк: Очень плохо",
-    "strDesc": "[us] говорит: \"Это, вероятно, очень плохо.\"",
+    "strDesc": "[us] [says] \"Это, вероятно, очень плохо.\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -156,7 +156,7 @@
   {
     "strName": "EVTBark_SaveOthers",
     "strTitle": "Большой страх Барк: Спаси другие",
-    "strDesc": "[us] говорит: \"Я должен проверить всех.\"",
+    "strDesc": "[us] [says] \"Я должен проверить всех.\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -170,7 +170,7 @@
   {
     "strName": "EVTBark_SaveSelf",
     "strTitle": "Большой страх Барк: Спаси себя",
-    "strDesc": "[us] говорит: \"Каждый за себя!\"",
+    "strDesc": "[us] [says] \"Каждый за себя!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -184,7 +184,7 @@
   {
     "strName": "EVTBark_Yay",
     "strTitle": "Большой страх Бар и: Ура!",
-    "strDesc": "[us] говорит: \"Ура!\"",
+    "strDesc": "[us] [says] \"Ура!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -253,7 +253,7 @@
   {
     "strName": "EVTScareBigBasic",
     "strTitle": "Последствия большого страха (базовый)",
-    "strDesc": "[us] обрабатывает большой страх.",
+    "strDesc": "[us] [is] обрабатывает большой страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -274,7 +274,7 @@
   {
     "strName": "EVTScareBigAgliophobic",
     "strTitle": "Последствия большого страха (аглиофобия)",
-    "strDesc": "[us] обрабатывает большой страх.",
+    "strDesc": "[us] [is] обрабатывает большой страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -295,7 +295,7 @@
   {
     "strName": "EVTScareBigApathetic",
     "strTitle": "Последствия большого страха (апатия)",
-    "strDesc": "[us] обрабатывает большой страх.",
+    "strDesc": "[us] [is] обрабатывает большой страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -399,7 +399,7 @@
   {
     "strName": "EVTScareBigOptimist",
     "strTitle": "Эффекты большого страха (Оптимист)",
-    "strDesc": "[us] [ о] [is] обрабатывает большой страх.",
+    "strDesc": "[us] [is] обрабатывает большой страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [

@@ -330,7 +330,7 @@
   {
     "strName": "ENCPoliceBoardFishForBribe",
     "strTitle": "Допрос",
-    "strDesc": "[us] случайно намекает, что, возможно, [them] должен предложить [им] взятку.",
+    "strDesc": "[us] случайно намекает, что, возможно, [them] должен предложить [them] взятку.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,

@@ -403,7 +403,7 @@
   },
   {
     "strName": "pocket_clip01",
-    "strNameFriendly": "Клип-пойнт",
+    "strNameFriendly": "Плечевой карман",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -417,7 +417,7 @@
   },
   {
     "strName": "pocket_clip02",
-    "strNameFriendly": "Клип-пойнт",
+    "strNameFriendly": "Плечевой карман",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,

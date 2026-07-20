@@ -1,7 +1,7 @@
 [
   {
     "strName": "ENCHeatAyoSecFinePublicDisorder",
-    "strDesc": "AyoSec Fine (Public Disorder)",
+    "strDesc": "Штраф AyoSec (Публичное нарушение)",
     "fAmount": 15000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -11,7 +11,7 @@
   },
   {
     "strName": "ENCHeatAyoSecFinePublicDisorderDebt",
-    "strDesc": "AyoSec Fine (Public Disorder)",
+    "strDesc": "Штраф AyoSec (Публичное нарушение)",
     "fAmount": 15000,
     "strCurrency": "StatUSD",
     "strFrequency": "Mortgage",

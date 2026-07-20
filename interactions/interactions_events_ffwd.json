@@ -427,7 +427,7 @@
   {
     "strName": "FFWDEventCharismatic",
     "strTitle": "Вдохновлять (характерный)",
-    "strDesc": "[us] вдохновляет [them] с новым чувством цели.",
+    "strDesc": "[us] [inspires] [them] с новым чувством цели.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -465,7 +465,7 @@
   {
     "strName": "FFWDEventCraven",
     "strTitle": "Делиться страхами (боязливый)",
-    "strDesc": "[us] беспокоит [them] по поводу [us-pos] страхов.",
+    "strDesc": "[us] [worries] [them] about [us-pos] fears.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -484,7 +484,7 @@
   {
     "strName": "FFWDEventDiligent",
     "strTitle": "Поздравляет (дiligent)",
-    "strDesc": "[us] получает похвалу от [them] за [us-pos] усердные усилия.",
+    "strDesc": "[us] [earns] похвалу от [them] за [us-pos] усердные усилия.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -693,7 +693,7 @@
   {
     "strName": "FFWDEventKind",
     "strTitle": "Подтверждает (Добрый)",
-    "strDesc": "[us] тепло подтверждает позитивные стороны [them].",
+    "strDesc": "[us] тепло [affirms] позитивные стороны [them].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -712,7 +712,7 @@
   {
     "strName": "FFWDEventLeader",
     "strTitle": "Координаты (Лидер)",
-    "strDesc": "[us] мотивирует эффективное совместное сотрудничество с [them].",
+    "strDesc": "[us] [motivates] эффективное совместное сотрудничество с [them].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -731,7 +731,7 @@
   {
     "strName": "FFWDEventLeader02",
     "strTitle": "Собираем (Лидер)",
-    "strDesc": "[us] поднимает оба [them] и [3rd] с помощью вдохновляющего речи о будущем.",
+    "strDesc": "[us] [uplifts] both [them] and [3rd] с риторическим вдохновляющим выступлением.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -753,7 +753,7 @@
   {
     "strName": "FFWDEventLiar",
     "strTitle": "Обман (Лжец)",
-    "strDesc": "[us] получает [us-pos] вперед, манипулируя [them] с помощью обмана.",
+    "strDesc": "[us] [gets] [us-pos] way through manipulating [them] with deception.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -772,7 +772,7 @@
   {
     "strName": "FFWDEventLoyal",
     "strTitle": "Остается (Лоялен)",
-    "strDesc": "[us] имеет [them-pos] в трудную минуту.",
+    "strDesc": "[us] [has] [them-pos] в трудную минуту.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -791,7 +791,7 @@
   {
     "strName": "FFWDEventLustful",
     "strTitle": "Непристойные шутки (Желание)",
-    "strDesc": "[us] шутит непристойно с [them].",
+    "strDesc": "[us] [banters] лёгко с [them].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -829,7 +829,7 @@
   {
     "strName": "FFWDEventMoodAchievement",
     "strTitle": "Жалуется на бесполезность",
-    "strDesc": "[us] жалуется [them] на чувство бесполезности.",
+    "strDesc": "[us] [complains] to [them] about feeling useless.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -869,7 +869,7 @@
   {
     "strName": "FFWDEventMoodAltruism",
     "strTitle": "Жалуется на то, что мы заслуживаем",
-    "strDesc": "[us] жалуется [them], что никогда не получает то, что [us-subj] заслуживает.",
+    "strDesc": "[us] [complains] about never getting what [us-subj] [deserves] to [them].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -889,7 +889,7 @@
   {
     "strName": "FFWDEventMoodAutonomy",
     "strTitle": "Жалуется на микроменеджмент",
-    "strDesc": "[us] жалуется [им] на ощущение постоянного контроля и желание отдохнуть.",
+    "strDesc": "[us] [complains] to [them] about feeling micromanaged and wanting a break.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -909,7 +909,7 @@
   {
     "strName": "FFWDEventMoodContact",
     "strTitle": "Жаловаться на одиночество",
-    "strDesc": "[us] жалуется [им] на ощущение, что никто не слышит [us-obj].",
+    "strDesc": "[us] [complains] to [them] about feeling like nobody listens to [us-obj].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -929,7 +929,7 @@
   {
     "strName": "FFWDEventMoodEsteem",
     "strTitle": "Жаловаться на уважение",
-    "strDesc": "[us] жалуется [им] на ощущение, что никто не уважает [us-obj].",
+    "strDesc": "[us] [complains] to [them] about feeling like nobody respects [us-obj].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -949,7 +949,7 @@
   {
     "strName": "FFWDEventMoodMeaning",
     "strTitle": "Жаловаться на бессмысленность",
-    "strDesc": "[us] жаловался [им] на отсутствие смысла и красоты в жизни.",
+    "strDesc": "[us] жаловался [them] на отсутствие смысла и красоты в жизни.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -969,7 +969,7 @@
   {
     "strName": "FFWDEventMoodSelfRespect",
     "strTitle": "Жаловаться на самоуважение",
-    "strDesc": "[us] выражает неуверенность и самопожалование [им].",
+    "strDesc": "[us] [expresses] неуверенность и самопожалование [them].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -989,7 +989,7 @@
   {
     "strName": "FFWDEventMoodSecurity",
     "strTitle": "Жаловаться на тревогу",
-    "strDesc": "[us] раскрывает [им] свои [us-pos] тревоги и чувство ужаса.",
+    "strDesc": "[us] [unloads] to [them] about [us-pos] тревоги и чувство ужаса.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1009,7 +1009,7 @@
   {
     "strName": "FFWDEventMoodPrivacy",
     "strTitle": "Жаловаться на приватность",
-    "strDesc": "[us] жалуется [им] на необходимость личного пространства и отсутствие приватности.",
+    "strDesc": "[us] [whines] to [them] о необходимости пространства и отсутствии приватности.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1029,7 +1029,7 @@
   {
     "strName": "FFWDEventMoodWeird",
     "strTitle": "Мурлычет по-суперститиозно",
-    "strDesc": "[them] замечает [us], как он нервно мурлычет, машет и рисует суперститиозные символы и тексты на любых поверхностях.",
+    "strDesc": "[them] [finds] [us] нерегулярно mumuring, жестами и рисуя суперститиозные символы и текст на любых поверхностях.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1049,7 +1049,7 @@
   {
     "strName": "FFWDEventMoodMerga",
     "strTitle": "Наблюдать за пустотой",
-    "strDesc": "[us] доверяет [им] в чувстве, что что-то угрожающее и сильное находится вне и охотится за [us-obj].",
+    "strDesc": "[us] [confides] в [them] о чувстве, что что-то угрожающее и сильное находится вне и охотится за [us-obj].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1069,7 +1069,7 @@
   {
     "strName": "FFWDEventSkillSong",
     "strTitle": "Развлекать (песня)",
-    "strDesc": "[us] развлекал [им] пели привлекательные космические песни и популярные хиты.",
+    "strDesc": "[us] развлекал [them] исполнением привлекательных песен о космосе и популярных гимнов.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1090,7 +1090,7 @@
   {
     "strName": "FFWDEventSoloRememberFamily",
     "strTitle": "Помни о семье",
-    "strDesc": "[us] вспоминает семью, вспоминая прошлые разговоры и моменты с [им].",
+    "strDesc": "[us] вспоминает семью, вспоминая прошлые разговоры и моменты с [them].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1553,7 +1553,7 @@
   {
     "strName": "FFWDEventTendingAppearance",
     "strTitle": "",
-    "strDesc": "[us] выполняет самоконтроль и уход за собой.",
+    "strDesc": "[us] [engages] в самоконтроль и уход за собой.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1568,7 +1568,7 @@
   {
     "strName": "FFWDEventTendingAppearanceSink",
     "strTitle": "",
-    "strDesc": "[us] проводит значительное время в [them], ухаживая за собой и улучшая внешность [us-pos].",
+    "strDesc": "[us] [spends] considerable time at the [them] primping and enhancing [us-pos] appearance.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1602,7 +1602,7 @@
   {
     "strName": "FFWDEventTemperate",
     "strTitle": "",
-    "strDesc": "[us] сопротивляется желанию насладиться небольшим удовольствием.",
+    "strDesc": "[us] [resists] желанию насладиться небольшим удовольствием.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1617,7 +1617,7 @@
   {
     "strName": "FFWDEventGluttonIndulgenceCarried",
     "strTitle": "",
-    "strDesc": "[us] не сопротивляется желанию насладиться небольшим удовольствием и наслаждается [them] полностью [us-reflexive].",
+    "strDesc": "[us] [не сопротивляется] желанию насладиться небольшим удовольствием и [наслаждается] [ними] полностью [us-reflexive].",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],

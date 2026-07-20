@@ -36,7 +36,7 @@
     "strName": "PDAPresetMass",
     "strNameFriendly": "(PDA) Настраиваемый: Масса",
     "strColor": "Neutral",
-    "strDesc": "Включает настройку повреждений P-ДА.",
+    "strDesc": "Включает настройку повреждений PDA.",
     "nDisplaySelf": 2,
     "nDisplayOther": 2,
     "bFatal": false,

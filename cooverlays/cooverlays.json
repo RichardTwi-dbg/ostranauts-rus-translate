@@ -50,7 +50,7 @@
   {
     "strName": "ItmAirPump01Off",
     "strNameFriendly": "Насос воздуха (выключен)",
-    "strDesc": "Насос газа серии Sok-Т, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или помещения и перекачивать его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в кабине.",
+    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или помещения и перекачивать его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в кабине.",
     "strImg": "ItmAirPump01Off",
     "strImgNorm": "ItmAirPump01Offn",
     "strImgDamaged": "ItmAirPump01Dmg01",
@@ -250,7 +250,7 @@
   },
   {
     "strName": "ItmBattery02LowPowerLoose",
-    "strNameFriendly": "Стартовая батарея (ослабленная)",
+    "strNameFriendly": "Стартовая батарея (свободная)",
     "strImg": "ItmBattery02Loose",
     "strImgDamaged": "ItmBattery02Dmg02Loose",
     "strImgNorm": "ItmBattery02Loosen",
@@ -274,7 +274,7 @@
   },
   {
     "strName": "ItmBattery02bLowPowerLoose",
-    "strNameFriendly": "Стартовая батарея (ослабленная)",
+    "strNameFriendly": "Стартовая батарея (свободная)",
     "strImg": "ItmBattery02bLoose",
     "strImgDamaged": "ItmBattery02bDmgLoose",
     "strImgNorm": "ItmBattery02bLoosen",
@@ -312,7 +312,7 @@
   },
   {
     "strName": "ItmBookStudyAdmin01",
-    "strNameShort": "Admin Textbook",
+    "strNameShort": "Текстbook администратора",
     "strNameFriendly": "Текстbook: Управление бизнесом",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области управления бизнесом.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение управления бизнесом.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -330,7 +330,7 @@
   },
   {
     "strName": "ItmBookStudyEngConstruction01",
-    "strNameShort": "Construction Textbook",
+    "strNameShort": "Текстbook строительства",
     "strNameFriendly": "Текстbook: Инженерия строительства",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии строительства.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии строительства.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -348,7 +348,7 @@
   },
   {
     "strName": "ItmBookStudyEngCivil01",
-    "strNameShort": "Civil Eng. Textbook",
+    "strNameShort": "Текстbook гражданской инженерии",
     "strNameFriendly": "Текстbook: Гражданское инженерное дело",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области гражданской инженерии.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение гражданской инженерии.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -366,7 +366,7 @@
   },
   {
     "strName": "ItmBookStudyEngCombat01",
-    "strNameShort": "Combat Eng. Textbook",
+    "strNameShort": "Текстbook боевой инженерии",
     "strNameFriendly": "Текстbook: Боевая инженерия",
     "strDesc": "Интерактивный учебник, изданный Brave New World, помогающий читателям развивать навыки в области боевой инженерии.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение боевой инженерии.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -384,7 +384,7 @@
   },
   {
     "strName": "ItmBookStudyEngMechanical01",
-    "strNameShort": "Mech. Eng. Textbook",
+    "strNameShort": "Текстbook механической инженерии",
     "strNameFriendly": "Текстbook: Механическая инженерия",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области механической инженерии.\n\nФУТКЦИЯ ПОДДЕРЖКИ: Изучение механической инженерии.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -402,7 +402,7 @@
   },
   {
     "strName": "ItmBookStudyEngRobotics01",
-    "strNameShort": "Robotics Eng. Textbook",
+    "strNameShort": "Текстbook робототехники",
     "strNameFriendly": "Текстbook: Инженерия робототехники",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии робототехники.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии робототехники.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -420,7 +420,7 @@
   },
   {
     "strName": "ItmBookStudyEngSoftware01",
-    "strNameShort": "Software Eng. Textbook",
+    "strNameShort": "Текстbook программирования",
     "strNameFriendly": "Текстbook: Инженерия программного обеспечения",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии программного обеспечения.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии программного обеспечения.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -438,7 +438,7 @@
   },
   {
     "strName": "ItmBookStudyEngSpaceship01",
-    "strNameShort": "Spaceship Eng. Textbook",
+    "strNameShort": "Текстbook космического кораблестроения",
     "strNameFriendly": "Текстbook: Инженерия космических кораблей",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии космических кораблей.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии космических кораблей.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -456,7 +456,7 @@
   },
   {
     "strName": "ItmBookStudyHacking01",
-    "strNameShort": "Hacking Textbook",
+    "strNameShort": "Текстbook взлома",
     "strNameFriendly": "Текстbook: Хакерство",
     "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области компьютерных нарушений и эксплуатации методик.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение хакерства.",
     "strCOBase": "ItmBookStudyEngElectronic01",
@@ -1550,7 +1550,7 @@
   },
   {
     "strName": "LiquidBloodMeat",
-    "strNameShort": "Chunky Blood",
+    "strNameShort": "Толстый кровь",
     "strNameFriendly": "Толстый кровь",
     "strDesc": "Кровь с пастельными кусочками, более темная, вязкая текстура с некоторыми волосками, возвышающимися из неё. Почти можно почувствовать медный вкус, когда она близко.",
     "strImg": "tiles/Meat01/ItmLiquidBloodMeat",

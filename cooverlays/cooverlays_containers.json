@@ -2,7 +2,7 @@
   {
     "strName": "ItmStorageBin1x102",
     "strNameFriendly": "Блок-коробка",
-    "strDesc": "Серия «Мокка» Ракова из блок-коробок не так вместительна, как свободные стационарные варианты, но они скрываются, что делает их премиум-решением для тесных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin1x102",
     "strImgNorm": "containers/ItmStorageBin1x101n",
     "strPortraitImg": "containers/ItmStorageBin1x102",
@@ -22,7 +22,7 @@
   {
     "strName": "ItmStorageBin1x102Loose",
     "strNameFriendly": "Блок-коробка (открытая)",
-    "strDesc": "Серия «Мокка» Ракова из блок-коробок не так вместительна, как свободные стационарные варианты, но они скрываются, что делает их премиум-решением для тесных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin1x102Loose",
     "strImgNorm": "containers/ItmStorageBin1x101Loosen",
     "strPortraitImg": "containers/ItmStorageBin1x102Loose",
@@ -45,8 +45,8 @@
   },
   {
     "strName": "ItmStorageBin1x102Dmg",
-    "strNameFriendly": "Блок-коробка (повреждённая)",
-    "strDesc": "Серия «Мокка» Ракова из блок-коробок не так вместительна, как свободные стационарные варианты, но они скрываются, что делает их премиум-решением для тесных корпусов.",
+    "strNameFriendly": "Блок-коробка (повреждена)",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin1x102Dmg02",
     "strImgNorm": "containers/ItmStorageBin1x101Dmg02n",
     "strPortraitImg": "containers/ItmStorageBin1x102Dmg02",
@@ -65,8 +65,8 @@
   },
   {
     "strName": "ItmStorageBin1x102DmgLoose",
-    "strNameFriendly": "Блок-коробка (открытая, повреждённая)",
-    "strDesc": "Серия «Мокка» Ракова из блок-коробок не так вместительна, как свободные стационарные варианты, но они скрываются, что делает их премиум-решением для тесных корпусов.",
+    "strNameFriendly": "Блок-коробка (снята, повреждена)",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin1x102Dmg02Loose",
     "strImgNorm": "containers/ItmStorageBin1x101Dmg02Loosen",
     "strPortraitImg": "containers/ItmStorageBin1x102Dmg02Loose",
@@ -133,7 +133,7 @@
   },
   {
     "strName": "ItmStorageBin1x102bDmg",
-    "strNameFriendly": "Блок-коробка (повреждённая)",
+    "strNameFriendly": "Блок-коробка (повреждена)",
     "strDesc": "Серия «Мокка-Б» Ракова из блок-коробок не так вместительна, как свободные стационарные варианты, но они скрываются, что делает их премиум-решением для тесных корпусов.",
     "strImg": "containers/ItmStorageBin1x102Dmg02",
     "strImgNorm": "containers/ItmStorageBin1x101Dmg02n",
@@ -153,7 +153,7 @@
   },
   {
     "strName": "ItmStorageBin1x102bDmgLoose",
-    "strNameFriendly": "Блок-коробка (открытая, повреждённая)",
+    "strNameFriendly": "Блок-коробка (снята, повреждена)",
     "strDesc": "Серия «Мокка-Б» Ракова из блок-коробок не так вместительна, как свободные стационарные варианты, но они скрываются, что делает их премиум-решением для тесных корпусов.",
     "strImg": "containers/ItmStorageBin1x102Dmg02Loose",
     "strImgNorm": "containers/ItmStorageBin1x101Dmg02Loosen",
@@ -178,7 +178,7 @@
   {
     "strName": "ItmStorageBin1x103",
     "strNameFriendly": "Блок-коробка",
-    "strDesc": "Линейка блок-коробок «Уплифт» от бренда Mobile Space System известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учётом удобства для обычного использования человеком",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin1x103",
     "strImgNorm": "containers/ItmStorageBin1x101n",
     "strPortraitImg": "containers/ItmStorageBin1x103",
@@ -198,7 +198,7 @@
   {
     "strName": "ItmStorageBin1x103Loose",
     "strNameFriendly": "Блок-коробка (открытая)",
-    "strDesc": "Линейка блок-коробок «Уплифт» от бренда Mobile Space System известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учётом удобства для обычного использования человеком",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin1x103Loose",
     "strImgNorm": "containers/ItmStorageBin1x101Loosen",
     "strPortraitImg": "containers/ItmStorageBin1x103Loose",
@@ -222,7 +222,7 @@
   {
     "strName": "ItmStorageBin1x103Dmg",
     "strNameFriendly": "Блок-коробка (повреждена)",
-    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учетом удобства для обычного использования человеком",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin1x103Dmg02",
     "strImgNorm": "containers/ItmStorageBin1x101Dmg02n",
     "strPortraitImg": "containers/ItmStorageBin1x103Dmg02",
@@ -242,7 +242,7 @@
   {
     "strName": "ItmStorageBin1x103DmgLoose",
     "strNameFriendly": "Блок-коробка (снята, повреждена)",
-    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учетом удобства для обычного использования человеком",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin1x103Dmg02Loose",
     "strImgNorm": "containers/ItmStorageBin1x101Dmg02Loosen",
     "strPortraitImg": "containers/ItmStorageBin1x103Dmg02Loose",
@@ -265,8 +265,8 @@
   },
   {
     "strName": "ItmStorageBin2x2C02",
-    "strNameFriendly": "Блок-коробка: угловая",
-    "strDesc": "Серия блок-коробок «Mocha» от Rakow не так вместительна, как свободно стоящие варианты, но они скрываются, что делает их идеальным решением для тесных пространств.",
+    "strNameFriendly": "Блок-коробка: Угол",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C02",
     "strImgNorm": "containers/ItmStorageBin2x2C01n",
     "strPortraitImg": "containers/ItmStorageBin2x2C02",
@@ -285,8 +285,8 @@
   },
   {
     "strName": "ItmStorageBin2x2C02Loose",
-    "strNameFriendly": "Блок-коробка: угловая (снята)",
-    "strDesc": "Серия блок-коробок «Mocha» от Rakow не так вместительна, как свободно стоящие варианты, но они скрываются, что делает их идеальным решением для тесных пространств.",
+    "strNameFriendly": "Блок-коробка: Угол (свободная)",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C02Loose",
     "strImgNorm": "containers/ItmStorageBin2x2C01Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x2C02Loose",
@@ -309,8 +309,8 @@
   },
   {
     "strName": "ItmStorageBin2x2C02Dmg",
-    "strNameFriendly": "Блок-коробка: угловая (повреждена)",
-    "strDesc": "Серия блок-коробок «Mocha» от Rakow не так вместительна, как свободно стоящие варианты, но они скрываются, что делает их идеальным решением для тесных пространств.",
+    "strNameFriendly": "Блок-коробка: Угол (повреждённая)",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C02Dmg02",
     "strImgNorm": "containers/ItmStorageBin2x2C01Dmg02n",
     "strPortraitImg": "containers/ItmStorageBin2x2C02Dmg02",
@@ -329,8 +329,8 @@
   },
   {
     "strName": "ItmStorageBin2x2C02DmgLoose",
-    "strNameFriendly": "Блок-коробка: угловая (снята, повреждена)",
-    "strDesc": "Серия блок-коробок «Mocha» от Rakow не так вместительна, как свободно стоящие варианты, но они скрываются, что делает их идеальным решением для тесных пространств.",
+    "strNameFriendly": "Блок-коробка: Угол (свободная, повреждённая)",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C02Dmg02Loose",
     "strImgNorm": "containers/ItmStorageBin2x2C01Dmg02Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x2C02Dmg02Loose",
@@ -353,7 +353,7 @@
   },
   {
     "strName": "ItmStorageBin2x2C03",
-    "strNameFriendly": "Блок-коробка: угловая",
+    "strNameFriendly": "Блок-коробка: Угол",
     "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учетом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin2x2C03",
     "strImgNorm": "containers/ItmStorageBin2x2C01n",
@@ -373,8 +373,8 @@
   },
   {
     "strName": "ItmStorageBin2x2C03Loose",
-    "strNameFriendly": "Блок-коробка: угловая (снята)",
-    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учетом удобства для обычного использования человеком",
+    "strNameFriendly": "Блок-коробка: Угол (свободная)",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin2x2C03Loose",
     "strImgNorm": "containers/ItmStorageBin2x2C01Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x2C03Loose",
@@ -397,8 +397,8 @@
   },
   {
     "strName": "ItmStorageBin2x2C03Dmg",
-    "strNameFriendly": "Блок-коробка: угловая (повреждена)",
-    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учетом удобства для обычного использования человеком",
+    "strNameFriendly": "Блок-коробка: Угол (повреждённая)",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin2x2C03Dmg02",
     "strImgNorm": "containers/ItmStorageBin2x2C01Dmg02n",
     "strPortraitImg": "containers/ItmStorageBin2x2C03Dmg02",
@@ -417,8 +417,8 @@
   },
   {
     "strName": "ItmStorageBin2x2C03DmgLoose",
-    "strNameFriendly": "Блок-коробка: угловая (снята, повреждена)",
-    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по дополнительному хранению, разработанными с учетом удобства для обычного использования человеком",
+    "strNameFriendly": "Блок-коробка: Угол (свободная, повреждённая)",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin2x2C03Dmg02Loose",
     "strImgNorm": "containers/ItmStorageBin2x2C01Dmg02Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x2C03Dmg02Loose",
@@ -443,7 +443,7 @@
     "strName": "ItmStorageBin2x2C04",
     "strNameFriendly": "Блок-коробка: Угол",
     "strItemDef": "ItmStorageBin2x2C04",
-    "strDesc": "Блок-коробки серии «Reserve» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Reserve» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C04",
     "strImgNorm": "containers/ItmStorageBin2x2C04n",
     "strPortraitImg": "containers/ItmStorageBin2x2C04",
@@ -463,7 +463,7 @@
   {
     "strName": "ItmStorageBin2x2C04Loose",
     "strNameFriendly": "Блок-коробка: Угол (свободная)",
-    "strDesc": "Блок-коробки серии «Reserve» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Reserve» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C04Loose",
     "strImgNorm": "containers/ItmStorageBin2x2C04Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x2C04Loose",
@@ -488,7 +488,7 @@
     "strName": "ItmStorageBin2x2C04Dmg",
     "strNameFriendly": "Блок-коробка: Угол (повреждённая)",
     "strItemDef": "ItmStorageBin2x2C04Dmg",
-    "strDesc": "Блок-коробки серии «Reserve» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Reserve» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C04Dmg02",
     "strImgNorm": "containers/ItmStorageBin2x2C04Dmg02n",
     "strPortraitImg": "containers/ItmStorageBin2x2C04Dmg02",
@@ -508,7 +508,7 @@
   {
     "strName": "ItmStorageBin2x2C04DmgLoose",
     "strNameFriendly": "Блок-коробка: Угол (свободная, повреждённая)",
-    "strDesc": "Блок-коробки серии «Reserve» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Reserve» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x2C04Dmg02Loose",
     "strImgNorm": "containers/ItmStorageBin2x2C04Dmg02Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x2C04Dmg02Loose",
@@ -532,7 +532,7 @@
   {
     "strName": "ItmStorageBin2x102",
     "strNameFriendly": "Блок-коробка 2x",
-    "strDesc": "Блок-коробки серии «Mocha» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x102",
     "strImgNorm": "containers/ItmStorageBin2x101n",
     "strPortraitImg": "containers/ItmStorageBin2x102",
@@ -552,7 +552,7 @@
   {
     "strName": "ItmStorageBin2x102Loose",
     "strNameFriendly": "Блок-коробка 2x (свободная)",
-    "strDesc": "Блок-коробки серии «Mocha» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x102Loose",
     "strImgNorm": "containers/ItmStorageBin2x101Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x102Loose",
@@ -575,8 +575,8 @@
   },
   {
     "strName": "ItmStorageBin2x102Dmg",
-    "strNameFriendly": "Блок-коробка 2x (повреждённая)",
-    "strDesc": "Блок-коробки серии «Mocha» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strNameFriendly": "Блок-коробка 2x (повреждена)",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x102Dmg02",
     "strImgNorm": "containers/ItmStorageBin2x101Dmg02n",
     "strPortraitImg": "containers/ItmStorageBin2x102Dmg02",
@@ -595,8 +595,8 @@
   },
   {
     "strName": "ItmStorageBin2x102DmgLoose",
-    "strNameFriendly": "Блок-коробка 2x (свободная, повреждённая)",
-    "strDesc": "Блок-коробки серии «Mocha» от Rakow не имеют такой вместительности, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для переполненных корпусов.",
+    "strNameFriendly": "Блок-коробка 2x (свободная, повреждена)",
+    "strDesc": "Серия блок-коробок бренда Rakow под названием «Mocha» не так объёмна, как свободно стоящие варианты, но они скрываются, что делает их премиальным решением для тесных корпусов",
     "strImg": "containers/ItmStorageBin2x102Dmg02Loose",
     "strImgNorm": "containers/ItmStorageBin2x101Dmg02Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x102Dmg02Loose",
@@ -620,7 +620,7 @@
   {
     "strName": "ItmStorageBin2x103",
     "strNameFriendly": "Блок-коробка 2x",
-    "strDesc": "Линейка блок-коробок «Uplift» от Mobile Space System известна своими скрытыми и элегантными решениями для дополнительного оборудования, разработанными с учётом удобства использования человеком",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin2x103",
     "strImgNorm": "containers/ItmStorageBin2x101n",
     "strPortraitImg": "containers/ItmStorageBin2x103",
@@ -640,7 +640,7 @@
   {
     "strName": "ItmStorageBin2x103Loose",
     "strNameFriendly": "Блок-коробка 2x (свободная)",
-    "strDesc": "Линейка блок-коробок «Uplift» от Mobile Space System известна своими скрытыми и элегантными решениями для дополнительного оборудования, разработанными с учётом удобства использования человеком",
+    "strDesc": "Линейка блок-коробок бренда Mobile Space System под названием «Uplift» известна своими скрытыми и элегантными решениями по aftermarket-накоплению, разработанными с учётом удобства для обычного использования человеком",
     "strImg": "containers/ItmStorageBin2x103Loose",
     "strImgNorm": "containers/ItmStorageBin2x101Loosen",
     "strPortraitImg": "containers/ItmStorageBin2x103Loose",
@@ -885,7 +885,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x101b",
-    "strNameFriendly": "Бин для подлодки",
+    "strNameFriendly": "Подполный ящик",
     "strDesc": "Серия «Ваниль» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x101b",
     "strImgNorm": "containers/ItmStorageBinFloor1x101bn",
@@ -905,7 +905,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x101bLoose",
-    "strNameFriendly": "Бин для подлодки (неполный)",
+    "strNameFriendly": "Подполный ящик (не закреплённый)",
     "strDesc": "Серия «Ваниль» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x101bLoose",
     "strImgNorm": "containers/ItmStorageBinFloor1x101bLoosen",
@@ -929,7 +929,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x101bDmg",
-    "strNameFriendly": "Бин для подлодки (поврежденный)",
+    "strNameFriendly": "Подполный ящик (повреждённый)",
     "strDesc": "Серия «Ваниль» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому повреждение раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x101bDmg02",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Dmg02n",
@@ -949,7 +949,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x101bPatch",
-    "strNameFriendly": "Бин для подлодки (исправленный)",
+    "strNameFriendly": "Подполный ящик (запечатанный)",
     "strDesc": "Серия «Ваниль» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x101bPatch",
     "strImgNorm": "containers/ItmStorageBinFloor1x1Patchn",
@@ -969,7 +969,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x102",
-    "strNameFriendly": "Бин для подлодки",
+    "strNameFriendly": "Подполный ящик",
     "strDesc": "Серия «Мокка» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x102",
     "strImgNorm": "containers/ItmStorageBinFloor1x101n",
@@ -989,7 +989,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x102Loose",
-    "strNameFriendly": "Бин для подлодки (неполный)",
+    "strNameFriendly": "Подполный ящик (не закреплённый)",
     "strDesc": "Серия «Мокка» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x102Loose",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Loosen",
@@ -1013,7 +1013,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x102Dmg",
-    "strNameFriendly": "Бин для подлодки (поврежденный)",
+    "strNameFriendly": "Подполный ящик (повреждённый)",
     "strDesc": "Серия «Мокка» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому повреждение раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x102Dmg02",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Dmg02n",
@@ -1033,7 +1033,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x102Patch",
-    "strNameFriendly": "Бин для подлодки (исправленный)",
+    "strNameFriendly": "Подполный ящик (запечатанный)",
     "strDesc": "Серия «Мокка» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x102Patch",
     "strImgNorm": "containers/ItmStorageBinFloor1x1Patchn",
@@ -1053,7 +1053,7 @@
   },
   {
     "strName": "ItmStorageBinFloor1x102b",
-    "strNameFriendly": "Бин для подлодки",
+    "strNameFriendly": "Подполный ящик",
     "strDesc": "Серия «Мокка-Б» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
     "strImg": "containers/ItmStorageBinFloor1x102b",
     "strImgNorm": "containers/ItmStorageBinFloor1x102bn",
@@ -1073,8 +1073,8 @@
   },
   {
     "strName": "ItmStorageBinFloor1x102bLoose",
-    "strNameFriendly": "Бин для подлодки (неполный)",
-    "strDesc": "Серия «Мокка-Б» Ракова из бинов для подлодки расширяет объем хранения под полом.\n\nВНИМАНИЕ: Бин для подлодки действует как герметичный пол, поэтому демонтаж раскрывает внутренность корабля под вакуумом.",
+    "strNameFriendly": "Подполный ящик (не закреплённый)",
+    "strDesc": "Серия ящиков под полом Rakow «Mocha-B» расширяет объём хранения под полом.\n\nВНИМАНИЕ: Ящики под полом действуют как герметичный пол, поэтому демонтаж приводит к проникновению вакуума в корпус корабля.",
     "strImg": "containers/ItmStorageBinFloor1x102bLoose",
     "strImgNorm": "containers/ItmStorageBinFloor1x102bLoosen",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102bLoose",

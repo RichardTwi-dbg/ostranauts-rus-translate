@@ -1118,7 +1118,7 @@
   },
   {
     "strName": "UNSLOTWieldCrowbar01L",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1135,7 +1135,7 @@
   },
   {
     "strName": "UNSLOTWieldCrowbar01R",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1152,7 +1152,7 @@
   },
   {
     "strName": "UNSLOTWieldGrinder02L",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1171,7 +1171,7 @@
   },
   {
     "strName": "UNSLOTWieldGrinder02R",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1190,7 +1190,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultL",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1207,7 +1207,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultR",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1224,7 +1224,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultShaftL",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1241,7 +1241,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultShaftR",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1258,7 +1258,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpL",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1275,7 +1275,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpR",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1292,7 +1292,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpStabL",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1309,7 +1309,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpStabR",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1326,7 +1326,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSoftL",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1343,7 +1343,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSoftR",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1360,7 +1360,7 @@
   },
   {
     "strName": "UNSLOTWieldDrinkBottle01DmgL",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1379,7 +1379,7 @@
   },
   {
     "strName": "UNSLOTWieldDrinkBottle01DmgR",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1398,7 +1398,7 @@
   },
   {
     "strName": "UNSLOTWieldLaserTorch01L",
-    "strDesc": "[them-subj] [is] больше не использует [us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2197,7 +2197,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponSpear01L",
-    "strDesc": "[them-subj] [is] больше не держит [_us].",
+    "strDesc": "[them-subj] [is] больше не держит [us].",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,

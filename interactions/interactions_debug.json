@@ -2,7 +2,7 @@
   {
     "strName": "SOCDebugTankACH",
     "strTitle": "Бак АЧ",
-    "strDesc": "[us] разрушает у них достижение статуса.",
+    "strDesc": "[us] [is] танкирует [them]'s StatAchievement.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -25,7 +25,7 @@
   {
     "strName": "SOCDebugTankALT",
     "strTitle": "Бак АЛТ",
-    "strDesc": "[us] разрушает у них статус альтруизма.",
+    "strDesc": "[us] [is] танки [имеет] StatAltruism.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -48,7 +48,7 @@
   {
     "strName": "SOCDebugTankAUT",
     "strTitle": "Бак АУТ",
-    "strDesc": "[us] разрушает у них статус автономии.",
+    "strDesc": "[us] [is] tanks [them]'s StatAutonomy.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -71,7 +71,7 @@
   {
     "strName": "SOCDebugTankCON",
     "strTitle": "Бак КОН",
-    "strDesc": "[us] разрушает у них статус контакта.",
+    "strDesc": "[us] [is] танки у них статус контакта.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -94,7 +94,7 @@
   {
     "strName": "SOCDebugTankEST",
     "strTitle": "Бак ЭСТ",
-    "strDesc": "[us] разрушает у них статус самооценки.",
+    "strDesc": "[us] [is] баки [имеет] StatEsteem.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -117,7 +117,7 @@
   {
     "strName": "SOCDebugTankFAM",
     "strTitle": "Бак ФАМ",
-    "strDesc": "[us] разрушает у них статус семьи.",
+    "strDesc": "[us] [is] баки [them]'s StatFamily.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -140,7 +140,7 @@
   {
     "strName": "SOCDebugTankINT",
     "strTitle": "Бак ИНТ",
-    "strDesc": "[us] разрушает у них статус близости.",
+    "strDesc": "[us] [is] танки их Статус близости.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -163,7 +163,7 @@
   {
     "strName": "SOCDebugTankMEA",
     "strTitle": "Бак МЕА",
-    "strDesc": "[us] разрушает у них статы значимости.",
+    "strDesc": "[us] [is] танки [имеет] StatMeaning.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -186,7 +186,7 @@
   {
     "strName": "SOCDebugTankPRI",
     "strTitle": "Бак ПРИ",
-    "strDesc": "[us] разрушает у них статус частной жизни.",
+    "strDesc": "[us] [is] их StatPrivacy.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",
@@ -209,7 +209,7 @@
   {
     "strName": "SOCDebugTankSEC",
     "strTitle": "Бак СЕК",
-    "strDesc": "[us] разрушает у них статус безопасности.",
+    "strDesc": "[us] [is] баки [them]'s StatSecurity.",
     "strTargetPoint": null,
     "fTargetPointRange": 0.0,
     "strAnim": "Angry",

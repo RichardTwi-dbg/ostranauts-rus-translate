@@ -59,7 +59,7 @@
   },
   {
     "strName": "PLOT_Merga_StartTrigger4",
-    "strTitle": "Срабатывает три",
+    "strTitle": "Срабатывает триггер начала сцены «Мергa»",
     "strDesc": "[us] [senses] нарушения вблизи Венеры.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
@@ -513,7 +513,7 @@
   },
   {
     "strName": "PLOT_Merga_WhispersFound07ReplyAngry",
-    "strTitle": "Потерять интерес к теории",
+    "strTitle": "Отбрасывание теории",
     "strDesc": "[us] [says] [us-subj] [tries] не обращать внимания на газетные репортажи.",
     "strActionGroup": "Talk",
     "aInverse": [],
@@ -595,7 +595,7 @@
   {
     "strName": "PLOT_Merga_WhispersFound07Reply3",
     "strTitle": "Обсуждение третьей теории о пропавшем знаменитом",
-    "strDesc": "[us] [read] на форуме, что Миддлест был в отношениях с кем-то из правоохранительных органов. [us-subj] также [insists] она — клон.",
+    "strDesc": "[us] [read] на форуме, что Middlemist был в отношениях с кем-то из правоохранительных органов. [us-subj] также [insists] она — клон.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -659,7 +659,7 @@
   {
     "strName": "PLOT_Merga_WhispersFound08_Agree",
     "strTitle": "Поддержка теории",
-    "strDesc": "[us] [listens] к [them-pos] теории и [adds] детали, подтверждающие возможность.",
+    "strDesc": "[us] [listens] к [them-pos] теории и [adds] детали, чтобы поддержать возможность её реализации.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "aInverse": [],
@@ -679,7 +679,7 @@
   {
     "strName": "PLOT_Merga_WhispersFound08_Disagree",
     "strTitle": "Поддержка теории",
-    "strDesc": "[us] [list-слышит] внимательно и [offers] несколько ключевых деталей, которые противоречат и оспаривают [them-pos] теорию.",
+    "strDesc": "[us] [listens] внимательно и [offers] несколько ключевых деталей, которые противоречат и оспаривают [them-pos] теорию.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "aInverse": [],
@@ -892,7 +892,7 @@
   {
     "strName": "PLOT_Merga_WhispersFound10_Disagree",
     "strTitle": "Поддержка теории",
-    "strDesc": "[us] [listы] внимательно и [offers] несколько ключевых деталей, которые противоречат и оспаривают [them-pos] теорию.",
+    "strDesc": "[us] [listens] внимательно и [offers] несколько ключевых деталей, которые противоречат и оспаривают [them-pos] теорию.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "aInverse": [],
@@ -1292,7 +1292,7 @@
   },
   {
     "strName": "PLOT_Merga_SignsDiscussed02",
-    "strTitle": "Запрос алиби",
+    "strTitle": "Задают вопрос о подозрительном отсутствии",
     "strDesc": "[us] [asks] [them] где [them-subj] [was] в ночь, когда исчез Middlemist.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -1314,8 +1314,8 @@
   },
   {
     "strName": "PLOT_Merga_SignsDiscussed02_Racing_Icon_Alibi",
-    "strTitle": "Ответ с алиби",
-    "strDesc": "[us] [says] [us-subj] был в состоянии полного забвения, вместе с [us-pos] друзьями, празднуя [us-pos] последнее триумфальное победу в Grande Prêmio do Encantado.",
+    "strTitle": "Отвечают, указывая на отсутствие",
+    "strDesc": "[us] [says] [us-subj] [was] в пьяном состоянии от отключения с друзьями, празднуя победу [us-pos] в последних трёх победах в Grande Prêmio do Encantado.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": false,
     "aInverse": [
@@ -1458,7 +1458,7 @@
   },
   {
     "strName": "PLOT_Merga_SignsDiscussed03",
-    "strTitle": "Запрос алиби",
+    "strTitle": "Задают вопрос о подозрительном отсутствии",
     "strDesc": "[us] [asks] [them] где [them-subj] [was] в ночь, когда исчез Middlemist.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
@@ -1480,8 +1480,8 @@
   },
   {
     "strName": "PLOT_Merga_SignsDiscussed03_Superfan_Alibi",
-    "strTitle": "Ответ с алиби",
-    "strDesc": "[us] [flashes] странную улыбку и [says] [us-subj] был дома, редактировал видео с последних выступлений Middlemist в ту ночь.",
+    "strTitle": "Отвечают, указывая на отсутствие",
+    "strDesc": "[us] [flashes] странную улыбку и [says] [us-subj] [was] дома, редактировал видео с последних выступлений Middlemist в ту ночь.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": false,
     "aInverse": [
@@ -2036,7 +2036,7 @@
   {
     "strName": "PLOT_Merga_Present_Evidence_RacingIcon_Clue0",
     "strTitle": "Автоспортивная икона — нет подсказок",
-    "strDesc": "[us] [says] у вас не так много. Попробуйте выяснить у них алиби как начальный шаг.",
+    "strDesc": "[us] [says] у вас мало данных. Попробуйте нажать на них, чтобы получить алиби, как начальный шаг.",
     "aInverse": [
       "PLOT_Merga_MergaEngaged01_Present_Suspects,[us],[them]"
     ],
@@ -2890,8 +2890,8 @@
   },
   {
     "strName": "PLOT_Merga_MergaEngaged06_Reply",
-    "strTitle": "Ответ на разоблачение алиби",
-    "strDesc": "[us] [says] [3rd] — это неприятный, навязчивый тип. Кроме того, запись не доказывает, что [us-subj] [was] в состоянии sobriety. [us-contractHas] всегда мог хорошо держать [us-pos] алкоголь.",
+    "strTitle": "Ответ разоблачить алиби",
+    "strDesc": "[us] [says] [3rd] [is] a nosy little freak. Besides, the footage doesn't prove [us-subj] [was] sober. [us-contractHas] always been able to hold [us-pos] liquor.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],

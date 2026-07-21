@@ -148,6 +148,9 @@
   <img src="https://raw.githubusercontent.com/KubeRube-coder/ostranauts-rus-translate/refs/heads/cache-clean/img/Screenshot_10.png" alt="Ostranauts Gameplay 10" width="80%"><br><br>
   <img src="https://raw.githubusercontent.com/KubeRube-coder/ostranauts-rus-translate/refs/heads/cache-clean/img/Screenshot_11.png" alt="Ostranauts Gameplay 11" width="80%"><br><br>
   <img src="https://raw.githubusercontent.com/KubeRube-coder/ostranauts-rus-translate/refs/heads/cache-clean/img/Screenshot_12.png" alt="Ostranauts Gameplay 12" width="80%"><br><br>
-  <img src="https://raw.githubusercontent.com/KubeRube-coder/ostranauts-rus-translate/refs/heads/cache-clean/img/Screenshot_13.png" alt="Ostranauts Gameplay 13" width="80%"><br>
+  <img src="https://raw.githubusercontent.com/KubeRube-coder/ostranauts-rus-translate/refs/heads/cache-clean/img/Screenshot_13.png" alt="Ostranauts Gameplay 13" 
+  width="80%"><br><br>
+  <img src="https://raw.githubusercontent.com/KubeRube-coder/ostranauts-rus-translate/refs/heads/cache-clean/img/Screenshot_14.png" alt="Ostranauts Gameplay 13" 
+  width="80%"><br>
 </p>
 </details>

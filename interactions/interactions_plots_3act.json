@@ -1,8 +1,8 @@
 [
   {
     "strName": "PLOTTEMP3ActBEGStartTrigger",
-    "strTitle": "Срабатывание для начала акта TEMP3ActBEG",
-    "strDesc": "[them] [messages] [us], прося [us] TEMP3ActBEG [3rd].",
+    "strTitle": "Срабатывание для начала бита TEMP3ActBEG",
+    "strDesc": "[они] [сообщают] [нам], просили [нам] TEMP3ActBEG [третьего].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -21,8 +21,8 @@
   },
   {
     "strName": "PLOTTEMP3ActBEGTargetTrigger",
-    "strTitle": "Срабатывание для акта TEMP3ActBEG цели",
-    "strDesc": "[us] должны вернуть этот TEMP3ActBEG [them].",
+    "strTitle": "Срабатывание для бита TEMP3ActBEG цели",
+    "strDesc": "[мы] должны вернуть этот TEMP3ActBEG [им].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -36,8 +36,8 @@
   },
   {
     "strName": "PLOTTEMP3ActBEGTurnInTrigger",
-    "strTitle": "Срабатывание для акта TEMP3ActBEG возврата",
-    "strDesc": "[us] [triggers] акт TEMP3ActBEG 2 с [them].",
+    "strTitle": "Срабатывание для бита TEMP3ActBEG возврата",
+    "strDesc": "[мы] [срабатываем] бит сценария TEMP3ActBEG 2 вместе с [ними].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -52,7 +52,7 @@
   {
     "strName": "PLOTTEMP3ActBEGTarget",
     "strTitle": "Цель TEMP3ActBEG",
-    "strDesc": "[us] TEMP3ActBEG [them] для [3rd].",
+    "strDesc": "[мы] TEMP3ActBEG [им] для [третьего].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -71,7 +71,7 @@
   {
     "strName": "PLOTTEMP3ActBEGTurnIn",
     "strTitle": "Возврат TEMP3ActBEG",
-    "strDesc": "[us] [turns] в TEMP3Act-БЕТ [3rd] [them].",
+    "strDesc": "[мы] [возвращаем] TEMP3ActBEG [третьего] [им].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],

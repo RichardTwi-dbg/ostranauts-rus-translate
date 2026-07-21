@@ -26,7 +26,7 @@
   },
   {
     "strName": "AModeSatyrPummel",
-    "strNameFriendly": "удар кулаками и копытами",
+    "strNameFriendly": "удары кулаками и копытами",
     "strType": "melee",
     "bPlayAudioEarly": true,
     "strAudioAttack": "AnimMeleeSound01",

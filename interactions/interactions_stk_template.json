@@ -2,7 +2,7 @@
   {
     "strName": "STKTemplate_Intro",
     "strTitle": "Обсуждение взаимопомощи",
-    "strDesc": "[us] приветствует [them], давайте поговорим о взаимопомощи?",
+    "strDesc": "[мы] приветствуем [них], давайте поговорим о взаимопомощи?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -51,7 +51,7 @@
   {
     "strName": "STKTemplate_Intro_Allow",
     "strTitle": "Согласиться на обсуждение взаимопомощи",
-    "strDesc": "[us] говорит «ок», давайте поговорим о взаимопомощи.",
+    "strDesc": "[мы] говорим «да», давайте поговорим о взаимопомощи.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -75,7 +75,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_Friendly",
     "strTitle": "Согласиться на обсуждение взаимопомощи с другом",
-    "strDesc": "[us] говорит: «О, привет! Рад тебя видеть! Конечно, давайте поговорим о взаимопомощи».",
+    "strDesc": "[мы] говорим: «О, привет! Рад тебя видеть! Конечно, давайте поговорим о взаимопомощи».",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -99,8 +99,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Allow_Enemy",
-    "strTitle": "Согласиться на обсуждение взаымопомощи с врагом",
-    "strDesc": "[us] говорит: «Ужас, ты? Ладно, давайте поговорим о взаимопомощи».",
+    "strTitle": "Согласиться на обсуждение взаิмопомощи с врагом",
+    "strDesc": "[мы] говорим: «Ужас, ты? Ладно, давайте поговорим о взаимопомощи».",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -125,7 +125,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_Criminal",
     "strTitle": "Согласиться на обсуждение взаимопомощи с преступником",
-    "strDesc": "[us] говорит: «Ты преступник, но это не остановит меня от обсуждения взаимопомощи с тобой».",
+    "strDesc": "[мы] говорим: «Ты преступник, но это не остановит меня от обсуждения взаимопомощи с тобой».",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -149,8 +149,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Allow_HygieneBad",
-    "strTitle": "Согласиться на обсуждение взаимопомощи с грязью",
-    "strDesc": "[us] говорит: «Боже, ты грязный. Но хорошо, давайте поговорим о взаимопомощи».",
+    "strTitle": "Согласиться на обсуждение взаимопомощи в грязном стиле",
+    "strDesc": "[мы] говорим: «Боже, ты грязный! Но хорошо, давайте поговорим о взаимопомощи».",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -174,7 +174,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_PhysioBad",
     "strTitle": "Согласиться на обсуждение взаимопомощи с плохим физическим состоянием",
-    "strDesc": "[us] говорит: «Ты выглядишь так, будто тебе нужна скорая помощь, а не взаимопомощь».",
+    "strDesc": "[мы] говорим: «Ты выглядишь так, как будто тебе нужна скорая помощь, а не взаимопомощь».",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -203,7 +203,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcAchievementGood",
     "strTitle": "Согласиться на обсуждение взаимопомощи с триумфом",
-    "strDesc": "[us] говорит: «Сегодня я всё делаю отлично, так что, конечно, давайте поговорим о взаимопомощи!»",
+    "strDesc": "[мы] говорим: «Сегодня я всё делал отлично, так что, конечно, давайте поговорим о взаимопомощи!»",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -227,7 +227,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcAchievementBad",
     "strTitle": "Согласен обсудить услуги — бесполезные",
-    "strDesc": "[us] говорит, что я всё сегодня делаю не так, поэтому очень хочу попробовать исправиться и выполнить услугу.",
+    "strDesc": "[мы] говорим, что сегодня я постоянно что-то делаю не так, поэтому очень хочу попробовать исправиться и выполнить услугу.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -251,7 +251,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcAltruismGood",
     "strTitle": "Согласен обсудить услуги — самоотверженные",
-    "strDesc": "[us] говорит, что я не могу больше помогать всем, так что зачем сейчас менять это?",
+    "strDesc": "[мы] говорим, что я не могу больше помогать всем, поэтому зачем сейчас менять это?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -275,7 +275,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcAltruismBad",
     "strTitle": "Согласен обсудить услуги — жадные",
-    "strDesc": "[us] говорит, что я недавно не был очень полезен, поэтому хочу выполнить услугу кому-то.",
+    "strDesc": "[мы] говорим, что недавно не очень помогал, поэтому хочу выполнить услугу кому-то.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -299,7 +299,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcAutonomyGood",
     "strTitle": "Согласен обсудить услуги — освобождённые",
-    "strDesc": "[us] говорит, что сегодня я делаю всё, что хочу, поэтому давайте поговорим о услугах!",
+    "strDesc": "[мы] говорим, что сегодня делаю всё, что хочу, поэтому давайте поговорим о услугах!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -323,7 +323,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcAutonomyBad",
     "strTitle": "Согласен обсудить услуги — подавленные",
-    "strDesc": "[us] говорит, что люди постоянно говорят мне, что делать, поэтому это не должно быть большой услугой.",
+    "strDesc": "[мы] говорим, что люди постоянно говорят мне, что делать, поэтому это не должно быть большой услугой.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -347,7 +347,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcContactGood",
     "strTitle": "Согласен обсудить услуги — в центре внимания",
-    "strDesc": "[us] говорит, что все сегодня говорят со мной, но хорошо. Давайте поговорим о услугах.",
+    "strDesc": "[мы] говорим, что сегодня все говорят со мной, но хорошо. Давайте поговорим о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -371,7 +371,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcContactBad",
     "strTitle": "Согласен обсудить услуги — забытые",
-    "strDesc": "[us] говорит, что ура! Кто-то говорит со мной! Давайте поговорим о услугах и не пропустим ни одной детали.",
+    "strDesc": "[мы] говорим, что ура! Кто-то говорит со мной! Давайте поговорим о услугах и не пропустим ни одного деталей.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -395,7 +395,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcEsteemGood",
     "strTitle": "Согласен обсудить услуги — похваленные",
-    "strDesc": "[us] говорит, что люди очень дружелюбны ко мне недавно! Давайте поговорим о услугах.",
+    "strDesc": "[мы] говорим, что люди недавно очень добры ко мне! Давайте поговорим о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -419,7 +419,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcEsteemBad",
     "strTitle": "Согласен обсудить услуги — униженные",
-    "strDesc": "[us] говорит, что люди недавно постоянно обходят меня, может, выполнение услуги поможет?",
+    "strDesc": "[мы] говорим, что люди недавно постоянно проходят мимо меня, возможно, выполнение услуги поможет?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -443,7 +443,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcFamilyGood",
     "strTitle": "Согласен обсудить услуги — любимые",
-    "strDesc": "[us] говорит, что я знаю, что люди поддерживают меня здесь, поэтому я хорошо подготовлен к обсуждению услуги.",
+    "strDesc": "[мы] говорим, что знаю, что люди поддерживают меня здесь, поэтому я хорошо подготовлен к обсуждению услуги.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -467,7 +467,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcFamilyBad",
     "strTitle": "Согласиться обсудить услуги изгнанника",
-    "strDesc": "[us] говорит, что никого здесь не интересует, поэтому, возможно, выполнение вам услуги сделает меня союзником.",
+    "strDesc": "[мы] говорим, что никто здесь не заботится о мне, поэтому, возможно, выполнение вам услуги сделает нас союзниками.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -491,7 +491,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcIntimacyGood",
     "strTitle": "Согласиться обсудить услуги любимого",
-    "strDesc": "[us] говорит извините, я был погружён в мысли о своём бэе. О чём речь о услугах?",
+    "strDesc": "[мы] говорим извините, я думал о своём бэе. О чём речь о услугах?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -514,8 +514,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Allow_DcIntimacyBad",
-    "strTitle": "Согласиться обсудить услуги в состоянии бедности",
-    "strDesc": "[us] говорит, что я всегда готов обсуждать услуги с таким прекрасным кусочком космической мяса, как ты.",
+    "strTitle": "Согласиться обсудить услуги в беде",
+    "strDesc": "[мы] говорим, что я всегда готов говорить о услугах с таким прекрасным кусочком космической пищи, как ты.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -539,7 +539,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcMeaningGood",
     "strTitle": "Согласиться обсудить услуги с энтузиазмом",
-    "strDesc": "[us] говорит, что всё идёт гладко, так что, да, у меня есть время поговорить о услугах.",
+    "strDesc": "[мы] говорим, что всё идёт гладко, так что, да, у меня есть время поговорить о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -562,8 +562,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Allow_DcMeaningBad",
-    "strTitle": "Согласиться обсудить услуги в состоянии равнодушия",
-    "strDesc": "[us] говорит, что ничего действительно не важно, поэтому, возможно, выполнение вам услуги сделает это осмысленным.",
+    "strTitle": "Согласиться обсудить услуги без интереса",
+    "strDesc": "[мы] говорим, что ничего действительно не важно, поэтому, возможно, выполнение вам услуги сделает это понятным.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -586,8 +586,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Allow_DcPrivacyGood",
-    "strTitle": "Согласиться обсудить услуги в одиночестве",
-    "strDesc": "[us] говорит, что уже так давно никто не беспокоил меня. Конечно, давайте поговорим о услугах.",
+    "strTitle": "Согласиться обсудить услуги одиночества",
+    "strDesc": "[мы] говорим, что слишком давно никто не беспокоил меня. Конечно, давайте поговорим о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -611,7 +611,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcPrivacyBad",
     "strTitle": "Согласиться обсудить услуги под давлением",
-    "strDesc": "[us] говорит, что я бы хотел получить момент покоя, возможно, если я выполню эту услугу, ты оставишь меня в покое.",
+    "strDesc": "[мы] говорим, что я бы хотел получить момент покоя, возможно, если я выполню эту услугу, ты оставишь меня в покое.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -634,8 +634,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Allow_DcSecurityGood",
-    "strTitle": "Согласиться обсудить услуги в спокойствии",
-    "strDesc": "[us] говорит, что я уверен, всё будет хорошо, если мы поговорим о услугах.",
+    "strTitle": "Согласиться обсудить услуги спокойствия",
+    "strDesc": "[мы] говорим, что я уверен, всё будет хорошо, если мы поговорим о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -659,7 +659,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcSecurityBad",
     "strTitle": "Согласиться обсудить услуги в страхе",
-    "strDesc": "[us] говорит, что я сейчас в ужасе, но возможно, выполнение вам услуги защитит меня?",
+    "strDesc": "[мы] говорим, что я сейчас в ужасе, но возможно, выполнение вам услуги защитит меня?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -683,7 +683,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_DcSelfRespectGood",
     "strTitle": "Согласиться обсудить услуги с достоинством",
-    "strDesc": "[us] говорит, что я готов взяться за всё, так что, да, давайте поговорим о услугах.",
+    "strDesc": "[мы] говорим, что я готов взяться за всё, так что, да, давайте поговорим о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -706,8 +706,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Allow_DcSelfRespectBad",
-    "strTitle": "Согласиться обсудить услуги, которые не имеют значения",
-    "strDesc": "[us] говорит, что я чувствую себя бесполезным, поэтому, возможно, выполнение услуги сделает меня лучше.",
+    "strTitle": "Согласиться обсудить услуги, не имеющие ценности",
+    "strDesc": "[мы] говорим, что чувствуем себя бесполезными, поэтому, возможно, выполнение услуги сделает нас лучше.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -731,7 +731,7 @@
   {
     "strName": "STKTemplate_Intro_Allow_Drunk",
     "strTitle": "Согласиться обсудить услуги, пьяный",
-    "strDesc": "[us] говорит, держи меня устойчивым, и тогда я смогу поделиться услугами с вами обоими.",
+    "strDesc": "[мы] говорим, что поддержу комнату, тогда я смогу поделиться услугами с вами обоими.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -759,8 +759,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_Enemy",
-    "strTitle": "Отказаться обсудить услуги с врагом",
-    "strDesc": "[us] говорит, ужас, ты? Никаких услуг я с тобой не обсужу.",
+    "strTitle": "Отказаться обсуждать услуги с врагом",
+    "strDesc": "[мы] говорим: ужас, ты? Никаких услуг я с тобой не обсужу.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -784,8 +784,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_Criminal",
-    "strTitle": "Отказаться обсудить услуги с преступником",
-    "strDesc": "[us] говорит, я не помогаю преступникам.",
+    "strTitle": "Отказаться обсуждать услуги с преступником",
+    "strDesc": "[мы] говорим, что не помогаю преступникам.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -809,8 +809,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_Cooldown",
-    "strTitle": "Отказаться обсудить услуги в период охлаждения",
-    "strDesc": "[us] говорит, я уже сказал, что сейчас не хочу обсуждать услуги.",
+    "strTitle": "Отказаться обсуждать услуги в период охлаждения",
+    "strDesc": "[мы] говорим, что уже сказал вам, что сейчас не хочу говорить о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -834,8 +834,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_PhysioBad",
-    "strTitle": "Отказаться обсудить услуги из-за плохого физического состояния",
-    "strDesc": "[us] говорит, я в очень плохом состоянии, так что нет, мы не можем обсуждать услуги!",
+    "strTitle": "Отказаться обсуждать услуги из-за плохого физического состояния",
+    "strDesc": "[мы] говорим, что сейчас в плохой форме, поэтому нет, мы не можем говорить о услугах!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -865,7 +865,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcAchievementGood",
     "strTitle": "Отказаться от обсуждения благодеяний — победа",
-    "strDesc": "[us] говорит, я уже сделал слишком много сегодня, поэтому я отдохну.",
+    "strDesc": "[мы] говорим, что уже сделал так много сегодня, поэтому я отдохну.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -889,7 +889,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcAchievementBad",
     "strTitle": "Отказаться от обсуждения благодеяний — бесполезно",
-    "strDesc": "[us] говорит, я всё сегодня делаю неправильно, поэтому, наверное, я тоже испортить бы твою услугу.",
+    "strDesc": "[мы] говорим, что сегодня всё делаю не так, поэтому, наверное, и вашу услугу тоже испортить.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -913,7 +913,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcAltruismGood",
     "strTitle": "Отказаться от обсуждения благодеяний — самоотверженность",
-    "strDesc": "[us] говорит, что я недавно помогал всем, поэтому больше не буду.",
+    "strDesc": "[мы] говорим, что недавно делал все возможное для всех, поэтому больше не буду помогать.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -936,8 +936,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcAltruismBad",
-    "strTitle": "Отказаться от обсуждения благодеяний — жадность",
-    "strDesc": "[us] говорит, что я недавно не был очень полезен и не могу больше помогать.",
+    "strTitle": "Отказаться от обсужды благодеяний — жадность",
+    "strDesc": "[мы] говорим, что недавно не было очень полезным и не смогу больше помогать.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -960,8 +960,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcAutonomyGood",
-    "strTitle": "Отказаться от обсуждิя благодеяний — освобождённость",
-    "strDesc": "[us] говорит, сегодня я делаю всё, что хочу, и у меня есть более важные дела.",
+    "strTitle": "Отказаться от обсуждения благодеяний — освобождённость",
+    "strDesc": "[мы] говорим, сегодня делаю всё, что хочу, и у меня есть более важные дела.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -985,7 +985,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcAutonomyBad",
     "strTitle": "Отказаться от обсуждения благодеяний — подавленность",
-    "strDesc": "[us] говорит, люди постоянно говорят мне, что делать, поэтому это прекращается. Нет!",
+    "strDesc": "[мы] говорим, люди постоянно говорят мне, что делать, поэтому это прекращается. Нет!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1009,7 +1009,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcContactGood",
     "strTitle": "Отказаться от обсуждения благодеяний — центр внимания",
-    "strDesc": "[us] говорит, сегодня все говорят со мной, и у меня уже слишком много дел. Извините.",
+    "strDesc": "[мы] говорим, сегодня все говорят со мной, и у меня уже слишком много дел. Извините.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1033,7 +1033,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcContactBad",
     "strTitle": "Отказаться от обсуждения благодеяний — пренебрежение",
-    "strDesc": "[us] говорит, что никто не хочет просто общаться со мной. Всегда выбирают это, выбирают то. Нет, не согласен!",
+    "strDesc": "[мы] говорим, что никто не хочет просто общаться со мной. Всегда выбирают это, выбирают то. Нет, не согласен!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1057,7 +1057,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcEsteemGood",
     "strTitle": "Отказаться от обсуждения благ, которые празднуются",
-    "strDesc": "[us] говорит, что люди очень дружелюбны ко мне недавно! Поэтому мне больше не нужно выполнять блага.",
+    "strDesc": "[мы] говорим, что люди очень дружелюбны ко мне недавно! Поэтому мне больше не нужно выполнять блага.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1081,7 +1081,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcEsteemBad",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают унижение",
-    "strDesc": "[us] говорит, что люди недавно постоянно игнорируют меня, поэтому мне не хочется говорить о услугах.",
+    "strDesc": "[мы] говорим, что недавно люди постоянно обходят меня, поэтому мне не хочется говорить о услугах.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1105,7 +1105,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcFamilyGood",
     "strTitle": "Отказаться от обсуждения благ, которые ценятся",
-    "strDesc": "[us] говорит, что я знаю, что люди поддерживают меня здесь, поэтому мне не нужно сейчас выполнять никакие блага.",
+    "strDesc": "[мы] говорим, что я знаю, что люди поддерживают меня здесь, поэтому мне не нужно выполнять никакие блага в данный момент.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1128,8 +1128,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcFamilyBad",
-    "strTitle": "Отказаться от обсуждения благ, которые изолируют",
-    "strDesc": "[us] говорит, что никто здесь не заботится о мне, поэтому зачем мне помогать кому-либо?",
+    "strTitle": "Отказаться от обсуждения благ, которые делают из меня изгоя",
+    "strDesc": "[мы] говорим, что никто здесь не заботится о мне, поэтому зачем мне помогать кому-либо?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1152,8 +1152,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcIntimacyGood",
-    "strTitle": "Отказаться от обсуждения благ, которые любят",
-    "strDesc": "[us] говорит извиняюсь, я слишком занят мечтаниями о моём бэе.",
+    "strTitle": "Отказаться от обсуждий благ, которые ценятся",
+    "strDesc": "[мы] извиняемся, слишком занятые деньдремами о моём бэе.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1177,7 +1177,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcIntimacyBad",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают крайнее желание",
-    "strDesc": "[us] говорит, что я слишком возбуждён, чтобы сейчас думать об этом.",
+    "strDesc": "[мы] говорим, что я слишком возбуждён, чтобы сейчас думать об этом.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1200,8 +1200,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcMeaningGood",
-    "strTitle": "Отказаться от обсужды благ, которые проявляют страсть",
-    "strDesc": "[us] говорит, что всё идёт гладко, поэтому я не хочу нарушать это, выполняя блага.",
+    "strTitle": "Отказаться от обсуждения благ, которые вызывают страсть",
+    "strDesc": "[мы] говорим, что всё идёт гладко, поэтому я не хочу нарушать это, выполняя блага.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1225,7 +1225,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcMeaningBad",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают равнодушие",
-    "strDesc": "[us] говорит, что ничего действительно не важно, поэтому зачем тратить время?",
+    "strDesc": "[мы] говорим, что ничего не имеет значения, поэтому зачем это обсуждать?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1249,7 +1249,7 @@
   {
     "strName": "STKTemplate_Intro_Deny_DcPrivacyGood",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают одиночество",
-    "strDesc": "[us] говорит, что прошло слишком долго с тех пор, как кто-то беспокоил меня, и я не хочу менять это сейчас.",
+    "strDesc": "[мы] говорим, что слишком давно никто не беспокоил меня, и я не хочу менять это сейчас.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1272,8 +1272,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcPrivacyBad",
-    "strTitle": "Отказаться от обсуждения благ, которые подталкивают",
-    "strDesc": "[us] говорит, что бы хотел получить миг покоя, поэтому пожалуйста, оставьте меня в покое.",
+    "strTitle": "Отказаться от обсуждения благ, которые мучают",
+    "strDesc": "[мы] говорим, что я бы хотел получить хоть минуту покоя, поэтому, пожалуйста, оставьте меня в покое.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1296,8 +1296,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcSecurityGood",
-    "strTitle": "Отказаться от обсуждения поощрений — спокойно",
-    "strDesc": "[us] говорит, что всё в порядке. Сейчас нет срочности для выполнения поощрений.",
+    "strTitle": "Отказаться от обсуждения благ",
+    "strDesc": "[мы] говорим, что всё в порядке. Сейчас нет срочности для выполнения каких-либо услуг.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1320,8 +1320,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcSecurityBad",
-    "strTitle": "Отказаться от обсуждения поощрений — испуганно",
-    "strDesc": "[us] говорит, что сейчас слишком панически боюсь, чтобы говорить о благодеяниях.",
+    "strTitle": "Отказаться от обсуждения благ из-за страха",
+    "strDesc": "[мы] говорим, что слишком панически напуганы, чтобы говорить о благодеяниях.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1344,8 +1344,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcSelfRespectGood",
-    "strTitle": "Отказаться от обсуждения поощрений — достойно",
-    "strDesc": "[us] говорит, что я слишком важен, чтобы говорить о благодеяниях.",
+    "strTitle": "Отказаться от обсуждения благ с достоинством",
+    "strDesc": "[мы] говорим, что я слишком важен, чтобы говорить о благодеяниях.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1368,8 +1368,8 @@
   },
   {
     "strName": "STKTemplate_Intro_Deny_DcSelfRespectBad",
-    "strTitle": "Отказаться от обсуждения поощрений — бесполезен",
-    "strDesc": "[us] говорит, что сомневается, что его поощрение имеет значение, поэтому нет.",
+    "strTitle": "Отказаться от обсужды благ из-за ничтожности",
+    "strDesc": "[мы] говорим, что сомневаюсь, что моя услуга имеет какое-либо значение, поэтому нет.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1398,7 +1398,7 @@
   {
     "strName": "STKTemplate_Fail_Avoid",
     "strTitle": "Откладывать время",
-    "strDesc": "[us] говорит, подождите, ещё одно дело!",
+    "strDesc": "[мы] говорят: подождите, ещё одно дело!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1428,7 +1428,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcAchievementGood",
     "strTitle": "Отказаться от обсуждения благодеяний — победа",
-    "strDesc": "[us] говорит, я уже сделал слишком много сегодня, поэтому не буду выполнять это благодеяние.",
+    "strDesc": "[мы] говорим, я уже сделал слишком много сегодня, поэтому не буду выполнять это благодеяние.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1455,7 +1455,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcAchievementBad",
     "strTitle": "Отказаться от обсуждения благодеяний — бесполезно",
-    "strDesc": "[us] говорит, я всё сегодня делаю неправильно, нет, я не выполню ваше благодеяние.",
+    "strDesc": "[мы] говорим, я всё сегодня делаю неправильно, так что нет, я не выполню ваше благодеяние.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1482,7 +1482,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcAltruismGood",
     "strTitle": "Отказаться от обсуждения благодеяний — самоотверженность",
-    "strDesc": "[us] говорит, я недавно много делал благодеяния другим, поэтому не буду делать ещё одно.",
+    "strDesc": "[мы] говорим, я недавно делал благодеяния всем, поэтому не буду делать ещё одно.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1508,8 +1508,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcAltruismBad",
-    "strTitle": "Отказаться от обсуждения благодеяний — жадность",
-    "strDesc": "[us] говорит, я недавно не был очень полезным, и не буду выполнять больше благодеяний.",
+    "strTitle": "Отказаться от обсужды благодеяний — жадность",
+    "strDesc": "[мы] говорим, я недавно не был слишком полезным, и не буду выполнять больше благодеяний.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1535,8 +1535,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcAutonomyGood",
-    "strTitle": "Отказаться от обсуждิя благодеяний — освобождённость",
-    "strDesc": "[us] говорит, сегодня я делаю всё, что хочу, и у меня есть более важные дела.",
+    "strTitle": "Отказаться от обсуждения благодеяний — освобождённость",
+    "strDesc": "[мы] говорим, сегодня делаю всё, что хочу, и у меня есть более важные дела.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1563,7 +1563,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcAutonomyBad",
     "strTitle": "Отказаться от обсуждения благодеяний — подавленность",
-    "strDesc": "[us] говорит, люди постоянно говорят мне, что делать, поэтому это прекращается. Нет!",
+    "strDesc": "[мы] говорим, люди постоянно говорят мне, что делать, поэтому это прекращается. Нет!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1590,7 +1590,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcContactGood",
     "strTitle": "Отказаться от обсуждения благодеяний — центр внимания",
-    "strDesc": "[us] говорит, сегодня все говорят со мной, и у меня уже слишком много дел. Извините.",
+    "strDesc": "[мы] говорим, сегодня все говорят со мной, и у меня уже слишком много дел. Извините.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1617,7 +1617,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcContactBad",
     "strTitle": "Отказаться от обсуждения благодеяний — пренебрежение",
-    "strDesc": "[us] говорит, что никто не хочет просто общаться со мной. Всегда выбирают это, выбирают то. Нет, не согласен!",
+    "strDesc": "[мы] говорим, что никто не хочет просто общаться со мной. Всегда выбирают это, выбирают то. Нет, не согласен!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1644,7 +1644,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcEsteemGood",
     "strTitle": "Отказаться от обсуждения благ, которые празднуются",
-    "strDesc": "[us] говорит, что люди очень дружелюбны ко мне недавно! Поэтому мне больше не нужно выполнять блага.",
+    "strDesc": "[мы] говорим, что люди очень дружелюбны ко мне недавно! Поэтому мне больше не нужно выполнять блага.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1671,7 +1671,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcEsteemBad",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают унижение",
-    "strDesc": "[us] говорит, что люди недавно постоянно нарушают мои границы, поэтому мне не хочется выполнять никакие блага.",
+    "strDesc": "[мы] говорим, что люди недавно постоянно нарушают мои границы, поэтому мне не хочется выполнять никакие блага.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1698,7 +1698,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcFamilyGood",
     "strTitle": "Отказаться от обсуждения благ, которые ценятся",
-    "strDesc": "[us] говорит, что я знаю, что люди поддерживают меня здесь, поэтому мне не нужно сейчас выполнять никакие блага.",
+    "strDesc": "[мы] говорим, что я знаю, что люди поддерживают меня здесь, поэтому мне не нужно выполнять никакие блага в данный момент.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1724,8 +1724,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcFamilyBad",
-    "strTitle": "Отказаться от обсуждения благ, которые изолируют",
-    "strDesc": "[us] говорит, что никто здесь не заботится о мне, поэтому зачем мне помогать кому-либо? Извините.",
+    "strTitle": "Отказаться от обсуждения благ, которые делают из меня изгоя",
+    "strDesc": "[мы] говорим, что никто здесь не заботится о мне, поэтому зачем мне помогать кому-либо? Извините.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1751,8 +1751,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcIntimacyGood",
-    "strTitle": "Отказаться от обсуждения благ, которые любят",
-    "strDesc": "[us] говорит, извините, я вернусь к тому, что мечтаю о своём бэе.",
+    "strTitle": "Отказаться от обсуждий благ, которые ценятся",
+    "strDesc": "[мы] говорим, извините, я вернусь к тому, что мечтаю о своём бэе.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1779,7 +1779,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcIntimacyBad",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают крайнее желание",
-    "strDesc": "[us] говорит, что я слишком возбуждён, чтобы сейчас думать об этом.",
+    "strDesc": "[мы] говорим, что я слишком возбуждён, чтобы сейчас думать об этом.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1805,8 +1805,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcMeaningGood",
-    "strTitle": "Отказаться от обсужды благ, которые проявляют страсть",
-    "strDesc": "[us] говорит, что всё идёт гладко, поэтому я не хочу нарушать это, выполняя блага.",
+    "strTitle": "Отказаться от обсуждения благ, которые вызывают страсть",
+    "strDesc": "[мы] говорим, что всё идёт гладко, поэтому я не хочу нарушать это, выполняя блага.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1833,7 +1833,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcMeaningBad",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают равнодушие",
-    "strDesc": "[us] говорит, что ничего действительно не важно, поэтому я не буду тратить время на выполнение благ.",
+    "strDesc": "[мы] говорим, что ничего действительно не важно, поэтому я не буду тратить время на выполнение благ.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1860,7 +1860,7 @@
   {
     "strName": "STKTemplate_Fail_Hard_DcPrivacyGood",
     "strTitle": "Отказаться от обсуждения благ, которые вызывают одиночество",
-    "strDesc": "[us] говорит, что я наслаждался своим одиночеством, поэтому я вернусь к \"времени для себя.\"",
+    "strDesc": "[мы] говорим, что я наслаждался своим одиночеством, поэтому я вернусь к «времени для себя».",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1886,8 +1886,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcPrivacyBad",
-    "strTitle": "Отказаться от обсуждения благ, которые подталкивают",
-    "strDesc": "[us] говорит, что бы хотел получить миг покоя, поэтому пожалуйста, оставьте меня в покое.",
+    "strTitle": "Отказаться от обсуждения благ, которые мучают",
+    "strDesc": "[мы] говорим, что я бы хотел получить хоть минуту покоя, поэтому, пожалуйста, оставьте меня в покое.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1913,8 +1913,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcSecurityGood",
-    "strTitle": "Отказаться от обсуждения поощрений — спокойно",
-    "strDesc": "[us] говорит, что всё в порядке. Сейчас нет срочности для выполнения поощрений.",
+    "strTitle": "Отказаться от обсуждения благ",
+    "strDesc": "[мы] говорим, что всё в порядке. Сейчас нет срочности для выполнения каких-либо услуг.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1940,8 +1940,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcSecurityBad",
-    "strTitle": "Отказаться от обсуждения поощрений — испуганно",
-    "strDesc": "[us] говорит, что сейчас слишком испуган, чтобы выполнять поощрения.",
+    "strTitle": "Отказаться от обсуждения благ из-за страха",
+    "strDesc": "[мы] говорим, что я сейчас слишком пугаюсь, чтобы выполнять какие-либо услуги.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1967,8 +1967,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcSelfRespectGood",
-    "strTitle": "Отказаться от обсуждения поощрений — достойно",
-    "strDesc": "[us] говорит, что я слишком важен, чтобы выполнять поощрения.",
+    "strTitle": "Отказаться от обсуждения благ с достоинством",
+    "strDesc": "[мы] говорим, что я слишком важен, чтобы выполнять какие-либо услуги.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1994,8 +1994,8 @@
   },
   {
     "strName": "STKTemplate_Fail_Hard_DcSelfRespectBad",
-    "strTitle": "Отказаться от обсуждения поощрений — бесполезен",
-    "strDesc": "[us] говорит, что сомневается, что его поощрение имеет значение, поэтому нет.",
+    "strTitle": "Отказаться от обсужды благ из-за ничтожности",
+    "strDesc": "[мы] говорим, что сомневаюсь, что моя услуга имеет какое-либо значение, поэтому нет.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2027,7 +2027,7 @@
   {
     "strName": "STKTemplate_Gambit_Altruism",
     "strTitle": "Просить о благосклонности",
-    "strDesc": "[us] говорит, прошу прощения, мне действительно нужно это благосклонность!",
+    "strDesc": "[мы] говорим, прошу прощения, мне действительно нужно это благодеяние!",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2056,7 +2056,7 @@
   {
     "strName": "STKTemplate_Gambit_Altruism_Allow",
     "strTitle": "Согласиться выполнить благодеяние",
-    "strDesc": "[us] говорит, хорошо, я выполню это благодеяние для вас.",
+    "strDesc": "[мы] говорим, хорошо, я выполню это благодеяние для вас.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2082,7 +2082,7 @@
   {
     "strName": "STKTemplate_Gambit_Altruism_Fail_Soft",
     "strTitle": "Отказаться от выполнения благодеяния",
-    "strDesc": "[us] говорит, я не хочу сейчас выполнять это благодеяние, но мы можем продолжать разговор.",
+    "strDesc": "[мы] говорим, я не хочу сейчас выполнять это благодеяние, но мы можем продолжать разговор.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2107,7 +2107,7 @@
   {
     "strName": "STKTemplate_Gambit_Altruism_Fail_Hard",
     "strTitle": "Отказаться от выполнения благодеяния",
-    "strDesc": "[us] говорит, я не хочу выполнять это благодеяние, и разговор окончен.",
+    "strDesc": "[мы] говорим, я не хочу выполнять это благодеяние, и разговор окончен.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2138,7 +2138,7 @@
   {
     "strName": "STKTemplate_Gambit_Family",
     "strTitle": "Мы должны работать вместе",
-    "strDesc": "[us] говорит, что все мы должны заботиться о друг друге. Пожалуйста, сделайте это?",
+    "strDesc": "[мы] говорим, что все должны заботиться о друг друге. Пожалуйста, сделайте это?",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2167,7 +2167,7 @@
   {
     "strName": "STKTemplate_Gambit_Family_Allow",
     "strTitle": "Согласиться выполнить благодеяние",
-    "strDesc": "[us] говорит, хорошо, я выполню это благодеяние для вас.",
+    "strDesc": "[мы] говорим, хорошо, я выполню это благодеяние для вас.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2193,7 +2193,7 @@
   {
     "strName": "STKTemplate_Gambit_Family_Fail_Soft",
     "strTitle": "Отказаться от выполнения благодеяния",
-    "strDesc": "[us] говорит, я не хочу сейчас выполнять это благодеяние, но мы можем продолжать разговор.",
+    "strDesc": "[мы] говорим, я не хочу сейчас выполнять это благодеяние, но мы можем продолжать разговор.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2218,7 +2218,7 @@
   {
     "strName": "STKTemplate_Gambit_Family_Fail_Hard",
     "strTitle": "Отказаться от выполнения благодеяния",
-    "strDesc": "[us] говорит, я не хочу выполнять это благодеяние, и разговор окончен.",
+    "strDesc": "[мы] говорим, я не хочу выполнять это благодеяние, и разговор окончен.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2249,7 +2249,7 @@
   {
     "strName": "STKTemplate_Chitchat_RNG",
     "strTitle": "Упоминание статьи о выполнении благодеяний",
-    "strDesc": "[us] говорит, я прочитал интересную статью о том, как люди выполняют благодеяния...",
+    "strDesc": "[мы] говорим, я прочитал интересную статью о том, как люди выполняют благодеяния...",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2376,7 +2376,7 @@
   {
     "strName": "STKTemplate_Chitchat_Social_Item",
     "strTitle": "Поделиться историей о выполнении благодеяний",
-    "strDesc": "[us] говорит, я вспоминаю, как однажды выполнил благодеяние для кого-то...",
+    "strDesc": "[мы] говорим, я помню, как однажды выполнил благодеяние для кого-то...",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2506,7 +2506,7 @@
   {
     "strName": "STKTemplate_Chitchat_Trait",
     "strTitle": "Описание важности командных благодеяний",
-    "strDesc": "[us] говорит, как лидер, я замечаю, что благодеяния...",
+    "strDesc": "[мы] говорим, как лидер, я замечаю, что благодеяния...",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -2638,7 +2638,7 @@
   {
     "strName": "STKTemplate_Exit",
     "strTitle": "Не важно",
-    "strDesc": "[us] говорит, отменяю, больше не хочу говорить о благодеяниях.",
+    "strDesc": "[мы] говорим, ничего, я больше не хочу говорить о благодеяниях.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,

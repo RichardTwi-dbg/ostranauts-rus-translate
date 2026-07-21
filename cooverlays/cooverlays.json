@@ -2,7 +2,7 @@
   {
     "strName": "ItmAirPump01Dmg",
     "strNameFriendly": "Насос воздуха (повреждён)",
-    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или помещения и перекачивать его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в кабине.",
+    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или комнаты и перекачивать его в целевую зону. Может быть подключён к соответствующим сигнальным системам для поддержания безопасного давления в кабине.",
     "strImg": "ItmAirPump01Dmg02",
     "strImgNorm": "ItmAirPump01Dmg02n",
     "strPortraitImg": "ItmAirPump01Dmg02",
@@ -24,7 +24,7 @@
   {
     "strName": "ItmAirPump01DmgLoose",
     "strNameFriendly": "Насос воздуха (повреждён, ослаблен)",
-    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или помещения и перекачивать его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в кабине.",
+    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или комнаты и перекачивать его в целевую зону. Может быть подключён к соответствующим сигнальным системам для поддержания безопасного давления в кабине.",
     "strImg": "ItmAirPump01Dmg02Loose",
     "strImgNorm": "ItmAirPump01Dmg02Loosen",
     "strPortraitImg": "ItmAirPump01Dmg02Loose",
@@ -50,7 +50,7 @@
   {
     "strName": "ItmAirPump01Off",
     "strNameFriendly": "Насос воздуха (выключен)",
-    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или помещения и перекачивать его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в кабине.",
+    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или комнаты и перекачивать его в целевую зону. Может быть подключён к соответствующим сигнальным системам для поддержания безопасного давления в кабине.",
     "strImg": "ItmAirPump01Off",
     "strImgNorm": "ItmAirPump01Offn",
     "strImgDamaged": "ItmAirPump01Dmg01",
@@ -73,7 +73,7 @@
   {
     "strName": "ItmAirPump01OffLoose",
     "strNameFriendly": "Насос воздуха (ослаблен)",
-    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или помещения и перекачивать его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в кабине.",
+    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или комнаты и перекачивать его в целевую зону. Может быть подключён к соответствующим сигнальным системам для поддержания безопасного давления в кабине.",
     "strImg": "ItmAirPump01OffLoose",
     "strImgNorm": "ItmAirPump01OffLoosen",
     "strImgDamaged": "ItmAirPump01Dmg01Loose",
@@ -100,7 +100,7 @@
   {
     "strName": "ItmAirPump01OnG",
     "strNameFriendly": "Насос воздуха (включён)",
-    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или помещения и перекачивать его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в кабине.",
+    "strDesc": "Насос газа серии Sokol T, часто встречающийся на кораблях как часть системы жизнеобеспечения. Способен извлекать газ из любого закрытого контейнера или комнаты и перекачивать его в целевую зону. Может быть подключён к соответствующим сигнальным системам для поддержания безопасного давления в кабине.",
     "strImg": "ItmAirPump01Off",
     "strImgNorm": "ItmAirPump01Offn",
     "strImgDamaged": "ItmAirPump01Dmg01",
@@ -122,7 +122,7 @@
   },
   {
     "strName": "ItmAirPump03Dmg",
-    "strNameFriendly": "Насос воздуха (повреждён)",
+    "strNameFriendly": "Насос воздуха (повреждённый)",
     "strImg": "ItmAirPump02Dmg02",
     "strImgNorm": "ItmAirPump02Dmg02n",
     "strImgDamaged": "",
@@ -144,7 +144,7 @@
   },
   {
     "strName": "ItmAirPump03DmgLoose",
-    "strNameFriendly": "Насос воздуха (повреждён, ослаблен)",
+    "strNameFriendly": "Насос воздуха (повреждённый, неполный)",
     "strImg": "ItmAirPump02Dmg02Loose",
     "strImgNorm": "ItmAirPump02Dmg02Loosen",
     "strImgDamaged": "ItmAirPump02Dmg01Loose",
@@ -192,7 +192,7 @@
   },
   {
     "strName": "ItmAirPump03OffLoose",
-    "strNameFriendly": "Насос воздуха (ослаблен)",
+    "strNameFriendly": "Насос воздуха (неполный)",
     "strImg": "ItmAirPump02OffLoose",
     "strImgNorm": "ItmAirPump02OffLoosen",
     "strImgDamaged": "ItmAirPump02Dmg01Loose",
@@ -218,7 +218,7 @@
   },
   {
     "strName": "ItmAirPump03OnG",
-    "strNameFriendly": "Насос воздуха (включён)",
+    "strNameFriendly": "Насос воздуха (OnG)",
     "strImg": "ItmAirPump02Off",
     "strImgNorm": "ItmAirPump02Offn",
     "strImgDamaged": "ItmAirPump02Dmg01",
@@ -250,7 +250,7 @@
   },
   {
     "strName": "ItmBattery02LowPowerLoose",
-    "strNameFriendly": "Стартовая батарея (свободная)",
+    "strNameFriendly": "Стартовая батарой (ошибочная)",
     "strImg": "ItmBattery02Loose",
     "strImgDamaged": "ItmBattery02Dmg02Loose",
     "strImgNorm": "ItmBattery02Loosen",
@@ -274,7 +274,7 @@
   },
   {
     "strName": "ItmBattery02bLowPowerLoose",
-    "strNameFriendly": "Стартовая батарея (свободная)",
+    "strNameFriendly": "Стартовая батарой (ошибочная)",
     "strImg": "ItmBattery02bLoose",
     "strImgDamaged": "ItmBattery02bDmgLoose",
     "strImgNorm": "ItmBattery02bLoosen",
@@ -298,7 +298,7 @@
   },
   {
     "strName": "ItmBattery02cLowPowerLoose",
-    "strNameFriendly": "Стартовая батарея (свободная)",
+    "strNameFriendly": "Стартовая батарой (ошибочная)",
     "strImg": "ItmBattery02cLoose",
     "strImgDamaged": "ItmBattery02cDmgLoose",
     "strImgNorm": "ItmBattery02cLoosen",
@@ -312,9 +312,9 @@
   },
   {
     "strName": "ItmBookStudyAdmin01",
-    "strNameShort": "Текстbook администратора",
-    "strNameFriendly": "Текстbook: Управление бизнесом",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области управления бизнесом.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение управления бизнесом.",
+    "strNameShort": "Руководство для администратора",
+    "strNameFriendly": "Руководство: Управление бизнесом",
+    "strDesc": "Интерактивное руководство, помогающее читателям развивать навыки в области управления бизнесом.\n\nФУНКЦИЯ АКТИВНОГО ПОДДЕРЖКИ: Изучение управления бизнесом.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyAdmin01",
     "aInteractionsReplace": [
@@ -330,9 +330,9 @@
   },
   {
     "strName": "ItmBookStudyEngConstruction01",
-    "strNameShort": "Текстbook строительства",
-    "strNameFriendly": "Текстbook: Инженерия строительства",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии строительства.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии строительства.",
+    "strNameShort": "Руководство по строительству",
+    "strNameFriendly": "Руководство: строительная инженерия",
+    "strDesc": "Интерактивное руководство, помогающее читателям развивать навыки в области строительной инженерии.\n\nПОДКЛЮЧЕННЫЙ ПОДКЛЮЧАЕМЫЙ ПОДГОТОВКИ: Изучайте строительную инженерию.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyEngConstruction01",
     "aInteractionsReplace": [
@@ -348,9 +348,9 @@
   },
   {
     "strName": "ItmBookStudyEngCivil01",
-    "strNameShort": "Текстbook гражданской инженерии",
-    "strNameFriendly": "Текстbook: Гражданское инженерное дело",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области гражданской инженерии.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение гражданской инженерии.",
+    "strNameShort": "Руководство по гражданской инженерии",
+    "strNameFriendly": "Руководство: гражданская инженерия",
+    "strDesc": "Интерактивное руководство, помогающее читателям развивать навыки в области гражданской инженерии.\n\nПОДКЛЮЧЕННЫЙ ПОДКЛЮЧАЕМЫЙ ПОДГОТОВКИ: Изучайте гражданскую инженерию.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyEngCivil01",
     "aInteractionsReplace": [
@@ -366,9 +366,9 @@
   },
   {
     "strName": "ItmBookStudyEngCombat01",
-    "strNameShort": "Текстbook боевой инженерии",
-    "strNameFriendly": "Текстbook: Боевая инженерия",
-    "strDesc": "Интерактивный учебник, изданный Brave New World, помогающий читателям развивать навыки в области боевой инженерии.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение боевой инженерии.",
+    "strNameShort": "Руководство по боевой инженерии",
+    "strNameFriendly": "Руководство: боевая инженерия",
+    "strDesc": "Интерактивное руководство, изданные Brave New World, помогающее читателям развивать навыки в области боевой инженерии.\n\nПОДКЛЮЧЕННЫЙ ПОДКЛЮЧАЕМЫЙ ПОДГОТОВКИ: Изучайте боевую инженерию.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyEngCombat01",
     "aInteractionsReplace": [
@@ -384,9 +384,9 @@
   },
   {
     "strName": "ItmBookStudyEngMechanical01",
-    "strNameShort": "Текстbook механической инженерии",
-    "strNameFriendly": "Текстbook: Механическая инженерия",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области механической инженерии.\n\nФУТКЦИЯ ПОДДЕРЖКИ: Изучение механической инженерии.",
+    "strNameShort": "Руководство по механической инженерии",
+    "strNameFriendly": "Руководство: механическая инженерия",
+    "strDesc": "Интерактивное руководство, помогающее читателям развивать навыки в области механической инженерии.\n\nПОДКЛЮЧЕННЫЙ ПОДКЛЮЧАЕМЫЙ ПОДГОТОВКИ: Изучайте механическую инженерию.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyEngMechanical01",
     "aInteractionsReplace": [
@@ -402,9 +402,9 @@
   },
   {
     "strName": "ItmBookStudyEngRobotics01",
-    "strNameShort": "Текстbook робототехники",
-    "strNameFriendly": "Текстbook: Инженерия робототехники",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии робототехники.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии робототехники.",
+    "strNameShort": "Руководство по инженерии робототехники",
+    "strNameFriendly": "Руководство: инженерия робототехники",
+    "strDesc": "Интерактивное руководство, помогающее читателям развивать навыки в области инженерии робототехники.\n\nПОДКЛЮЧЕННЫЙ ПОДКЛЮЧАЕМЫЙ ПОДГОТОВКИ: Изучайте инженерию робототехники.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyEngRobotics01",
     "aInteractionsReplace": [
@@ -420,9 +420,9 @@
   },
   {
     "strName": "ItmBookStudyEngSoftware01",
-    "strNameShort": "Текстbook программирования",
-    "strNameFriendly": "Текстbook: Инженерия программного обеспечения",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии программного обеспечения.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии программного обеспечения.",
+    "strNameShort": "Руководство по инженерии программирования",
+    "strNameFriendly": "Руководство: программная инженерия",
+    "strDesc": "Интерактивное руководство, помогающее читателям развивать навыки в области программной инженерии.\n\nПОДКЛЮЧЕННЫЙ ПОДКЛЮЧАЕМЫЙ ПОДГОТОВКИ: Изучайте программную инженерию.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyEngSoftware01",
     "aInteractionsReplace": [
@@ -438,9 +438,9 @@
   },
   {
     "strName": "ItmBookStudyEngSpaceship01",
-    "strNameShort": "Текстbook космического кораблестроения",
-    "strNameFriendly": "Текстbook: Инженерия космических кораблей",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области инженерии космических кораблей.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение инженерии космических кораблей.",
+    "strNameShort": "Руководство по инженерии космических кораблей",
+    "strNameFriendly": "Руководство: инженерия космических кораблей",
+    "strDesc": "Интерактивная учебная книга, помогающая читателям развивать навыки в инженерии космических кораблей.\n\nФУНКЦИЯ ПРОГРЕССИИ: Изучение инженерии космических кораблей.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyEngSpaceship01",
     "aInteractionsReplace": [
@@ -456,9 +456,9 @@
   },
   {
     "strName": "ItmBookStudyHacking01",
-    "strNameShort": "Текстbook взлома",
-    "strNameFriendly": "Текстbook: Хакерство",
-    "strDesc": "Интерактивный учебник, помогающий читателям развивать навыки в области компьютерных нарушений и эксплуатации методик.\n\nФУНКЦИЯ ПОДДЕРЖКИ: Изучение хакерства.",
+    "strNameShort": "Учебник: Хакерство",
+    "strNameFriendly": "Учебник: Хакерство",
+    "strDesc": "Интерактивная учебная книга, помогающая читателям развивать навыки в нарушении компьютеров и методах эксплуатации.\n\nФУНКЦИЯ ПРОГРЕССИИ: Изучение инженерии хакерства.",
     "strCOBase": "ItmBookStudyEngElectronic01",
     "strCondLoot": "CNDOLBookStudyHacking01",
     "aInteractionsReplace": [
@@ -474,7 +474,7 @@
   },
   {
     "strName": "ItmConduit01",
-    "strNameFriendly": "Кондуктор: Коллективный электрический \"Альбрит\" EMT",
+    "strNameFriendly": "Кондуктор: Коллективный электрический \"Албрит\" ЭМТ",
     "strImg": "ItmConduit02Sheet",
     "strImgNorm": "ItmConduit02Sheetn",
     "strPortraitImg": "ItmConduit02",
@@ -493,7 +493,7 @@
   },
   {
     "strName": "ItmConduit01Dmg",
-    "strNameFriendly": "Кондуктор (повреждён): Коллективный электрический \"Альбрифт\" EMT",
+    "strNameFriendly": "Кондуктор (повреждённый): Коллективный электрический \"Албрит\" ЭМТ",
     "strImg": "ItmConduit02SheetDmg",
     "strImgNorm": "ItmConduit02Sheetn",
     "strPortraitImg": "ItmConduit02SheetDmg",
@@ -512,7 +512,7 @@
   },
   {
     "strName": "ItmConduit01Loose",
-    "strNameFriendly": "Кондуктор (слабо закреплён): Коллективный электрический \"Альбрифт\" E",
+    "strNameFriendly": "Кондуктор (слабо закреплённый): Коллективный электрический \"Албойрит\" ЭМТ",
     "strImg": "ItmConduit02Loose",
     "strImgNorm": "ItmConduit02Loosen",
     "strPortraitImg": "ItmConduit02Loose",
@@ -537,7 +537,7 @@
   },
   {
     "strName": "ItmConduit01DmgLoose",
-    "strNameFriendly": "Кондуктор (слабо закреплён, повреждён): Коллективный электрический \"Альбрифт\" EMT",
+    "strNameFriendly": "Кондуктор (слабо закреплённый, повреждённый): Коллективный электрический \"Албрит\" ЭМТ",
     "strImg": "ItmConduit02Dmg02Loose",
     "strImgNorm": "ItmConduit02Loosen",
     "strPortraitImg": "ItmConduit02Dmg02Loose",
@@ -562,7 +562,7 @@
   },
   {
     "strName": "ItmConduit04",
-    "strNameFriendly": "Кондуктор: Система аварийного подключения Jumper-Jack",
+    "strNameFriendly": "Кондуктор: Система аварийного подключения «Jump-Jack»",
     "strImg": "ItmConduit04Sheet",
     "strImgNorm": "ItmConduit04Sheetn",
     "strPortraitImg": "ItmConduit04",
@@ -587,7 +587,7 @@
   },
   {
     "strName": "ItmConduit04Dmg",
-    "strNameFriendly": "Кондуктор (повреждён): Система аварийного подключения Jumper-Jack",
+    "strNameFriendly": "Кондуктор (повреждённый): Система аварийного подключения «Jump-Jack»",
     "strImg": "ItmConduit04SheetDmg",
     "strImgNorm": "ItmConduit04Sheetn",
     "strPortraitImg": "ItmConduit04SheetDmg",
@@ -606,7 +606,7 @@
   },
   {
     "strName": "ItmConduit04Loose",
-    "strNameFriendly": "Кондуктор (слабо закреплён): Система аварийного подключения Jumper-Jack",
+    "strNameFriendly": "Кондуктор (слабо закреплённый): Система аварийного подключения «Jump-Jack»",
     "strImg": "ItmConduit04Loose",
     "strImgNorm": "ItmConduit04Loosen",
     "strPortraitImg": "ItmConduit04Loose",
@@ -631,7 +631,7 @@
   },
   {
     "strName": "ItmConduit04DmgLoose",
-    "strNameFriendly": "Кондуктор (слабо закреплён): Система аварийного подключения Jumper-Jack",
+    "strNameFriendly": "Кондуктор (слабо закреплённый): Система аварийного подключения «Jump-Jack»",
     "strImg": "ItmConduit04DmgLoose",
     "strImgNorm": "ItmConduit04Loosen",
     "strPortraitImg": "ItmConduit04DmgLoose",
@@ -657,7 +657,7 @@
   {
     "strName": "ItmDecorPoster02",
     "strNameFriendly": "Постер: Путешествие на Тарсис",
-    "strDesc": "Постер туристической компании для посещения Тарсиса на Марсе.",
+    "strDesc": "Постер по туризму для посещения Тарсиса на Марсе.",
     "strImg": "manuals/DecorPosters/PASS_TharsisLanding-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/PASS_TharsisLanding",
@@ -676,8 +676,8 @@
   },
   {
     "strName": "ItmDecorPoster02Loose",
-    "strNameFriendly": "Постер: Путешествие на Тарсис (слабо закреплён)",
-    "strDesc": "Постер туристической компании для посещения Тарсиса на Марсе.",
+    "strNameFriendly": "Постер: Путешествие на Тарсис (слабо закреплённый)",
+    "strDesc": "Постер по туризму для посещения Тарсиса на Марсе.",
     "strImg": "manuals/DecorPosters/PASS_TharsisLanding-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/PASS_TharsisLanding",
@@ -703,7 +703,7 @@
   {
     "strName": "ItmDecorPoster03",
     "strNameFriendly": "Постер: Путешествие на Атлантиду",
-    "strDesc": "Постер туристической компании для посещения Атлантиды на Европе, Юпитере.",
+    "strDesc": "Постер по туризму для посещения Атлантиды на Европе, Юпитере.",
     "strImg": "manuals/DecorPosters/PASS_Atlantis-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/PASS_Atlantis",
@@ -722,8 +722,8 @@
   },
   {
     "strName": "ItmDecorPoster03Loose",
-    "strNameFriendly": "Постер: Путешествие на Атлантиду (слабо закреплён)",
-    "strDesc": "Постер туристической компании для посещения Атлантиды на Европе, Юпитере.",
+    "strNameFriendly": "Постер: Путешествие на Атлантиду (слабо закреплённый)",
+    "strDesc": "Постер по туризму для посещения Атлантиды на Европе, Юпитере.",
     "strImg": "manuals/DecorPosters/PASS_Atlantis-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/PASS_Atlantis",
@@ -748,8 +748,8 @@
   },
   {
     "strName": "ItmDecorPoster04",
-    "strNameFriendly": "Постер: Реклама Вице-президента",
-    "strDesc": "Рекламный постер с символическим красным кроликом марки Sungura Viceroys сигарет.\n\"Перерыв на курение! Приказы Вице-президента!\"",
+    "strNameFriendly": "Реклама: Вице-президент Викториа",
+    "strDesc": "Рекламный плакат с фирменным красным кроликом-мascотом курильных сигарет Sungura Viceroys.\n\"Дышать в табачном дыму! Заказы Викториа!\"",
     "strImg": "manuals/DecorPosters/ViceroysAdvert-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/ViceroysAdvert",
@@ -768,8 +768,8 @@
   },
   {
     "strName": "ItmDecorPoster04Loose",
-    "strNameFriendly": "Постер: Реклама Вице-президента (слабо закреплён)",
-    "strDesc": "Рекламный постер с символическим красным кроликом марки Sungura Viceroys сигарет.\n\"Перерыв на курение! Приказы Вице-президента!\"",
+    "strNameFriendly": "Реклама: Вице-президент Викториа (свободная версия)",
+    "strDesc": "Рекламный плакат с фирменным красным кроликом-мascотом курильных сигарет Sungura Viceroys.\n\"Дышать в табачном дыму! Заказы Викториа!\"",
     "strImg": "manuals/DecorPosters/ViceroysAdvert-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/ViceroysAdvert",
@@ -794,8 +794,8 @@
   },
   {
     "strName": "ItmDecorPoster05",
-    "strNameFriendly": "Постер: Удачный говорит PANIC",
-    "strDesc": "Постер Айотимиwy PSA с любимым всеми Лукки Луска: этот текст — аббревиатура шагов по реагированию на нарушение атмосферы корабля.",
+    "strNameFriendly": "Реклама: Люки говорит PANIC",
+    "strDesc": "Плакат Айотимиуа, посвящённый общественной кампании, с любимым персонажем Люки-Луска: этот плакат — аббревиатура шагов при нарушении атмосферы корабля.",
     "strImg": "manuals/DecorPosters/LUCKY_SAYS_PANIC-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/LUCKY_SAYS_PANIC",
@@ -814,8 +814,8 @@
   },
   {
     "strName": "ItmDecorPoster05Loose",
-    "strNameFriendly": "Постер: Лукки говорит PANIC (Разряд)",
-    "strDesc": "Постер Айотимиwy PSA с любимым всеми Лукки Луска: этот текст — аббревиатура шагов по реагированию на нарушение атмосферы корабля.",
+    "strNameFriendly": "Реклама: Люки говорит PANIC (свободная версия)",
+    "strDesc": "Плакат Айотимиуа, посвящённый общественной кампании, с любимым персонажем Люки-Луска: этот плакат — аббревиатура шагов при нарушении атмосферы корабля.",
     "strImg": "manuals/DecorPosters/LUCKY_SAYS_PANIC-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/LUCKY_SAYS_PANIC",
@@ -840,8 +840,8 @@
   },
   {
     "strName": "ItmDecorPoster06",
-    "strNameFriendly": "Постер: Лукки говорит YIELD",
-    "strDesc": "Постер Айотимиwy PSA с любимым всеми Лукки Луска: этот текст — аббревиатура советов по управлению в воздушном пространстве К-Лег.",
+    "strNameFriendly": "Рекы: Люки говорит YIELD",
+    "strDesc": "Реклама Айотимиwy: любимый Луки, Луска: этот текст — аббревиатура советов по управлению в воздушной зоне К-Лег.",
     "strImg": "manuals/DecorPosters/LUCKY_SAYS_YIELD-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/LUCKY_SAYS_YIELD",
@@ -860,8 +860,8 @@
   },
   {
     "strName": "ItmDecorPoster06Loose",
-    "strNameFriendly": "Постер: Лукки говорит YIELD (Разряд)",
-    "strDesc": "Постер Айотимиwy PSA с любимым всеми Лукки Луска: этот текст — аббревиатура советов по управлению в воздушном пространстве К-Лег.",
+    "strNameFriendly": "Реклама: Луки говорит YIELD (слабый)",
+    "strDesc": "Реклама Айотимиwy: любимый Луки, Луска: этот текст — аббревиатура советов по управлению в воздушной зоне К-Лег.",
     "strImg": "manuals/DecorPosters/LUCKY_SAYS_YIELD-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/LUCKY_SAYS_YIELD",
@@ -886,8 +886,8 @@
   },
   {
     "strName": "ItmDecorPoster09",
-    "strNameFriendly": "Постер: Чёрный бык Капе",
-    "strDesc": "Постер-реклама, демонстрирующая агрессивную интенсивность единственного 100% Капенг Барако в системе, с характерным сильным, дымным вкусом и цветочным ароматом индийских кофейных зерен Пино Леберика. «Тот удар чёрного быка отправит тебя вверх-вниз».",
+    "strNameFriendly": "Реклама: Чёрный бык Капе",
+    "strDesc": "Реклама, демонстрирующая агрессивную интенсивность единственного 100% Капенг Барако в системе, с ярко выраженным тягучим вкусом и цветочным ароматом из индийских кофейных зерен Либерика. \"Тот удар чёрного быка отправит вас вверх-вниз.\"",
     "strImg": "manuals/DecorPosters/BlackBullKape-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/BlackBullKape",
@@ -906,8 +906,8 @@
   },
   {
     "strName": "ItmDecorPoster09Loose",
-    "strNameFriendly": "Постер: Чёрный бык Капе (Разряд)",
-    "strDesc": "Постер-реклама, демонстрирующая агрессивную интенсивность единственного 100% Капенг Барако в системе, с характерным сильным, дымным вкусом и цветочным ароматом индийских кофейных зерен Пино Леберика. «Тот удар чёрного быка отправит тебя вверх-вниз».",
+    "strNameFriendly": "Рекной: Чёрный бык Капе (слабый)",
+    "strDesc": "Реклама, демонстрирующая агрессивную интенсивность единственного 100% Капенг Барако в системе, с ярко выраженным тягучим вкусом и цветочным ароматом из индийских кофейных зерен Либерика. \"Тот удар чёрного быка отправит вас вверх-вниз.\"",
     "strImg": "manuals/DecorPosters/BlackBullKape-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/BlackBullKape",
@@ -932,8 +932,8 @@
   },
   {
     "strName": "ItmDecorPoster10",
-    "strNameFriendly": "Постер: Дамский роза",
-    "strDesc": "Постер-реклама, демонстрирующая самый известный продукт компании Green Energy по всей системе — чистая сатива, дымится с высоким, столь же уникальным, как и их маркетинговый дизайн.",
+    "strNameFriendly": "Реклама: Дамский роза",
+    "strDesc": "Реклама, демонстрирующая самый известный продукт компании Green Energy по всей системе — чистая сатива, дающая ощущение, столь же яркое, как и их маркетинговый дизайн.",
     "strImg": "manuals/DecorPosters/DamaskRose-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/DamaskRose",
@@ -952,8 +952,8 @@
   },
   {
     "strName": "ItmDecorPoster10Loose",
-    "strNameFriendly": "Постер: Дамский роза (Разряд)",
-    "strDesc": "Постер-реклама, демонстрирующая самый известный продукт компании Green Energy по всей системе — чистая сатива, дымится с высоким, столь же уникальным, как и их маркетинговый дизайн.",
+    "strNameFriendly": "Реклама: Дамский роза (слабый)",
+    "strDesc": "Реклама, демонстрирующая самый известный продукт компании Green Energy по всей системе — чистая сатива, дающая ощущение, столь же яркое, как и их маркетинговый дизайн.",
     "strImg": "manuals/DecorPosters/DamaskRose-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/DamaskRose",
@@ -978,8 +978,8 @@
   },
   {
     "strName": "ItmDecorPoster11",
-    "strNameFriendly": "Постер: Бисмертнайская вода Классик",
-    "strDesc": "Постер-реклама, демонстрирующая классический солнечный череп, символ любимого напитка космических пилотов, предоставленный компанией Soyuzneft. Для неподвластного вкуса доверяйте Бисмертнай.",
+    "strNameFriendly": "Реклама: Бисмертнайская вода классика",
+    "strDesc": "Реклама с классическим изображением восходящего солнечного черепа, представляющего любимое напиток космонавтов, от компании «Союзнефт». Для неподвластного времени — доверяйте Бисмертнайской.",
     "strImg": "manuals/DecorPosters/Bismertnaya-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/Bismertnaya",
@@ -998,8 +998,8 @@
   },
   {
     "strName": "ItmDecorPoster11Loose",
-    "strNameFriendly": "Постер: Бисмертнайская вода Классик (Разряд)",
-    "strDesc": "Постер-реклама, демонстрирующая классический солнечный череп, символ любимого напитка космических пилотов, предоставленный компанией Soyuzneft. Для неподвластного вкуса доверяйте Бисмертнай.",
+    "strNameFriendly": "Реклама: Бисмертнайская вода классика (без фиксации)",
+    "strDesc": "Реклама с классическим изображением восходящего солнечного черепа, представляющего любимое напиток космонавтов, от компании «Союзнефт». Для неподвластного времени — доверяйте Бисмертнайской.",
     "strImg": "manuals/DecorPosters/Bismertnaya-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/Bismertnaya",
@@ -1024,8 +1024,8 @@
   },
   {
     "strName": "ItmDecorPoster12",
-    "strNameFriendly": "Постер: Бисмертнайская вода Психо",
-    "strDesc": "Рекламный плакат с ограниченным выпуском дизайна «Psyche Sunset», посвящённый празднованию Союзнефти в честь предполагаемого железного гиганта астероидов, символизирующего устойчивую, любящую спиртные напитки человеческую систему.\n\n«На каждый незабываемый, незамеченный момент — есть Бисмертнайя.»",
+    "strNameFriendly": "Реклама: Бисмертнайская вода Psyche",
+    "strDesc": "Рекной с ограниченным выпуском дизайна «Psyche Sunset», посвящённая предполагаемому железному гиганту в зоне астероидов, символизирующего устойчивую, упрямую человеческую систему во всём пространстве.\n\n«Для каждого неподвластного, забытого момента — есть Бисмертнайская.»",
     "strImg": "manuals/DecorPosters/BismertnayaPsyche-pst",
     "strImgNorm": "ItmPoster01n",
     "strPortraitImg": "manuals/DecorPosters/BismertnayaPsyche",
@@ -1044,8 +1044,8 @@
   },
   {
     "strName": "ItmDecorPoster12Loose",
-    "strNameFriendly": "Плакат: Водка Бисмертнайя Психа (свободная версия)",
-    "strDesc": "Рекламный плакат с ограниченным выпуском дизайна «Psyche Sunset», посвящённый празднованию Союзнефти в честь предполагаемого железного гиганта астероидов, символизирующего устойчивую, любящую спиртные напитки человеческую систему.\n\n«На каждый незабываемый, незамеченный момент — есть Бисмертнайя.»",
+    "strNameFriendly": "Реклама: Бисмертнайская вода Psyche (без фиксации)",
+    "strDesc": "Рекной с ограниченным выпуском дизайна «Psyche Sunset», посвящённая предполагаемому железному гиганту в зоне астероидов, символизирующего устойчивую, упрямую человеческую систему во всём пространстве.\n\n«Для каждого неподвластного, забытого момента — есть Бисмертнайская.»",
     "strImg": "manuals/DecorPosters/BismertnayaPsyche-sm",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "manuals/DecorPosters/BismertnayaPsyche",
@@ -1070,7 +1070,7 @@
   },
   {
     "strName": "ItmDocumentPermitOKLG01Used",
-    "strNameFriendly": "Разрешение: Жёлтое разрешение на выручку Айотимиwy",
+    "strNameFriendly": "Разрешение: Жёлтое разрешение на вывоз Айотимиwy",
     "strImg": "ItmPaper02",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "ItmPaper02",
@@ -1085,7 +1085,7 @@
   },
   {
     "strName": "ItmDocumentPermitOKLG01bUsed",
-    "strNameFriendly": "Разрешение: Красное разрешение на выручку Айотимиwy",
+    "strNameFriendly": "Разрешение: Красное разрешение на вывоз Айотимиwy",
     "strImg": "ItmPaper02b",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "ItmPaper02b",
@@ -1100,7 +1100,7 @@
   },
   {
     "strName": "ItmDocumentPermitOKLG01cUsed",
-    "strNameFriendly": "Разрешение: Синее разрешение на выручку Айотимиwy",
+    "strNameFriendly": "Разрешение: Синее разрешение на вывоз Айотимиwy",
     "strImg": "ItmPaper02c",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "ItmPaper02c",
@@ -1115,7 +1115,7 @@
   },
   {
     "strName": "ItmDocumentPermitOKLG01dUsed",
-    "strNameFriendly": "Разрешение: Серебряное разрешение на выручку Айотимиwy",
+    "strNameFriendly": "Разрешение: Серебряное разрешение на вывоз Айотимиwy",
     "strImg": "ItmPaper02d",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "ItmPaper02d",
@@ -1130,7 +1130,7 @@
   },
   {
     "strName": "ItmDocumentPermitOKLG01eUsed",
-    "strNameFriendly": "Разрешение: Чёрное разрешение на выручку Айотимиwy",
+    "strNameFriendly": "Разрешение: Чёрное разрешение на вывоз Айотимиwy",
     "strImg": "ItmPaper02e",
     "strImgNorm": "ItmPaper01n",
     "strPortraitImg": "ItmPaper02e",
@@ -1145,7 +1145,7 @@
   },
   {
     "strName": "ItmHeater02Dmg",
-    "strNameFriendly": "Нагреватель модель B (повреждённый)",
+    "strNameFriendly": "Модель нагревателя B (повреждённая)",
     "strImg": "ItmHeater02Dmg",
     "strImgNorm": "ItmHeater02n",
     "strImgDamaged": "",
@@ -1166,7 +1166,7 @@
   },
   {
     "strName": "ItmHeater02DmgLoose",
-    "strNameFriendly": "Нагреватель модель B (свободный, повреждённый)",
+    "strNameFriendly": "Модель нагревателя B (без фиксации, повреждённая)",
     "strImg": "ItmHeater01Dmg02Loose",
     "strImgNorm": "ItmHeater01Loosen",
     "strImgDamaged": "",
@@ -1191,7 +1191,7 @@
   },
   {
     "strName": "ItmHeater02Off",
-    "strNameFriendly": "Нагреватель модель B (выключен)",
+    "strNameFriendly": "Модель нагревателя B (выключена)",
     "strImg": "ItmHeater02",
     "strImgNorm": "ItmHeater02n",
     "strImgDamaged": "ItmHeater02Dmg",
@@ -1212,7 +1212,7 @@
   },
   {
     "strName": "ItmHeater02OffLoose",
-    "strNameFriendly": "Нагреватель модель B (свободный)",
+    "strNameFriendly": "Модель нагревателя B (без фиксации)",
     "strImg": "ItmHeater02Loose",
     "strImgNorm": "ItmHeater01Loosen",
     "strImgDamaged": "ItmHeater02DmgLoose",
@@ -1237,7 +1237,7 @@
   },
   {
     "strName": "ItmHeater02",
-    "strNameFriendly": "Нагреватель модель B",
+    "strNameFriendly": "Модель нагревателя B",
     "strImg": "ItmHeater02Sheet",
     "strImgNorm": "ItmHeater02Sheetn",
     "strImgDamaged": "ItmHeater02SheetDmg",
@@ -1266,8 +1266,8 @@
   },
   {
     "strName": "ItmPDACartPwrViz",
-    "strNameFriendly": "Карtridge Renbao PwrViz",
-    "strDesc": "Карtridge Renbao PDA с улучшением PwrViz. Содержит специальное оборудование, позволяющее видеть дополнительную реальность окружающей среды, подчёркивающую поток энергии.",
+    "strNameFriendly": "Ренбао PwrViz карточка",
+    "strDesc": "Ренбао PDA-расширение PwrViz карточка. Содержит специальное оборудование, позволяющее видеть дополнительные реалии окружающей среды, подчёркивающие поток энергии.",
     "strImg": "ItmPDACart01",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart01",
@@ -1282,8 +1282,8 @@
   },
   {
     "strName": "ItmPDACartDmgViz",
-    "strNameFriendly": "Карtridge Renbao DmgViz",
-    "strDesc": "Карtridge Renbao PDA с улучшением DmgViz. Содержит специальное оборудование, позволяющее видеть дополнительную реальность окружающей среды, подчёркивающее повреждённое оборудование.",
+    "strNameFriendly": "Ренбао DmgViz карточка",
+    "strDesc": "Ренбао PDA-расширение DmgViz карточка. Содержит специальное оборудование, позволяющее видеть дополнительные реалии окружающей среды, подчёркивающие повреждённое оборудование.",
     "strImg": "ItmPDACart01",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart01",
@@ -1298,8 +1298,8 @@
   },
   {
     "strName": "ItmPDACartPriceViz",
-    "strNameFriendly": "Карtridge Renbao PriceViz",
-    "strDesc": "Карtridge Renbao PDA с улучшением PriceViz. Содержит специальное оборудование, позволяющее видеть дополнительную реальность окружающей среды, подчёркивающее цену товара.",
+    "strNameFriendly": "Ренбао PriceViz карточка",
+    "strDesc": "Ренбао PDA-расширение PriceViz карточка. Содержит специальное оборудование, позволяющее видеть дополнительные реалии окружающей среды, подчёркивающие рыночную стоимость товара.",
     "strImg": "ItmPDACart02",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart02",
@@ -1314,8 +1314,8 @@
   },
   {
     "strName": "ItmPDACartMassViz",
-    "strNameFriendly": "Карtridge Renbao MassViz",
-    "strDesc": "Усиление Renbao PDA MassViz, карточка. Содержит специальное оборудование, предназначенное для отображения улучшенного визуального представления окружающей среды, подчеркивающего массу объектов.",
+    "strNameFriendly": "Ренбао MassViz карточка",
+    "strDesc": "Усилитель Renbao PDA MassViz. Содержит специальное оборудование, предназначенное для отображения аугментированной реальности окружающей среды, выделяющей массу объектов.",
     "strImg": "ItmPDACart01",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart01",
@@ -1330,8 +1330,8 @@
   },
   {
     "strName": "ItmPDACartHeatViz",
-    "strNameFriendly": "Renbao HeatViz карточка",
-    "strDesc": "Усиление Renbao PDA HeatViz, карточка. Содержит специальное оборудование, предназначенное для отображения улучшенного визуального представления окружающей среды, подчеркивающего тепловую энергию.",
+    "strNameFriendly": "Усилитель Renbao HeatViz",
+    "strDesc": "Усилитель Renbao PDA HeatViz. Содержит специальное оборудование, предназначенное для отображения аугментированной реальности окружающей среды, выделяющей тепловую энергию.",
     "strImg": "ItmPDACart02",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart02",
@@ -1346,8 +1346,8 @@
   },
   {
     "strName": "ItmPDACartKpaViz",
-    "strNameFriendly": "Renbao KpaViz карточка",
-    "strDesc": "Усиление Renbao PDA KpaViz, карточка. Содержит специальное оборудование, предназначенное для отображения улучшенного визуального представления окружающей среды, подчеркивающего давление газа.",
+    "strNameFriendly": "Усилитель Renbao KpaViz",
+    "strDesc": "Усилитель Renbao PDA KpaViz. Содержит специальное оборудование, предназначенное для отображения аугментированной реальности окружающей среды, выделяющей давление газа.",
     "strImg": "ItmPDACart02",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart02",
@@ -1362,8 +1362,8 @@
   },
   {
     "strName": "ItmPDACart01",
-    "strNameFriendly": "Renbao R101 карточка (модифицированная)",
-    "strDesc": "Усиление Renbao PDA, карточка первого уровня. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Эта карточка имеет модификации от сторонних производителей.",
+    "strNameFriendly": "Усилитель Renbao R101 (модифицированный)",
+    "strDesc": "Усилитель Renbao PDA Tier 1. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Усилитель имеет модификации от сторонних производителей.",
     "strImg": "ItmPDACart01",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart01",
@@ -1378,8 +1378,8 @@
   },
   {
     "strName": "ItmPDACart02",
-    "strNameFriendly": "Renbao R102 карточка (модифицированная)",
-    "strDesc": "Усиление Renbao PDA, карточка второго уровня. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Эта карточка имеет модификации от сторонних производителей.",
+    "strNameFriendly": "Усилитель Renbao R102 (модифицированный)",
+    "strDesc": "Усилитель Renbao PDA Tier 2. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Усилитель имеет модификации от сторонних производителей.",
     "strImg": "ItmPDACart02",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart02",
@@ -1394,8 +1394,8 @@
   },
   {
     "strName": "ItmPDACart03",
-    "strNameFriendly": "Renbao R103 карточка (модифицированная)",
-    "strDesc": "Усиление Renbao PDA, карточка третьего уровня. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Эта карточка имеет модификации от сторонних производителей.",
+    "strNameFriendly": "Усилитель Renbao R103 (модифицированный)",
+    "strDesc": "Усилитель Renbao PDA Tier 3. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Усилитель имеет модификации от сторонних производителей.",
     "strImg": "ItmPDACart03",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart03",
@@ -1410,8 +1410,8 @@
   },
   {
     "strName": "ItmPDACart04",
-    "strNameFriendly": "Renbao R104 карточка (модифицированная)",
-    "strDesc": "Усиление Renbao PDA, карточка четвёртого уровня. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Эта карточка имеет модификации от сторонних производителей.",
+    "strNameFriendly": "Усилитель Renbao R104 (модифицированный)",
+    "strDesc": "Усилитель Renbao PDA Tier 4. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Усилитель имеет модификации от сторонних производителей.",
     "strImg": "ItmPDACart04",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart04",
@@ -1426,8 +1426,8 @@
   },
   {
     "strName": "ItmPDACart05",
-    "strNameFriendly": "Renbao R105 карточка (модифицированная)",
-    "strDesc": "Усиление Renbao PDA, карточка пятого уровня. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Эта карточка имеет модификации от сторонних производителей.",
+    "strNameFriendly": "Усилитель Renbao R105 (модифицированный)",
+    "strDesc": "Усилитель Renbao PDA Tier 5. Содержит специальное оборудование, предназначенное для включения новых функций в PDA. Усилитель имеет модификации от сторонних производителей.",
     "strImg": "ItmPDACart05",
     "strImgNorm": "ItmPDACart00n",
     "strPortraitImg": "paperdoll/held/portPDACart05",
@@ -1443,7 +1443,7 @@
   {
     "strName": "ItmToothbrush02",
     "strNameFriendly": "Testudo \"AstroBristle UltraSoft\"",
-    "strDesc": "Testudo's AstroBristle UltraSoft: \"Лёгкий уход за чувствительными зубами и деснами\"\n\nЩётка с мягкой, успокаивающей палитрой и в десять раз больше нитей на квадратный миллиметр.",
+    "strDesc": "Testudo's AstroBristle UltraSoft: \"Мягкий уход за чувствительными зубами и деснами\"\n\nЩетка с мягкой, успокаивающей палитрой и в 10 раз больше нитей на квадратный миллиметр.",
     "strImg": "ItmToothbrush02",
     "strPortraitImg": "ItmToothbrush02",
     "strCOBase": "ItmToothbrush01",
@@ -1458,7 +1458,7 @@
   {
     "strName": "ItmToothbrush03",
     "strNameFriendly": "Testudo \"AstroBristle MaxClean\"",
-    "strDesc": "Testudo's AstroBristle MaxClean: \"Глубокая очистка для свежести в космосе\"\n\nБез лишних слов дизайн с передовыми технологиями щёток для эффективного удаления налета.",
+    "strDesc": "Testudo's AstroBristle MaxClean: \"Глубокая очистка для свежести в космосе\"\n\nБез лишних слов дизайн с передовыми технологиями щетин, обеспечивающими эффективное удаление налета.",
     "strImg": "ItmToothbrush03",
     "strPortraitImg": "ItmToothbrush03",
     "strCOBase": "ItmToothbrush01",
@@ -1473,7 +1473,7 @@
   {
     "strName": "ItmToothbrush04",
     "strNameFriendly": "Testudo \"AstroBristle Photon\"",
-    "strDesc": "Фотонный AstroBristle Тестуды: \"Покажите свой улыбку силой света\"\n\nЯркий желтый щетка для чистки зубов с передовыми бритвенными щетинками для отбеливания.",
+    "strDesc": "Фотонный AstroBristle Тестуды: \"Покажите свой улыбку силой света\"\n\nЯркий желтый щетка для чистки зубов с передовыми бритвенными щетинами для отбеливания.",
     "strImg": "ItmToothbrush04",
     "strPortraitImg": "ItmToothbrush04",
     "strCOBase": "ItmToothbrush01",
@@ -1488,7 +1488,7 @@
   {
     "strName": "ItmToothbrush05",
     "strNameFriendly": "Тестуда \"AstroBristle Active\"",
-    "strDesc": "AstroBristle Active Тестуды: \"Обогащённый фтором, для активного образа жизни в условиях невесомости\"\n\nДинамичная, яркая щетка для чистки зубов с текстурированными, эргономичными ручками.",
+    "strDesc": "Фотонный AstroBristle Тестуды: \"Обогащённый фтором, для активного образа жизни в условиях невесомости\"\n\nДинамичная, яркая щетка для чистки зубов с текстурированными, эргономичными ручками.",
     "strImg": "ItmToothbrush05",
     "strPortraitImg": "ItmToothbrush05",
     "strCOBase": "ItmToothbrush01",
@@ -1503,7 +1503,7 @@
   {
     "strName": "ItmToothbrush06",
     "strNameFriendly": "Тестуда \"AstroBristle Kids\"",
-    "strDesc": "AstroBristle Kids Тестуды: \"Галактическая веселье для маленьких космических исследователей\"\n\nТолстая щетка, идеально подходящая для маленьких рук, с игривыми изображениями и щетинками, подходящими для детей.",
+    "strDesc": "Фотонный AstroBristle Тестуды: \"Галактическая веселье для маленьких космонавтов\"\n\nТолстая щетка, идеальная для маленьких рук, с игривыми изображениями и щетинами, подходящими для детей.",
     "strImg": "ItmToothbrush06",
     "strPortraitImg": "ItmToothbrush06",
     "strCOBase": "ItmToothbrush01",
@@ -1530,7 +1530,7 @@
   },
   {
     "strName": "ItmSwitch01OffTutorial",
-    "strNameFriendly": "Включить/выключить: Сон (выключено)",
+    "strNameFriendly": "Включить: Сон (Выключено)",
     "strImg": "ItmSwitch01Off",
     "strImgNorm": "ItmSwitch01Offn",
     "strPortraitImg": "ItmSwitch01Off",
@@ -1540,7 +1540,7 @@
   },
   {
     "strName": "ItmTable01Reserved",
-    "strNameFriendly": "Стол для баров (зарезервировано)",
+    "strNameFriendly": "Стол для баров (Резервировано)",
     "strImg": "ItmTable01",
     "strImgNorm": "ItmTable01n",
     "strPortraitImg": "ItmTable01",
@@ -1550,9 +1550,9 @@
   },
   {
     "strName": "LiquidBloodMeat",
-    "strNameShort": "Толстый кровь",
-    "strNameFriendly": "Толстый кровь",
-    "strDesc": "Кровь с пастельными кусочками, более темная, вязкая текстура с некоторыми волосками, возвышающимися из неё. Почти можно почувствовать медный вкус, когда она близко.",
+    "strNameShort": "Толстый Кровь",
+    "strNameFriendly": "Толстый Кровь",
+    "strDesc": "Кровь с розовыми кусочками, более темная, вязкая текстура с некоторыми волосками, возвышающимися из неё. Почти можно почувствовать медный привкус, когда она рядом.",
     "strImg": "tiles/Meat01/ItmLiquidBloodMeat",
     "strPortraitImg": "tiles/Meat01/ItmLiquidBloodMeat",
     "strImgNorm": "ItmLiquidRedn",
@@ -1574,7 +1574,7 @@
   },
   {
     "strName": "SysLootSpawnerCrewPersonal ",
-    "strNameFriendly": "Генератор добычи: Личные вещи космонавтов",
+    "strNameFriendly": "Генератор добычи: Персональные вещи космонавтов",
     "strImg": "IcoLoot",
     "strImgNorm": "blank",
     "strPortraitImg": "blank",
@@ -1587,7 +1587,7 @@
   },
   {
     "strName": "SysLootSpawnerCrewRec",
-    "strNameFriendly": "Генератор добычи: Рекреационные товары космонавтов",
+    "strNameFriendly": "Генератор добычи: Рекреационные вещи космонавтов",
     "strImg": "IcoLoot",
     "strImgNorm": "blank",
     "strPortraitImg": "blank",
@@ -1626,7 +1626,7 @@
   },
   {
     "strName": "SysLootSpawnerAirlock",
-    "strNameFriendly": "Генератор добычи: Вентиляционный блок",
+    "strNameFriendly": "Генератор добычи: Камера",
     "strImg": "IcoLoot",
     "strImgNorm": "blank",
     "strPortraitImg": "blank",
@@ -1639,7 +1639,7 @@
   },
   {
     "strName": "SysLootSpawnerBulkCargo",
-    "strNameFriendly": "Генератор добычи: Объёмные грузы",
+    "strNameFriendly": "Генератор добычи: Общий груз",
     "strImg": "IcoLoot",
     "strImgNorm": "blank",
     "strPortraitImg": "blank",
@@ -1652,7 +1652,7 @@
   },
   {
     "strName": "SysLootSpawnerRandomFloor",
-    "strNameFriendly": "Генератор добычи: Случайные полы",
+    "strNameFriendly": "Генератор добычи: Случайный пол",
     "strImg": "IcoLoot",
     "strImgNorm": "blank",
     "strPortraitImg": "blank",
@@ -1665,7 +1665,7 @@
   },
   {
     "strName": "SysLootSpawnerRandomWall",
-    "strNameFriendly": "Генератор добычи: Случайные стены",
+    "strNameFriendly": "Генератор добычи: Случайная стена",
     "strImg": "IcoLoot",
     "strImgNorm": "blank",
     "strPortraitImg": "blank",
@@ -1678,7 +1678,7 @@
   },
   {
     "strName": "SysLootSpawnerRandomPartsScrap",
-    "strNameFriendly": "Генератор добычи: Случайные детали и обрезки",
+    "strNameFriendly": "Сборщик добычи: Случайные детали из отходов",
     "strImg": "IcoLoot",
     "strImgNorm": "blank",
     "strPortraitImg": "blank",

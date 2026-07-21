@@ -94,7 +94,7 @@
   },
   {
     "strName": "TutorialPointToPoint",
-    "strNameFriendly": "Тип трека: Прямой маршрут",
+    "strNameFriendly": "Тип трека: Прямая линия",
     "strTrackType": "PointToPoint",
     "strDescription": "A small U shaped point to point track. Reach the last waypoint to finish the track",
     "nLaps": 1,
@@ -138,7 +138,7 @@
     ]
   },
   {
-    "strName": "Fluid",
+    "strName": "Жидкость",
     "strNameFriendly": "Жидкость",
     "strTrackType": "Circuit",
     "nLaps": 1,
@@ -238,7 +238,7 @@
     ]
   },
   {
-    "strName": "Ladder",
+    "strName": "Лестница",
     "strNameFriendly": "Лестница",
     "strTrackType": "Circuit",
     "nLaps": 1,
@@ -317,8 +317,8 @@
     ]
   },
   {
-    "strName": "Cue",
-    "strNameFriendly": "Сигнал",
+    "strName": "Призыв",
+    "strNameFriendly": "Призыв",
     "strDescription": "A twisty track with tight corners at a low orbit",
     "strTrackType": "Circuit",
     "nLaps": 1,

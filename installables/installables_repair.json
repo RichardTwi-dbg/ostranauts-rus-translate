@@ -3,7 +3,7 @@
     "strName": "AICargo01DmgRepair",
     "strActionCO": "ItmAICargo01Dmg02",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -34,7 +34,7 @@
     "strName": "AICargo01DmgLooseRepair",
     "strActionCO": "ItmAICargo01LooseDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -65,7 +65,7 @@
     "strName": "AirPump02DmgRepair",
     "strActionCO": "ItmAirPump02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsAirPump02InstalledDmg",
     "aInputs": [
@@ -94,7 +94,7 @@
     "strName": "AirPump02DmgLooseRepair",
     "strActionCO": "ItmAirPump02DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -123,7 +123,7 @@
     "strName": "AlarmCO2DmgRepair",
     "strActionCO": "ItmAlarmCO2Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -151,7 +151,7 @@
     "strName": "AlarmContaminantsDmgRepair",
     "strActionCO": "ItmAlarmContaminantsDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -179,7 +179,7 @@
     "strName": "AlarmN2DmgRepair",
     "strActionCO": "ItmAlarmN2Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -207,7 +207,7 @@
     "strName": "AlarmO2DmgRepair",
     "strActionCO": "ItmAlarmO2Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -235,7 +235,7 @@
     "strName": "AlarmCO2DmgLooseRepair",
     "strActionCO": "ItmAlarmCO2DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -263,7 +263,7 @@
     "strName": "AlarmContaminantsDmgLooseRepair",
     "strActionCO": "ItmAlarmContaminantsDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -291,7 +291,7 @@
     "strName": "AlarmN2DmgLooseRepair",
     "strActionCO": "ItmAlarmN2DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -319,7 +319,7 @@
     "strName": "AlarmO2DmgLooseRepair",
     "strActionCO": "ItmAlarmO2DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -347,7 +347,7 @@
     "strName": "AlarmTempDmgRepair",
     "strActionCO": "ItmAlarmTempDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -375,7 +375,7 @@
     "strName": "AlarmTempDmgLooseRepair",
     "strActionCO": "ItmAlarmTempDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -403,7 +403,7 @@
     "strName": "Antenna01DmgLooseRepair",
     "strActionCO": "ItmAntenna01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -431,7 +431,7 @@
     "strName": "Antenna01DmgRepair",
     "strActionCO": "ItmAntenna01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -459,7 +459,7 @@
     "strName": "Antenna02DmgLooseRepair",
     "strActionCO": "ItmAntenna02DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -490,7 +490,7 @@
     "strName": "Antenna02DmgRepair",
     "strActionCO": "ItmAntenna02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -521,7 +521,7 @@
     "strName": "ArcadeGame01DmgRepair",
     "strActionCO": "ItmArcadeGame01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -552,7 +552,7 @@
     "strName": "ArcadeGame01DmgLooseRepair",
     "strActionCO": "ItmArcadeGame01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -583,7 +583,7 @@
     "strName": "AtmoScrubber01DmgRepair",
     "strActionCO": "ItmAtmoScrubber01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -615,7 +615,7 @@
     "strName": "AtmoScrubber01DmgLooseRepair",
     "strActionCO": "ItmAtmoScrubber01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -647,7 +647,7 @@
     "strName": "AtmoScrubber02DmgRepair",
     "strActionCO": "ItmAtmoScrubber02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -679,7 +679,7 @@
     "strName": "AtmoScrubber02DmgLooseRepair",
     "strActionCO": "ItmAtmoScrubber02DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -711,7 +711,7 @@
     "strName": "Battery02Repair",
     "strActionCO": "ItmBattery02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -740,7 +740,7 @@
     "strName": "Battery02LooseRepair",
     "strActionCO": "ItmBattery02DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -769,7 +769,7 @@
     "strName": "Battery02bRepair",
     "strActionCO": "ItmBattery02bDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -798,7 +798,7 @@
     "strName": "Battery02bLooseRepair",
     "strActionCO": "ItmBattery02bDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -827,7 +827,7 @@
     "strName": "Battery02cRepair",
     "strActionCO": "ItmBattery02cDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -855,7 +855,7 @@
     "strName": "Battery02cLooseRepair",
     "strActionCO": "ItmBattery02cDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -883,7 +883,7 @@
     "strName": "Battery03Repair",
     "strActionCO": "ItmBattery03Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -911,7 +911,7 @@
     "strName": "Battery04Repair",
     "strActionCO": "ItmBattery04Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -939,7 +939,7 @@
     "strName": "BatteryDrill01Repair",
     "strActionCO": "ItmBatteryDrill01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -967,7 +967,7 @@
     "strName": "BatteryWelder01Repair",
     "strActionCO": "ItmBatteryWelder01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -995,7 +995,7 @@
     "strName": "Bed01DmgRepair",
     "strActionCO": "ItmBed01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1024,7 +1024,7 @@
     "strName": "Bed01DmgLooseRepair",
     "strActionCO": "ItmBed01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1053,7 +1053,7 @@
     "strName": "BedMedical01DmgRepair",
     "strActionCO": "ItmBedMedical01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1086,7 +1086,7 @@
     "strName": "BedMedical01DmgLooseRepair",
     "strActionCO": "ItmBedMedical01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1119,7 +1119,7 @@
     "strName": "Canister01DmgLooseRepair",
     "strActionCO": "ItmCanister01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsCanister01UninstalledDmgNotInContainer",
     "aInputs": [
@@ -1145,7 +1145,7 @@
     "strName": "Canister01DmgRepair",
     "strActionCO": "ItmCanister01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsCanister01InstalledDmg",
     "aInputs": [
@@ -1171,7 +1171,7 @@
     "strName": "CanisterO2SmallDmgRepair",
     "strActionCO": "ItmCanisterO2SmallDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsCanisterO2SmallDmgNotInContainer",
     "aInputs": [
@@ -1197,7 +1197,7 @@
     "strName": "CargoPod01DmgRepair",
     "strActionCO": "ItmCargoPod01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1226,7 +1226,7 @@
     "strName": "CargoPod01DmgLooseRepair",
     "strActionCO": "ItmCargoPod01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1255,7 +1255,7 @@
     "strName": "CargoPodClimate01DmgRepair",
     "strActionCO": "ItmCargoPodClimate01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1285,7 +1285,7 @@
     "strName": "CargoPodClimate01DmgLooseRepair",
     "strActionCO": "ItmCargoPodClimate01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1315,7 +1315,7 @@
     "strName": "CargoPodRad01DmgRepair",
     "strActionCO": "ItmCargoPodRad01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1344,7 +1344,7 @@
     "strName": "CargoPodRad01DmgLooseRepair",
     "strActionCO": "ItmCargoPodRad01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1373,7 +1373,7 @@
     "strName": "CargoPodSpec01DmgRepair",
     "strActionCO": "ItmCargoPodSpec01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1403,7 +1403,7 @@
     "strName": "CargoPodSpec01DmgLooseRepair",
     "strActionCO": "ItmCargoPodSpec01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1433,7 +1433,7 @@
     "strName": "Capacitor01Repair",
     "strActionCO": "ItmCapacitor01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1462,7 +1462,7 @@
     "strName": "Capacitor01LooseRepair",
     "strActionCO": "ItmCapacitor01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1491,7 +1491,7 @@
     "strName": "Chair01DmgRepair",
     "strActionCO": "ItmChair01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1519,7 +1519,7 @@
     "strName": "Chair01DmgLooseRepair",
     "strActionCO": "ItmChair01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1547,7 +1547,7 @@
     "strName": "Chair02DmgRepair",
     "strActionCO": "ItmChair02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1575,7 +1575,7 @@
     "strName": "Chair02DmgLooseRepair",
     "strActionCO": "ItmChair02DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1603,7 +1603,7 @@
     "strName": "ChairStrap01DmgRepair",
     "strActionCO": "ItmChairStrap01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1631,7 +1631,7 @@
     "strName": "ChairStrap01DmgLooseRepair",
     "strActionCO": "ItmChairStrap01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1659,7 +1659,7 @@
     "strName": "ChargerBattDrill01DmgRepair",
     "strActionCO": "ItmChargerBattDrill01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1688,7 +1688,7 @@
     "strName": "ChargerBattDrill01DmgLooseRepair",
     "strActionCO": "ItmChargerBattDrill01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1717,7 +1717,7 @@
     "strName": "ChargerBattEVADmgRepair",
     "strActionCO": "ItmChargerBattEVADmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1746,7 +1746,7 @@
     "strName": "ChargerBattEVADmgLooseRepair",
     "strActionCO": "ItmChargerBattEVADmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1775,7 +1775,7 @@
     "strName": "ChargerBattWelder01DmgRepair",
     "strActionCO": "ItmChargerBattWelder01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1804,7 +1804,7 @@
     "strName": "ChargerBattWelder01DmgLooseRepair",
     "strActionCO": "ItmChargerBattWelder01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1833,7 +1833,7 @@
     "strName": "ChargerBattery04DmgRepair",
     "strActionCO": "ItmChargerBattery04Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1862,7 +1862,7 @@
     "strName": "ChargerBattery04DmgLooseRepair",
     "strActionCO": "ItmChargerBattery04DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1891,7 +1891,7 @@
     "strName": "Conduit00DmgRepair",
     "strActionCO": "ItmConduit00Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsConduit00InstalledDamaged",
     "aInputs": [
@@ -1919,7 +1919,7 @@
     "strName": "Conduit00DmgLooseRepair",
     "strActionCO": "ItmConduit00DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1947,7 +1947,7 @@
     "strName": "Conduit04DmgRepair",
     "strActionCO": "ItmConduit04Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairNoSparksTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -1974,7 +1974,7 @@
     "strName": "Conduit04DmgLooseRepair",
     "strActionCO": "ItmConduit04DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairNoSparksTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2001,7 +2001,7 @@
     "strName": "Cooler01DmgRepair",
     "strActionCO": "ItmCooler01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2031,7 +2031,7 @@
     "strName": "Cooler01DmgLooseRepair",
     "strActionCO": "ItmCooler01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2099,7 +2099,7 @@
     "strName": "Dolly01DmgRepair",
     "strActionCO": "ItmDolly01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsDolly01Dmg",
     "aInputs": [
@@ -2126,7 +2126,7 @@
     "strName": "Dolly02DmgRepair",
     "strActionCO": "ItmDolly02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsDolly02Dmg",
     "aInputs": [
@@ -2155,7 +2155,7 @@
     "strName": "Door01ClosedDmgRepair",
     "strActionCO": "ItmDoor01ClosedDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2187,7 +2187,7 @@
     "strName": "Door01ClosedDmgLooseRepair",
     "strActionCO": "ItmDoor01ClosedDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2295,7 +2295,7 @@
     "strName": "TransitLiftDmgRepair",
     "strActionCO": "ItmDoor03TransitExpressDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2329,7 +2329,7 @@
     "strName": "ElectricalBox01DmgRepair",
     "strActionCO": "ItmElectricalBox01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2357,7 +2357,7 @@
     "strName": "ElectricalBox01DmgLooseRepair",
     "strActionCO": "ItmElectricalBox01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2385,7 +2385,7 @@
     "strName": "FloorGrate01DmgRepair",
     "strActionCO": "ItmFloorGrate01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsFloorGrate01InstalledDamaged",
     "aInputs": [
@@ -2413,7 +2413,7 @@
     "strName": "FloorGrate01PatchRepair",
     "strActionCO": "ItmFloorGrate01Patch",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsFloorGrate01InstalledPatched",
     "aInputs": [
@@ -2441,7 +2441,7 @@
     "strName": "FloorGrate01DmgLooseRepair",
     "strActionCO": "ItmFloorGrate01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2470,7 +2470,7 @@
     "strName": "Fridge01DmgRepair",
     "strActionCO": "ItmFridge01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2500,7 +2500,7 @@
     "strName": "Fridge01DmgLooseRepair",
     "strActionCO": "ItmFridge01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2530,7 +2530,7 @@
     "strName": "FusionReactorCore01DmgRepair",
     "strActionCO": "ItmFusionReactorCore01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2563,7 +2563,7 @@
     "strName": "FusionReactorCore01DmgLooseRepair",
     "strActionCO": "ItmFusionReactorCore01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2596,7 +2596,7 @@
     "strName": "FusionCorePump01DmgRepair",
     "strActionCO": "ItmFusionCorePump01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2625,7 +2625,7 @@
     "strName": "FusionCorePump01DmgLooseRepair",
     "strActionCO": "ItmFusionCorePump01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2654,7 +2654,7 @@
     "strName": "FusionCryoPump01DmgRepair",
     "strActionCO": "ItmFusionCryoPump01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2684,7 +2684,7 @@
     "strName": "FusionCryoPump01DmgLooseRepair",
     "strActionCO": "ItmFusionCryoPump01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2714,7 +2714,7 @@
     "strName": "FusionFieldCoils01DmgRepair",
     "strActionCO": "ItmFusionFieldCoils01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2744,7 +2744,7 @@
     "strName": "FusionFieldCoils01DmgLooseRepair",
     "strActionCO": "ItmFusionFieldCoils01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2774,7 +2774,7 @@
     "strName": "FusionFuelRegulator01DmgRepair",
     "strActionCO": "ItmFusionFuelRegulator01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2807,7 +2807,7 @@
     "strName": "FusionFuelRegulator01DmgLooseRepair",
     "strActionCO": "ItmFusionFuelRegulator01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2840,7 +2840,7 @@
     "strName": "FusionLaserArray01DmgRepair",
     "strActionCO": "ItmFusionLaserArray01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2870,7 +2870,7 @@
     "strName": "FusionLaserArray01DmgLooseRepair",
     "strActionCO": "ItmFusionLaserArray01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2900,7 +2900,7 @@
     "strName": "FusionMHDGenerator01Repair",
     "strActionCO": "ItmFusionMHDGenerator01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2929,7 +2929,7 @@
     "strName": "FusionMHDGenerator01LooseRepair",
     "strActionCO": "ItmFusionMHDGenerator01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2958,7 +2958,7 @@
     "strName": "FusionPelletFeeder01DmgRepair",
     "strActionCO": "ItmFusionPelletFeeder01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -2989,7 +2989,7 @@
     "strName": "FusionPelletFeeder01DmgLooseRepair",
     "strActionCO": "ItmFusionPelletFeeder01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3020,7 +3020,7 @@
     "strName": "Heater01DmgRepair",
     "strActionCO": "ItmHeater01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3050,7 +3050,7 @@
     "strName": "Heater01DmgLooseRepair",
     "strActionCO": "ItmHeater01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3080,7 +3080,7 @@
     "strName": "HeavyLiftRotor01DmgRepair",
     "strActionCO": "ItmHeavyLiftRotor01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3112,7 +3112,7 @@
     "strName": "HeavyLiftRotor01DmgLooseRepair",
     "strActionCO": "ItmHeavyLiftRotor01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3144,7 +3144,7 @@
     "strName": "OutfitEVA01DmgRepair",
     "strActionCO": "OutfitEVA01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3173,7 +3173,7 @@
     "strName": "OutfitHelmet02DmgRepair",
     "strActionCO": "OutfitHelmet02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3200,7 +3200,7 @@
     "strName": "OutfitHelmet03DmgRepair",
     "strActionCO": "OutfitHelmet03Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3229,7 +3229,7 @@
     "strName": "OutfitPS01DmgRepair",
     "strActionCO": "OutfitPS01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3256,7 +3256,7 @@
     "strName": "Rack1x101DmgRepair",
     "strActionCO": "ItmRack1x101Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3283,7 +3283,7 @@
     "strName": "Rack1x101DmgLooseRepair",
     "strActionCO": "ItmRack1x101DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3310,7 +3310,7 @@
     "strName": "Rack1x101DormDmgRepair",
     "strActionCO": "ItmRack1x101DormDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3337,7 +3337,7 @@
     "strName": "Rack1x101DormDmgLooseRepair",
     "strActionCO": "ItmRack1x101DormDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3364,7 +3364,7 @@
     "strName": "Rack1x201DmgRepair",
     "strActionCO": "ItmRack1x201Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3392,7 +3392,7 @@
     "strName": "Rack1x201DmgLooseRepair",
     "strActionCO": "ItmRack1x201DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3420,7 +3420,7 @@
     "strName": "Rack1x301DmgRepair",
     "strActionCO": "ItmRack1x301Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3448,7 +3448,7 @@
     "strName": "Rack1x301DmgLooseRepair",
     "strActionCO": "ItmRack1x301DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3476,7 +3476,7 @@
     "strName": "Rack1x401DmgRepair",
     "strActionCO": "ItmRack1x401Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3504,7 +3504,7 @@
     "strName": "Rack1x401DmgLooseRepair",
     "strActionCO": "ItmRack1x401DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3532,7 +3532,7 @@
     "strName": "Rack2x2C01DmgRepair",
     "strActionCO": "ItmRack2x2C01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3560,7 +3560,7 @@
     "strName": "Rack2x2C01DmgLooseRepair",
     "strActionCO": "ItmRack2x2C01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3588,7 +3588,7 @@
     "strName": "RackUnder01DmgRepair",
     "strActionCO": "ItmRackUnder01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3616,7 +3616,7 @@
     "strName": "RackUnder01DmgLooseRepair",
     "strActionCO": "ItmRackUnder01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3644,7 +3644,7 @@
     "strName": "StabilizerActive01DmgRepair",
     "strActionCO": "ItmStabilizerActive01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3673,7 +3673,7 @@
     "strName": "StabilizerActive01DmgLooseRepair",
     "strActionCO": "ItmStabilizerActive01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3702,7 +3702,7 @@
     "strName": "StorageBin1x101DmgRepair",
     "strActionCO": "ItmStorageBin1x101Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3729,7 +3729,7 @@
     "strName": "StorageBin1x101DmgLooseRepair",
     "strActionCO": "ItmStorageBin1x101DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3756,7 +3756,7 @@
     "strName": "StorageBin2x101DmgRepair",
     "strActionCO": "ItmStorageBin2x101Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3784,7 +3784,7 @@
     "strName": "StorageBin2x101DmgLooseRepair",
     "strActionCO": "ItmStorageBin2x101DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3812,7 +3812,7 @@
     "strName": "StorageBin3x101DmgRepair",
     "strActionCO": "ItmStorageBin3x101Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3840,7 +3840,7 @@
     "strName": "StorageBin3x101DmgLooseRepair",
     "strActionCO": "ItmStorageBin3x101DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3868,7 +3868,7 @@
     "strName": "StorageBin2x2C01DmgRepair",
     "strActionCO": "ItmStorageBin2x2C01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3896,7 +3896,7 @@
     "strName": "StorageBin2x2C01DmgLooseRepair",
     "strActionCO": "ItmStorageBin2x2C01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3924,7 +3924,7 @@
     "strName": "StorageBinFloor1x101DmgRepair",
     "strActionCO": "ItmStorageBinFloor1x101Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -3952,7 +3952,7 @@
     "strName": "StorageBinFloor1x101PatchRepair",
     "strActionCO": "ItmStorageBinFloor1x101Patch",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsStorageBinFloor1x101InstalledPatched",
     "aInputs": [
@@ -3980,7 +3980,7 @@
     "strName": "StorageBin2x104DmgRepair",
     "strActionCO": "ItmStorageBin2x104Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4008,7 +4008,7 @@
     "strName": "StorageBin2x104DmgLooseRepair",
     "strActionCO": "ItmStorageBin2x104DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4036,7 +4036,7 @@
     "strName": "StorageBin2x2C04DmgRepair",
     "strActionCO": "ItmStorageBin2x2C04Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4064,7 +4064,7 @@
     "strName": "StorageBin2x2C04DmgLooseRepair",
     "strActionCO": "ItmStorageBin2x2C04DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4092,7 +4092,7 @@
     "strName": "RCSCluster01DmgRepair",
     "strActionCO": "ItmRCSCluster01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4122,7 +4122,7 @@
     "strName": "RCSCluster01DmgLooseRepair",
     "strActionCO": "ItmRCSCluster01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4152,7 +4152,7 @@
     "strName": "RCSDistro01DmgRepair",
     "strActionCO": "ItmRCSDistro01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4183,7 +4183,7 @@
     "strName": "RCSDistro01DmgLooseRepair",
     "strActionCO": "ItmRCSDistro01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4214,7 +4214,7 @@
     "strName": "RCSDistro02DmgRepair",
     "strActionCO": "ItmRCSDistro02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4243,7 +4243,7 @@
     "strName": "RCSDistro02DmgLooseRepair",
     "strActionCO": "ItmRCSDistro02DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4272,7 +4272,7 @@
     "strName": "ReactorIC03DmgRepair",
     "strActionCO": "ItmReactorIC03Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4305,7 +4305,7 @@
     "strName": "ReactorIC03DmgLooseRepair",
     "strActionCO": "ItmReactorIC03DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4338,7 +4338,7 @@
     "strName": "RTACO2DmgLooseRepair",
     "strActionCO": "ItmRTACO2DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRTACO2UninstalledDmgNotInContainer",
     "aInputs": [
@@ -4364,7 +4364,7 @@
     "strName": "RTACO2DmgRepair",
     "strActionCO": "ItmRTACO2Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRTACO2InstalledDmg",
     "aInputs": [
@@ -4390,7 +4390,7 @@
     "strName": "RTAN2DmgLooseRepair",
     "strActionCO": "ItmRTAN2DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRTAN2UninstalledDmgNotInContainer",
     "aInputs": [
@@ -4416,7 +4416,7 @@
     "strName": "RTAN2DmgRepair",
     "strActionCO": "ItmRTAN2Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRTAN2InstalledDmg",
     "aInputs": [
@@ -4442,7 +4442,7 @@
     "strName": "RTAO2DmgLooseRepair",
     "strActionCO": "ItmRTAO2DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRTAO2UninstalledDmgNotInContainer",
     "aInputs": [
@@ -4468,7 +4468,7 @@
     "strName": "RTAO2DmgRepair",
     "strActionCO": "ItmRTAO2Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRTAO2InstalledDmg",
     "aInputs": [
@@ -4513,7 +4513,7 @@
     "strName": "StationNavDmgRepair",
     "strActionCO": "ItmStationNavDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsStationNavInstalledDmg",
     "aInputs": [
@@ -4542,7 +4542,7 @@
     "strName": "StationNavDmgLooseRepair",
     "strActionCO": "ItmStationNavDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4571,7 +4571,7 @@
     "strName": "StrengthTrainer01DmgRepair",
     "strActionCO": "ItmStrengthTrainer01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4603,7 +4603,7 @@
     "strName": "StrengthTrainer01DmgLooseRepair",
     "strActionCO": "ItmStrengthTrainer01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4635,7 +4635,7 @@
     "strName": "Switch01DmgRepair",
     "strActionCO": "ItmSwitch01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4663,7 +4663,7 @@
     "strName": "Switch01DmgLooseRepair",
     "strActionCO": "ItmSwitch01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4691,7 +4691,7 @@
     "strName": "ToolDrill01DmgRepair",
     "strActionCO": "ItmToolDrill01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4720,7 +4720,7 @@
     "strName": "ToolFireEx01DmgRepair",
     "strActionCO": "ItmToolFireEx01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4748,7 +4748,7 @@
     "strName": "ToolGrinder02DmgRepair",
     "strActionCO": "ItmToolGrinder02Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4777,7 +4777,7 @@
     "strName": "ToolLaserTorch01DmgRepair",
     "strActionCO": "ItmToolLaserTorch01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4807,7 +4807,7 @@
     "strName": "ToolSolderingIron01DmgRepair",
     "strActionCO": "ItmToolSolderingIron01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4835,7 +4835,7 @@
     "strName": "ToolWelder01DmgRepair",
     "strActionCO": "ItmToolWelder01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4864,7 +4864,7 @@
     "strName": "TowingBrace01DmgRepair",
     "strActionCO": "ItmTowingBrace01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4897,7 +4897,7 @@
     "strName": "TowingBrace01DmgLooseRepair",
     "strActionCO": "ItmTowingBrace01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4930,7 +4930,7 @@
     "strName": "TowingBrace01DmgSecuredRepair",
     "strActionCO": "ItmTowingBrace01DmgSecured",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -4963,7 +4963,7 @@
     "strName": "Transponder01DmgLooseRepair",
     "strActionCO": "ItmTransponder01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTUs": "TIsPortAuthority",
     "CTThem": "TIsRepairableNotContained",
@@ -4992,7 +4992,7 @@
     "strName": "Transponder01DmgRepair",
     "strActionCO": "ItmTransponder01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTUs": "TIsPortAuthority",
     "CTThem": "TIsRepairableNotContained",
@@ -5021,7 +5021,7 @@
     "strName": "Treadmill01DmgRepair",
     "strActionCO": "ItmTreadmill01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5053,7 +5053,7 @@
     "strName": "Treadmill01DmgLooseRepair",
     "strActionCO": "ItmTreadmill01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5085,7 +5085,7 @@
     "strName": "TV01DmgRepair",
     "strActionCO": "ItmTV01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5115,7 +5115,7 @@
     "strName": "TV01DmgLooseRepair",
     "strActionCO": "ItmTV01DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5145,7 +5145,7 @@
     "strName": "Wall1x1DmgRepair",
     "strActionCO": "ItmWall1x1Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWall1x1InstalledDmg",
     "aInputs": [
@@ -5173,7 +5173,7 @@
     "strName": "Wall1x1PatchRepair",
     "strActionCO": "ItmWall1x1Patch",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWall1x1InstalledPatched",
     "aInputs": [
@@ -5202,7 +5202,7 @@
     "strName": "Wall1x1DmgLooseRepair",
     "strActionCO": "ItmWall1x1DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5230,7 +5230,7 @@
     "strName": "WallAero1x1DmgRepair",
     "strActionCO": "ItmWallAero1x1Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallAero1x1InstalledDmg",
     "aInputs": [
@@ -5258,7 +5258,7 @@
     "strName": "WallAero1x1DmgLooseRepair",
     "strActionCO": "ItmWallAero1x1DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5287,7 +5287,7 @@
     "strName": "WallAero1x1SqDmgRepair",
     "strActionCO": "ItmWallAero1x1SqDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallAero1x1SqInstalledDmg",
     "aInputs": [
@@ -5315,7 +5315,7 @@
     "strName": "WallAero1x1SqDmgLooseRepair",
     "strActionCO": "ItmWallAero1x1SqDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5344,7 +5344,7 @@
     "strName": "WallAero1x2SlantDmgRepair",
     "strActionCO": "ItmWallAero1x2SlantDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallAero1x2SlantInstalledDmg",
     "aInputs": [
@@ -5372,7 +5372,7 @@
     "strName": "WallAero1x2SlantDmgLooseRepair",
     "strActionCO": "ItmWallAero1x2SlantDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5401,7 +5401,7 @@
     "strName": "WallAero1x2SlantBDmgRepair",
     "strActionCO": "ItmWallAero1x2SlantBDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallAero1x2SlantBInstalledDmg",
     "aInputs": [
@@ -5429,7 +5429,7 @@
     "strName": "WallAero1x2SlantBDmgLooseRepair",
     "strActionCO": "ItmWallAero1x2SlantBDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5458,7 +5458,7 @@
     "strName": "WallAero1x3SlantDmgRepair",
     "strActionCO": "ItmWallAero1x3SlantDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallAero1x3SlantInstalledDmg",
     "aInputs": [
@@ -5486,7 +5486,7 @@
     "strName": "WallAero1x3SlantDmgLooseRepair",
     "strActionCO": "ItmWallAero1x3SlantDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5515,7 +5515,7 @@
     "strName": "WallAero1x3SlantBDmgRepair",
     "strActionCO": "ItmWallAero1x3SlantBDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallAero1x3SlantBInstalledDmg",
     "aInputs": [
@@ -5543,7 +5543,7 @@
     "strName": "WallAero1x3SlantBDmgLooseRepair",
     "strActionCO": "ItmWallAero1x3SlantBDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5572,7 +5572,7 @@
     "strName": "WallPlastic1x1DmgRepair",
     "strActionCO": "ItmWallPlastic1x1Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallPlastic1x1InstalledDmg",
     "aInputs": [
@@ -5600,7 +5600,7 @@
     "strName": "WallPlastic1x1PatchRepair",
     "strActionCO": "ItmWallPlastic1x1Patch",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallPlastic1x1InstalledPatched",
     "aInputs": [
@@ -5629,7 +5629,7 @@
     "strName": "WallPlastic1x1DmgLooseRepair",
     "strActionCO": "ItmWallPlastic1x1DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5657,7 +5657,7 @@
     "strName": "WallWindow1x1DmgRepair",
     "strActionCO": "ItmWallWindow1x1Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallWindow1x1InstalledDmg",
     "aInputs": [
@@ -5685,7 +5685,7 @@
     "strName": "WallWindow1x1PatchRepair",
     "strActionCO": "ItmWallWindow1x1Patch",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallWindow1x1InstalledPatched",
     "aInputs": [
@@ -5713,7 +5713,7 @@
     "strName": "WallWindow1x1DmgLooseRepair",
     "strActionCO": "ItmWallWindow1x1DmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5742,7 +5742,7 @@
     "strName": "WallWindow1x1SqDmgRepair",
     "strActionCO": "ItmWallWindow1x1SqDmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallWindow1x1SqInstalledDmg",
     "aInputs": [
@@ -5770,7 +5770,7 @@
     "strName": "WallWindow1x1SqPatchRepair",
     "strActionCO": "ItmWallWindow1x1SqPatch",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsWallWindow1x1SqInstalledPatched",
     "aInputs": [
@@ -5798,7 +5798,7 @@
     "strName": "WallWindow1x1SqDmgLooseRepair",
     "strActionCO": "ItmWallWindow1x1SqDmgLoose",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
@@ -5827,7 +5827,7 @@
     "strName": "WristPDA01DmgRepair",
     "strActionCO": "ItmWristPDA01Dmg",
     "strActionGroup": "Work",
-    "strTooltip": "Восстанавливает предмет в рабочем состоянии.",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [

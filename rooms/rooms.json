@@ -1,6 +1,6 @@
 [
   {
-    "strName": "Reactor",
+    "strName": "Реактор",
     "strNameFriendly": "Салон реактора",
     "strIconName": "reactor",
     "nMinTileSize": 4,
@@ -63,7 +63,7 @@
     "nPriority": 80
   },
   {
-    "strName": "Airlock",
+    "strName": "Воздушный люк",
     "strNameFriendly": "Воздушный люк",
     "strIconName": "airlock",
     "nMinTileSize": 3,
@@ -87,7 +87,7 @@
   },
   {
     "strName": "Engineering",
-    "strNameFriendly": "Энергетическая комната",
+    "strNameFriendly": "Энгинерная комната",
     "strIconName": "engineering",
     "nMinTileSize": 4,
     "nMaxTileSize": -1,
@@ -101,7 +101,7 @@
   },
   {
     "strName": "WellnessRoom",
-    "strNameFriendly": "Зона здоровья",
+    "strNameFriendly": "Комната здоровья",
     "strIconName": "wellness",
     "nMinTileSize": 4,
     "nMaxTileSize": -1,
@@ -160,7 +160,7 @@
     "nPriority": 50
   },
   {
-    "strName": "Bathroom",
+    "strName": "Ванная комната",
     "strNameFriendly": "Ванная комната",
     "strIconName": "bathroom",
     "nMinTileSize": 4,
@@ -175,7 +175,7 @@
     "nPriority": 45
   },
   {
-    "strName": "Galley",
+    "strName": "Кухня",
     "strNameFriendly": "Кухня",
     "strIconName": "galley",
     "nMinTileSize": 6,
@@ -196,7 +196,7 @@
   },
   {
     "strName": "BasicQuarters",
-    "strNameFriendly": "Базовые кабинеты",
+    "strNameFriendly": "Базовые кварталы",
     "strIconName": "basicquarters",
     "nMinTileSize": 8,
     "nMaxTileSize": -1,
@@ -216,7 +216,7 @@
   },
   {
     "strName": "Passenger2",
-    "strNameFriendly": "Кабинет пассажира (средний)",
+    "strNameFriendly": "Квартира пассажира (средняя)",
     "strIconName": "passenger",
     "nMinTileSize": 32,
     "nMaxTileSize": -1,
@@ -235,7 +235,7 @@
   },
   {
     "strName": "Passenger1",
-    "strNameFriendly": "Кабинет пассажира (малый)",
+    "strNameFriendly": "Квартира пассажира (малая)",
     "strIconName": "passenger",
     "nMinTileSize": 16,
     "nMaxTileSize": -1,
@@ -282,7 +282,7 @@
   },
   {
     "strName": "CargoRoomExterior",
-    "strNameFriendly": "Грузовой объем (снаружи)",
+    "strNameFriendly": "Грузовое пространство (снаружи)",
     "strIconName": "storage",
     "nMinTileSize": 6,
     "nMaxTileSize": -1,
@@ -295,7 +295,7 @@
     "nPriority": 5
   },
   {
-    "strName": "Blank",
+    "strName": "Пусто",
     "strNameFriendly": "Нет специализации комнаты",
     "strIconName": null,
     "nMinTileSize": -1,

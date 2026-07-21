@@ -106,7 +106,7 @@
     ]
   },
   {
-    "strName": "Shipbreaker",
+    "strName": "Разрушитель корабля",
     "strNameFriendly": "Разрушитель корабля",
     "strCTPrereqs": "TNotIsImprisoned",
     "strLootConds": "CGCareerShipbreaker",
@@ -218,7 +218,7 @@
     ]
   },
   {
-    "strName": "Prisoner",
+    "strName": "Заключённый",
     "strNameFriendly": "Заключённый",
     "strCTPrereqs": "TIsImprisoned",
     "strLootConds": "CGCareerPrisoner",
@@ -269,7 +269,7 @@
     "aEventsShip": []
   },
   {
-    "strName": "Bartender",
+    "strName": "Бармен",
     "strNameFriendly": "Бармен",
     "bComingSoon": true,
     "strCTPrereqs": "TNotIsImprisoned",
@@ -345,7 +345,7 @@
     "aEventsShip": []
   },
   {
-    "strName": "Criminal",
+    "strName": "Преступник",
     "strNameFriendly": "Преступник",
     "bComingSoon": true,
     "strCTPrereqs": "TNotIsImprisoned",
@@ -558,7 +558,7 @@
     "aEventsShip": []
   },
   {
-    "strName": "Manager",
+    "strName": "Управляющий",
     "strNameFriendly": "Управляющий",
     "bComingSoon": true,
     "strCTPrereqs": "TNotIsImprisoned",
@@ -650,7 +650,7 @@
     "aEventsShip": []
   },
   {
-    "strName": "Pirate",
+    "strName": "Пират",
     "strNameFriendly": "Пират",
     "bComingSoon": true,
     "strCTPrereqs": "TNotIsImprisoned",
@@ -785,7 +785,7 @@
     "aEventsShip": []
   },
   {
-    "strName": "Influencer",
+    "strName": "Влиятель",
     "strNameFriendly": "Влиятель",
     "strCTPrereqs": "TNotIsImprisoned",
     "strLootConds": "CGCareerInfluencer",
@@ -901,7 +901,7 @@
     "aEventsShip": []
   },
   {
-    "strName": "Scientist",
+    "strName": "Учёный",
     "strNameFriendly": "Учёный",
     "strCTPrereqs": "TNotIsImprisoned",
     "strLootConds": "CGCareerScientist",
@@ -1009,7 +1009,7 @@
     "aEventsShip": []
   },
   {
-    "strName": "Technician",
+    "strName": "Техник",
     "strNameFriendly": "Техник",
     "strCTPrereqs": "TNotIsImprisoned",
     "strLootConds": "CGCareerTechnician",

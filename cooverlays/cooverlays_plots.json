@@ -1,9 +1,9 @@
 [
   {
     "strName": "Plot_Whodunnit_VictimLiquidBlood",
-    "strNameFriendly": "Кровь из жертвы",
+    "strNameFriendly": "Кровь жертвы",
     "strNameShort": "Кровь жертвы",
-    "strDesc": "Собрана кровь с тела жертвы.",
+    "strDesc": "Собрана кровь от тела жертвы.",
     "strImg": "ItmLiquidRed",
     "strImgNorm": "ItmLiquidRedn",
     "strPortraitImg": "ItmLiquidRed",

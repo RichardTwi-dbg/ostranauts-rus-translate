@@ -2,7 +2,7 @@
   {
     "strName": "SOCLookBusy",
     "strTitle": "Будь внимателен",
-    "strDesc": "[us] [fidgets] в попытке выглядеть занятным для [them].",
+    "strDesc": "[мы] [перебираются] попыткой выглядеть занятными для [них].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -79,7 +79,7 @@
   {
     "strName": "SOCAskHowDoing",
     "strTitle": "Спроси, как они себя чувствуют",
-    "strDesc": "[us] [asks] [them] как [them-contractIs] себя чувствует.",
+    "strDesc": "[мы] [спрашиваем] [них] как [они-соглашаются] себя чувствуют.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -158,7 +158,7 @@
   {
     "strName": "SOCComplainAboutLAs",
     "strTitle": "Жаловаться на власти",
-    "strDesc": "[us] [complains] [them] о чрезмерно активных местных властях.",
+    "strDesc": "[мы] [жалуемся] [ним] на избыточную активность местных властей.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -252,7 +252,7 @@
   {
     "strName": "SOCTalkWeather",
     "strTitle": "Разговор о погоде",
-    "strDesc": "[us] [comments] [them] о последних показателях влажности и температуры на борту.",
+    "strDesc": "[мы] [комментируем] [ним] о последних показателях влажности и температуры на борту.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -342,7 +342,7 @@
   {
     "strName": "SOCMildFunny",
     "strTitle": "Слабо смешной комментарий",
-    "strDesc": "[us] [makes] слабо смешной комментарий [them].",
+    "strDesc": "[мы] [делаем] слабо смешной комментарий [ним].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -431,7 +431,7 @@
   {
     "strName": "SOCLookAtUs",
     "strTitle": "Посмотреть на нас",
-    "strDesc": "[us] [says] [them], \"Привет. Посмотрите на нас.\".",
+    "strDesc": "[мы] [говорим] [ним]: \"Привет. Смотри на нас.\".",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -526,7 +526,7 @@
   {
     "strName": "SOCLightTouch",
     "strTitle": "Легкое касание",
-    "strDesc": "[us] лёгко [places] [us-pos] руку на [them-pos] руку.",
+    "strDesc": "[мы] лёгко [класть] [наш-позиция] руку на [их-позиция] руку.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -610,7 +610,7 @@
   {
     "strName": "SOCMetaphysicalQuandary",
     "strTitle": "Метафизический вопрос",
-    "strDesc": "[us] [asks] [them] метафизический вопрос, на который никто из нас не может ответить.",
+    "strDesc": "[мы] [спрашиваем] [ним] метафизический вопрос, на который никто здесь не может ответить.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -703,7 +703,7 @@
   {
     "strName": "SOCSooo",
     "strTitle": "Итак...",
-    "strDesc": "[us] неловко [says] [them], \"Итак...\".",
+    "strDesc": "[мы] неловко [говорим] [ним]: \"Итак...\".",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -786,8 +786,8 @@
   },
   {
     "strName": "SOCScanRoom",
-    "strTitle": "Проверить комнату",
-    "strDesc": "[us] [scans] комнату, нервно.",
+    "strTitle": "Проверяем комнату",
+    "strDesc": "[мы] [осматриваем] комнату, нервно.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -867,7 +867,7 @@
   {
     "strName": "SOCMentionHeadline",
     "strTitle": "Упоминание заголовка",
-    "strDesc": "[us] [mentions] заголовок [them], что [us-subj] недавно прочитал.",
+    "strDesc": "[мы] упоминаем заголовок [им] то, что [мы] недавно прочитали.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -959,7 +959,7 @@
   {
     "strName": "SOCTeleportThemTest",
     "strTitle": "Арест",
-    "strDesc": "[us] [arrests] [them] и [us-sends] [them-obj] в тюрьму.",
+    "strDesc": "[мы] арестовываем [их] и [мы] отправляем [их] в тюрьму.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,

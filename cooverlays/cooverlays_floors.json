@@ -41,7 +41,7 @@
   },
   {
     "strName": "ItmFloorAERO01Patch",
-    "strNameFriendly": "Пол А (исправленный): Testudo \"Aero-Break\"",
+    "strNameFriendly": "Пол А (направленный): Testudo \"Aero-Break\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10APatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10APatch",
@@ -61,7 +61,7 @@
   },
   {
     "strName": "ItmFloorAERO01Loose",
-    "strNameFriendly": "Пол А (нестабильный): Testudo \"Aero-Break\"",
+    "strNameFriendly": "Пол А (слабый): Testudo \"Aero-Break\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10ALoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10ALoose",
@@ -127,7 +127,7 @@
   },
   {
     "strName": "ItmFloorAERO02Patch",
-    "strNameFriendly": "Пол Б (исправленный): Testudo \"Aero-Frame\"",
+    "strNameFriendly": "Пол Б (направленный): Testudo \"Aero-Frame\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B06Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B06Patch",
@@ -147,7 +147,7 @@
   },
   {
     "strName": "ItmFloorAERO02Loose",
-    "strNameFriendly": "Пол Б (нестабильный): Testudo \"Aero-Frame\"",
+    "strNameFriendly": "Пол Б (слабый): Testudo \"Aero-Frame\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B06Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B06Loose",
@@ -213,7 +213,7 @@
   },
   {
     "strName": "ItmFloorAERO03Patch",
-    "strNameFriendly": "Пол В (исправленный): Testudo \"Aero-Grate\"",
+    "strNameFriendly": "Пол В (направленный): Testudo \"Aero-Grate\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10HPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10HPatch",
@@ -233,7 +233,7 @@
   },
   {
     "strName": "ItmFloorAERO03Loose",
-    "strNameFriendly": "Пол В (нестабильный): Testudo \"Aero-Grate\"",
+    "strNameFriendly": "Пол В (слабый): Testudo \"Aero-Grate\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10HLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10HLoose",
@@ -299,7 +299,7 @@
   },
   {
     "strName": "ItmFloorAERO04Patch",
-    "strNameFriendly": "Пол Г (исправленный): Testudo \"Aero-Lift\"",
+    "strNameFriendly": "Пол Г (направленный): Testudo \"Aero-Lift\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10KPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10KPatch",
@@ -319,7 +319,7 @@
   },
   {
     "strName": "ItmFloorAERO04Loose",
-    "strNameFriendly": "Пол Г (нестабильный): Testudo \"Aero-Lift\"",
+    "strNameFriendly": "Пол Г (слабый): Testudo \"Aero-Lift\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10KLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10KLoose",
@@ -385,7 +385,7 @@
   },
   {
     "strName": "ItmFloorAERO05Patch",
-    "strNameFriendly": "Пол Д (исправленный): Testudo \"Aero-Pad\"",
+    "strNameFriendly": "Пол Д (направленный): Testudo \"Aero-Pad\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10GPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10GPatch",
@@ -405,7 +405,7 @@
   },
   {
     "strName": "ItmFloorAERO05Loose",
-    "strNameFriendly": "Пол Д (нестабильный): Testudo \"Aero-Pad\"",
+    "strNameFriendly": "Пол Д (слабый): Testudo \"Aero-Pad\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10GLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10GLoose",
@@ -921,7 +921,7 @@
   },
   {
     "strName": "ItmFloorAERO11Loose",
-    "strNameFriendly": "Пол К (нестабильный): Тестудо \"Полный променад\"",
+    "strNameFriendly": "Пол К (слабый): Тестудо \"Полный променад\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10DbLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10DbLoose",
@@ -947,7 +947,7 @@
   },
   {
     "strName": "ItmFloorCAYL01",
-    "strNameFriendly": "Пол А: Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол А: Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12A",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12An",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12A",
@@ -973,7 +973,7 @@
   },
   {
     "strName": "ItmFloorCAYL01Dmg",
-    "strNameFriendly": "Пол А (повреждённый): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол А (повреждённый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12ADmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12ADmg",
@@ -997,7 +997,7 @@
   },
   {
     "strName": "ItmFloorCAYL01Patch",
-    "strNameFriendly": "Пол А (исправленный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол А (исправленный): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12APatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12APatch",
@@ -1021,7 +1021,7 @@
   },
   {
     "strName": "ItmFloorCAYL01Loose",
-    "strNameFriendly": "Пол А (нестабильный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол А (слабый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12ALoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12ALoose",
@@ -1051,7 +1051,7 @@
   },
   {
     "strName": "ItmFloorCAYL02",
-    "strNameFriendly": "Пол Б: Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Б: Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12B",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Bn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12B",
@@ -1077,7 +1077,7 @@
   },
   {
     "strName": "ItmFloorCAYL02Dmg",
-    "strNameFriendly": "Пол Б (повреждённый): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Б (повреждённый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12BDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12BDmg",
@@ -1101,7 +1101,7 @@
   },
   {
     "strName": "ItmFloorCAYL02Patch",
-    "strNameFriendly": "Пол Б (исправленный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Б (исправленный): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12BPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12BPatch",
@@ -1125,7 +1125,7 @@
   },
   {
     "strName": "ItmFloorCAYL02Loose",
-    "strNameFriendly": "Пол Б (нестабильный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Б (слабый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12BLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12BLoose",
@@ -1155,7 +1155,7 @@
   },
   {
     "strName": "ItmFloorCAYL03",
-    "strNameFriendly": "Пол В: Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол В: Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12C",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Cn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12C",
@@ -1181,7 +1181,7 @@
   },
   {
     "strName": "ItmFloorCAYL03Dmg",
-    "strNameFriendly": "Пол В (повреждённый): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол В (повреждённый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12CDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12CDmg",
@@ -1205,7 +1205,7 @@
   },
   {
     "strName": "ItmFloorCAYL03Patch",
-    "strNameFriendly": "Пол В (исправленный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол В (исправленный): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12CPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12CPatch",
@@ -1229,7 +1229,7 @@
   },
   {
     "strName": "ItmFloorCAYL03Loose",
-    "strNameFriendly": "Пол В (нестабильный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол В (слабый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12CLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12CLoose",
@@ -1259,7 +1259,7 @@
   },
   {
     "strName": "ItmFloorCAYL04",
-    "strNameFriendly": "Пол Г: Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Г: Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12D",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Dn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12D",
@@ -1285,7 +1285,7 @@
   },
   {
     "strName": "ItmFloorCAYL04Dmg",
-    "strNameFriendly": "Пол Г (повреждённый): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Г (повреждённый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12DDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12DDmg",
@@ -1309,7 +1309,7 @@
   },
   {
     "strName": "ItmFloorCAYL04Patch",
-    "strNameFriendly": "Пол Г (исправленный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Г (исправленный): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12DPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12DPatch",
@@ -1333,7 +1333,7 @@
   },
   {
     "strName": "ItmFloorCAYL04Loose",
-    "strNameFriendly": "Пол Г (нестабильный): Кайлон \"Дурафлор\"",
+    "strNameFriendly": "Пол Г (слабый): Кейлон \"Дурафлор\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12DLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12DLoose",
@@ -1571,7 +1571,7 @@
   },
   {
     "strName": "ItmFloorCAYL07",
-    "strNameFriendly": "Пол G: Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G: Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12G",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Gn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12G",
@@ -1597,7 +1597,7 @@
   },
   {
     "strName": "ItmFloorCAYL07Dmg",
-    "strNameFriendly": "Пол G (повреждённый): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G (повреждённый): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GDmg",
@@ -1621,7 +1621,7 @@
   },
   {
     "strName": "ItmFloorCAYL07Patch",
-    "strNameFriendly": "Пол G (направленный): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G (направленный): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GPatch",
@@ -1645,7 +1645,7 @@
   },
   {
     "strName": "ItmFloorCAYL07Loose",
-    "strNameFriendly": "Пол G (нестабильный): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G (нестабильный): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GLoose",
@@ -1675,7 +1675,7 @@
   },
   {
     "strName": "ItmFloorCAYL07A",
-    "strNameFriendly": "Пол G-A: Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-A: Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GA",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Gn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GA",
@@ -1701,7 +1701,7 @@
   },
   {
     "strName": "ItmFloorCAYL07ADmg",
-    "strNameFriendly": "Пол G-A (повреждённый): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-A (повреждённый): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GADmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GADmg",
@@ -1725,7 +1725,7 @@
   },
   {
     "strName": "ItmFloorCAYL07APatch",
-    "strNameFriendly": "Пол G-A (направленный): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-A (направленный): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GAPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GAPatch",
@@ -1749,7 +1749,7 @@
   },
   {
     "strName": "ItmFloorCAYL07ALoose",
-    "strNameFriendly": "Пол G-A (нестабильный): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-A (нестабильный): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GALoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GALoose",
@@ -1779,7 +1779,7 @@
   },
   {
     "strName": "ItmFloorCAYL07B",
-    "strNameFriendly": "Пол G-B: Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-B: Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GB",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Gn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GB",
@@ -1805,7 +1805,7 @@
   },
   {
     "strName": "ItmFloorCAYL07BDmg",
-    "strNameFriendly": "Пол G-B (повреждённый): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-B (повреждённый): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GBDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GBDmg",
@@ -1829,7 +1829,7 @@
   },
   {
     "strName": "ItmFloorCAYL07BPatch",
-    "strNameFriendly": "Пол G-B (направленный): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-B (направленный): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GBPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GBPatch",
@@ -1853,7 +1853,7 @@
   },
   {
     "strName": "ItmFloorCAYL07BLoose",
-    "strNameFriendly": "Пол G-B (нестабильный): Кейлон \"Дурафлор Int\"",
+    "strNameFriendly": "Пол G-B (нестабильный): Кейлон \"Дурафлор Ин\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GBLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GBLoose",
@@ -1957,7 +1957,7 @@
   },
   {
     "strName": "ItmFloorCAYL07CLoose",
-    "strNameFriendly": "Пол G-C (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол G-C (слабо закреплён): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GCLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GCLoose",
@@ -2061,7 +2061,7 @@
   },
   {
     "strName": "ItmFloorCAYL08Loose",
-    "strNameFriendly": "Пол H (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол H (слабо закреплён): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12HLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12HLoose",
@@ -2165,7 +2165,7 @@
   },
   {
     "strName": "ItmFloorCAYL08ALoose",
-    "strNameFriendly": "Пол H-A (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол H-A (слабо закреплён): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12HALoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12HALoose",
@@ -2269,7 +2269,7 @@
   },
   {
     "strName": "ItmFloorCAYL08BLoose",
-    "strNameFriendly": "Пол H-B (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол H-B (слабо закреплён): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12HCLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12HCLoose",
@@ -2373,7 +2373,7 @@
   },
   {
     "strName": "ItmFloorCAYL08CLoose",
-    "strNameFriendly": "Пол H-B (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол H-B (слабо закреплён): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12HCLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12HCLoose",
@@ -2923,7 +2923,7 @@
   },
   {
     "strName": "ItmFloorCAYL10A",
-    "strNameFriendly": "Павильон J-A: Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-A: Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JA",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Jn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JA",
@@ -2949,7 +2949,7 @@
   },
   {
     "strName": "ItmFloorCAYL10ADmg",
-    "strNameFriendly": "Павильон J-A (повреждён): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-A (повреждён): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JADmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JADmg",
@@ -2973,7 +2973,7 @@
   },
   {
     "strName": "ItmFloorCAYL10APatch",
-    "strNameFriendly": "Павильон J-A (направленный): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-A (направленный): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JAPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JAPatch",
@@ -2997,7 +2997,7 @@
   },
   {
     "strName": "ItmFloorCAYL10ALoose",
-    "strNameFriendly": "Павильон J-A (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-A (слабый): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JALoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JALoose",
@@ -3027,7 +3027,7 @@
   },
   {
     "strName": "ItmFloorCAYL10B",
-    "strNameFriendly": "Павильон J-B: Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-B: Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JB",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Jn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JB",
@@ -3053,7 +3053,7 @@
   },
   {
     "strName": "ItmFloorCAYL10BDmg",
-    "strNameFriendly": "Павильон J-B (повреждён): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-B (повреждён): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JBDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JBDmg",
@@ -3077,7 +3077,7 @@
   },
   {
     "strName": "ItmFloorCAYL10BPatch",
-    "strNameFriendly": "Павильон J-B (направленный): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-B (направленный): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JBPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JBPatch",
@@ -3101,7 +3101,7 @@
   },
   {
     "strName": "ItmFloorCAYL10BLoose",
-    "strNameFriendly": "Павильон J-B (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-B (слабый): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JBLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JBLoose",
@@ -3131,7 +3131,7 @@
   },
   {
     "strName": "ItmFloorCAYL10C",
-    "strNameFriendly": "Павильон J-C: Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-C: Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JC",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Jn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JC",
@@ -3157,7 +3157,7 @@
   },
   {
     "strName": "ItmFloorCAYL10CDmg",
-    "strNameFriendly": "Павильон J-C (повреждён): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-C (повреждён): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JCDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JCDmg",
@@ -3181,7 +3181,7 @@
   },
   {
     "strName": "ItmFloorCAYL10CPatch",
-    "strNameFriendly": "Павильон J-C (направленный): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-C (направленный): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JCPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JCPatch",
@@ -3205,7 +3205,7 @@
   },
   {
     "strName": "ItmFloorCAYL10CLoose",
-    "strNameFriendly": "Павильон J-C (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон J-C (слабый): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12JCLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12JCLoose",
@@ -3235,7 +3235,7 @@
   },
   {
     "strName": "ItmFloorCAYL11",
-    "strNameFriendly": "Павильон K: Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K: Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12G",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Gn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12G",
@@ -3261,7 +3261,7 @@
   },
   {
     "strName": "ItmFloorCAYL11Dmg",
-    "strNameFriendly": "Павильон K (повреждён): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K (повреждён): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GDmg",
@@ -3285,7 +3285,7 @@
   },
   {
     "strName": "ItmFloorCAYL11Patch",
-    "strNameFriendly": "Павильон K (направленный): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K (направленный): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GPatch",
@@ -3309,7 +3309,7 @@
   },
   {
     "strName": "ItmFloorCAYL11Loose",
-    "strNameFriendly": "Павильон K (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K (слабый): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12GLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12GLoose",
@@ -3339,7 +3339,7 @@
   },
   {
     "strName": "ItmFloorCAYL11A",
-    "strNameFriendly": "Павильон K-A: Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K-A: Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KA",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Kn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KA",
@@ -3365,7 +3365,7 @@
   },
   {
     "strName": "ItmFloorCAYL11ADmg",
-    "strNameFriendly": "Павильон K-A (повреждён): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K-A (повреждён): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KADmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KADmg",
@@ -3389,7 +3389,7 @@
   },
   {
     "strName": "ItmFloorCAYL11APatch",
-    "strNameFriendly": "Павильон K-A (направленный): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K-A (направленный): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KAPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KAPatch",
@@ -3413,7 +3413,7 @@
   },
   {
     "strName": "ItmFloorCAYL11ALoose",
-    "strNameFriendly": "Павильон K-A (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Павильон K-A (слабый): Кайлон \"Дурафлор Инт\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KALoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KALoose",
@@ -3443,7 +3443,7 @@
   },
   {
     "strName": "ItmFloorCAYL11B",
-    "strNameFriendly": "Пол K-B: Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-Б: Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KB",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Kn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KB",
@@ -3469,7 +3469,7 @@
   },
   {
     "strName": "ItmFloorCAYL11BDmg",
-    "strNameFriendly": "Пол K-B (повреждён): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-Б (повреждённый): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KBDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KBDmg",
@@ -3493,7 +3493,7 @@
   },
   {
     "strName": "ItmFloorCAYL11BPatch",
-    "strNameFriendly": "Пол K-B (направленный): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-Б (направленный): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KBPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KBPatch",
@@ -3517,7 +3517,7 @@
   },
   {
     "strName": "ItmFloorCAYL11BLoose",
-    "strNameFriendly": "Пол K-B (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-Б (слабый): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KBLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KBLoose",
@@ -3547,7 +3547,7 @@
   },
   {
     "strName": "ItmFloorCAYL11C",
-    "strNameFriendly": "Пол K-C: Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-К: Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KC",
     "strImgNorm": "tiles/FloorGrate12/ItmFloorGrate12Kn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KC",
@@ -3573,7 +3573,7 @@
   },
   {
     "strName": "ItmFloorCAYL11CDmg",
-    "strNameFriendly": "Пол K-C (повреждён): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-К (повреждённый): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KCDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KCDmg",
@@ -3597,7 +3597,7 @@
   },
   {
     "strName": "ItmFloorCAYL11CPatch",
-    "strNameFriendly": "Пол K-C (направленный): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-К (направленный): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KCPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KCPatch",
@@ -3621,7 +3621,7 @@
   },
   {
     "strName": "ItmFloorCAYL11CLoose",
-    "strNameFriendly": "Пол K-C (слабый): Кейлон \"DuraFlor Int\"",
+    "strNameFriendly": "Пол К-К (слабый): Кейлон \"DuraFlor Int\"",
     "strImg": "tiles/FloorGrate12/ItmFloorGrate12KCLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate12/ItmFloorGrate12KCLoose",
@@ -3651,7 +3651,7 @@
   },
   {
     "strName": "ItmFloorLDPH01",
-    "strNameFriendly": "Пол A: Лэндон-Филлипс \"Liberty\"",
+    "strNameFriendly": "Пол А: Лэндон-Филлипс \"Liberty\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10C",
     "strImgNorm": "tiles/FloorGrate10/ItmFloorGrate10Cn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10C",
@@ -3671,7 +3671,7 @@
   },
   {
     "strName": "ItmFloorLDPH01Dmg",
-    "strNameFriendly": "Пол A (повреждён): Лэндон-Филлипс \"Liberty\"",
+    "strNameFriendly": "Пол А (повреждённый): Лэндон-Филлипс \"Liberty\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10CDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10CDmg",
@@ -3691,7 +3691,7 @@
   },
   {
     "strName": "ItmFloorLDPH01Patch",
-    "strNameFriendly": "Пол A (направленный): Лэндон-Филлипс \"Liberty\"",
+    "strNameFriendly": "Пол А (направленный): Лэндон-Филлипс \"Liberty\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10CPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10CPatch",
@@ -3711,7 +3711,7 @@
   },
   {
     "strName": "ItmFloorLDPH01Loose",
-    "strNameFriendly": "Пол A (слабый): Лэндон-Филлипс \"Liberty\"",
+    "strNameFriendly": "Пол А (слабый): Лэндон-Филлипс \"Liberty\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10CLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10CLoose",
@@ -3737,7 +3737,7 @@
   },
   {
     "strName": "ItmFloorLDPH02",
-    "strNameFriendly": "Пол B: Лэндон-Филлипс \"Palatine\"",
+    "strNameFriendly": "Пол Б: Лэндон-Филлипс \"Palatine\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10L",
     "strImgNorm": "tiles/FloorGrate10/ItmFloorGrate10Ln",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10L",
@@ -3757,7 +3757,7 @@
   },
   {
     "strName": "ItmFloorLDPH02Dmg",
-    "strNameFriendly": "Пол B (повреждён): Лэндон-Филлипс \"Palatine\"",
+    "strNameFriendly": "Пол Б (повреждённый): Лэндон-Филлипс \"Palatine\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10LDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10LDmg",
@@ -3777,7 +3777,7 @@
   },
   {
     "strName": "ItmFloorLDPH02Patch",
-    "strNameFriendly": "Пол B (направленный): Лэндон-Филлипс \"Palatine\"",
+    "strNameFriendly": "Пол Б (направленный): Лэндон-Филлипс \"Palatine\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10LPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10LPatch",
@@ -3797,7 +3797,7 @@
   },
   {
     "strName": "ItmFloorLDPH02Loose",
-    "strNameFriendly": "Пол B (слабый): Лэндон-Филлипс \"Palatine\"",
+    "strNameFriendly": "Пол Б (слабый): Лэндон-Филлипс \"Palatine\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10LLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10LLoose",
@@ -3823,7 +3823,7 @@
   },
   {
     "strName": "ItmFloorCross01",
-    "strNameFriendly": "Пол A: Миншэн \"Inheritance\"",
+    "strNameFriendly": "Пол А: Миншэн \"Inheritance\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B05",
     "strImgNorm": "tiles/FloorGrate10/ItmFloorGrate10Bn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B05",
@@ -3843,7 +3843,7 @@
   },
   {
     "strName": "ItmFloorCross01Dmg",
-    "strNameFriendly": "Пол A (повреждён): Миншэн \"Inheritance\"",
+    "strNameFriendly": "Пол А (повреждённый): Миншэн \"Inheritance\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B05Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B05Dmg",
@@ -3863,7 +3863,7 @@
   },
   {
     "strName": "ItmFloorCross01Patch",
-    "strNameFriendly": "Пол A (направленный): Миншэн \"Inheritance\"",
+    "strNameFriendly": "Пол А (направленный): Миншэн \"Inheritance\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B05Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B05Patch",
@@ -3883,7 +3883,7 @@
   },
   {
     "strName": "ItmFloorCross01Loose",
-    "strNameFriendly": "Пол A (слабый): Миншэн \"Inheritance\"",
+    "strNameFriendly": "Пол А (слабый): Миншэн \"Inheritance\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B05Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B05Loose",
@@ -3909,7 +3909,7 @@
   },
   {
     "strName": "ItmFloorCross02",
-    "strNameFriendly": "Пол B: Миншэн \"Согласие\"",
+    "strNameFriendly": "Пол B: Миншэн \"Гармония\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B03",
     "strImgNorm": "tiles/FloorGrate10/ItmFloorGrate10Bn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B03",
@@ -3929,7 +3929,7 @@
   },
   {
     "strName": "ItmFloorCross02Dmg",
-    "strNameFriendly": "Пол B (повреждённый): Миншэн \"Согласие\"",
+    "strNameFriendly": "Пол B (повреждённый): Миншэн \"Гармония\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B03Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B03Dmg",
@@ -3949,7 +3949,7 @@
   },
   {
     "strName": "ItmFloorCross02Patch",
-    "strNameFriendly": "Пол B (направленный): Миншэн \"Согласие\"",
+    "strNameFriendly": "Пол B (направленный): Миншэн \"Гармония\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B03Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B03Patch",
@@ -3969,7 +3969,7 @@
   },
   {
     "strName": "ItmFloorCross02Loose",
-    "strNameFriendly": "Пол B (слабый): Миншэн \"Согласие\"",
+    "strNameFriendly": "Пол B (слабый): Миншэн \"Гармония\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B03Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B03Loose",
@@ -4081,7 +4081,7 @@
   },
   {
     "strName": "ItmFloorCross04",
-    "strNameFriendly": "Пол D: Миншэн \"Выносливость\"",
+    "strNameFriendly": "Пол D: Миншэн \"Сила\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B00",
     "strImgNorm": "tiles/FloorGrate10/ItmFloorGrate10Bn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B00",
@@ -4101,7 +4101,7 @@
   },
   {
     "strName": "ItmFloorCross04Dmg",
-    "strNameFriendly": "Пол D (повреждённый): Миншэн \"Выносливость\"",
+    "strNameFriendly": "Пол D (повреждённый): Миншэн \"Сила\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B00Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B00Dmg",
@@ -4121,7 +4121,7 @@
   },
   {
     "strName": "ItmFloorCross04Patch",
-    "strNameFriendly": "Пол D (направленный): Миншэн \"Выносливость\"",
+    "strNameFriendly": "Пол D (направленный): Миншэн \"Сила\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B00Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B00Patch",
@@ -4141,7 +4141,7 @@
   },
   {
     "strName": "ItmFloorCross04Loose",
-    "strNameFriendly": "Пол D (слабый): Миншэн \"Выносливость\"",
+    "strNameFriendly": "Пол D (слабый): Миншэн \"Сила\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B00Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B00Loose",
@@ -4167,7 +4167,7 @@
   },
   {
     "strName": "ItmFloorCross05",
-    "strNameFriendly": "Пол E: Миншэн \"Перенесение\"",
+    "strNameFriendly": "Пол E: Миншэн \"Потребность\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B01",
     "strImgNorm": "tiles/FloorGrate10/ItmFloorGrate10Bn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B01",
@@ -4187,7 +4187,7 @@
   },
   {
     "strName": "ItmFloorCross05Dmg",
-    "strNameFriendly": "Пол E (повреждённый): Миншэн \"Перенесение\"",
+    "strNameFriendly": "Пол E (повреждённый): Миншэн \"Потребность\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B01Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B01Dmg",
@@ -4207,7 +4207,7 @@
   },
   {
     "strName": "ItmFloorCross05Patch",
-    "strNameFriendly": "Пол E (направленный): Миншэн \"Перенесение\"",
+    "strNameFriendly": "Пол E (направленный): Миншэн \"Потребность\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B01Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B01Patch",
@@ -4227,7 +4227,7 @@
   },
   {
     "strName": "ItmFloorCross05Loose",
-    "strNameFriendly": "Пол E (слабый): Миншэн \"Перенесение\"",
+    "strNameFriendly": "Пол E (слабый): Миншэн \"Потребность\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B01Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B01Loose",
@@ -4253,7 +4253,7 @@
   },
   {
     "strName": "ItmFloorCross06",
-    "strNameFriendly": "Пол F: Миншэн \"Удача\"",
+    "strNameFriendly": "Пол F: Миншэн \"Расцвет\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B02",
     "strImgNorm": "tiles/FloorGrate10/ItmFloorGrate10Bn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B02",
@@ -4273,7 +4273,7 @@
   },
   {
     "strName": "ItmFloorCross06Dmg",
-    "strNameFriendly": "Пол F (повреждённый): Миншэн \"Удача\"",
+    "strNameFriendly": "Пол F (повреждённый): Миншэн \"Расцвет\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B02Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B02Dmg",
@@ -4293,7 +4293,7 @@
   },
   {
     "strName": "ItmFloorCross06Patch",
-    "strNameFriendly": "Пол F (направленный): Миншэн \"Удача\"",
+    "strNameFriendly": "Пол F (направленный): Миншэн \"Расцвет\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B02Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B02Patch",
@@ -4313,7 +4313,7 @@
   },
   {
     "strName": "ItmFloorCross06Loose",
-    "strNameFriendly": "Пол F (слабый): Миншэн \"Удача\"",
+    "strNameFriendly": "Пол F (слабый): Миншэн \"Расцвет\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B02Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B02Loose",
@@ -4399,7 +4399,7 @@
   },
   {
     "strName": "ItmFloorCross07Loose",
-    "strNameFriendly": "Пол G (слабый): Миншэн \"Праздник\"",
+    "strNameFriendly": "Пол G (нестабильный): Миншэн \"Праздник\"",
     "strImg": "tiles/FloorGrate10/ItmFloorGrate10B04Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate10/ItmFloorGrate10B04Loose",
@@ -4485,7 +4485,7 @@
   },
   {
     "strName": "ItmFloorMSSLFWhite01Loose",
-    "strNameFriendly": "Пол A (слабый): Мобильная система космоса \"Лёгкий каркас\"",
+    "strNameFriendly": "Пол A (нестабильный): Мобильная система космоса \"Лёгкий каркас\"",
     "strImg": "tiles/FloorGrate04/ItmFloorGrate04ALoose",
     "strImgNorm": "tiles/FloorGrate04/ItmFloorGrate04ALoosen",
     "strPortraitImg": "tiles/FloorGrate04/ItmFloorGrate04ALoose",
@@ -4571,7 +4571,7 @@
   },
   {
     "strName": "ItmFloorMSSLFWhite02Loose",
-    "strNameFriendly": "Пол B (слабый): Мобильная система космоса \"Лёгкий каркас\"",
+    "strNameFriendly": "Пол B (нестабильный): Мобильная система космоса \"Лёгкий каркас\"",
     "strImg": "tiles/FloorGrate04/ItmFloorGrate04BLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate04/ItmFloorGrate04BLoose",
@@ -4657,7 +4657,7 @@
   },
   {
     "strName": "ItmFloorMSSLFWhite03Loose",
-    "strNameFriendly": "Пол C (слабый): Мобильная система космоса \"Лёгкий каркас\"",
+    "strNameFriendly": "Пол C (нестабильный): Мобильная система космоса \"Лёгкий каркас\"",
     "strImg": "tiles/FloorGrate04/ItmFloorGrate04CLoose",
     "strImgNorm": "tiles/FloorGrate04/ItmFloorGrate04CLoosen",
     "strPortraitImg": "tiles/FloorGrate04/ItmFloorGrate04CLoose",
@@ -4743,7 +4743,7 @@
   },
   {
     "strName": "ItmFloorMSSLFWhite04Loose",
-    "strNameFriendly": "Пол D (слабый): Мобильная система космоса \"Лёгкий каркас\"",
+    "strNameFriendly": "Пол D (нестабильный): Мобильная система космоса \"Лёгкий каркас\"",
     "strImg": "tiles/FloorGrate04/ItmFloorGrate04DLoose",
     "strImgNorm": "tiles/FloorGrate04/ItmFloorGrate04DLoosen",
     "strPortraitImg": "tiles/FloorGrate04/ItmFloorGrate04DLoose",
@@ -5199,7 +5199,7 @@
   },
   {
     "strName": "ItmFloorMSSOW05",
-    "strNameFriendly": "Пол Е: Мобильные системы космоса «Оранжевый путь»",
+    "strNameFriendly": "Пол Е: Мобильные системы космоса \"Оранжевый путь\"",
     "strImg": "tiles/FloorGrate06/ItmFloorGrate06E",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01n",
     "strPortraitImg": "tiles/FloorGrate06/ItmFloorGrate06E",
@@ -5219,7 +5219,7 @@
   },
   {
     "strName": "ItmFloorMSSOW05Dmg",
-    "strNameFriendly": "Пол Е (повреждённый): Мобильные системы космоса «Оранжевый путь»",
+    "strNameFriendly": "Пол Е (повреждённый): Мобильные системы космоса \"Оранжевый путь\"",
     "strImg": "tiles/FloorGrate06/ItmFloorGrate06EDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate06/ItmFloorGrate06EDmg",
@@ -5239,7 +5239,7 @@
   },
   {
     "strName": "ItmFloorMSSOW05Patch",
-    "strNameFriendly": "Пол Е (исправленный): Мобильные системы космоса «Оранжевый путь»",
+    "strNameFriendly": "Пол Е (исправленный): Мобильные системы космоса \"Оранжевый путь\"",
     "strImg": "tiles/FloorGrate06/ItmFloorGrate06EPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate06/ItmFloorGrate06EPatch",
@@ -5259,7 +5259,7 @@
   },
   {
     "strName": "ItmFloorMSSOW05Loose",
-    "strNameFriendly": "Пол Е (нестабильный): Мобильные системы космоса «Оранжевый путь»",
+    "strNameFriendly": "Пол Е (нестабильный): Мобильные системы космоса \"Оранжевый путь\"",
     "strImg": "tiles/FloorGrate06/ItmFloorGrate06ELoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate06/ItmFloorGrate06ELoose",
@@ -5285,7 +5285,7 @@
   },
   {
     "strName": "ItmFloorRYOF01",
-    "strNameFriendly": "Пол: Риокка «F-01»",
+    "strNameFriendly": "Пол: Риокка \"F-01\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01n",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01",
@@ -5305,7 +5305,7 @@
   },
   {
     "strName": "ItmFloorRYOF01Dmg",
-    "strNameFriendly": "Пол (повреждённый): Риокка «F-01»",
+    "strNameFriendly": "Пол (повреждённый): Риокка \"F-01\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01Dmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01Dmg",
@@ -5325,7 +5325,7 @@
   },
   {
     "strName": "ItmFloorRYOF01Patch",
-    "strNameFriendly": "Пол (исправленный): Риокка «F-01»",
+    "strNameFriendly": "Пол (исправленный): Риокка \"F-01\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01Patch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01Patch",
@@ -5345,7 +5345,7 @@
   },
   {
     "strName": "ItmFloorRYOF01Loose",
-    "strNameFriendly": "Пол (нестабильный): Риокка «F-01»",
+    "strNameFriendly": "Пол (нестабильный): Риокка \"F-01\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01Loose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01Loose",
@@ -5371,7 +5371,7 @@
   },
   {
     "strName": "ItmFloorRYOF02",
-    "strNameFriendly": "Пол: Риокка «F-02»",
+    "strNameFriendly": "Пол: Риокка \"F-02\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01B",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01n",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01B",
@@ -5391,7 +5391,7 @@
   },
   {
     "strName": "ItmFloorRYOF02Dmg",
-    "strNameFriendly": "Пол (повреждённый): Риокка «F-02»",
+    "strNameFriendly": "Пол (повреждённый): Риокка \"F-02\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01BDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01BDmg",
@@ -5411,7 +5411,7 @@
   },
   {
     "strName": "ItmFloorRYOF02Patch",
-    "strNameFriendly": "Пол (исправленный): Риокка «F-02»",
+    "strNameFriendly": "Пол (исправленный): Риокка \"F-02\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01BPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01BPatch",
@@ -5431,7 +5431,7 @@
   },
   {
     "strName": "ItmFloorRYOF02Loose",
-    "strNameFriendly": "Пол (нестабильный): Риокка «F-02»",
+    "strNameFriendly": "Пол (нестабильный): Риокка \"F-02\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01BLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01BLoose",
@@ -5457,7 +5457,7 @@
   },
   {
     "strName": "ItmFloorRYOF03",
-    "strNameFriendly": "Пол: Риокка «F-03»",
+    "strNameFriendly": "Пол: Риокка \"F-03\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01C",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01n",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01C",
@@ -5477,7 +5477,7 @@
   },
   {
     "strName": "ItmFloorRYOF03Dmg",
-    "strNameFriendly": "Пол (повреждённый): Риокка «F-03»",
+    "strNameFriendly": "Пол (повреждённый): Риокка \"F-03\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01CDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01CDmg",
@@ -5497,7 +5497,7 @@
   },
   {
     "strName": "ItmFloorRYOF03Patch",
-    "strNameFriendly": "Пол (исправленный): Риокка «F-03»",
+    "strNameFriendly": "Пол (исправленный): Риокка \"F-03\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01CPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01CPatch",
@@ -5517,7 +5517,7 @@
   },
   {
     "strName": "ItmFloorRYOF03Loose",
-    "strNameFriendly": "Пол (нестабильный): Риокка «F-03»",
+    "strNameFriendly": "Пол (нестабильный): Риокка \"F-03\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01CLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01CLoose",
@@ -5543,7 +5543,7 @@
   },
   {
     "strName": "ItmFloorRYOF04",
-    "strNameFriendly": "Пол: Риокка «F-04»",
+    "strNameFriendly": "Пол: Риокка \"F-04\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01D",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01n",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01D",
@@ -5563,7 +5563,7 @@
   },
   {
     "strName": "ItmFloorRYOF04Dmg",
-    "strNameFriendly": "Пол (повреждённый): Риокка «F-04»",
+    "strNameFriendly": "Пол (повреждённый): Риокка \"F-04\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01DDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01DDmg",
@@ -5583,7 +5583,7 @@
   },
   {
     "strName": "ItmFloorRYOF04Patch",
-    "strNameFriendly": "Пол (исправленный): Риокка «F-04»",
+    "strNameFriendly": "Пол (исправленный): Риокка \"F-04\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01DPatch",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Patchn",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01DPatch",
@@ -5603,7 +5603,7 @@
   },
   {
     "strName": "ItmFloorRYOF04Loose",
-    "strNameFriendly": "Пол (нестабильный): Риокка «F-04»",
+    "strNameFriendly": "Пол (нестабильный): Риокка \"F-04\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01DLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01DLoose",
@@ -5689,7 +5689,7 @@
   },
   {
     "strName": "ItmFloorRYOF05Loose",
-    "strNameFriendly": "Пол (нестабильный): Риока \"F-05\"",
+    "strNameFriendly": "Пол (слабый): Риока \"F-05\"",
     "strImg": "tiles/FloorGrate01/ItmFloorGrate01ELoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate01/ItmFloorGrate01ELoose",
@@ -5775,7 +5775,7 @@
   },
   {
     "strName": "ItmFloorTSDO01Loose",
-    "strNameFriendly": "Пол (нестабильный): Тестудо \"96 Series\"",
+    "strNameFriendly": "Пол (слабый): Тестудо \"96 Series\"",
     "strImg": "tiles/FloorGrate05/ItmFloorGrate05ALoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate05/ItmFloorGrate05ALoose",
@@ -5861,7 +5861,7 @@
   },
   {
     "strName": "ItmFloorTSDO02Loose",
-    "strNameFriendly": "Пол (нестабильный): Тестудо \"97 Series\"",
+    "strNameFriendly": "Пол (слабый): Тестудо \"97 Series\"",
     "strImg": "tiles/FloorGrate05/ItmFloorGrate05BLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate05/ItmFloorGrate05BLoose",
@@ -5947,7 +5947,7 @@
   },
   {
     "strName": "ItmFloorTSDO03Loose",
-    "strNameFriendly": "Пол (нестабильный): Тестудо \"98 Series\"",
+    "strNameFriendly": "Пол (слабый): Тестудо \"98 Series\"",
     "strImg": "tiles/FloorGrate05/ItmFloorGrate05CLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate05/ItmFloorGrate05CLoose",
@@ -6033,7 +6033,7 @@
   },
   {
     "strName": "ItmFloorTSDO04Loose",
-    "strNameFriendly": "Пол (нестабильный): Тестудо \"99 Series\"",
+    "strNameFriendly": "Пол (слабый): Тестудо \"99 Series\"",
     "strImg": "tiles/FloorGrate05/ItmFloorGrate05DLoose",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Loosen",
     "strPortraitImg": "tiles/FloorGrate05/ItmFloorGrate05DLoose",
@@ -6549,7 +6549,7 @@
   },
   {
     "strName": "ItmFloorTSDO46_05Loose",
-    "strNameFriendly": "Пол (слабый): Testudo \"50 Series\"",
+    "strNameFriendly": "Пол (нестабильный): Testudo \"50 Series\"",
     "strImg": "tiles/FloorGrate07/ItmFloorGrate07ELoose",
     "strImgNorm": "tiles/FloorGrate07/ItmFloorGrate07ELoosen",
     "strPortraitImg": "tiles/FloorGrate07/ItmFloorGrate07ELoose",
@@ -6635,7 +6635,7 @@
   },
   {
     "strName": "ItmFloorVHF01Loose",
-    "strNameFriendly": "Пол (слабый): Van Hummel \"Herald\" Панель A",
+    "strNameFriendly": "Пол (нестабильный): Van Hummel \"Herald\" Панель A",
     "strImg": "tiles/FloorGrate08/ItmFloorGrate08ALoose",
     "strImgNorm": "tiles/FloorGrate08/ItmFloorGrate08ALoosen",
     "strPortraitImg": "tiles/FloorGrate08/ItmFloorGrate08ALoose",
@@ -6721,7 +6721,7 @@
   },
   {
     "strName": "ItmFloorVHF02Loose",
-    "strNameFriendly": "Пол (слабый): Van Hummel \"Herald\" Панель B",
+    "strNameFriendly": "Пол (нестабильный): Van Hummel \"Herald\" Панель B",
     "strImg": "tiles/FloorGrate08/ItmFloorGrate08BLoose",
     "strImgNorm": "tiles/FloorGrate08/ItmFloorGrate08BLoosen",
     "strPortraitImg": "tiles/FloorGrate08/ItmFloorGrate08BLoose",
@@ -6807,7 +6807,7 @@
   },
   {
     "strName": "ItmFloorVHF03Loose",
-    "strNameFriendly": "Пол (слабый): Van Hummel \"Herald\" Панель C",
+    "strNameFriendly": "Пол (нестабильный): Van Hummel \"Herald\" Панель C",
     "strImg": "tiles/FloorGrate08/ItmFloorGrate08CLoose",
     "strImgNorm": "tiles/FloorGrate08/ItmFloorGrate08CLoosen",
     "strPortraitImg": "tiles/FloorGrate08/ItmFloorGrate08CLoose",
@@ -6893,7 +6893,7 @@
   },
   {
     "strName": "ItmFloorVHF04Loose",
-    "strNameFriendly": "Пол (слабый): Van Hummel \"Herald\" Панель D",
+    "strNameFriendly": "Пол (нестабильный): Van Hummel \"Herald\" Панель D",
     "strImg": "tiles/FloorGrate08/ItmFloorGrate08DLoose",
     "strImgNorm": "tiles/FloorGrate08/ItmFloorGrate08DLoosen",
     "strPortraitImg": "tiles/FloorGrate08/ItmFloorGrate08DLoose",
@@ -6979,7 +6979,7 @@
   },
   {
     "strName": "ItmFloorVHF05Loose",
-    "strNameFriendly": "Пол (ошибочно соединённый): панель Е, Van Hummel \"Herald\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель Е, Van Hummel \"Herald\"",
     "strImg": "tiles/FloorGrate08/ItmFloorGrate08ELoose",
     "strImgNorm": "tiles/FloorGrate08/ItmFloorGrate08DLoosen",
     "strPortraitImg": "tiles/FloorGrate08/ItmFloorGrate08ELoose",
@@ -7065,7 +7065,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_01Loose",
-    "strNameFriendly": "Пол (ошибочно соединённый): панель А, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель А, Testudo \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09ALoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09ALoose",
@@ -7151,7 +7151,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_02Loose",
-    "strNameFriendly": "Пол (ошибочно соединённый): панель Б, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель Б, Testudo \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09BLoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09BLoose",
@@ -7237,7 +7237,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_03Loose",
-    "strNameFriendly": "Пол (ошибочно соединённый): панель В, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель В, Testudo \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09CLoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09CLoose",
@@ -7323,7 +7323,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_04Loose",
-    "strNameFriendly": "Пол (ошибочно соединённый): панель Г, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель Г, Testudo \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09DLoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09DLoose",
@@ -7409,7 +7409,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_05Loose",
-    "strNameFriendly": "Пол (слабый): панель E, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель E, Testudo \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09ELoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09ELoose",
@@ -7455,7 +7455,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_06Dmg",
-    "strNameFriendly": "Пол (повреждённый): панель F, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (повреждённый): панель F, Test-удо \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09FDmg",
     "strImgNorm": "tiles/FloorGrate01/ItmFloorGrate01Dmgn",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09FDmg",
@@ -7495,7 +7495,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_06Loose",
-    "strNameFriendly": "Пол (слабый): панель F, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель F, Testudo \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09FLoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09FLoose",
@@ -7581,7 +7581,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_07Loose",
-    "strNameFriendly": "Пол (слабый): панель G, Testudo \"Spring\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель G, Testudo \"Spring\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09GLoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09GLoose",
@@ -7667,7 +7667,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_08Loose",
-    "strNameFriendly": "Пол (слабый): Testudo \"Breakout Turf\"",
+    "strNameFriendly": "Пол (слабо закреплённый): Testudo \"Breakout Turf\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09HLoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09HLoose",
@@ -7753,7 +7753,7 @@
   },
   {
     "strName": "ItmFloorTSDOC_08aLoose",
-    "strNameFriendly": "Пол (слабый): панель A, Testudo \"Breakout Turf\"",
+    "strNameFriendly": "Пол (слабо закреплённый): панель A, Testudo \"Breakout Turf\"",
     "strImg": "tiles/FloorGrate09/ItmFloorGrate09HaLoose",
     "strImgNorm": "tiles/FloorGrate09/ItmFloorGrate09Loosen",
     "strPortraitImg": "tiles/FloorGrate09/ItmFloorGrate09HaLoose",

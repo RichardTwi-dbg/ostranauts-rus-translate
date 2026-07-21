@@ -3605,7 +3605,7 @@
     "strName": "FusionReactorCore01UndamageABL",
     "strActionCO": "ItmFusionReactorCore01Off",
     "strActionGroup": "Work",
-    "strTooltip": "Заменяет внутреннюю оболочку ядра предмета для предотвращения проникновения рентгеновского излучения и аварийного расплавления.",
+    "strTooltip": "Заменяет внутреннюю оболочку ядра предмета для предотвращения проникновения рентгеновских лучей и аварийного расплавления.",
     "strInteractionTemplate": "ACTUndamageABLTEMP",
     "CTThem": "TIsUndamageableABLNotContained",
     "aInputs": [
@@ -3632,7 +3632,7 @@
     "strName": "FusionReactorCore01LooseUndamageABL",
     "strActionCO": "ItmFusionReactorCore01Loose",
     "strActionGroup": "Work",
-    "strTooltip": "Заменяет внутреннюю оболочку ядра предмета для предотвращения проникновения рентгеновского излучения и аварийного расплавления.",
+    "strTooltip": "Заменяет внутреннюю оболочку ядра предмета для предотвращения проникновения рентгеновских лучей и аварийного расплавления.",
     "strInteractionTemplate": "ACTUndamageABLTEMP",
     "CTThem": "TIsUndamageableABLNotContained",
     "aInputs": [

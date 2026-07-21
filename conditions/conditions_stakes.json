@@ -1,9 +1,9 @@
 [
   {
     "strName": "IsSTKTemplate_Fail_Cooldown",
-    "strNameFriendly": "Ошибка шаблона STKTemplate: ожидание охлаждения",
+    "strNameFriendly": "Ошибки шаблона STKTemplate: ожидание охлаждения",
     "strColor": "Neutral",
-    "strDesc": "[us] попытался использовать STKTemplate и ещё не может попробовать снова.",
+    "strDesc": "[мы] попытались использовать STKTemplate и ещё не можем попробовать снова.",
     "bResetTimer": true,
     "nDisplaySelf": 0,
     "nDisplayOther": 0,
@@ -11,9 +11,9 @@
   },
   {
     "strName": "IsSTKTemplate_Fail_Avoid",
-    "strNameFriendly": "Ошибка шаблона STKTemplate: мягкая ошибка",
+    "strNameFriendly": "Ошибки шаблона STKTemplate: мягкая ошибка",
     "strColor": "Neutral",
-    "strDesc": "[us] использовал мягкую ошибку в STKTemplate, чтобы избежать твёрдой ошибки, и ещё не может использовать её снова.",
+    "strDesc": "[мы] использовали мягкую ошибку в STKTemplate, чтобы избежать твёрдой ошибки, и ещё не можем использовать её снова.",
     "bResetTimer": true,
     "nDisplaySelf": 0,
     "nDisplayOther": 0,
@@ -23,7 +23,7 @@
     "strName": "IsSTKTemplate_Chitchat_Trait_Used",
     "strNameFriendly": "Использовано свойство общения в STKTemplate",
     "strColor": "Neutral",
-    "strDesc": "[us] использовал действие общения в STKTemplate и ещё не может использовать его снова.",
+    "strDesc": "[мы] использовали действие общения в STKTemplate и ещё не можем его использовать снова.",
     "bResetTimer": true,
     "nDisplaySelf": 0,
     "nDisplayOther": 0,

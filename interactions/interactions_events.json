@@ -1,8 +1,8 @@
 [
   {
     "strName": "EVTBark_None",
-    "strTitle": "Большой страх Барк: Ничего",
-    "strDesc": "[us] [says] ничего.",
+    "strTitle": "Большой страх: ничего",
+    "strDesc": "[мы] [говорим] ничего.",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -15,8 +15,8 @@
   },
   {
     "strName": "EVTBark_AhCrap",
-    "strTitle": "Большой страх Барк: Ах, черт",
-    "strDesc": "[us] [says] \"Ах, черт!\"",
+    "strTitle": "Большой страх: Ах, черт!",
+    "strDesc": "[мы] [говорим] \"Ах, черт!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -29,8 +29,8 @@
   },
   {
     "strName": "EVTBark_AllDie",
-    "strTitle": "Большой страх Барк: Все погибнут",
-    "strDesc": "[us] [says] \"Мы все погибнем!\"",
+    "strTitle": "Большой страх: Все погибнут",
+    "strDesc": "[мы] [говорим] \"Мы все умрём!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -43,8 +43,8 @@
   },
   {
     "strName": "EVTBark_CantDoThis",
-    "strTitle": "Большой страх Барк: Не могу это делать",
-    "strDesc": "[us] [says] \"Я не могу это делать!\"",
+    "strTitle": "Большой страх: Не могу это делать",
+    "strDesc": "[мы] [говорим] \"Я не могу это сделать!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -57,8 +57,8 @@
   },
   {
     "strName": "EVTBark_Exciting",
-    "strTitle": "Большой страх Барк: Весело",
-    "strDesc": "[us] [says] \"Ох! Весело!\"",
+    "strTitle": "Большой страх: Весело",
+    "strDesc": "[мы] [говорим] \"Ооо! Весело!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -71,8 +71,8 @@
   },
   {
     "strName": "EVTBark_Meh",
-    "strTitle": "Большой страх Барк: Мда",
-    "strDesc": "[us] [says] \"Мда.\"",
+    "strTitle": "Большой страх: Мда",
+    "strDesc": "[мы] [говорим] \"Мда.\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -85,8 +85,8 @@
   },
   {
     "strName": "EVTBark_Nice",
-    "strTitle": "Большой страх Барк: Хорошо",
-    "strDesc": "[us] [says] \"Хорошо.\"",
+    "strTitle": "Большой страх: Хорошо",
+    "strDesc": "[мы] [говорим] \"Хорошо.\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -99,8 +99,8 @@
   },
   {
     "strName": "EVTBark_NotThatBad",
-    "strTitle": "Большой страх Барк: Не так плохо",
-    "strDesc": "[us] [says] \"Я уверен, что это не так плохо.\"",
+    "strTitle": "Большой страх: Не так плохо",
+    "strDesc": "[мы] [говорим] \"Я уверен, что это не так плохо.\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -113,8 +113,8 @@
   },
   {
     "strName": "EVTBark_OhGod",
-    "strTitle": "Большой страх Барк: О боже",
-    "strDesc": "[us] [says] \"О боже!\"",
+    "strTitle": "Большой страх: О боги",
+    "strDesc": "[мы] [говорим] \"О боги!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -127,8 +127,8 @@
   },
   {
     "strName": "EVTBark_OhNo",
-    "strTitle": "Большой страх Барк: О нет",
-    "strDesc": "[us] [says] \"О нет!\"",
+    "strTitle": "Большой страх: О нет",
+    "strDesc": "[мы] [говорим] \"О нет!\"",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -141,8 +141,8 @@
   },
   {
     "strName": "EVTBark_PrettyBad",
-    "strTitle": "Большой страх Барк: Очень плохо",
-    "strDesc": "[us] [says] \"Это, вероятно, очень плохо.\"",
+    "strTitle": "Большой страх: Очень плохо",
+    "strDesc": "[мы] говорим: «Это, вероятно, очень плохо».",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -155,8 +155,8 @@
   },
   {
     "strName": "EVTBark_SaveOthers",
-    "strTitle": "Большой страх Барк: Спаси другие",
-    "strDesc": "[us] [says] \"Я должен проверить всех.\"",
+    "strTitle": "Большой страх: Спасать других",
+    "strDesc": "[мы] говорим: «Я должен проверить всех».",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -169,8 +169,8 @@
   },
   {
     "strName": "EVTBark_SaveSelf",
-    "strTitle": "Большой страх Барк: Спаси себя",
-    "strDesc": "[us] [says] \"Каждый за себя!\"",
+    "strTitle": "Большой страх: Спасать себя",
+    "strDesc": "[мы] говорим: «Каждый за себя!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -183,8 +183,8 @@
   },
   {
     "strName": "EVTBark_Yay",
-    "strTitle": "Большой страх Бар и: Ура!",
-    "strDesc": "[us] [says] \"Ура!\"",
+    "strTitle": "Большой страх: Отлично!",
+    "strDesc": "[мы] говорим: «Отлично!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -198,7 +198,7 @@
   {
     "strName": "EVTCollisionBig",
     "strTitle": "Событие столкновения",
-    "strDesc": "[us] только что столкнулся.",
+    "strDesc": "[мы] только что столкнулись.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -213,7 +213,7 @@
   {
     "strName": "EVTExposeVoid",
     "strTitle": "Событие воздействия вакуума",
-    "strDesc": "[us] только что попал в вакуум.",
+    "strDesc": "[мы] только что оказались в вакууме.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -228,7 +228,7 @@
   {
     "strName": "EVTScareBig",
     "strTitle": "Событие большого страха",
-    "strDesc": "[us] только что пережил большой страх.",
+    "strDesc": "[мы] только что испытали большой страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -253,7 +253,7 @@
   {
     "strName": "EVTScareBigBasic",
     "strTitle": "Последствия большого страха (базовый)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -274,7 +274,7 @@
   {
     "strName": "EVTScareBigAgliophobic",
     "strTitle": "Последствия большого страха (аглиофобия)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -295,7 +295,7 @@
   {
     "strName": "EVTScareBigApathetic",
     "strTitle": "Последствия большого страха (апатия)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -313,8 +313,8 @@
   },
   {
     "strName": "EVTScareBigBrave",
-    "strTitle": "Эффекты большого страха (Решительный)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Решительный)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -334,8 +334,8 @@
   },
   {
     "strName": "EVTScareBigComedian",
-    "strTitle": "Эффекты большого страха (Комедиант)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Комедиант)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -355,8 +355,8 @@
   },
   {
     "strName": "EVTScareBigCraven",
-    "strTitle": "Эффекты большого страха (Боязливый)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Боязливый)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -376,8 +376,8 @@
   },
   {
     "strName": "EVTScareBigMasochist",
-    "strTitle": "Эффекты большого страха (Масохист)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Масохист)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -398,8 +398,8 @@
   },
   {
     "strName": "EVTScareBigOptimist",
-    "strTitle": "Эффекты большого страха (Оптимист)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Оптимист)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -419,8 +419,8 @@
   },
   {
     "strName": "EVTScareBigPessimist",
-    "strTitle": "Эффекты большого страха (Пессимист)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Пессимист)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -440,8 +440,8 @@
   },
   {
     "strName": "EVTScareBigQuitter",
-    "strTitle": "Эффекты большого страха (Отказник)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огрный страх (Отказник)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -459,8 +459,8 @@
   },
   {
     "strName": "EVTScareBigSelfish",
-    "strTitle": "Эффекты большого страха (Самоцентричный)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Самоцентричный)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -480,8 +480,8 @@
   },
   {
     "strName": "EVTScareBigSelfless",
-    "strTitle": "Эффекты большого страха (Самоотдающийся)",
-    "strDesc": "[us] [is] обрабатывает большой страх.",
+    "strTitle": "Огромный страх (Самоотверженный)",
+    "strDesc": "[мы] обрабатываем огромный страх.",
     "bRandomInverse": true,
     "bIgnoreFeelings": true,
     "aInverse": [

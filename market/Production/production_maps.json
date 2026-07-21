@@ -1,0 +1,2137 @@
+[
+  {
+    "strName": "BCERTextilesAndElectronicsToSpaceSuitsConverter",
+    "strFriendlyDescription": "Изготавливает космические костюмы из тканей и электроники",
+    "strOutputCollection": "AnySpaceSuits",
+    "fOutputPerHour": 1.0,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=1",
+      "AnyTextiles=2"
+    ]
+  },
+  {
+    "strName": "BCERVolatilesToWaterConverter",
+    "strFriendlyDescription": "Изготавливает воду из летучих веществ",
+    "strOutputCollection": "AnyWater",
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyVolatiles=1"
+    ]
+  },
+  {
+    "strName": "BCERElectronicsToMediaConverter",
+    "strFriendlyDescription": "Изготавливает медиа из электроники",
+    "strOutputCollection": "AnyMedia",
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "BCERConsumerGoodsToMediaConverter",
+    "strFriendlyDescription": "Изготавливает медиа из потребительских товаров",
+    "strOutputCollection": "AnyMedia",
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyConsumerGoods=1"
+    ]
+  },
+  {
+    "strName": "BCERLifeSupportConsumer",
+    "strFriendlyDescription": "Потребляет жизнеспособность",
+    "strOutputCollection": null,
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyLifeSupport=1"
+    ]
+  },
+  {
+    "strName": "BCERIntoxicantsConsumer",
+    "strFriendlyDescription": "Потребляет психоактивные вещества",
+    "strOutputCollection": null,
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIntoxicants=1"
+    ]
+  },
+  {
+    "strName": "BCERWeaponsConsumer",
+    "strFriendlyDescription": "Потребляет оружие",
+    "strOutputCollection": null,
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyWeapons=1"
+    ]
+  },
+  {
+    "strName": "BCRSOreToMetal",
+    "strFriendlyDescription": "Изготавливает металл из руды",
+    "strOutputCollection": "AnyMetal",
+    "fOutputPerHour": 7.0,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyOres=1"
+    ]
+  },
+  {
+    "strName": "BCRSIndustrialProductsToOre",
+    "strFriendlyDescription": "Изготавливает руду из промышленных продуктов",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 1.4,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "BCRSFoodToTrash",
+    "strFriendlyDescription": "Изготавливает мусор из пищи",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1.4,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "BCRSIntoxicantsToTrash",
+    "strFriendlyDescription": "Изготавливает мусор из психоактивных веществ",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1.4,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIntoxicants=1"
+    ]
+  },
+  {
+    "strName": "BCRSMediaToTrash",
+    "strFriendlyDescription": "Изготливает мусор из медиа",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1.4,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedia=1"
+    ]
+  },
+  {
+    "strName": "BCRSConsumerGoodsToTrash",
+    "strFriendlyDescription": "Изготавливает мусор из потребительских товаров",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1.4,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyConsumerGoods=1"
+    ]
+  },
+  {
+    "strName": "ConsumerGoodsConsumer",
+    "strFriendlyDescription": "Имеет спрос на потребительские товары",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyConsumerGoods=1"
+    ]
+  },
+  {
+    "strName": "ConsumerGoodsConsumerx3",
+    "strFriendlyDescription": "Имеет прочный спрос на потребительские товары",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyConsumerGoods=1"
+    ]
+  },
+  {
+    "strName": "ConsumerGoodsProducer",
+    "strFriendlyDescription": "Изготавливает потребительские товары",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ConsumerGoodsProducerx3",
+    "strFriendlyDescription": "Изготавливает значительное количество потребительских товаров",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ConsumerGoodsProducerx5",
+    "strFriendlyDescription": "Изготавливает большие объемы потребительских товаров",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ControlSystemsConsumer",
+    "strFriendlyDescription": "Имеет спрос на системы управления",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyControlSystems=1"
+    ]
+  },
+  {
+    "strName": "ControlSystemsConsumerx3",
+    "strFriendlyDescription": "Имеет прочный спрос на системы управления",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyControlSystems=1"
+    ]
+  },
+  {
+    "strName": "ControlSystemsProducer",
+    "strFriendlyDescription": "Производит системы управления",
+    "strOutputCollection": "AnyControlSystems",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ControlSystemsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество систем управления",
+    "strOutputCollection": "AnyControlSystems",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "D2OConsumer",
+    "strFriendlyDescription": "Имеет спрос на D2O",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyD2O=1"
+    ]
+  },
+  {
+    "strName": "D2OConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на D2O",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyD2O=1"
+    ]
+  },
+  {
+    "strName": "D2OProducer",
+    "strFriendlyDescription": "Производит D2O",
+    "strOutputCollection": "AnyD2O",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "D2OProducerx3",
+    "strFriendlyDescription": "Производит значительное количество D2O",
+    "strOutputCollection": "AnyD2O",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "EJDRFoodAndIndustrialGoodsToHe3Converter",
+    "strFriendlyDescription": "Производит He3 из пищи и промышленных продуктов",
+    "strOutputCollection": "AnyHe3",
+    "fOutputPerHour": 1.8,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyFood=1",
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "EJDRMediaToLuxuryGoodsConverter",
+    "strFriendlyDescription": "Производит роскошные товары из медиа",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 1.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedia=1"
+    ]
+  },
+  {
+    "strName": "EJDRConsumerGoodsToTrashConverter",
+    "strFriendlyDescription": "Производит мусор из потребительских товаров",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyConsumerGoods=1"
+    ]
+  },
+  {
+    "strName": "EJDRLuxuryGoodsToTrashConverter",
+    "strFriendlyDescription": "Производит мусор из роскошных товаров",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyLuxuryGoods=1"
+    ]
+  },
+  {
+    "strName": "EJDRIntoxicantsToTrashConverter",
+    "strFriendlyDescription": "Производит мусор из психоактивных веществ",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIntoxicants=1"
+    ]
+  },
+  {
+    "strName": "ElectronicsConsumer",
+    "strFriendlyDescription": "Имеет спрос на электронику",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "ElectronicsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на электронику",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "ElectronicsProducer",
+    "strFriendlyDescription": "Производит электронику",
+    "strOutputCollection": "AnyElectronics",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ElectronicsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество электроники",
+    "strOutputCollection": "AnyElectronics",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ElectronicsProducerx5",
+    "strFriendlyDescription": "Производит огромное количество электроники",
+    "strOutputCollection": "AnyElectronics",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "FoodConsumer",
+    "strFriendlyDescription": "Имеет спрос на пищу",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "FoodConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на пищу",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "FoodProducer",
+    "strFriendlyDescription": "Производит пищу",
+    "strOutputCollection": "AnyFood",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "FoodProducerx3",
+    "strFriendlyDescription": "Производит значительное количество пищи",
+    "strOutputCollection": "AnyFood",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "FoodProducerx5",
+    "strFriendlyDescription": "Производит большое количество пищи",
+    "strOutputCollection": "AnyFood",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "FurnitureConsumer",
+    "strFriendlyDescription": "Требует мебели",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyFurniture=1"
+    ]
+  },
+  {
+    "strName": "FurnitureConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на мебель",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyFurniture=1"
+    ]
+  },
+  {
+    "strName": "FurnitureProducer",
+    "strFriendlyDescription": "Производит мебель",
+    "strOutputCollection": "AnyFurniture",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "FurnitureProducerx3",
+    "strFriendlyDescription": "Производит значительное количество мебели",
+    "strOutputCollection": "AnyFurniture",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "FusionPartsConsumer",
+    "strFriendlyDescription": "Требует компонентов для фьюзии",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyFusionParts=1"
+    ]
+  },
+  {
+    "strName": "FusionPartsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на компоненты для фьюзии",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyFusionParts=1"
+    ]
+  },
+  {
+    "strName": "FusionPartsProducer",
+    "strFriendlyDescription": "Производит компоненты для фьюзии",
+    "strOutputCollection": "AnyFusionParts",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "FusionPartsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество компонентов для фьюзии",
+    "strOutputCollection": "AnyFusionParts",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "He3Consumer",
+    "strFriendlyDescription": "Требует гелия-3",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyHe3=1"
+    ]
+  },
+  {
+    "strName": "He3Consumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на гелий-3",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyHe3=1"
+    ]
+  },
+  {
+    "strName": "He3Producer",
+    "strFriendlyDescription": "Производит гелий-3",
+    "strOutputCollection": "AnyHe3",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "He3Producerx3",
+    "strFriendlyDescription": "Производит значительное количество гелия-3",
+    "strOutputCollection": "AnyHe3",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "He3Producerx5",
+    "strFriendlyDescription": "Производит большое количество гелия-3",
+    "strOutputCollection": "AnyHe3",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "HQCHTrashToConsumerGoodsConverter",
+    "strFriendlyDescription": "Производит товары для потребления из мусора",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTrash=5"
+    ]
+  },
+  {
+    "strName": "HQCHTrashToMetalConverter",
+    "strFriendlyDescription": "Производит металл из мусора",
+    "strOutputCollection": "AnyMetal",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTrash=5"
+    ]
+  },
+  {
+    "strName": "HQCHMedicalToScienceConverter",
+    "strFriendlyDescription": "Производит науку из медицинских материалов",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedical=1"
+    ]
+  },
+  {
+    "strName": "HQCHWeaponsToScienceConverter",
+    "strFriendlyDescription": "Производит науку из оружия",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyWeapons=1"
+    ]
+  },
+  {
+    "strName": "HQCHToolsToOresConverter",
+    "strFriendlyDescription": "Производит руды из инструментов",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 1,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyTools=1"
+    ]
+  },
+  {
+    "strName": "HQCHIndustrialProductsToOresConverter",
+    "strFriendlyDescription": "Производит руды из промышленных продуктов",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 1,
+    "nOutputPerRun": 4,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "HQCHLifeSupportConsumer",
+    "strFriendlyDescription": "Потребляет жизненное обеспечение",
+    "strOutputCollection": null,
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyLifeSupport=1"
+    ]
+  },
+  {
+    "strName": "HQCHFoodConsumer",
+    "strFriendlyDescription": "Потребляет пищу",
+    "strOutputCollection": null,
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "HullProducer",
+    "strFriendlyDescription": "Производит детали корпуса корабля",
+    "strOutputCollection": "AnyHull",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "HullProducerx3",
+    "strFriendlyDescription": "Производит детали корпуса корабля",
+    "strOutputCollection": "AnyHull",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "HullProducerx5",
+    "strFriendlyDescription": "Производит детали корпуса корабля",
+    "strOutputCollection": "AnyHull",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "HullConsumer",
+    "strFriendlyDescription": "Потребляет детали корпуса корабля",
+    "strOutputCollection": "AnyHull",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "HullConsumerx3",
+    "strFriendlyDescription": "Потребляет детали корпуса корабля",
+    "strOutputCollection": "AnyHull",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "HVACConsumer",
+    "strFriendlyDescription": "Имеет спрос на системы вентиляции и кондиционирования",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyHVAC=1"
+    ]
+  },
+  {
+    "strName": "HVACConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на системы вентиляции и кондиционирования",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyHVAC=1"
+    ]
+  },
+  {
+    "strName": "HVACProducer",
+    "strFriendlyDescription": "Производит системы вентиляции и кондиционирования",
+    "strOutputCollection": "AnyHVAC",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "HVACProducerx3",
+    "strFriendlyDescription": "Производит значительное количество систем вентиляции и кондиционирования",
+    "strOutputCollection": "AnyHVAC",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "IndustrialProductsConsumer",
+    "strFriendlyDescription": "Имеет спрос на промышленные товары",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "IndustrialProductsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на промышленные товары",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "IndustrialProductsProducer",
+    "strFriendlyDescription": "Производит промышленные товары",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "IndustrialProductsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество промышленных товаров",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "IntoxicantsConsumer",
+    "strFriendlyDescription": "Имеет спрос на психоактивные вещества",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyIntoxicants=1"
+    ]
+  },
+  {
+    "strName": "IntoxicantsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на психоактивные вещества",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyIntoxicants=1"
+    ]
+  },
+  {
+    "strName": "IntoxicantsProducer",
+    "strFriendlyDescription": "Производит психоактивные вещества",
+    "strOutputCollection": "AnyIntoxicants",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "IntoxicantsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество психоактивных веществ",
+    "strOutputCollection": "AnyIntoxicants",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "JATLMedicalToScienceConverter",
+    "strFriendlyDescription": "Производит науку из медицины",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedical=1"
+    ]
+  },
+  {
+    "strName": "JATLWaterToScienceConverter",
+    "strFriendlyDescription": "Из воды производится наука",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "JATLWaterToLifeSupportConverter",
+    "strFriendlyDescription": "Из воды производится жизнедеятельность",
+    "strOutputCollection": "AnyLifeSupport",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "JATLElectronicsToSensorsConverter",
+    "strFriendlyDescription": "Из электроники производятся датчики",
+    "strOutputCollection": "AnySensors",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "JATLElectronicsHVACMetalAndIndustrialProductsToFusionPartsConverter",
+    "strFriendlyDescription": "Из электроники, систем отопления, вентиляции и кондиционирования, металла и промышленных продуктов производятся детали для термоядерной реакции",
+    "strOutputCollection": "AnyFusionParts",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=3",
+      "AnyHVAC=1",
+      "AnyMetal=1",
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "JATLWaterProducer",
+    "strFriendlyDescription": "Производится большое количество воды",
+    "strOutputCollection": "AnyWater",
+    "fOutputPerHour": 2,
+    "nOutputPerRun": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "JFTSPlasticsAndMetalToFurnitureConverter",
+    "strFriendlyDescription": "Из металла и пластика производятся мебель",
+    "strOutputCollection": "AnyFurniture",
+    "fOutputPerHour": 5.6,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyPlastics=1",
+      "AnyMetal=2"
+    ]
+  },
+  {
+    "strName": "JFTSTextilesAndElectronicsToSpaceSuitsConverter",
+    "strFriendlyDescription": "Из тканей и электроники производятся космические костюмы",
+    "strOutputCollection": "AnySpaceSuits",
+    "fOutputPerHour": 2.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=1",
+      "AnyTextiles=2"
+    ]
+  },
+  {
+    "strName": "JFTSIndustrialProductsToToolsConverter",
+    "strFriendlyDescription": "Из промышленных продуктов производятся инструменты",
+    "strOutputCollection": "AnyTools",
+    "fOutputPerHour": 2.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "JFTSOreProducer",
+    "strFriendlyDescription": "Производится руда",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 2.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "JFTSMetalToWeaponsConverter",
+    "strFriendlyDescription": "Производятся оружие",
+    "strOutputCollection": "AnyWeapons",
+    "fOutputPerHour": 2.8,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "JPTNMetalToFurniture",
+    "strFriendlyDescription": "Из металла производится мебель",
+    "strOutputCollection": "AnyFurniture",
+    "fOutputPerHour": 1.0,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "JPTNTextilesAndElectronicsToSpaceSuits",
+    "strFriendlyDescription": "Из тканей и электроники производятся космические костюмы",
+    "strOutputCollection": "AnySpaceSuits",
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTextiles=1",
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "JPTNHVACAndIndustrialProductsToScience",
+    "strFriendlyDescription": "Из систем отопления, вентиляции и кондиционирования и промышленных продуктов производится наука",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 0.2,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyHVAC=1",
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "LifeSupportConsumer",
+    "strFriendlyDescription": "Требуется жизнедеятельность",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyLifeSupport=1"
+    ]
+  },
+  {
+    "strName": "LifeSupportConsumerx3",
+    "strFriendlyDescription": "Требуется значительное количество жизнедеятельности",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyLifeSupport=1"
+    ]
+  },
+  {
+    "strName": "LifeSupportProducer",
+    "strFriendlyDescription": "Производится жизнедеятельность",
+    "strOutputCollection": "AnyLifeSupport",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "LifeSupportProducerx3",
+    "strFriendlyDescription": "Производится значительное количество жизнедеятности",
+    "strOutputCollection": "AnyLifeSupport",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "LuxuryGoodsConsumer",
+    "strFriendlyDescription": "Требуется роскошная продукция",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyLuxuryGoods=1"
+    ]
+  },
+  {
+    "strName": "LuxuryGoodsConsumerx3",
+    "strFriendlyDescription": "Требуется значительное количество роскошной продукции",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyLuxuryGoods=1"
+    ]
+  },
+  {
+    "strName": "LuxuryGoodsProducer",
+    "strFriendlyDescription": "Производится роскошная продукция",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MediaConsumer",
+    "strFriendlyDescription": "Требует медиа",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyMedia=1"
+    ]
+  },
+  {
+    "strName": "MediaConsumerx3",
+    "strFriendlyDescription": "Требует медиа",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyMedia=1"
+    ]
+  },
+  {
+    "strName": "MediaProducer",
+    "strFriendlyDescription": "Производит медиа",
+    "strOutputCollection": "AnyMedia",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MediaProducerx3",
+    "strFriendlyDescription": "Производит медиа",
+    "strOutputCollection": "AnyMedia",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MediaProducerx5",
+    "strFriendlyDescription": "Производит большое количество медиа",
+    "strOutputCollection": "AnyMedia",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MedicalConsumer",
+    "strFriendlyDescription": "Требует медицинских ресурсов",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyMedical=1"
+    ]
+  },
+  {
+    "strName": "MedicalConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на медицинские ресурсы",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyMedical=1"
+    ]
+  },
+  {
+    "strName": "MedicalProducer",
+    "strFriendlyDescription": "Производит медицинские ресурсы",
+    "strOutputCollection": "AnyMedical",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MedicalProducerx3",
+    "strFriendlyDescription": "Производит значительное количество медицинских ресурсов",
+    "strOutputCollection": "AnyMedical",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MedicalProducerx5",
+    "strFriendlyDescription": "Производит большое количество медицинских ресурсов",
+    "strOutputCollection": "AnyMedical",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MetalConsumer",
+    "strFriendlyDescription": "Требует металла",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "MetalConsumerx3",
+    "strFriendlyDescription": "Требует значительного количества металла",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "MetalProducer",
+    "strFriendlyDescription": "Производит металл",
+    "strOutputCollection": "AnyMetal",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MetalProducerx3",
+    "strFriendlyDescription": "Производит значительное количество металла",
+    "strOutputCollection": "AnyMetal",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "MHNGWaterToFoodConverter",
+    "strFriendlyDescription": "Производит пищу из воды",
+    "strOutputCollection": "AnyFood",
+    "fOutputPerHour": 6.87,
+    "nOutputPerRun": 5,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "MHNGVolatilesToLifeSupportConverter",
+    "strFriendlyDescription": "Производит жизнеспособность из летучих веществ",
+    "strOutputCollection": "AnyLifeSupport",
+    "fOutputPerHour": 6.87,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyVolatiles=1"
+    ]
+  },
+  {
+    "strName": "MHNGLuxuryGoodsToTrashConverter",
+    "strFriendlyDescription": "Производит мусор из роскошных товаров",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 6.87,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyLuxuryGoods=1"
+    ]
+  },
+  {
+    "strName": "MHNGMedicalToTrashConverter",
+    "strFriendlyDescription": "Производит мусор из медицинских ресурсов",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 6.87,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedical=1"
+    ]
+  },
+  {
+    "strName": "MHNGMediaToScienceConverter",
+    "strFriendlyDescription": "Производит науку из медиа",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 6.87,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedia=1"
+    ]
+  },
+  {
+    "strName": "MHNGTextilesToConsumerGoodsConverter",
+    "strFriendlyDescription": "Производит потребительские товары из тканей",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 6.87,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTextiles=1"
+    ]
+  },
+  {
+    "strName": "MLABFoodToTextilesConverter",
+    "strFriendlyDescription": "Изготавливает ткани из пищи",
+    "strOutputCollection": "AnyTextiles",
+    "fOutputPerHour": 4.58,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "MLABFoodToConsumerGoodsConverter",
+    "strFriendlyDescription": "Изготавливает товары для потребителей из пищи",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 4.58,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "MLABIndustrialProductsToElectronicsConverter",
+    "strFriendlyDescription": "Изготавливает электронику из промышленных продуктов",
+    "strOutputCollection": "AnyElectronics",
+    "fOutputPerHour": 4.58,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "MLABIndustrialProductsToHVACConverter",
+    "strFriendlyDescription": "Изготавливает оборудование HVAC из промышленных продуктов",
+    "strOutputCollection": "AnyHVAC",
+    "fOutputPerHour": 4.58,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "MLABMedicalToTrashConverter",
+    "strFriendlyDescription": "Изготавливает мусор из медицинских продуктов",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 4.58,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedical=1"
+    ]
+  },
+  {
+    "strName": "MLABFoodToTrashConverter",
+    "strFriendlyDescription": "Изготавливает мусор из пищи",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 4.58,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "MLABConsumeMedia",
+    "strFriendlyDescription": "Потребляет медиа",
+    "fOutputPerHour": 4.58,
+    "aInputCollections": [
+      "AnyMedia=1"
+    ]
+  },
+  {
+    "strName": "MSUZWaterToFoodConverter",
+    "strFriendlyDescription": "Изготавливает пищу из воды",
+    "strOutputCollection": "AnyFood",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "MSUZPlasticsAndMetalsToElectronicsConverter",
+    "strFriendlyDescription": "Изготавливает электронику из пластмасс и металлов",
+    "strOutputCollection": "AnyElectronics",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 4,
+    "aInputCollections": [
+      "AnyPlastics=1",
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "MSUZIndustrialProductsToFurnitureConverter",
+    "strFriendlyDescription": "Изготавливает мебель из промышленных продуктов",
+    "strOutputCollection": "AnyFurniture",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "MSUZIndustrialProductsToToolsConverter",
+    "strFriendlyDescription": "Изготавливает инструменты из промышной продукции",
+    "strOutputCollection": "AnyTools",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "MTRSElectronicsToConsumerGoodsConverter",
+    "strFriendlyDescription": "Изготавливает товары для потребителей из электроники",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 27.5,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "MTRSIntoxicantsToMedicalConverter",
+    "strFriendlyDescription": "Изготавливает медицинские товары из психоактивных веществ",
+    "strOutputCollection": "AnyMedical",
+    "fOutputPerHour": 14,
+    "aInputCollections": [
+      "AnyIntoxicants=1"
+    ]
+  },
+  {
+    "strName": "MTRSMetalsAndIndustrialProductsAndToolsToFusionPartsConverter",
+    "strFriendlyDescription": "Изготавливает детали для термоядерной реакции из металлов и инструментов",
+    "strOutputCollection": "AnyFusionParts",
+    "fOutputPerHour": 27.5,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyMetal=10",
+      "AnyIndustrialProducts=2",
+      "AnyTools=2"
+    ]
+  },
+  {
+    "strName": "MTRSPlasticsToConsumerGoodsConverter",
+    "strFriendlyDescription": "Изготавливает товары для потребителей из пластмасс",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 27.5,
+    "aInputCollections": [
+      "AnyPlastics=1"
+    ]
+  },
+  {
+    "strName": "MTRSPlasticsToTextilesConverter",
+    "strFriendlyDescription": "Изготавливает ткани из пластмасс",
+    "strOutputCollection": "AnyTextiles",
+    "fOutputPerHour": 27.5,
+    "aInputCollections": [
+      "AnyPlastics=1"
+    ]
+  },
+  {
+    "strName": "MTRSPlasticsAndMetalsToElectronicsConverter",
+    "strFriendlyDescription": "Изготавливает электронику из пластмасс и металлов",
+    "strOutputCollection": "AnyElectronics",
+    "fOutputPerHour": 27.5,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyPlastics=1",
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "MTRSPlasticsAndMetalsToLuxuryGoodsConverter",
+    "strFriendlyDescription": "Изготавливает роскошные товары из пластмасс, металлов и электроники",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 27.5,
+    "aInputCollections": [
+      "AnyPlastics=1",
+      "AnyMetal=1",
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "MTRSWaterToFoodConverter",
+    "strFriendlyDescription": "Изготавливает пищу из воды",
+    "strOutputCollection": "AnyFood",
+    "fOutputPerHour": 14,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "MTRSWaterToIntoxicantsConverter",
+    "strFriendlyDescription": "Изготавливает психоактивные вещества из воды",
+    "strOutputCollection": "AnyIntoxicants",
+    "fOutputPerHour": 27.5,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "MTRSMetalsToIndustrialProductsConverter",
+    "strFriendlyDescription": "Производит промышленные продукты из металлов",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 27.5,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyMetal=1",
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "MTRSVolatilesToLifeSupportConverter",
+    "strFriendlyDescription": "Производит систему жизнеобеспечения из летучих веществ",
+    "strOutputCollection": "AnyLifeSupport",
+    "fOutputPerHour": 27.5,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyVolatiles=1"
+    ]
+  },
+  {
+    "strName": "MVOLScienceToMedicalConverter",
+    "strFriendlyDescription": "Производит медицинские продукты из научных продуктов",
+    "strOutputCollection": "AnyMedical",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 5,
+    "aInputCollections": [
+      "AnyScience=1"
+    ]
+  },
+  {
+    "strName": "MVOLScienceToIndustrialProductsConverter",
+    "strFriendlyDescription": "Производит промышленные продукты из научных продуктов",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyScience=1"
+    ]
+  },
+  {
+    "strName": "MVOLScienceToControlSystemsConverter",
+    "strFriendlyDescription": "Производит системы управления из научных продуктов",
+    "strOutputCollection": "AnyControlSystems",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyScience=1"
+    ]
+  },
+  {
+    "strName": "MVOLPlasticsToControlSystemsConverter",
+    "strFriendlyDescription": "Производит системы управления из пластмасс",
+    "strOutputCollection": "AnyControlSystems",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyPlastics=1"
+    ]
+  },
+  {
+    "strName": "MVOLMetalToWeaponsConverter",
+    "strFriendlyDescription": "Производит оружие из металла",
+    "strOutputCollection": "AnyWeapons",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "MVOLElectronicsToToolsConverter",
+    "strFriendlyDescription": "Производит инструменты из электроники",
+    "strOutputCollection": "AnyTools",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "MVOLElectronicsToSensorsConverter",
+    "strFriendlyDescription": "Производит датчики из электроники",
+    "strOutputCollection": "AnySensors",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "MVOLVolatilesToLifeSupportConverter",
+    "strFriendlyDescription": "Производит систему жизнеобеспечения из летучих веществ",
+    "strOutputCollection": "AnyLifeSupport",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyVolatiles=1"
+    ]
+  },
+  {
+    "strName": "MVOLScienceAndIndustrialProductsToFusionPartsConverter",
+    "strFriendlyDescription": "Производит детали для термоядерной реакции из научных продуктов",
+    "strOutputCollection": "AnyFusionParts",
+    "fOutputPerHour": 0.7,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyMetal=5",
+      "AnyScience=2",
+      "AnyIndustrialProducts=2"
+    ]
+  },
+  {
+    "strName": "OFLTWaterToIntoxicantsConverter",
+    "strFriendlyDescription": "Производит психоактивные вещества из воды",
+    "strOutputCollection": "AnyIntoxicants",
+    "fOutputPerHour": 0.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "OFLTTrashToIntoxicantsConverter",
+    "strFriendlyDescription": "Производит психоактивные вещества из мусора",
+    "strOutputCollection": "AnyIntoxicants",
+    "fOutputPerHour": 0.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTrash=5"
+    ]
+  },
+  {
+    "strName": "OFLTTrashToFurnitureConverter",
+    "strFriendlyDescription": "Производит мебель из мусора",
+    "strOutputCollection": "AnyFurniture",
+    "fOutputPerHour": 0.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTrash=5"
+    ]
+  },
+  {
+    "strName": "OFLTTrashToWeaponsConverter",
+    "strFriendlyDescription": "Производит мебель из мусора",
+    "strOutputCollection": "AnyWeapons",
+    "fOutputPerHour": 0.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTrash=5"
+    ]
+  },
+  {
+    "strName": "OKLGToolsToHullsConverter",
+    "strFriendlyDescription": "Производит корпуса из инструментов",
+    "strOutputCollection": "AnyHull",
+    "fOutputPerHour": 2.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTools=1"
+    ]
+  },
+  {
+    "strName": "OKLGToolsToSensorsConverter",
+    "strFriendlyDescription": "Производит датчики из инструментов",
+    "strOutputCollection": "AnySensors",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTools=1"
+    ]
+  },
+  {
+    "strName": "OKLGIndustrialProductsToControlSystemsConverter",
+    "strFriendlyDescription": "Производит системы управления из промышленных продуктов",
+    "strOutputCollection": "AnyControlSystems",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "OKLGIndustrialProductsToFurnitureConverter",
+    "strFriendlyDescription": "Производит мебель из промышленных продуктов",
+    "strOutputCollection": "AnyFurniture",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "OKLGIndustrialProductsToHVACConverter",
+    "strFriendlyDescription": "Производит системы вентиляции и отопления из промышленных продуктов",
+    "strOutputCollection": "AnyControlSystems",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "OKLGOreProducer",
+    "strFriendlyDescription": "Производит руду",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 0.5,
+    "nOutputPerRun": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "OreConsumer",
+    "strFriendlyDescription": "Требует руды",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyOres=1"
+    ]
+  },
+  {
+    "strName": "OreProducer",
+    "strFriendlyDescription": "Производит руду",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "OreProducerx3",
+    "strFriendlyDescription": "Производит значительное количество руды",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "OreProducerx5",
+    "strFriendlyDescription": "Производит изобилие руды",
+    "strOutputCollection": "AnyOres",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "PlasticsConsumer",
+    "strFriendlyDescription": "Требует пластмассы",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyPlastics=1"
+    ]
+  },
+  {
+    "strName": "PlasticsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на пластмассу",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyPlastics=1"
+    ]
+  },
+  {
+    "strName": "PlasticsProducer",
+    "strFriendlyDescription": "Производит пластмассу",
+    "strOutputCollection": "AnyPlastics",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "PlasticsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество пластмассы",
+    "strOutputCollection": "AnyPlastics",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ScienceConsumer",
+    "strFriendlyDescription": "Требует поставок науки",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyScience=1"
+    ]
+  },
+  {
+    "strName": "ScienceConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на поставки науки",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyScience=1"
+    ]
+  },
+  {
+    "strName": "ScienceConsumerx5",
+    "strFriendlyDescription": "Имеет невероятный спрос на поставки науки",
+    "strOutputCollection": null,
+    "fOutputPerHour": 5,
+    "aInputCollections": [
+      "AnyScience=1"
+    ]
+  },
+  {
+    "strName": "ScienceProducer",
+    "strFriendlyDescription": "Производит поставки науки",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ScienceProducerx3",
+    "strFriendlyDescription": "Производит значительное количество поставок науки",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ScienceProducerx5",
+    "strFriendlyDescription": "Производит изобилие поставок науки",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "SensorsConsumer",
+    "strFriendlyDescription": "Требует датчиков",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnySensors=1"
+    ]
+  },
+  {
+    "strName": "SensorsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на датчики",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnySensors=1"
+    ]
+  },
+  {
+    "strName": "SensorsProducer",
+    "strFriendlyDescription": "Производит датчики",
+    "strOutputCollection": "AnySensors",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "SensorsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество датчиков",
+    "strOutputCollection": "AnySensors",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "SpaceSuitsConsumer",
+    "strFriendlyDescription": "Требует космических костюмов",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnySpaceSuits=1"
+    ]
+  },
+  {
+    "strName": "SpaceSuitsConsumerx3",
+    "strFriendlyDescription": "Имеет высокий спрос на космические костюмы",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnySpaceSuits=1"
+    ]
+  },
+  {
+    "strName": "SpaceSuitsProducer",
+    "strFriendlyDescription": "Производит космические костюмы",
+    "strOutputCollection": "AnySpaceSuits",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "SpaceSuitsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество космических костюмов",
+    "strOutputCollection": "AnySpaceSuits",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "SVIRMetalToIndustrialProductsConverter",
+    "strFriendlyDescription": "Производит промышленные товары из металла",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=2"
+    ]
+  },
+  {
+    "strName": "SVIRScienceToLuxuryGoodsConverter",
+    "strFriendlyDescription": "Производит роскошные товары из науки",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyScience=1"
+    ]
+  },
+  {
+    "strName": "SVIRTextilesToLuxuryGoodsConverter",
+    "strFriendlyDescription": "Производит роскошные товары из тканей",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTextiles=1"
+    ]
+  },
+  {
+    "strName": "SVIRMetalToLuxuryGoodsConverter",
+    "strFriendlyDescription": "Производит роскошные товары из металла",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "SVIRLifeSupportToTrashConverter",
+    "strFriendlyDescription": "Производит мусор из систем жизнеобеспечения",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyLifeSupport=1"
+    ]
+  },
+  {
+    "strName": "SVIRMedicalToTrashConverter",
+    "strFriendlyDescription": "Производит мусор из медицинских систем",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMedical=1"
+    ]
+  },
+  {
+    "strName": "SVIRToolsToHe3Converter",
+    "strFriendlyDescription": "Производит He3 из инструментов путем добычи газа Урана",
+    "strOutputCollection": "AnyHe3",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTools=1"
+    ]
+  },
+  {
+    "strName": "SVIRHVACToD2OConverter",
+    "strFriendlyDescription": "Производит D2O из HVAS путем добычи газов Урана и Нептуна",
+    "strOutputCollection": "AnyD2O",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyHVAC=1"
+    ]
+  },
+  {
+    "strName": "SVIRVolatilesProducer",
+    "strFriendlyDescription": "Производит большие количества летучих веществ",
+    "strOutputCollection": "AnyVolatiles",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "SVIRWaterProducer",
+    "strFriendlyDescription": "Производит большие количества воды",
+    "strOutputCollection": "AnyWater",
+    "fOutputPerHour": 6.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "SVIRWeaponConsumer",
+    "strFriendlyDescription": "Потребляет большое количество оружия",
+    "strOutputCollection": null,
+    "fOutputPerHour": 6.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyWeapons=1"
+    ]
+  },
+  {
+    "strName": "SVIRHullConsumer",
+    "strFriendlyDescription": "Потребляет большое количество деталей корпусов кораблей",
+    "strOutputCollection": null,
+    "fOutputPerHour": 6.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyHull=1"
+    ]
+  },
+  {
+    "strName": "SVIRShipbuildingConsumer",
+    "strFriendlyDescription": "Потребляет детали корпусов, системы управления, мебель, датчики и системы отопления и вентиляции",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 18.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyHull=5",
+      "AnyControlSystems=1",
+      "AnyFurniture=1",
+      "AnySensors=1",
+      "AnyHVAC=1",
+      "AnyFusionParts=1"
+    ]
+  },
+  {
+    "strName": "TextilesConsumer",
+    "strFriendlyDescription": "Имеет спрос на ткани",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyTextiles=1"
+    ]
+  },
+  {
+    "strName": "TextilesConsumerx3",
+    "strFriendlyDescription": "Имеет высокий спрос на ткани",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyTextiles=1"
+    ]
+  },
+  {
+    "strName": "TextilesProducer",
+    "strFriendlyDescription": "Производит ткани",
+    "strOutputCollection": "AnyTextiles",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "TextilesProducerx3",
+    "strFriendlyDescription": "Производит значительное количество тканей",
+    "strOutputCollection": "AnyTextiles",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "TrashConsumer",
+    "strFriendlyDescription": "Требует мусора",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyTrash=1"
+    ]
+  },
+  {
+    "strName": "TrashConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на мусор",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyTrash=1"
+    ]
+  },
+  {
+    "strName": "TrashProducer",
+    "strFriendlyDescription": "Производит мусор",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "TrashProducerx3",
+    "strFriendlyDescription": "Производит значительное количество мусора",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "TrashProducerx5",
+    "strFriendlyDescription": "Производит значительное количество мусора",
+    "strOutputCollection": "AnyTrash",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ToolsConsumer",
+    "strFriendlyDescription": "Требует инструментов",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyTools=1"
+    ]
+  },
+  {
+    "strName": "ToolsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на инструменты",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyTools=1"
+    ]
+  },
+  {
+    "strName": "ToolsProducer",
+    "strFriendlyDescription": "Производит инструменты",
+    "strOutputCollection": "AnyTools",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "ToolsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество инструментов",
+    "strOutputCollection": "AnyTools",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "VCBRSensorsToScienceConverter",
+    "strFriendlyDescription": "Производит науку из датчиков",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnySensors=1"
+    ]
+  },
+  {
+    "strName": "VCBRIndustrialProductsToHVACConverter",
+    "strFriendlyDescription": "Производит оборудование HVAC из промышленных продуктов",
+    "strOutputCollection": "AnyHVAC",
+    "fOutputPerHour": 0.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "VCBRPlasticsToScienceConverter",
+    "strFriendlyDescription": "Производит науку из пластмасс",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 0.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyPlastics=1"
+    ]
+  },
+  {
+    "strName": "VCBRElectronicsToScienceConverter",
+    "strFriendlyDescription": "Производит науку из электроники",
+    "strOutputCollection": "AnyScience",
+    "fOutputPerHour": 0.1,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyElectronics=1"
+    ]
+  },
+  {
+    "strName": "VCBRHullsConsumer",
+    "strFriendlyDescription": "Потребляет детали корпуса корабля",
+    "strOutputCollection": null,
+    "fOutputPerHour": 0.1,
+    "aInputCollections": [
+      "AnyHull=1"
+    ]
+  },
+  {
+    "strName": "VCBRControlSystemsConsumer",
+    "strFriendlyDescription": "Потребляет системы управления кораблем",
+    "strOutputCollection": null,
+    "fOutputPerHour": 0.1,
+    "aInputCollections": [
+      "AnyControlSystems=1"
+    ]
+  },
+  {
+    "strName": "VENCConsumerGoodsToMediaConverter",
+    "strFriendlyDescription": "Производит медиа из потребительских товаров",
+    "strOutputCollection": "AnyMedia",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyConsumerGoods=1"
+    ]
+  },
+  {
+    "strName": "VENCFoodToLuxuryGoodsConverter",
+    "strFriendlyDescription": "Производит роскошные товары из пищи",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyFood=1"
+    ]
+  },
+  {
+    "strName": "VENCTextilesToLuxuryGoodsConverter",
+    "strFriendlyDescription": "Производит роскошные товары из тканей",
+    "strOutputCollection": "AnyLuxuryGoods",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyTextiles=1"
+    ]
+  },
+  {
+    "strName": "VENCScienceAndHullsToHVACConverter",
+    "strFriendlyDescription": "Производит HVAC из науки и деталей корпуса",
+    "strOutputCollection": "AnyHVAC",
+    "fOutputPerHour": 2.3,
+    "nOutputPerRun": 2,
+    "aInputCollections": [
+      "AnyScience=1",
+      "AnyHull=1"
+    ]
+  },
+  {
+    "strName": "VNCAIndustrialProductsToPlasticsConverter",
+    "strFriendlyDescription": "Производит пластмассы из промышленных продуктов",
+    "strOutputCollection": "AnyPlastics",
+    "fOutputPerHour": 6.9,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyIndustrialProducts=1"
+    ]
+  },
+  {
+    "strName": "VNCALuxuryGoodsToMediaConverter",
+    "strFriendlyDescription": "Производит медиа из роскошных товаров",
+    "strOutputCollection": "AnyMedia",
+    "fOutputPerHour": 6.9,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyLuxuryGoods=1"
+    ]
+  },
+  {
+    "strName": "VNCAPlasticsToTextilesConverter",
+    "strFriendlyDescription": "Производит ткани из пластмасс",
+    "strOutputCollection": "AnyTextiles",
+    "fOutputPerHour": 6.9,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyPlastics=1"
+    ]
+  },
+  {
+    "strName": "VNCAVolatilesToLifeSupportConverter",
+    "strFriendlyDescription": "Производит систему жизнеобеспечения из летучих веществ",
+    "strOutputCollection": "AnyLifeSupport",
+    "fOutputPerHour": 6.9,
+    "nOutputPerRun": 3,
+    "aInputCollections": [
+      "AnyVolatiles=1"
+    ]
+  },
+  {
+    "strName": "VNCAMetalToConsumerGoodsConverter",
+    "strFriendlyDescription": "Производит потребительские товары из металлов",
+    "strOutputCollection": "AnyConsumerGoods",
+    "fOutputPerHour": 6.9,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "VNCAMetalToIndustrialProductsConverter",
+    "strFriendlyDescription": "Производит промышленные продукты из металлов",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 6.9,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "VORBMetalToIndustrialProductsConverter",
+    "strFriendlyDescription": "Производит промышленные продукты из металлов",
+    "strOutputCollection": "AnyIndustrialProducts",
+    "fOutputPerHour": 3,
+    "nOutputPerRun": 1,
+    "aInputCollections": [
+      "AnyMetal=1"
+    ]
+  },
+  {
+    "strName": "VolatilesConsumer",
+    "strFriendlyDescription": "Имеет спрос на летучие вещества",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyVolatiles=1"
+    ]
+  },
+  {
+    "strName": "VolatilesConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на летучие вещества",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyVolatiles=1"
+    ]
+  },
+  {
+    "strName": "VolatilesProducer",
+    "strFriendlyDescription": "Производит летучие вещества",
+    "strOutputCollection": "AnyVolatiles",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "VolatilesProducerx3",
+    "strFriendlyDescription": "Производит значительное количество летучих веществ",
+    "strOutputCollection": "AnyVolatiles",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "WaterConsumer",
+    "strFriendlyDescription": "Имеет спрос на воду",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "WaterConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на воду",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyWater=1"
+    ]
+  },
+  {
+    "strName": "WaterProducer",
+    "strFriendlyDescription": "Производит воду",
+    "strOutputCollection": "AnyWater",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "WaterProducerx3",
+    "strFriendlyDescription": "Производит значительное количество воды",
+    "strOutputCollection": "AnyWater",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  },
+  {
+    "strName": "WaterProducerx5",
+    "strFriendlyDescription": "Производит изобилие воды",
+    "strOutputCollection": "AnyWater",
+    "fOutputPerHour": 5,
+    "aInputCollections": []
+  },
+  {
+    "strName": "WeaponsConsumer",
+    "strFriendlyDescription": "Имеет спрос на оружие",
+    "strOutputCollection": null,
+    "fOutputPerHour": 1,
+    "aInputCollections": [
+      "AnyWeapons=1"
+    ]
+  },
+  {
+    "strName": "WeaponsConsumerx3",
+    "strFriendlyDescription": "Имеет сильный спрос на оружие",
+    "strOutputCollection": null,
+    "fOutputPerHour": 3,
+    "aInputCollections": [
+      "AnyWeapons=1"
+    ]
+  },
+  {
+    "strName": "WeaponsProducer",
+    "strFriendlyDescription": "Производит оружие",
+    "strOutputCollection": "AnyWeapons",
+    "fOutputPerHour": 1,
+    "aInputCollections": []
+  },
+  {
+    "strName": "WeaponsProducerx3",
+    "strFriendlyDescription": "Производит значительное количество оружия",
+    "strOutputCollection": "AnyWeapons",
+    "fOutputPerHour": 3,
+    "aInputCollections": []
+  }
+]

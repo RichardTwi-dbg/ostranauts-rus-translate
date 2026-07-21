@@ -34,7 +34,7 @@
   },
   {
     "strName": "AISurviveCO2",
-    "strNameFriendly": "Выжить при высоком содержании CO2",
+    "strNameFriendly": "Выжить в условиях CO2",
     "strType": "surviveco2",
     "strIATrigger": "PLGAISurviveCO2",
     "aIAEnd": null,
@@ -45,7 +45,7 @@
   {
     "strName": "AISurviveO2",
     "strType": "surviveo2",
-    "strNameFriendly": "Выжить при высоком содержании O2",
+    "strNameFriendly": "Выжить в условиях O2",
     "strIATrigger": "PLGAISurviveO2",
     "aIAEnd": null,
     "strThemID": null,
@@ -142,7 +142,7 @@
   },
   {
     "strName": "AIRobberyStart",
-    "strNameFriendly": "Забрать",
+    "strNameFriendly": "Нарушить",
     "strType": "repeat",
     "strIATrigger": "PLGAIRobbery",
     "aIAEnd": null,
@@ -151,7 +151,7 @@
   },
   {
     "strName": "AIRobberyDo",
-    "strNameFriendly": "Забрать",
+    "strNameFriendly": "Нарушить",
     "strType": "repeat",
     "strIATrigger": "PLGAIRobberyDo",
     "aIAEnd": [
@@ -162,7 +162,7 @@
   },
   {
     "strName": "AIShipRobberyStart",
-    "strNameFriendly": "Забрать",
+    "strNameFriendly": "Нарушить",
     "strType": "repeat",
     "strIATrigger": "PLGAIShipRobbery",
     "aIAEnd": null,
@@ -172,7 +172,7 @@
   },
   {
     "strName": "AIShipRobberyDo",
-    "strNameFriendly": "Забрать",
+    "strNameFriendly": "Нарушить",
     "strType": "repeat",
     "strIATrigger": "PLGAIRobberyDo",
     "aIAEnd": [
@@ -185,7 +185,7 @@
   },
   {
     "strName": "AIMaintenanceTechWorkOKLGPatch",
-    "strNameFriendly": "Ремонт техники (посадка патча)",
+    "strNameFriendly": "Обслуживание: нанесение патча",
     "strType": "repeat",
     "strIATrigger": "PLGAIMaintenanceTechWorkPatchDo",
     "aIAEnd": null,
@@ -196,7 +196,7 @@
   },
   {
     "strName": "AIEat",
-    "strNameFriendly": "Съесть",
+    "strNameFriendly": "Есть",
     "strType": "eat",
     "strIATrigger": "PLGAIEat",
     "aIAEnd": null,
@@ -365,7 +365,7 @@
   },
   {
     "strName": "AIFactionFight",
-    "strNameFriendly": "Бой фракций",
+    "strNameFriendly": "Бой с фракцией",
     "strType": "faction",
     "strIATrigger": "PLGAIFaction",
     "aIAEnd": null,
@@ -385,7 +385,7 @@
   },
   {
     "strName": "AIReply",
-    "strNameFriendly": "Ответ",
+    "strNameFriendly": "Ответить",
     "strType": "reply",
     "strIATrigger": "Blank",
     "aIAEnd": null,
@@ -449,7 +449,7 @@
     "nPriority": 6
   },
   {
-    "strName": "Bartender",
+    "strName": "Бармен",
     "strType": "repeat",
     "strIATrigger": "PLGBartend",
     "aIAEnd": null,
@@ -473,7 +473,7 @@
     "nPriority": 4
   },
   {
-    "strName": "Patrol",
+    "strName": "Патрулирование",
     "strNameFriendly": "Патрулирование",
     "strType": "patrol",
     "strIATrigger": "PLGPatrolCommand",
@@ -483,7 +483,7 @@
     "nPriority": 3
   },
   {
-    "strName": "DisembarkCommand",
+    "strName": "Команда высадки",
     "strNameFriendly": "Высадка",
     "strType": "disembark",
     "strIATrigger": "PLGDisembarkCommand",
@@ -508,7 +508,7 @@
   },
   {
     "strName": "UndockStart",
-    "strNameFriendly": "Отцепиться",
+    "strNameFriendly": "Разъединить",
     "strType": "repeat",
     "strIATrigger": "PLGUseNav",
     "aIAEnd": [
@@ -519,7 +519,7 @@
   },
   {
     "strName": "AutoClose",
-    "strNameFriendly": "Закрыть",
+    "strNameFriendly": "Закрытие",
     "strType": "repeat",
     "strIATrigger": "PLGAutoClose",
     "aIAEnd": null,
@@ -528,7 +528,7 @@
   },
   {
     "strName": "EmbarkCommand",
-    "strNameFriendly": "Прибыть",
+    "strNameFriendly": "Прибывать",
     "strType": "embark",
     "strIATrigger": "PLGEmbarkCommand",
     "aIAEnd": [
@@ -552,7 +552,7 @@
   },
   {
     "strName": "PoliceShakedown",
-    "strNameFriendly": "Провести первые испытания",
+    "strNameFriendly": "Проверка состояния",
     "strType": "repeat",
     "strIATrigger": "SOCPoliceIntroduction",
     "aIAEnd": [

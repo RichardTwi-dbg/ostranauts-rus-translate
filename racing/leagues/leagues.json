@@ -1,7 +1,7 @@
 [
   {
-    "strName": "Trials",
-    "strNameFriendly": "Турниры",
+    "strName": "Триалы",
+    "strNameFriendly": "Триалы",
     "strDescription": "Short entry level league that showcases each track type",
     "strImgPath": null,
     "ctLeagueHost": null,
@@ -32,7 +32,7 @@
   },
   {
     "strName": "VenusBronze",
-    "strNameFriendly": "Лига бронзы Венеры",
+    "strNameFriendly": "Лига бронзы на Венере",
     "strDescription": "Entry level league for every rookie racing pilot",
     "strImgPath": "leaguebronzelogo.png",
     "ctLeagueHost": null,
@@ -63,7 +63,7 @@
   },
   {
     "strName": "VenusSilver",
-    "strNameFriendly": "Лига серебра Венеры",
+    "strNameFriendly": "Лига серебра на Венере",
     "strDescription": "Entry level league for every rookie racing pilot",
     "strImgPath": "leaguesilverlogo.png",
     "ctLeagueHost": null,
@@ -94,7 +94,7 @@
   },
   {
     "strName": "VenusGold",
-    "strNameFriendly": "Лига золота Венеры",
+    "strNameFriendly": "Лига золота на Венере",
     "strDescription": "Gold level league only for experienced racing pilots",
     "strImgPath": "leaguegoldlogo.png",
     "ctLeagueHost": null,

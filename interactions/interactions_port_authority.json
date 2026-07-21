@@ -2,7 +2,7 @@
   {
     "strName": "SOCPortAuthorityManagerStart",
     "strTitle": "Обратиться к клерку порт Authority",
-    "strDesc": "[us] [says] привет к клерку стойки.",
+    "strDesc": "[мы] приветствуем клерка стола.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -33,8 +33,8 @@
   },
   {
     "strName": "SOCPortAuthorityManagerAcknowledgeWanted",
-    "strTitle": "Познакомиться с преступником, находящимся на розыске",
-    "strDesc": "[us] recognizes [them] as a wanted criminal and tells them to leave the premises immediately.",
+    "strTitle": "Признать преступника, о котором известно",
+    "strDesc": "[мы] признаём [них] как преступника, о котором известно, и говорим им, чтобы они немедленно покинули территорию.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -60,7 +60,7 @@
   {
     "strName": "SOCPortAuthorityManagerAcknowledge",
     "strTitle": "Принять посетителя",
-    "strDesc": "[us] [glances] на [them] и [says], 'как я могу вам помочь?'",
+    "strDesc": "[мы] быстро оглядываемся на [них] и говорим: 'Как я могу вам помочь?'",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -109,8 +109,8 @@
   },
   {
     "strName": "SOCPortAuthorityManagerAcknowledgeAngry",
-    "strTitle": "Принять посетителя гневно",
-    "strDesc": "[us] [stares] в [them] и [says] ничего.",
+    "strTitle": "Принять посетителя злобно",
+    "strDesc": "[мы] смотрим на [них] как на злобных и молчим.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -160,7 +160,7 @@
   {
     "strName": "SOCPortAuthorityManagerAcknowledgeHappy",
     "strTitle": "Принять посетителя с радостью",
-    "strDesc": "[us] [looks] вверх на [them] и [offers] дружелюбную улыбку, прежде чем спросить, как [us-subj] может помочь.",
+    "strDesc": "[мы] поднимаемся к [ним] и улыбаемся тепло, прежде чем спросить, как [мы] можем помочь.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -210,7 +210,7 @@
   {
     "strName": "SOCPortAuthorityManagerAcknowledgeBusy",
     "strTitle": "Прибить посетителя, будучи занятым",
-    "strDesc": "[us] [sighs] и [tells] [them] [us-subj] [has] видел слишком много посетителей и что [them] придёт позже.",
+    "strDesc": "[мы] вздыхаем и говорим [ниму], что [мы] уже видели слишком много посетителей и что [он] должен вернуться позже.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -235,8 +235,8 @@
   },
   {
     "strName": "SOCPortAuthorityManagerAcknowledgeSecondFail",
-    "strTitle": "Прибить посетителя, которого вы уже видели",
-    "strDesc": "[us] [sighs] и [tells] [them] [us-subj] [doesn't] иметь терпение продолжать работать с [them-obj] в данный момент.",
+    "strTitle": "Прибить посетителя, которого вы видели",
+    "strDesc": "[мы] вздыхаем и говорим [ниму], что [мы] не имеем терпения продолжать общаться с [ним-объектом] в данный момент.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -264,7 +264,7 @@
   {
     "strName": "SOCPortAuthorityManagerAcknowledgeSelfImportant",
     "strTitle": "Прибить посетителя, нарушающего автономию",
-    "strDesc": "[us] [sighs] и [tells] [them] [us-subj] [is] слишком занят, чтобы говорить сейчас, и что [them-obj] придёт в другой раз.",
+    "strDesc": "[мы] вздыхаем и говорим [ниму], что [мы] слишком заняты, чтобы говорить сейчас, и что [он-объект] должен вернуться в другой раз.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -290,7 +290,7 @@
   {
     "strName": "SOCPortAuthorityManagerAcknowledgeFriend",
     "strTitle": "Принять друга",
-    "strDesc": "[us] [looks] вверх с [us-pos] терминала и [recognizes] [them] мгновенно.",
+    "strDesc": "[мы] поднимаемся с [нашего] терминала и сразу узнаём [них].",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -349,7 +349,7 @@
   {
     "strName": "SOCPortAuthorityFinisherFriendFavor",
     "strTitle": "Попросить друга о помощи",
-    "strDesc": "[us] [asks] [them], может ли [them] сделать [им] что-то и отменить плату за стыковку в этот раз.",
+    "strDesc": "[мы] спрашиваем, может ли [он] помочь [ниму] и отменить плату за стыковку в этот раз.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -375,8 +375,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherFriendFavorSuccomb",
-    "strTitle": "Погибнуть: Запросить перерыв",
-    "strDesc": "[us] [smiles] и говорит, что [us-subj] [is] рад позволить другу отсоединиться без оплаты сбора. Просто не ходи к руководству и жалуйся на это.",
+    "strTitle": "Поражение: Запросить перерыв",
+    "strDesc": "[мы] [улыбаемся] и говорим, что [мы] с радостью позволим другу отсоединиться без оплаты сбора. Просто не ходите к руководству и жалуйтесь на это.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -401,8 +401,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherFriendFavorResist",
-    "strTitle": "Противиться: Запросить перерыв",
-    "strDesc": "[us] [makes] выражение боли и говорит, что [us-subj] бы хотел помочь, но руководство последнее время всё время на [us-pos] настаивает, и [us-subj] просто не может это сделать сейчас.",
+    "strTitle": "Сопротивление: Запросить перерыв",
+    "strDesc": "[мы] [делаем] выражение боли и [говорим], что [мы] бы хотели помочь, но руководство последнее время всё время на нас настаивает, и [мы] в этот раз просто не можем это осуществить.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -428,7 +428,7 @@
   {
     "strName": "SOCPortAuthorityManagerJoke",
     "strTitle": "Попробовать заставить их смеяться",
-    "strDesc": "[us] [makes] забавное замечание о местности.",
+    "strDesc": "[мы] [делаем] забавное замечание о местности.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -478,7 +478,7 @@
   {
     "strName": "SOCPortAuthorityManagerJokeLaugh",
     "strTitle": "Смеяться над шуткой",
-    "strDesc": "[us] [cracks] улыбку и [responds] шуткой на шутку.",
+    "strDesc": "[мы] [смеемся] и [отвечают] шуткой на шутку.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -502,7 +502,7 @@
   {
     "strName": "SOCPortAuthorityManagerJokeNotLaugh",
     "strTitle": "Игнорировать шутку",
-    "strDesc": "[us] [stops] работать и [stares] на [them] так, как будто прошло вечность.",
+    "strDesc": "[мы] [останавливаемся] работать и [смотрим] на [них] так, как будто это бесконечное время.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -526,7 +526,7 @@
   {
     "strName": "SOCPortAuthorityConnect",
     "strTitle": "Создать срочную миссию",
-    "strDesc": "[us] [describes] ужасную и срочную ситуацию, требующую использования их корабля.",
+    "strDesc": "[мы] [описываем] ужасную и срочную ситуацию, требующую использования их корабля.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -608,7 +608,7 @@
   {
     "strName": "SOCPortAuthorityConnectFail",
     "strTitle": "Игнорировать связь",
-    "strDesc": "[us] [is] равнодушен к [them-pos] срочности.",
+    "strDesc": "[мы] [не реагируем] на срочность [них].",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -632,7 +632,7 @@
   {
     "strName": "SOCPortAuthorityConnectSucceed",
     "strTitle": "Создать связь",
-    "strDesc": "[us] [appears] вовлечён в историю [them-pos]. [us-subj] [wishes] существовало бы что-то [us-subj] могло бы сделать, чтобы помочь.",
+    "strDesc": "[мы] [проявляем] привлечение к истории [них]. [мы] [желаем], чтобы [мы] могли что-то сделать, чтобы помочь.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -656,7 +656,7 @@
   {
     "strName": "SOCPortAuthorityBluffAuthority",
     "strTitle": "Вымышлять, что вы важны",
-    "strDesc": "[us] [asks] у [them], знают ли они, кого [them-subj] [is] разговаривает.",
+    "strDesc": "[мы] [спрашиваем], знает ли [они] кого именно [они] говорят.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -740,7 +740,7 @@
   {
     "strName": "SOCPortAuthorityBluffAuthorityFail",
     "strTitle": "Утверждать личную власть",
-    "strDesc": "[us] [says] нет, [us-subj] [has] не понимает, кто [them-sub-] [is]",
+    "strDesc": "[мы] [говорим] нет, [мы] [не знаем], кто [они] говорят.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -764,7 +764,7 @@
   {
     "strName": "SOCPortAuthorityBluffAuthoritySucceed",
     "strTitle": "Падают под угрозу",
-    "strDesc": "[us] [apologizes] и [assures] [them] что это дело можно быстро решить.",
+    "strDesc": "[мы] извиняются и убеждают [их], что этот вопрос можно решить быстро.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -788,7 +788,7 @@
   {
     "strName": "SOCPortAuthorityFinisherAskForBreak",
     "strTitle": "Запросить перерыв",
-    "strDesc": "[us] [asks] если [us-subj] может получить перерыв только в этом случае.",
+    "strDesc": "[мы] спрашиваем, можно ли [мы-подлежащее] получить перерыв в этом одном случае.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -814,8 +814,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherAskForBreakSuccumb",
-    "strTitle": "Погибнуть: Запросить перерыв",
-    "strDesc": "[us] [smiles] и говорит: «Что за бред, это и так безнадёжная работа, и тогда отпускает вашу посадочную плату»",
+    "strTitle": "Поражение: Запросить перерыв",
+    "strDesc": "[мы] улыбаемся и говорим: «Что за бред, это anyway конец пути», и затем отменяют плату за посадку.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -840,8 +840,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherAskForBreakResist",
-    "strTitle": "Противиться: Запросить перерыв",
-    "strDesc": "[us] [says] если бы каждый комедиант здесь получил перерыв, [us-subj] потерял бы свою работу. [us] [asks] [them] заплатить свою плату, если хотят покинуть станцию.",
+    "strTitle": "Сопротивление: Запросить перерыв",
+    "strDesc": "[мы] говорим, что если бы каждый комик из этого района получил перерыв, [мы-подлежащее] потерял бы [мы-субъект] работу. [мы] требуют, чтобы [они] заплатили за посадку, если хотят покинуть станцию.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -867,7 +867,7 @@
   {
     "strName": "SOCPortAuthorityFinisherPromise",
     "strTitle": "Обещать заплатить позже",
-    "strDesc": "[us] [спрашивает] [them] о снятии платы за док-связь, чтобы [us-subj] мог решить [us-pos] срочную миссию. [us] [обещает], что [us-subj] заплатит эту плату в следующий раз, когда они докинутся.",
+    "strDesc": "[мы] просим [их] отменить плату за посадку, чтобы [мы-подлежащее] мог(ла) выполнить срочную миссию. [мы] обещаем заплатить эту сумму в следующий раз при посадке.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -893,8 +893,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherPromiseSuccumb",
-    "strTitle": "Погибнуть: Запросить перерыв",
-    "strDesc": "[us] сужает глаза, оглядывается и говорит: [us-subj] [has] отменит посадочную плату в этом случае.",
+    "strTitle": "Поражение: Запросить перерыв",
+    "strDesc": "[мы] сжимаем глаза, оглядываемся и говорим, что [мы-подлежащее] отменит плату за посадку в этом случае.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -918,8 +918,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherPromiseResist",
-    "strTitle": "Противиться: Запросить перерыв",
-    "strDesc": "[us] [declines] и [says], что если [us-subj] каждый раз нарушал правила при кризисе, никто никогда не платил посадочную плату.",
+    "strTitle": "Сопротивление: Запросить перерыв",
+    "strDesc": "[мы] отказываемся и говорим, что если [мы-подлежащее] нарушал бы правила каждый раз, когда кто-то был в кризисе, никто никогда не платил бы за посадку.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -944,7 +944,7 @@
   {
     "strName": "SOCPortAuthorityFinisherReportToManager",
     "strTitle": "Угрожать вызвать менеджера",
-    "strDesc": "[us] [says] that if [them] can't sort out this mistaken charge then [us-subj] will have to call in a Manager who can.",
+    "strDesc": "[мы] говорим, что если [они] не смогут устранить эту ошибочную оплату, [мы-подлежащее] должен вызвать менеджера.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -970,8 +970,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherReportToManagerSuccumb",
-    "strTitle": "Погибнуть: Запросить перерыв",
-    "strDesc": "[us] [sighs] и [says] нет необходимости вызывать менеджера. [us] [says] можно оторваться один раз, но плата останется в учёте до полной оплаты.",
+    "strTitle": "Поражение: Запросить перерыв",
+    "strDesc": "[мы] вздыхаем и говорим, что нет причины вызывать менеджера. [мы] говорим, что можно отойти один раз, но плата останется в учёте до полной оплаты.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -995,8 +995,8 @@
   },
   {
     "strName": "SOCPortAuthorityFinisherReportToManagerResist",
-    "strTitle": "Противиться: Запросить перерыв",
-    "strDesc": "[us] [says] [them] [is] приветствуются найти менеджера и вернуться, когда [them-subj] [does].",
+    "strTitle": "Сопротивление: Запросить перерыв",
+    "strDesc": "[мы] говорим, что [они] могут найти менеджера и вернуться, когда [они-подлежащее] вернётся.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -1020,8 +1020,8 @@
   },
   {
     "strName": "SOCPortAuthorityPrivacyFail",
-    "strTitle": "Сказать, чтобы они ушли",
-    "strDesc": "[us] [says] что если [them] не придут платить плату, то пришло время уходить, чтобы [us-subj] мог вернуться к работе.",
+    "strTitle": "Сказать им уйти",
+    "strDesc": "[мы] говорим, что если [они] не будут здесь платить за посадку, пришло время уходить, чтобы [мы-подлежащее] мог(ла) вернуться к работе.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -1048,7 +1048,7 @@
   {
     "strName": "SOCPortAuthorityAutonomyFail",
     "strTitle": "Утверждайте авторитет",
-    "strDesc": "[us] [says] что сборы за буксировку устанавливаются по [us-pos] собственной воле, и что в [them-pos] случае решение является окончательным.",
+    "strDesc": "[мы] говорим, что сборы за парковку устанавливаются по нашему усмотрению, и что в данном случае решение является окончательным.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,

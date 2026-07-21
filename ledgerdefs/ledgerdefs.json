@@ -1,7 +1,7 @@
 [
   {
     "strName": "ENCHeatAyoSecFinePublicDisorder",
-    "strDesc": "Штраф AyoSec (Публичное нарушение)",
+    "strDesc": "AyoSec Fine (Public Disorder)",
     "fAmount": 15000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -11,7 +11,7 @@
   },
   {
     "strName": "ENCHeatAyoSecFinePublicDisorderDebt",
-    "strDesc": "Штраф AyoSec (Публичное нарушение)",
+    "strDesc": "AyoSec Fine (Public Disorder)",
     "fAmount": 15000,
     "strCurrency": "StatUSD",
     "strFrequency": "Mortgage",
@@ -41,7 +41,7 @@
   },
   {
     "strName": "ENCEmbassyServicesOKLGVisaInvestor",
-    "strDesc": "OKLG Посольство: заявка на визу инвестора",
+    "strDesc": "OKLG Посольство: подача заявления на визу инвестора",
     "fAmount": 5000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -51,7 +51,7 @@
   },
   {
     "strName": "ENCEmbassyServicesOKLGVisaSkilledLabor",
-    "strDesc": "OKLG Посольство: заявка на визу для квалифицированного труда",
+    "strDesc": "OKLG Посольство: подача заявления на визу для квалифицированного труда",
     "fAmount": 750000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -61,7 +61,7 @@
   },
   {
     "strName": "ENCEmbassyServicesOKLGVisaSkilledLaborIllicit",
-    "strDesc": "OKLG Посольство: заявка на визу «квалифицированного труда»",
+    "strDesc": "OKLG Посольство: подача заявления на визу \"для квалифицированного труда\"",
     "fAmount": 1000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -71,7 +71,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVENCVisaInvestor",
-    "strDesc": "VENC Посольство: заявка на визу инвестора",
+    "strDesc": "VENC Посольство: подача заявления на визу инвестора",
     "fAmount": 5000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -81,7 +81,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVENCVisaSkilledLabor",
-    "strDesc": "VENC Посольство: заявка на визу для квалифицированного труда",
+    "strDesc": "VENC Посольство: подача заявления на визу для квалифицированного труда",
     "fAmount": 750000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -91,7 +91,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVENCVisaSkilledLaborIllicit",
-    "strDesc": "VENC Посольство: заявка на визу «квалифицированного труда»",
+    "strDesc": "VENC Посольство: подача заявления на визу \"для квалифицированного труда\"",
     "fAmount": 1000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -101,7 +101,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVENCVisaAuthoritySponsored",
-    "strDesc": "VENC Посольство: заявка на визу с поддержкой властей",
+    "strDesc": "VENC Посольство: подача заявления на визу с поддержки органов власти",
     "fAmount": 1000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -111,7 +111,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVENCVisaLocalSponsored",
-    "strDesc": "VENC Посольство: заявка на визу с поддержкой местного лица",
+    "strDesc": "VENC Посольство: подача заявления на визу с поддержки местных организаций",
     "fAmount": 500000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -121,7 +121,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVNCAVisaInvestor",
-    "strDesc": "VNCA Посольство: заявка на визу инвестора",
+    "strDesc": "VNCA Посольство: подача заявления на визу инвестора",
     "fAmount": 5000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -131,7 +131,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVNCAVisaSkilledLabor",
-    "strDesc": "VNCA Посольство: заявка на визу для квалифицированного труда",
+    "strDesc": "VNCA Посольство: подачы заявления на визу для квалифицированного труда",
     "fAmount": 750000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -141,7 +141,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVNCAVisaSkilledLaborIllicit",
-    "strDesc": "VNCA Посольство: заявка на визу «квалифиной работы»",
+    "strDesc": "VNCA Посольство: подача заявления на визу \"для квалифицированного труда\"",
     "fAmount": 1000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -151,7 +151,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVNCAVisaAuthoritySponsored",
-    "strDesc": "VNCA Посольство: заявка на визу с поддержкой властей",
+    "strDesc": "VNCA Посольство: подача заявления на визу с поддержки органов власти",
     "fAmount": 1000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -161,7 +161,7 @@
   },
   {
     "strName": "ENCEmbassyServicesVNCAVisaLocalSponsored",
-    "strDesc": "VNCA Посольство: заявка на визу с поддержкой местного лица",
+    "strDesc": "VNCA Посольство: подача заявления на визу с поддержки местных организаций",
     "fAmount": 500000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -191,7 +191,7 @@
   },
   {
     "strName": "ENCOKLGMedServiceAnalyzeBlood",
-    "strDesc": "Медицинская служба: анализ крови",
+    "strDesc": "Медицинская служба: анализ крови в лаборатории",
     "fAmount": 750,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -291,7 +291,7 @@
   },
   {
     "strName": "CGSaveMoneyMid",
-    "strDesc": "Среднегодовой доход",
+    "strDesc": "Среднегодовой экономический результат",
     "fAmount": -200,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -351,7 +351,7 @@
   },
   {
     "strName": "Donation250",
-    "strDesc": "Возмещение",
+    "strDesc": "Вклад",
     "fAmount": 250,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -431,7 +431,7 @@
   },
   {
     "strName": "PLOTVLAFetch_PayAeroSlantWall",
-    "strDesc": "Оплата за аэродинамическую наклонную стенку — доставка.",
+    "strDesc": "Оплата за аэродинамическую наклонную стену.",
     "fAmount": -10000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -441,7 +441,7 @@
   },
   {
     "strName": "PLOTVLAFetch_PayStabilizer",
-    "strDesc": "Оплата за активный стабилизатор — доставка.",
+    "strDesc": "Оплата за активный стабилизатор.",
     "fAmount": -100000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -451,7 +451,7 @@
   },
   {
     "strName": "PLOTVLAFetch_PayRotor",
-    "strDesc": "Оплата за тяжелый подъемный ротор — доставка.",
+    "strDesc": "Оплата за тяжелый подъемный ротор.",
     "fAmount": -75000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -461,7 +461,7 @@
   },
   {
     "strName": "PLOTVLAFetch_PayRobotOS",
-    "strDesc": "Оплата за операционную систему дронов — доставка.",
+    "strDesc": "Оплата за дрон-ОС.",
     "fAmount": -15000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -491,7 +491,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderConfession",
-    "strDesc": "Награда: представлено признание убийства в Айо-Сек.",
+    "strDesc": "Награда: представлено признание убийцы Айо-Сек.",
     "fAmount": -15000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -501,7 +501,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderedShipbreakerToLEO",
-    "strDesc": "Награда: представлено дело о убийстве шипбрука в Айо-Сек.",
+    "strDesc": "Награда: представлено дело о убийстве шипбрука Айо-Сек.",
     "fAmount": -1000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -511,7 +511,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderedLEOToLEO",
-    "strDesc": "Награда: представлено дело о убийстве офицера в Айо-Сек.",
+    "strDesc": "Награда: представлено дело о убийстве офицера Айо-Сек.",
     "fAmount": -5000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -521,7 +521,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderedManagerToLEO",
-    "strDesc": "Награда: представлено дело о убийстве руководителя корпорации в Айо-Сек.",
+    "strDesc": "Награда: представлено дело о убийстве руководителя корпорации Айо-Сек.",
     "fAmount": -8599,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -531,7 +531,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderedCriminalToLEO",
-    "strDesc": "Награда: представлено дело о убийстве преступника в Айо-Сек.",
+    "strDesc": "Награда: представлено дело о преступном убийстве Айо-Сек.",
     "fAmount": -2000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -541,7 +541,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderedPirateToLEO",
-    "strDesc": "Награда: представлено дело о убийстве пирата в Айо-Сек (включает непогашенную награду).",
+    "strDesc": "Награда: представлено дело о убийстве пирата Айо-Сек (включает непогашенную награду).",
     "fAmount": -4600,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -551,7 +551,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderedBartenderToLEO",
-    "strDesc": "Награда: представлено дело о убийстве бармена в Айо-Сек.",
+    "strDesc": "Награда: представлено дело о убийстве бармена Айо-Сек.",
     "fAmount": -2000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -561,7 +561,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportMurderedOtherToLEO",
-    "strDesc": "Награда: представлено дело о убийстве в Айо-Сек.",
+    "strDesc": "Награда: представлено дело о убийстве Айо-Сек.",
     "fAmount": -1400,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -581,7 +581,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadShipbreakerToLEO",
-    "strDesc": "Сообщено о смерти скавера в Айо-Сек.",
+    "strDesc": "Сообщено о смерти скавера Айо-Сек.",
     "fAmount": -600,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -591,7 +591,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadLEOToLEO",
-    "strDesc": "Сообщено о смерти офицера в Айо-Сек.",
+    "strDesc": "Сообщено о смерти офицера Айо-Сек.",
     "fAmount": -2100,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -601,7 +601,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadManagerToLEO",
-    "strDesc": "Записан случай смерти корпоративного сотрудника, сообщено в AyoSec.",
+    "strDesc": "Записано о смерти корпоративного сотрудника, сообщено Айо Сек.",
     "fAmount": -2700,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -611,7 +611,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadCriminalToLEO",
-    "strDesc": "Интеллект по делу смерти преступника награждён AyoSec.",
+    "strDesc": "Интеллект о преступной смерти награждается Айо Сек.",
     "fAmount": -1000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -621,7 +621,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadPirateToLEO",
-    "strDesc": "Пиратская награда предоставлена AyoSec.",
+    "strDesc": "Бounty от пиратов предоставлен Айо Сек.",
     "fAmount": -2300,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -631,7 +631,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadBartenderToLEO",
-    "strDesc": "Записан случай смерти бармена, сообщено в AyoSec.",
+    "strDesc": "Записано о смерти бармена, сообщено Айо Сек.",
     "fAmount": -1200,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -641,7 +641,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadShipbreakerToManager",
-    "strDesc": "Сообщено о смерти сотрудника бридж-единицы, направлено в Ayotimiwa Corporation.",
+    "strDesc": "Записано о смерти сотрудника бридж-установки, сообщено Айотимиу Корпорации.",
     "fAmount": -199.99,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -651,7 +651,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadManagerToManager",
-    "strDesc": "Сообщено о смерти корпоративного сотрудника, направлено в Ayotimiwa Corporation.",
+    "strDesc": "Записано о смерти корпоративного сотрудника, сообщено Айотимиу Корпорации.",
     "fAmount": -1999.99,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -661,7 +661,7 @@
   },
   {
     "strName": "Plot_Whodunnit_ReportDeadBartenderToManager",
-    "strDesc": "Сообщено о смерти развлекательного персонала, сообщено Ayotimiwa Corporation.",
+    "strDesc": "Записано о смерти развлекательного персонала, сообщено Айотимиу Корпорации.",
     "fAmount": -799.99,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -711,7 +711,7 @@
   },
   {
     "strName": "RacingBronzeEntryFee",
-    "strDesc": "Входной взнос в бронзовый лиги",
+    "strDesc": "Ставка входа в бронзовый лиги",
     "fAmount": 100,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -721,7 +721,7 @@
   },
   {
     "strName": "RacingSilverEntryFee",
-    "strDesc": "Входной взнос в серебряный лиги",
+    "strDesc": "Ставка входа в серебряную лиги",
     "fAmount": 1000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -731,7 +731,7 @@
   },
   {
     "strName": "RacingGoldEntryFee",
-    "strDesc": "Входной взнос в золотой лиги",
+    "strDesc": "Ставка входа в золотую лиги",
     "fAmount": 5000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -741,7 +741,7 @@
   },
   {
     "strName": "RacingTutorialFirst",
-    "strDesc": "Призовая сумма в лиге испытаний",
+    "strDesc": "Призовая сумма Триал-лиги",
     "fAmount": 20000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -751,7 +751,7 @@
   },
   {
     "strName": "RacingTutorialSecond",
-    "strDesc": "Призовая сумма в лиге испытаний",
+    "strDesc": "Призовая сумма Триал-лиги",
     "fAmount": 10000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -761,7 +761,7 @@
   },
   {
     "strName": "RacingTutorialThird",
-    "strDesc": "Призовая сумма в лиге испытаний",
+    "strDesc": "Призовая сумма Триал-лиги",
     "fAmount": 5000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -771,7 +771,7 @@
   },
   {
     "strName": "RacingBronzePrizeFirst",
-    "strDesc": "Призовая сумма в бронзовой лиге",
+    "strDesc": "Призовая сумма бронзовой лиги",
     "fAmount": 100000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -781,7 +781,7 @@
   },
   {
     "strName": "RacingBronzePrizeSecond",
-    "strDesc": "Призовая сумма в бронзовой лиге",
+    "strDesc": "Призовая сумма бронзовой лиги",
     "fAmount": 50000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -791,7 +791,7 @@
   },
   {
     "strName": "RacingBronzePrizeThird",
-    "strDesc": "Призовая сумма в бронзовой лиге",
+    "strDesc": "Призовая сумма бронзовой лиги",
     "fAmount": 25000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -801,7 +801,7 @@
   },
   {
     "strName": "RacingSilverPrizeFirst",
-    "strDesc": "Призовая сумма Серебряного лига",
+    "strDesc": "Призовые деньги Серебряной лиги",
     "fAmount": 500000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -811,7 +811,7 @@
   },
   {
     "strName": "RacingSilverPrizeSecond",
-    "strDesc": "Призовая сумма Серебряного лига",
+    "strDesc": "Призовые деньги Серебряной лиги",
     "fAmount": 200000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -821,7 +821,7 @@
   },
   {
     "strName": "RacingSilverPrizeThird",
-    "strDesc": "Призовая сумма Серебряного лига",
+    "strDesc": "Призовые деньги Серебряной лиги",
     "fAmount": 100000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -831,7 +831,7 @@
   },
   {
     "strName": "RacingGoldPrizeFirst",
-    "strDesc": "Призовая сумма Золотого лига",
+    "strDesc": "Призовые деньги Золотой лиги",
     "fAmount": 1000000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -841,7 +841,7 @@
   },
   {
     "strName": "RacingGoldPrizeSecond",
-    "strDesc": "Призовая сумма Золотого лига",
+    "strDesc": "Призовые деньги Золотой лиги",
     "fAmount": 500000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",
@@ -851,7 +851,7 @@
   },
   {
     "strName": "RacingGoldPrizeThird",
-    "strDesc": "Призовая сумма Золотого лига",
+    "strDesc": "Призовые деньги Золотой лиги",
     "fAmount": 200000,
     "strCurrency": "StatUSD",
     "strFrequency": "OneTime",

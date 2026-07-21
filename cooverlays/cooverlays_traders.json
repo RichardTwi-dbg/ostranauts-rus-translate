@@ -2,7 +2,7 @@
   {
     "strName": "ItmKioskEmbassy01VNCA",
     "strNameShort": "Киоск: Посольство VNCA",
-    "strNameFriendly": "Служба посольства: Ньюкаль, Венера",
+    "strNameFriendly": "Услуги посольства: Ньюкаль, Венера",
     "strCOBase": "ItmKioskEmbassy01VENC",
     "strCondLoot": "CNDOLKioskEmbassyVNCA",
     "aInteractionsReplace": [
@@ -15,7 +15,7 @@
   {
     "strName": "ItmKioskEmbassy01OKLG",
     "strNameShort": "Киоск: Посольство OKLG",
-    "strNameFriendly": "Служба посольства: К-Лег, 1036-Ганымед",
+    "strNameFriendly": "Услуги посольства: К-Лег, 1036-Ганымед",
     "strCOBase": "ItmKioskEmbassy01VENC",
     "strCondLoot": "CNDOLKioskEmbassyOKLG",
     "aInteractionsReplace": [
@@ -28,7 +28,7 @@
   {
     "strName": "ItmKioskResBroker01OKLG",
     "strNameShort": "Киоск",
-    "strNameFriendly": "Киоск недвижимости (ОКЛГ)",
+    "strNameFriendly": "Киоск недвижимости (OKLG)",
     "strCOBase": "ItmKioskResBroker01VENC",
     "strCondLoot": "CNDOLKioskHousing01",
     "mapGUIPropMaps": [
@@ -54,7 +54,7 @@
   {
     "strName": "ItmKioskVENCShipBroker01",
     "strNameShort": "Киоск",
-    "strNameFriendly": "Киоск по брокерству судов (VENC)",
+    "strNameFriendly": "Киоск брокера судов (VENC)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -71,7 +71,7 @@
   {
     "strName": "ItmKioskVNCAShipBroker01",
     "strNameShort": "Киоск",
-    "strNameFriendly": "Киоск по брокерству судов (VNCA)",
+    "strNameFriendly": "Киоск брокера судов (VNCA)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -88,7 +88,7 @@
   {
     "strName": "ItmKioskVORBShipBroker01",
     "strNameShort": "Киоск",
-    "strNameFriendly": "Киоск по брокерству судов (VORB)",
+    "strNameFriendly": "Киоск брокера судов (VORB)",
     "strCOBase": "ItmKioskOKLGShipBroker01",
     "strCondLoot": "CNDOLKioskShipBroker01",
     "mapGUIPropMaps": [
@@ -106,7 +106,7 @@
     "strName": "ItmKioskTestudo01",
     "strNameShort": "Киоск",
     "strNameFriendly": "Киоск Testudo (VNCA)",
-    "strDesc": "Киоск, управляемый компанией Testudo, предлагающий разнообразный ассортимент потребительских товаров, охватывающий все бренды, производимые всемирным корпоративным гигантом.",
+    "strDesc": "Киоск, управляемый компанией Testudo, предлагает разнообразный ассортимент потребительских товаров, включающий все бренды, производимые всемирным корпоративным гигантом Ubercorp.",
     "strImg": "ItmKioskTestudo01",
     "strPortraitImg": "ItmKioskTestudo01",
     "strImgNorm": "ItmKioskHealth01n",
@@ -139,7 +139,7 @@
   {
     "strName": "ReservedTerminalSanDiegoBingham",
     "strNameShort": "Терминал",
-    "strNameFriendly": "Терминал (Бингхэм)",
+    "strNameFriendly": "Терминал (Бингем)",
     "strCOBase": "ReservedTerminalOKLGPortAuthority",
     "strCondLoot": "CNDOLReservedTerminalSanDiegoBingham",
     "mapModeSwitches": []
@@ -186,7 +186,7 @@
   {
     "strName": "ReservedTerminalSanDiegoCollectiveElectric",
     "strNameShort": "Терминал",
-    "strNameFriendly": "Терминал (CollectiveElectric)",
+    "strNameFriendly": "Терми и (CollectiveElectric)",
     "strCOBase": "ReservedTerminalOKLGPortAuthority",
     "strCondLoot": "CNDOLReservedTerminalSanDiegoCollectiveElectric",
     "mapModeSwitches": []
@@ -194,7 +194,7 @@
   {
     "strName": "ReservedTerminalSanDiegoMiura",
     "strNameShort": "Терминал",
-    "strNameFriendly": "Термиой (Миура)",
+    "strNameFriendly": "Терминал (Миура)",
     "strCOBase": "ReservedTerminalOKLGPortAuthority",
     "strCondLoot": "CNDOLReservedTerminalSanDiegoMiura",
     "mapModeSwitches": []
@@ -218,7 +218,7 @@
   {
     "strName": "ReservedTerminalSanDiegoSulaiman",
     "strNameShort": "Терминал",
-    "strNameFriendly": "Терминал (Сулейман)",
+    "strNameFriendly": "Терминал (Сулаиман)",
     "strCOBase": "ReservedTerminalOKLGPortAuthority",
     "strCondLoot": "CNDOLReservedTerminalSanDiegoSulaiman",
     "mapModeSwitches": []
@@ -250,7 +250,7 @@
   {
     "strName": "ReservedTerminalSanDiegoBlackWing",
     "strNameShort": "Терминал",
-    "strNameFriendly": "Терминал (Блэквинг)",
+    "strNameFriendly": "Терминал (Чёрные Крылья)",
     "strCOBase": "ReservedTerminalOKLGPortAuthority",
     "strCondLoot": "CNDOLReservedTerminalSanDiegoBlackWing",
     "mapModeSwitches": []
@@ -258,7 +258,7 @@
   {
     "strName": "ReservedTerminalSanDiegoFutureFoods",
     "strNameShort": "Терминал",
-    "strNameFriendly": "Терминал (FutureFoods)",
+    "strNameFriendly": "Терминал (Будущие Пищевые Продукты)",
     "strCOBase": "ReservedTerminalOKLGPortAuthority",
     "strCondLoot": "CNDOLReservedTerminalSanDiegoFutureFoods",
     "mapModeSwitches": []

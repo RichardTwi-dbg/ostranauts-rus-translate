@@ -64,7 +64,7 @@
   },
   {
     "strName": "Airlock",
-    "strNameFriendly": "Воздушный люк",
+    "strNameFriendly": "Воздушный Шлюз",
     "strIconName": "airlock",
     "nMinTileSize": 3,
     "nMaxTileSize": -1,

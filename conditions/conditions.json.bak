@@ -4142,7 +4142,7 @@
   },
   {
     "strName": "TraitChronicScarCargo",
-    "strNameFriendly": "Шрам: Инцидент с грузом",
+    "strNameFriendly": "Шрам: Повреждение груза",
     "strColor": "Badish",
     "strDesc": "У нас есть почти полностью вылеченная шрам от аварии с грузом.",
     "bRemoveAll": true,

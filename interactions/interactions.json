@@ -6594,7 +6594,7 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Пусто",
+    "strName": "Blank",
     "strTitle": "Пусто",
     "strDesc": "Пустое взаимодействие.",
     "strActionGroup": "Use",
@@ -10989,7 +10989,7 @@
     "aLootItms": []
   },
   {
-    "strName": "Инвентарь",
+    "strName": "Inventory",
     "strTitle": "Инвентарь",
     "strDesc": "[мы] [сканируем] инвентарь [них].",
     "strTooltip": "Просмотр содержимого цели.",
@@ -12444,7 +12444,7 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Заглушка",
+    "strName": "Placeholder",
     "strTitle": "Помещение на позицию",
     "strDesc": "[мы] [идём] и устанавливаем [их].",
     "strActionGroup": "Use",
@@ -15151,7 +15151,7 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Одевание",
+    "strName": "Strip",
     "strTitle": "Одевание",
     "strDesc": "[мы] [пойдём] снимать [они].",
     "strTooltip": "Удаляет одетые и носимые предметы с неотвечающего объекта.",
@@ -15444,7 +15444,7 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Без сознания",
+    "strName": "Unconscious",
     "strTitle": "Без сознания",
     "strDesc": "[мы] [покидаем] форму.",
     "strActionGroup": "Use",
@@ -15471,8 +15471,8 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Отмена драфта",
-    "strTitle": "Отмена драфта",
+    "strName": "Undraft",
+    "strTitle": "Попытаться выбраться",
     "strDesc": "[мы] [освобождаем] [них] от прямого контроля.",
     "strActionGroup": "Use",
     "strAnim": "Talk",
@@ -15489,7 +15489,7 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Отмена драфта (разрешение)",
+    "strName": "UndraftAllow",
     "strTitle": "Отмена драфта (разрешение)",
     "strDesc": "[мы] [соглашаемся].",
     "strActionGroup": "Use",
@@ -15506,7 +15506,7 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Ожидать",
+    "strName": "Wait",
     "strTitle": "Ожидание",
     "strDesc": "[мы] [ожидаем] [них].",
     "strActionGroup": "Use",
@@ -15569,8 +15569,8 @@
     "objLootModeSwitch": null
   },
   {
-    "strName": "Хождение",
-    "strTitle": "Хождение",
+    "strName": "Wander",
+    "strTitle": "Брождение",
     "strDesc": "[мы] [ходим].",
     "strTooltip": "Идти к случайному месту рядом.",
     "strActionGroup": "Use",

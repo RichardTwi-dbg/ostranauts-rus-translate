@@ -29,7 +29,7 @@
     "strAudioEmitter": "AmbBarTechnoLowpass"
   },
   {
-    "strName": "Реголит",
+    "strName": "Regolith",
     "strNameShort": "Реголит",
     "strItemDef": "ItmBGFloorRegolith01",
     "strType": "Item",
@@ -52,7 +52,7 @@
     "strPortraitImg": "ItmRegolith02"
   },
   {
-    "strName": "Пусто",
+    "strName": "Blank",
     "strItemDef": "Blank",
     "strType": "Item",
     "strLoot": null,
@@ -73,7 +73,7 @@
     "jsonPI": null
   },
   {
-    "strName": "Отмена",
+    "strName": "Cancel",
     "strItemDef": "Cancel",
     "strType": "Item",
     "aStartingConds": [
@@ -31169,7 +31169,7 @@
     "jsonPI": null
   },
   {
-    "strName": "Заглушка",
+    "strName": "Placeholder",
     "strNameShort": "Заглушка",
     "strItemDef": "Blank",
     "strType": "Item",
@@ -31546,7 +31546,7 @@
     "strPortraitImg": "BblTalkOrange16"
   },
   {
-    "strName": "Социальные действия",
+    "strName": "Social Moves",
     "strNameFriendly": "Социальные действия",
     "strItemDef": "SocialItem",
     "strType": "Item",

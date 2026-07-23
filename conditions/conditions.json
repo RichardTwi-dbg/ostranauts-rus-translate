@@ -26,7 +26,7 @@
     "fDuration": 0.0
   },
   {
-    "strName": "Пусто",
+    "strName": "Blank",
     "strNameFriendly": "Пусто",
     "strColor": "Bad",
     "strDesc": "Условие пусто.",
@@ -779,7 +779,7 @@
     "bInvert": true
   },
   {
-    "strName": "Потеря крови",
+    "strName": "Bleeding",
     "strNameFriendly": "Потеря крови",
     "strColor": "Bad",
     "strDesc": "[мы] [испытываем] кровотечение.",
@@ -805,7 +805,7 @@
     "bInvert": true
   },
   {
-    "strName": "Волдыри",
+    "strName": "Blisters",
     "strNameFriendly": "Волдыри",
     "strColor": "Bad",
     "strDesc": "[мы] [имеем] болезненные волдыри.",
@@ -980,7 +980,7 @@
     "fClampMax": 1.0
   },
   {
-    "strName": "Удар мозга",
+    "strName": "Concussion",
     "strNameFriendly": "Удар мозга",
     "strColor": "Bad",
     "strDesc": "[мы] [имеем] ушиб мозга и [находимся] в небольшой степени ошеломлёнными.",
@@ -995,7 +995,7 @@
     "bInvert": true
   },
   {
-    "strName": "Кашель",
+    "strName": "Coughing",
     "strNameFriendly": "Кашель",
     "strColor": "Bad",
     "strDesc": "[мы] [развивают] кашель.",
@@ -1115,7 +1115,7 @@
     "bInvert": true
   },
   {
-    "strName": "Рвота",
+    "strName": "Diarrhea",
     "strNameFriendly": "Рвота",
     "strColor": "Bad",
     "strDesc": "[мы] [имеем] рвоту.",
@@ -1130,7 +1130,7 @@
     "bInvert": true
   },
   {
-    "strName": "Потеря равновесия",
+    "strName": "Dizzy",
     "strNameFriendly": "Потеря равновесия",
     "strColor": "Bad",
     "strDesc": "[мы] [чувствуют] головокружение.",
@@ -1145,7 +1145,7 @@
     "bInvert": true
   },
   {
-    "strName": "Пьяный",
+    "strName": "Drunk",
     "strNameFriendly": "Пьяный",
     "strColor": "Bad",
     "strDesc": "[мы] [пьяны].",
@@ -1231,7 +1231,7 @@
     "fClampMax": 1.0
   },
   {
-    "strName": "Гипертермия",
+    "strName": "Ebullism",
     "strNameFriendly": "Гипертермия",
     "strColor": "Bad",
     "strDesc": "[мы] имеем отек тела, и [мы-pos] слюна бурлит.",
@@ -1247,7 +1247,7 @@
     "bInvert": true
   },
   {
-    "strName": "Гипертермия",
+    "strName": "Feverish",
     "strNameFriendly": "Гипертермия",
     "strColor": "Badish",
     "strDesc": "[мы] чувствуем лихорадку и холода.",
@@ -1297,7 +1297,7 @@
     "bInvert": true
   },
   {
-    "strName": "Глубокий кашель",
+    "strName": "Gasping",
     "strNameFriendly": "Глубокий кашель",
     "strColor": "Bad",
     "strDesc": "[мы] глотаем воздух.",
@@ -1408,7 +1408,7 @@
     "bInvert": true
   },
   {
-    "strName": "Боль в голове",
+    "strName": "Headache",
     "strNameFriendly": "Боль в голове",
     "strColor": "Bad",
     "strDesc": "[мы] [имеем] головную боль.",
@@ -1535,7 +1535,7 @@
     "fClampMax": 1.0
   },
   {
-    "strName": "Иммуномодулятор",
+    "strName": "Immunostimulant",
     "strNameFriendly": "Иммуномодулятор",
     "strColor": "Good",
     "strDesc": "[мы] имеем временно усиленную иммунную систему.",
@@ -1573,8 +1573,8 @@
     "bInvert": true
   },
   {
-    "strName": "Итч",
-    "strNameFriendly": "Итч",
+    "strName": "Itching",
+    "strNameFriendly": "Зуд",
     "strColor": "Badish",
     "strDesc": "[мы] беспокоят постоянные зуды.",
     "bResetTimer": true,
@@ -1608,7 +1608,7 @@
     "bInvert": true
   },
   {
-    "strName": "Острый приступ",
+    "strName": "Jolted",
     "strNameFriendly": "Острый приступ",
     "strColor": "Bad",
     "strDesc": "[мы] подверглись электрическому болевому ощущению и неосознанному сокращению мышц.",
@@ -1898,7 +1898,7 @@
     "bInvert": true
   },
   {
-    "strName": "Поза лежа на спине",
+    "strName": "Prone",
     "strNameFriendly": "Поза лежа на спине",
     "strColor": "Bad",
     "strDesc": "[мы] [находятся] в позе лежа на спине.",
@@ -1925,7 +1925,7 @@
     "bInvert": true
   },
   {
-    "strName": "Восстановление",
+    "strName": "Recovering",
     "strNameFriendly": "Восстановление",
     "strColor": "Bad",
     "strDesc": "[мы] отходим от каннабисового кайфа.",
@@ -1941,7 +1941,7 @@
     "bInvert": true
   },
   {
-    "strName": "Пробуждение",
+    "strName": "Roused",
     "strNameFriendly": "Пробуждение",
     "strColor": "Neutral",
     "strDesc": "[мы] недавно пробуждались из сна.",
@@ -1955,7 +1955,7 @@
     "fClampMax": 1.0
   },
   {
-    "strName": "Сонный",
+    "strName": "Sedated",
     "strNameFriendly": "Сонный",
     "strColor": "Bad",
     "strDesc": "[мы] находятся под воздействием сильного седативного препарата.",
@@ -1970,7 +1970,7 @@
     "bInvert": true
   },
   {
-    "strName": "Дрожание",
+    "strName": "Shivering",
     "strNameFriendly": "Дрожание",
     "strColor": "Bad",
     "strDesc": "[мы] дрожат.",
@@ -1984,7 +1984,7 @@
     "bInvert": true
   },
   {
-    "strName": "Сидим",
+    "strName": "Sitting",
     "strNameFriendly": "Сидим",
     "strColor": "Neutral",
     "strDesc": "[мы] сидим.",
@@ -2010,7 +2010,7 @@
     "fClampMax": 1.0
   },
   {
-    "strName": "Сон",
+    "strName": "Sleeping",
     "strNameFriendly": "Сон",
     "strColor": "Neutral",
     "strDesc": "[мы] спят.",
@@ -2065,7 +2065,7 @@
     "fClampMax": 1.0
   },
   {
-    "strName": "Ошарашенность",
+    "strName": "Stunned",
     "strNameFriendly": "Ошарашенность",
     "strColor": "Bad",
     "strDesc": "[мы] ошарашены и не можем двигаться в течение нескольких моментов.",
@@ -2081,7 +2081,7 @@
     "bInvert": true
   },
   {
-    "strName": "Потливость",
+    "strName": "Sweating",
     "strNameFriendly": "Потливость",
     "strColor": "Bad",
     "strDesc": "[мы] потеем.",
@@ -2120,7 +2120,7 @@
     "fClampMax": 1.0
   },
   {
-    "strName": "Пьяный",
+    "strName": "Tipsy",
     "strNameFriendly": "Пьяный",
     "strColor": "Bad",
     "strDesc": "[мы] немного пьяны.",
@@ -2148,7 +2148,7 @@
     "bInvert": true
   },
   {
-    "strName": "Без сознания",
+    "strName": "Unconscious",
     "strNameFriendly": "Без сознания",
     "strColor": "Bad",
     "strDesc": "[мы] без сознания.",
@@ -2164,7 +2164,7 @@
     "bInvert": true
   },
   {
-    "strName": "Рвота",
+    "strName": "Vomiting",
     "strNameFriendly": "Рвота",
     "strColor": "Bad",
     "strDesc": "[мы] рвем.",
@@ -2179,7 +2179,7 @@
     "bInvert": true
   },
   {
-    "strName": "Уязвимость",
+    "strName": "Vulnerable",
     "strNameFriendly": "Уязвимость",
     "strColor": "Badish",
     "strDesc": "[мы] уязвимы к атакам.",
@@ -2194,7 +2194,7 @@
     "bInvert": true
   },
   {
-    "strName": "Слабость",
+    "strName": "Weakness",
     "strNameFriendly": "Слабость",
     "strColor": "Bad",
     "strDesc": "[мы] чувствуем слабость.",
@@ -2282,7 +2282,7 @@
     "bRemoveAll": true
   },
   {
-    "strName": "Свежие",
+    "strName": "Refreshed",
     "strNameFriendly": "Поспала",
     "strColor": "Goodish",
     "strDesc": "[мы] [чувствуют] себя свежими после сна.",
@@ -2296,7 +2296,7 @@
   },
   {
     "strName": "Refreshed2",
-    "strNameFriendly": "Свежие",
+    "strNameFriendly": "Свежо",
     "strColor": "Good",
     "strDesc": "[мы] [чувствуют] себя умеренно свежими после длительного сна.",
     "nDisplaySelf": 2,
@@ -2309,7 +2309,7 @@
   },
   {
     "strName": "Refreshed3",
-    "strNameFriendly": "Энергичные",
+    "strNameFriendly": "Энергично",
     "strColor": "Good",
     "strDesc": "[мы] [чувствуют] себя энергичными после длительного сна. Это чувство может длиться часы или два.",
     "nDisplaySelf": 2,
@@ -2322,7 +2322,7 @@
   },
   {
     "strName": "Refreshed4",
-    "strNameFriendly": "Оживленные",
+    "strNameFriendly": "Оживленно",
     "strColor": "Good",
     "strDesc": "[мы] [чувствуют] себя оживленными, свежими и энергичными после редкого, длительного сна. Это чувство должно длиться несколько часов.",
     "nDisplaySelf": 2,
@@ -11243,7 +11243,7 @@
     ]
   },
   {
-    "strName": "В социальном бою",
+    "strName": "InSocialCombat",
     "strNameFriendly": "В социальном бою",
     "strColor": "Neutral",
     "strDesc": "[мы] [сейчас] участвуем в социальном бою.",
@@ -14130,7 +14130,7 @@
     "fClampMax": 240.0
   },
   {
-    "strName": "Статус возраста",
+    "strName": "StatAge",
     "strNameFriendly": "Статус возраста",
     "strColor": "Neutral",
     "strDesc": "Возраст [мы-pos] в годах.",

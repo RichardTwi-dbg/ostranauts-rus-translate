@@ -1,6 +1,6 @@
 [
   {
-    "strName": "Реактор",
+    "strName": "Reactor",
     "strNameFriendly": "Салон реактора",
     "strIconName": "reactor",
     "nMinTileSize": 4,
@@ -63,8 +63,8 @@
     "nPriority": 80
   },
   {
-    "strName": "Воздушный люк",
-    "strNameFriendly": "Воздушный люк",
+    "strName": "Airlock",
+    "strNameFriendly": "Воздушный Шлюз",
     "strIconName": "airlock",
     "nMinTileSize": 3,
     "nMaxTileSize": -1,
@@ -160,7 +160,7 @@
     "nPriority": 50
   },
   {
-    "strName": "Ванная комната",
+    "strName": "Bathroom",
     "strNameFriendly": "Ванная комната",
     "strIconName": "bathroom",
     "nMinTileSize": 4,
@@ -175,7 +175,7 @@
     "nPriority": 45
   },
   {
-    "strName": "Кухня",
+    "strName": "Galley",
     "strNameFriendly": "Кухня",
     "strIconName": "galley",
     "nMinTileSize": 6,
@@ -295,7 +295,7 @@
     "nPriority": 5
   },
   {
-    "strName": "Пусто",
+    "strName": "Blank",
     "strNameFriendly": "Нет специализации комнаты",
     "strIconName": null,
     "nMinTileSize": -1,

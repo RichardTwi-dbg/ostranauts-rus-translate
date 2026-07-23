@@ -39,7 +39,7 @@
     "fDuration": 0.0
   },
   {
-    "strName": "Сюжет снимка завершён",
+    "strName": "PlotSnapPhotoTaken",
     "strNameFriendly": "Сюжет снимка завершён",
     "strColor": "Neutral",
     "strDesc": "Снимок сделал снимок.",
@@ -1560,7 +1560,7 @@
     "fDuration": 0.0
   },
   {
-    "strName": "Начало выбора задачи",
+    "strName": "PlotChoicesStarted",
     "strNameFriendly": "Начало выбора задачи",
     "strColor": "Neutral",
     "strDesc": "Начата задача: Выборы.",

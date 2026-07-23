@@ -449,7 +449,7 @@
     "nPriority": 6
   },
   {
-    "strName": "Бармен",
+    "strName": "Bartender",
     "strType": "repeat",
     "strIATrigger": "PLGBartend",
     "aIAEnd": null,
@@ -473,7 +473,7 @@
     "nPriority": 4
   },
   {
-    "strName": "Патрулирование",
+    "strName": "Patrol",
     "strNameFriendly": "Патрулирование",
     "strType": "patrol",
     "strIATrigger": "PLGPatrolCommand",
@@ -483,7 +483,7 @@
     "nPriority": 3
   },
   {
-    "strName": "Команда высадки",
+    "strName": "DisembarkCommand",
     "strNameFriendly": "Высадка",
     "strType": "disembark",
     "strIATrigger": "PLGDisembarkCommand",

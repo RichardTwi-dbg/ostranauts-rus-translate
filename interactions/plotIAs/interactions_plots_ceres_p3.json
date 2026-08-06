@@ -1,0 +1,1068 @@
+[
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword",
+    "strTitle": "Спросите, где найти истинный Запад",
+    "strDesc": "[us] скрытно спрашивает [them], где найти истинный Запад.",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "strActionGroup": "Talk",
+    "nLogging": 1,
+    "bIgnoreFeelings": true,
+    "bSocial": true,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Success",
+      "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Fail"
+    ],
+    "LootCondsUs": "",
+    "CTTestUs": "",
+    "CTTestThem": "CTPlot_Ceres_Asked_Codeword",
+    "strThemType": "Other",
+    "ShipTestThem": "AnyShip_BCER",
+    "LootCondsThem": "CONDPLOT_Ceres_Asked_Codeword"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Success",
+    "strDesc": "[us] говорит [them], следовать за вечерним красным оттенком.",
+    "LootCondsUs": "CONDPLOT_Ceres_Titan_Agent",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bSocial": true,
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "fForcedChance": 0.5,
+    "strAnim": "Talk",
+    "CTTestUs": "TIsGalConAgent"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Fail",
+    "strDesc": "[us] предлагает запутанную реакцию на вопрос.",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 0.5,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "LootCondsThem": "CONDPLOT_Ceres_Titan_Codeword_Fail_Player"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword",
+    "strTitle": "Спросите, выращивали ли они ночной шалфей",
+    "strDesc": "[us] спрашивает [them], не выращивали ли [them-subj] когда-либо ночной шалфей.",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "bIgnoreFeelings": true,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Success",
+      "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Fail"
+    ],
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bSocial": true,
+    "nLogging": 1,
+    "fForcedChance": 1,
+    "CTTestThem": "CTPlot_Ceres_Asked_Codeword",
+    "ShipTestThem": "AnyShip_BCRS",
+    "LootCondsThem": "CONDPLOT_Ceres_Asked_Codeword"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Fail",
+    "strDesc": "[us] кажется запутанным и предлагает запутанное объяснение.",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "LootCondsThem": "CONDPLOT_Ceres_Xinhua_Codeword_Fail_Player"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Success",
+    "strDesc": "[us] говорит [them], только на заимствованной земле.",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "strColor": "Dialogue",
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "bSocial": true,
+    "bIgnoreFeelings": true,
+    "nLogging": 1,
+    "LootCondsUs": "CONDPLOT_Ceres_Xinhua_Agent",
+    "CTTestUs": "TIsXinhuaAgent"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Cup",
+    "strTitle": "Проверьте наличие скрытого размещения",
+    "strDesc": "[us] ищет под отброшенным кофе-пакетом рядом с [them] и находит данные карту и небольшой планшет.",
+    "strTooltip": "Ищите скрытые инструкции на этом киоске.",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strThemType": "Other",
+    "bIgnoreFeelings": true,
+    "CTTestThem": "CTPlot_Ceres_Cup_Dead_Drop_Xinhua",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua,[us],[us]"
+    ],
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2,
+    "CTTestUs": "CTPlot_Ceres_Xinhua_Loyalty"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua",
+    "strTitle": "Прочитайте инструкции по скрытому размещению",
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strThemType": "Self",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Debrief",
+      "ENCFinish"
+    ],
+    "strDesc": "Под кофе-киоском вы находитесь отброшенный пакет с напитком, как и указал ваш контакт. Внутри находятся два сложенных носка. Найдя тихое место на станции, вы раскрываете первый. Это маленькая данные карта. \n\nВы вставляете карту и устанавливаете режим «Только для ушей». Ваш PDA проходит аутентификацию настолько быстро, что вы почти не замечаете вывода.\n\n«Доброе утро, товарищ. Здоровья и процветания вам!» — гладкий синтетический голос говорит прямо в ваше ухо. Пассажиры станции проходят мимо, не замечая ничего.\n\n«Параметры: цель — неизвестный церезийский гражданин, работающий на стороне Галилеевской контрреволюционной комиссии, также известной как «Цианидовая улица», в районе Порта Можаве, Церес. Кроме того, цель подозревается в передаче ценных данных Xinhua галконовым последователям. Цель считается бывшим торговцем людьми, виновным в преступлениях против человечества во время галилеевской нестабильности.\n\n«Цель может быть найдена путем проникновения в черный хат-сеть или нейтрализована через исполнительное действие в зависимости от навыков и дисциплины агента.»",
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua",
+    "strTitle": "Миссия в условиях влажности",
+    "strDesc": "Синтетический голос продолжает.\n\n«Извлеките упакованный комплект смертельности и скройте его на себе. Это одна из двух частей мгновенно токсичного нервного агента. Другая группа определит и применила первую часть нервного агента. Ваша задача — определить цель и применить вторую часть, которая в обычных условиях не является смертельной.\n\n«Для обеспечения точного исполнительного действия цель должна быть идентифицирована с помощью недавно приобретенного титанианского кода. Цель ответит на титанианский код, «Где находится истинный Запад?» В голосе повторяется фраза дважды. Ответ будет: «Следуйте за вечерним красным оттенком».\n\n«Прошлые профили агентов Титана указывают, что цель, вероятно, обладает навыками в области инженерии и различных форм поддельности и убеждения. Психологические оценки показывают, что галконская разведка ищет сильных, нечестных, но в целом общительных типов личности.\n\n«После идентификации цели, сожмите включенный баллон между зубами и вдохните. Нервный агент убьет цели мгновенно. Быстро выйдите и как вам угодно.\n\n«После успешного завершения миссы, оставьте отчёт о выполнении миссии в скрытом размещении.»",
+    "strColor": "Dialogue",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Xinhua",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Accept",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Deny"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Accept",
+    "strTitle": "Принятие миссии в условиях влажности",
+    "strDesc": "<i>В разработке: предполагалось, что цель находится на Цересе, а не на кольце станции:</i>\n\nВы вставляете карту и устанавливаете режим «Только для ушей». Ваш PDA проходит аутентификацию настолько быстро, что вы почти не замечаете вывода.\n\n«Доброе утро, товарищ. Здоровья и процветания вам!» — гладкий синтетический голос говорит прямо в ваше ухо. Церезийцы проходят мимо, не замечая ничего. «Извлеките также комплект смертельности и скройте его на себе. Это одна из двух частей мгновенно токсичного нервного агента.»\n\n«Параметры: цель — неизвестный церезийский гражданин, работающий на стороне Галилеевской контрреволюционной комиссии, также известной как «Цианидовая улица», в районе Порта Можаве, Церес. Другая группа определит и применила первую часть нервного агента. Ваша задача — определить цель и применить вторую часть.»\n\nВы наблюдаете, как офицер общественной безопасности в защитной одежде упрекает гражданина в защитной одежде за то, что он пролил спирт у края трамвайной станции. Мужчина просит прощения на коленях. Другие церезийцы отворачиваются, как будто не видят. «Цель ответит на титанианский код, «Был яркий, холодный день в апреле».» В голосе повторяется фраза дважды. «Ответ будет: «И часы стучали тринадцать». Так идентифицированная, сожмите баллон между зубами и вдохните. Нервный агент убьет цели мгновенно. Выходите как вам угодно.»\n\n«Мотивация: цель — бывший торговец людьми, виновный в преступлениях против человечества во время галилеевской нестабильности. Оплата: стандартный контракт третьей стороны.»\n\n«Дополнение: подложка будет сброшена в заводские настройки через пятнадцать секунд. Вы можете оставить пустую карту. Сообщение завершено.» Вы смотрите на неё и отключаете карту.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1,
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Wetwork_Xinhua_Is_Active",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Xinhua"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Deny",
+    "strTitle": "Отказ от миссии в условиях влажности",
+    "strDesc": "Вы отказываетесь от миссии мокрой работы. На данный момент.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Xinhua",
+    "strTitle": "Разбить смертельную пленку",
+    "strDesc": "[us] скрытно [вводит] нейротоксин в [them-pos] организм.",
+    "CTTestThem": "CTPlot_Ceres_Dead_Drop_Wetwork_Can_Poison_Xinhua",
+    "LootCondsThem": "CONDPlot_Ceres_Poisoned_To_Death",
+    "LootCondsUs": "CONDPlot_Ceres_Wetwork_Success_Xinhua",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Active_Xinhua",
+    "strActionGroup": "Use",
+    "strThemType": "Other",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "strCrime": "damage",
+    "ShipTestThem": "AnyShip_BCER"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return",
+    "strTitle": "Успешное выполнение работы в условиях влажности",
+    "strDesc": "[us] [записывает] разбор успешной миссии в условиях влажности.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Xinhua_Success",
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Xinhua_Success",
+    "strFactionScoreChangeLoot": "TXTFactionAddBCRS",
+    "fFactionScoreChangeLoot": 10,
+    "bFactionIgnoreThemPop": true
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Planter",
+    "strTitle": "Проверка скрытого размещения",
+    "strDesc": "[us] [проверяет] плантер.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Other",
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2,
+    "bIgnoreFeelings": true,
+    "CTTestThem": "CTPlot_Ceres_Cup_Dead_Drop_Titan",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan,[us],[us]"
+    ]
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan",
+    "strTitle": "Проверка скрытого размещения",
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Return",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Start",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Debrief",
+      "ENCFinish"
+    ],
+    "strDesc": "Вы смотрите в листья плантера, не зная точно, что ищете. Внизу, наполовину утопленный в почве, вы видите маленький складной листок. Вы разворачиваете его и находитесь типографский текст:\n \nВРЕМЕННОЕ ПОДТВЕРЖДЕНИЕ ДЛЯ АССЕТА ПРИНЯТО\nПОДТВЕРЖДЕНИЕ: Следуйте вечернему красному оттенку.\nЦЕЛЬ В ПОДЗЕМНОМ СЕКЦИОНЕ ОТКРЫТА НА СТАНЦИИ РИНГ.\n\nПОСЛЕДНИЕ ПРИЕМЫ ПОКАЗЫВАЮТ ФРАЗУ XINHUA: Вы когда-нибудь выращивали ночной лист? ОТВЕТ: Только в заимствованной почве.\n\nНАЙДИТЕ ЦЕЛЬ ПО ФРАЗЕ И МЕТКЕ, ИСПОЛЬЗУЯ МЕТОД, КОТОРЫЙ ВАМ ПРИХОДИТСЯ\n\nДалее идут дополнительные инструкции.",
+    "fForcedChance": 1,
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2,
+    "CTTestUs": "CTPlot_Ceres_GalCon_Loyalty"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan",
+    "strTitle": "Миссия в условиях влажности",
+    "strDesc": "Больше текста над крошечной серебряной капсулой, приклеенной к бумаге. В тексте написано:\n\nДИРЕКТИВА ПО МОКРОЙ РАБОТЕ УТВЕРЖДЕНА\n\nПРИ ОБНАРУЖЕНИИ ЦЕЛИ, ОТСТУПАЙ МЕЖДУ ЖЕВТЯКАМИ И ДЫШИ В ТЕЧЕНИЕ МИНУТЫ ПЯТЬ СЕКУНД. ВОЗВРАТ ПОДТВЕРЖДЕНИЯ ЗДЕСЬ\n\nТы смотришь на крошевую пилюлю, стараясь не думать о том, что произойдет, если ты случайно ее проглотишь.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Accept",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Deny"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1,
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Titan"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Accept",
+    "strTitle": "Принятие миссии в условиях влажности",
+    "strDesc": "Вы принимаете миссию в условиях влажности.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1,
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Wetwork_Titan_Is_Active",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Titan"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Deny",
+    "strTitle": "Отказ от миссии в условиях влажности",
+    "strDesc": "Вы отказываетесь от миссии в условиях влажности, на данный момент.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "fForcedChance": 1
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Titan",
+    "strTitle": "Разбить смертельную таблетку",
+    "strDesc": "[us] [разбивает] смертельную таблетку и скрытно [вводит] нейротоксин в [them-pos] организм.",
+    "LootCondsThem": "CONDPlot_Ceres_Poisoned_To_Death",
+    "LootCondsUs": "CONDPlot_Ceres_Wetwork_Success_Titan",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan",
+    "CTTestThem": "CTPlot_Ceres_Dead_Drop_Wetwork_Can_Poison_Titan",
+    "strActionGroup": "Use",
+    "strThemType": "Other",
+    "strTargetPoint": "talk",
+    "fTargetPointRange": 2,
+    "strCrime": "damage",
+    "ShipTestThem": "AnyShip_BCRS"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Return",
+    "strTitle": "Успешное выполнение работы в условиях влажности",
+    "strDesc": "[us] [записывает] разбор успешной миссии в условиях влажности.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Titan_Success",
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Titan_Success",
+    "strFactionScoreChangeLoot": "TXTFactionAddBCER",
+    "fFactionScoreChangeLoot": 10,
+    "bFactionIgnoreThemPop": true
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua",
+    "strTitle": "Миссия «Чёрная шляпа» (требуется взлом)",
+    "strDesc": "\"Агенты с необходимым техническим опытом могут выбрать взломать список членов GCRD на терминале Port Mojave. После доступа сканируйте список в поиске учетных данных 'SixDeuce82934', соответствующих недавним подозрительным входам в сеть станции Ринг.\"\n\nL: AceNine4938\nPW: Fade495%#$Helix\n\n\"После успешного завершения миссии вернитесь к скрытому размещению для разбора.\"",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestUs": "CTPlot_Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Accept",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Deny"
+    ]
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Accept",
+    "strTitle": "Принятие миссии «Чёрная шляпа»",
+    "strDesc": "Вы принимаете миссию «Чёрная шляпа».",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Black_Hat_Xinhua_Is_Active",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Black_Hat_Is_Not_Active_Xinhua"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Deny",
+    "strTitle": "Отклонение миссии «Чёрная шляпа»",
+    "strDesc": "Вы отклоняете миссию «Чёрная шляпа». На данный момент.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Debrief",
+    "strTitle": "Дебрифинг успешной миссии «Чёрная шляпа»",
+    "strDesc": "[us] [записывает] дебрифинг успешной миссии «Чёрная шляпа».",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPlot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Debrief",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Black_Hat_Xinhua_Success",
+    "strFactionScoreChangeLoot": "TXTFactionAddBCRS",
+    "fFactionScoreChangeLoot": 10,
+    "bFactionIgnoreThemPop": true
+  },
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
+    "strTitle": "Нападение на государственные записи",
+    "strDesc": "[us] [проникает] в [them] и [us-gains] доступ к сети GCRD. В списке включён логин SixDeuce82934.",
+    "fDuration": 0.005,
+    "bIgnoreFeelings": true,
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
+    "CTTestThem": "TIsTerminal01Installed",
+    "strActionGroup": "Use",
+    "aInverse": [
+      "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply,[us],[them]"
+    ],
+    "ShipTestThem": "AnyShip_BCER"
+  },
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply",
+    "strDesc": "[us] [использует] [them], чтобы выявить некоторые перспективные мемо-документы через терминал доступа местной администрации: отчёты, отправленные между локальными командами исследований в Мојаве и высшими дипломатами в сети Титан. Высшее руководство явно заинтересовано в том, что происходит здесь. Но почему?",
+    "bIgnoreFeelings": true,
+    "fDuration": 0.0005,
+    "strTargetPoint": "use",
+    "fTargetPointRange": 1,
+    "strAnim": "Tablet",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "strCrime": "damage",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Start",
+    "strTitle": "Миссия «Чёрная шляпа» (требуется взлом)",
+    "strDesc": "ПРИНЯТА ИНСТРУКЦИЯ «ЧЁРНАЯ ШЛЯПА»\n\nИСПОЛЬЗУЙТЕ ЛОКАЛЬНЫЙ ТЕРМИНАЛ И ПАРОЛЬ «silverTwelve8344» ДЛЯ ДОСТУПА К ФАЙЛУ «atmoScans.log» И ПОИСКА ВХОДОВ ЦЕЛЕЙ. ВОЗВРАЩАЙТЕ ПОДТВЕРЖДЕНИЕ ЗДЕСЬ",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Black_Hat_Is_Not_Active_Titan",
+    "aInverse": [
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Accept",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Deny"
+    ]
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Accept",
+    "strTitle": "Принятие миссии «Чёрная шляпа»",
+    "strDesc": "Вы принимаете миссию «Чёрная шляпа».",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Black_Hat_Titan_Is_Active",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Black_Hat_Is_Not_Active_Titan"
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Deny",
+    "strTitle": "Отклонение миссии «Чёрная шляпа»",
+    "strDesc": "Вы отклоняете миссию «Чёрная шляпа». На данный момент.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Debrief",
+    "strTitle": "Дебрифинг успешной миссии «Чёрная шляпа»",
+    "strDesc": "[us] [записывает] дебрифинг успешной миссии «Чёрная шляпа».",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPlot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Debrief",
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Black_Hat_Titan_Success",
+    "strFactionScoreChangeLoot": "TXTFactionAddBCER",
+    "fFactionScoreChangeLoot": 10,
+    "bFactionIgnoreThemPop": true
+  },
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station",
+    "strTitle": "Нападение на государственные записи",
+    "strDesc": "[us] [использует] [them] и [us-hacks] в файле 'atmoScans.log', чтобы обнаружить несколько входов пользователями цели.",
+    "fDuration": 0.005,
+    "bIgnoreFeelings": true,
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "CTTestThem": "TIsTerminal01Installed",
+    "strActionGroup": "Use",
+    "strCrime": "damage",
+    "aInverse": [
+      "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station_Reply,[us],[them]"
+    ],
+    "ShipTestThem": "AnyShip_BCRS",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station"
+  },
+  {
+    "strName": "CeresP3Finale1",
+    "strTitle": "Удар",
+    "strDesc": "Последний бегун догоняет вас, дыша и потея с силой тяжести. «[us-fullname]!» — говорит она между глотками. «Мы просят вас присутствовать на борту <i>Янцзы-3</i>».\n\nЭтот <i>Янцзы</i> — военный корабль Хиньхуа, который уже несколько месяцев приставлен к Цересу, по сути, проводит учебные симуляции и тренировки по тактике для морских солдат Коалиции.\n\n«Кто вы?» — спрашиваете вы, когда женщина останавливается дышать. Она одета в ярко выраженный деловой стиль, с короткими волосами и скрытым, но заметным мышечным телом.\n\n«О,» — говорит она. Она явно смотрит вокруг, чтобы убедиться, что никто не слышит. «Вы когда-нибудь выращивали ночной шалфей?»\n\nВы смотрите на неё. «Вы должны сначала дать мне ответ-фразу», — говорит она, слишком громко.\n\n«Просто возьмите меня к вашему лидеру», — говорите вы устало.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3Finale2"
+    ],
+    "LootCondsUs": "CONDPLOT_CeresP3Finale_Xinhua",
+    "CTTestUs": "CTPlot_CeresP3Finale",
+    "ShipTestUs": "AnyShip_BCRS"
+  },
+  {
+    "strName": "CeresP3Finale2",
+    "strTitle": "Следуй за безразличным низшим офицером",
+    "strDesc": "Безразличный морской офицер-специалист, сопровождая вас, идёт вперёд, пока вы все доходят до запрещённых причалов. Там вас передают ряду членов экипажа Ниньхуа, каждый из которых ведёт вас до того момента, как передаёт вас, как батон, в бухту <i>Янцзы</i>, в саму <i>Янцзы</i>, оставляя вас на балконе в кабинете в течение тринадцати минут. Наконец, младший офицер просит вас последовать за ней в кабинет. Никто не понимает, о чём идёт речь.\n\nОфицер в трёх звёздах, одетый в космическую форму, принимает вас обоих в кабинет. Он делает вид, что проверяет вашу временный документ на борту и сравнивает его с вашим лицом. Внутри уже превышено допустимое количество, и на месте стоят моряки и морячки с подавленной нетерпением, и вы только входит с большим количеством молчаливых сдвигов. Тем не менее, младший офицер, будто по волшебству, приносит пустое место у центрального стола, и ведёт вас туда. Остальные, сидящие и стоящие в два ряда, смотрят на вас только впрочем.\n\nНа дальнем конце кабинета, массивный набор экранов, как у насекомого глаза, наполнен информацией.\n\nКаждые двадцать секунд, без какого-либо объяснения и без какого-либо ритма, лампы мигают.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleScreens",
+      "CeresP3FinaleListen"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "nLogging": 0,
+    "bHumanOnly": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "CeresP3FinaleScreens",
+    "strTitle": "Посмотрите на экраны",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "strDesc": "Половина экранов показывает живые видеозаписи, объединённые в одну полушарие. Другая половина показывает спектральные изображения станции, сопровождаемые длинными текстовыми выводами, которые, вероятно, не имеют отношения к ограниченному времени, которое у вас есть для их прочтения. Перед вами находится длинный стол, на котором накрыта тканевая панель, отображающая схему станции и её прибрежных кораблей, включая этот. Он покрыт зелёными кругами, обозначающими друзей, красными — врагов, и серыми — неизвестных. Неизвестных очень много.\n\nВы смотрите на живые веб-видео. Это занимает секунду, чтобы понять, но это камеры разведки, с позиции оперативников на месте, не менее шести. Иногда экран переключается на новую позицию, которую вы ещё не видели. Это дезориентирующее демонстрация скрытой власти. Одна из камер — у мороженого продавца, который раздаёт жареных скорпиона на шпажках. Две камеры представляют пару, влюбленную, лица с пиксельной обработкой, чтобы скрыть их идентичность. Здесь, там, повсюду, вы думаете, руки жгутся. Вы бы никогда не узнали.",
+    "LootCondsUs": "CONDPLOT_CeresP3FinaleScreens",
+    "CTTestUs": "CTPlot_CeresP3FinaleScreens",
+    "aInverse": [
+      "CeresP3FinaleListen",
+      "CeresP3FinaleMothman"
+    ]
+  },
+  {
+    "strName": "CeresP3FinaleListen",
+    "strTitle": "Слушайте разговор",
+    "strDesc": "Женщина в аккуратной гражданской одежде стоит с одной стороны массива мониторов, держит всех в полном внимании, когда говорит. В тусклом синем свете вы слегка видите, что у неё синяя подбородочная рана. На руках — свежие порезы, закреплённые медицинскими шпильками. «Напоминание: хотя площадка открыта для вопросов, мы приближаемся к нулевому часу. В нулевом часу аналитическая группа на прямой связи будет управлять операционными делами, приоритетом номер один, и корабль погаснет». Её голос спокойный, собран. Вы думаете, если бы реактор станции вспыхнул перед вами, она спокойно бы описала всё это.\n\n«Объект», говорит старший мужчина — седой, полный, единственный в комнате с трубкой, и, следовательно, капитан — «это информатор на консультации станции. Как его зовут? «Мотман»?»\n\n«Правильно», говорит женщина, которую вы называете Стюард. «Он ведёт себя как культурный журналист. Это скрытая роль его как посредника, торгующего редкими металлами с противниками, включая V-79. Более подробная информация содержится в ваших пакетах информирования».\n\n«Это ваше шоу с собакой и лошадью», говорит капитан, отмахиваясь от трубы. «Я являюсь хостом».",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3FinaleScreens",
+      "CeresP3FinaleMothman"
+    ],
+    "LootCondsUs": "CONDPLOT_CeresP3FinaleListen",
+    "CTTestUs": "CTPlot_CeresP3FinaleListen"
+  },
+  {
+    "strName": "CeresP3FinaleMothman",
+    "strTitle": "Продолжить",
+    "strDesc": "Стюард наклоняется к одному из сторон. Затем: «Мотман вошёл в зону уничтожения. Опять: Мотман находится в зоне уничтожения». Она поднимает глаза. «Генерал?»\n\nВсе смотрят на генерала с четырьмя звёздами, голова опирается на два изогнутых руки. Он говорит впервые, почти беззаботно. «Астра».\n\nСтюард повторяет: «Астра. Все подразделения, Астра, Астра, Астра». Внезапно мониторы сменяют своё изображение. Нет сигнала. Они переключаются на аналитические обзоры, изучая социальные сети.\n\n«<i>Движется</i>», говорит новый голос, напряжённый, из-за чего-то, неизвестного. Возможно, есть тесная связь с командиром на земле. Это всё: комната становится молчаливой.\n\nСнова мигают лампы.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "LootCondsUs": "CONDPLOT_CeresP3FinaleMothman",
+    "CTTestUs": "CTPlot_CeresP3FinaleMothman",
+    "aInverse": [
+      "CeresP3FinaleNudge"
+    ]
+  },
+  {
+    "strName": "CeresP3FinaleNudge",
+    "strTitle": "Незаметный толчок в плечо",
+    "strDesc": "Незаметный толчок в плечо почти заставляет вас вздрогнуть: это младший офицер. Он шёпотом говорит: «Чай, кофе?» Невыразимый вопрос.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3FinaleTea",
+      "CeresP3FinaleCoffee",
+      "CeresP3FinaleIgnore"
+    ]
+  },
+  {
+    "strName": "CeresP3FinaleTea",
+    "strTitle": "Чай",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman2"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "strDesc": "Он кладёт перед вами пакет чайного напитка и уходит."
+  },
+  {
+    "strName": "CeresP3FinaleCoffee",
+    "strTitle": "Кофе",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman2"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "strDesc": "Он кладёт перед вами пакет кофе и уходит."
+  },
+  {
+    "strName": "CeresP3FinaleIgnore",
+    "strTitle": "Игнорируйте его",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman2"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "strDesc": "Вы смотрите друг на друга молча. Он кладёт перед вами высокий стеклянный капсулу с охлаждённой водой и уходит.\n\nКапли скапливаются на боку. Это пот."
+  },
+  {
+    "strName": "CeresP3FinaleMothman2",
+    "strTitle": "Продолжить",
+    "strDesc": "\"Наша команда входит в позицию.» Стюард полностью в тени, превращается в другое голос в темноте. Вы видите только её руки, лежащие на столе. Её длинные, изящные пальцы покрыты шрамами. «Мы вот-вот увидим их отвлечение.»\n\nНа одном из видеокамер магазина что-то мигает. Видеозапись становится центральной, занимает четыре монитора одновременно. Появляется яркий белый всплеск, взрыв в сером цвете на фоне освещённых знаков. Затем появляются мелкие вспышки вокруг него, исходящие от непонятного места.\n\n«<i>Взрывные двери!</i>» говорит голос с земли. В фоне — ужасные крики и автоматическое огнестрельное оружие. «<i>Нужен -</i>» резко прерывается. Вы смотрите на точки, где друзья или враги, на схеме. Сверху это выглядит бессмысленно.\n\n«Так, всё хорошо», говорит Стюард.\n\n«Это хорошо?» спрашивает капитан. Он дышит на трубку, показывая, что это электронная копия. «Это не звучит хорошо.»\n\n«С уважением, капитан», говорит генерал, всё ещё склонившийся, «если бы это не было хорошо, мы бы ничего не слышали.»\n\nЭто устраняет дальнейшее обсуждение, даже краткие комментарии Стюард. Свет в кабинете мигает снова.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman3"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman3",
+    "strTitle": "Продолжить",
+    "strDesc": "Пауза длится так долго, что вы начинаете думать, что в мигании есть какой-то ритм. Вы начинаете считать секунды между миганиями. 17, 22, 17. Что это значит? Циклы реактора? Что-то связанное с вращающейся станцией?\n\nВаши панические фантазии прерываются. Улыбающаяся женщина, покрытая грязью, мигает на мониторах. «Домой свободно», говорит лицо, и смотрит вниз на тело на полу. Всё кабинет выдыхает, и появляется разрозненное одобрение. Поверхностный жест.\n\nКапитан наклоняется вперёд. «Это безопасная линия, верно?» Нод от Стюард. «Эй, мальчик. Хорошая работа внизу. Как ваши люди?»\n\n«Повреждены, но мы в порядке, сэр.» Магбут нажимает на тело-багаж с излишним усилием, будто просто указывая. «Наш друг имел неожиданные сюрпризы для нас. Ничего, что мы не могли бы справиться.» Она стирает слой грязи с лба. «Мы собираемся перейти к вторичному эскапу, если вам всё равно.»\n\n«Мы вас слышали», говорит Стюард. «Удачи. Уходите.»",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman4"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman4",
+    "strTitle": "Продолжить",
+    "strDesc": "Экраны возвращаются к стандартному фону операционной системы, значку Ниньхуа с змеей Нави, свернувшейся вокруг. За вами офицеры выходят, разговаривая, довольные результатом. Освещение возвращается, и когда вы ищете её, Стюард уже исчезла. Вы ждёте, не зная, что делать. Наконец остаётся только вы, генерал и младший офицер, стоящий у вашего плеча.\n\nГенерал вздыхает и снимает напряжение с рук. Он откидывается в кресле и, как будто впервые, замечает вас. Его глаза скользят к потолку, к симметричным навигационным полосам. «Это была твоя идея, да?» говорит он, будто сам себе. Но он говорит вам.\n\nЕго глаза скользят обратно к вам. «Чёрт, что вы ещё здесь делаете?»\n\nМладший офицер помогает отодвинуть ваше кресло и ведёт вас наружу.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman6"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman5",
+    "strTitle": "Продолжить",
+    "strDesc": "Экраны возвращаются к стандартному фону операционной системы, значку Ниньхуа с змеей Титан-Нави, свернувшейся вокруг. За вами офицеры выходят, разговаривая, довольные результатом. Освещение возвращается, и когда вы ищете её, Стюард уже исчезла. Вы ждёте, не зная, что делать. Наконец остаётся только вы, генерал и младший офицер, стоящий у вашего плеча.\n\nГенерал вздыхает и снимает напряжение с рук. Он откидывается в кресле и, как будто впервые, замечает вас. Его глаза скользят к потолку, к симметричным навигационным полосам. «Это была твоя идея, да?» говорит он, будто сам себе. Но он говорит вам.\n\nЕго глаза скользят обратно к вам. «Чёрт, что вы ещё здесь делаете?»\n\nМладший офицер помогает отодвинуть ваше кресло и ведёт вас наружу.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman6"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman6",
+    "strTitle": "Продолжить",
+    "strDesc": "Познакомились с известным лицом, проходящим мимо бетонной стены. Это Франсиско Орtega, одетый в военную форму. «Я возьму [us-custom-characterGenderCond|его|её|их] отсюда, лейтенант», — говорит он. Лейтенант благодарно кивает и исчезает, пока не назначают ему больше работы.\n\n«Орtega?» спрашиваете вы. Надпись на его форме читается ХАРРИСОН.\n\n«Не называйте меня так здесь», — говорит он. «Я делаю вам приятное. Следуйте за мной.»",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman7"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman7",
+    "strTitle": "Продолжить",
+    "strDesc": "Он ведёт вас по пути, существенно отличающемуся от лабиринта, которым вы пришли сюда. Вы проходите мимо других военнослужащих, которые уступают Ортеге, позволяя вам пройти. Он напряжён, и он не отвечает на вопрос, что происходит — вопрос, который вы уже устали задавать всем этим людям.\n\nВы приходите в огромную бухту, заполненную меньшими кораблями, обслуживаемыми группами инженеров. Он ведёт вас по навигационным линиям к одному из таких кораблей, который, помимо специализированных экипажей, проводящих после-полетную проверку, имеет уставшую группу моряков, лежащих рядом, ожидающих разбора. Вы узнаёте некоторые из их лиц из последнего звонка в кабинете.\n\nВы смотрите на Ортегу. Он перехватывает ваш взгляд и передаёт вам ПДА с открытым документом. «Улыбнитесь для камеры», — говорит он, и идёт вперёд.\n\n«Отлично, моряки!» — говорит он с оживлением, и моряки медленно встают на ноги. «Сядьте, мы сделаем это кратко...»\n\nДокумент на ПДА назван <i>FOLLOW THESE INSTRUCTIONS OR WE'RE BOTH DEAD.txt</i>",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman8"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman8",
+    "strTitle": "Продолжить",
+    "strDesc": "Привезите этот чемодан в офис безопасности на Керее. \n\t\t\n\t\tПункт пропуска находится на верхнем этаже/на входе в здание.\n\t\t\n\t\tЗапрещено допускать персонал пункта пропуска к осмотру чемодана.\n\t\t\n\t\tВы получите контакт после того, как пройдете пункт пропуска.\n\t\t\n\t\tСейчас верните PDA мне и уходите.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman9"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman9",
+    "strTitle": "Продолжить",
+    "strDesc": "Вы поднимаетесь с PDA. Ортега имеет магнитную доску и рисует большие петли с движениями врагов, комментируя операцию в реальном времени. Марине в основном уделяют внимание.\n\nВы приближаетесь к его плечу и вставляете PDA обратно в его руки, который берёт его с улыбкой. Затем он указывает вам на одного из моряков.\n\nПод её рукой — чёрно-серый чемодан. Вы смотрите на Ортегу. Он игнорирует вас.\n\nВы подходите к ведущему моряку. Её взгляд перемещается с доски на вас.\n\nВы протягиваете руку.\n\nЧерез мгновение моряк передаёт чемодан вам.\n\nВы поворачиваетесь и уходите.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman10"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman10",
+    "strTitle": "Продолжить",
+    "strDesc": "Каждый шаг идёт роботично, с нарастающей силой предыдущего. Чемодан упакован под один из рук, как будто он лёгкий в условиях свободного падения, вы идёте обратно по той же, наполовину воспоминаемой тропе к выходу. Всё вокруг Navy шумно и активно движется — сварка, загрузка, доставка, шутки, споры и ленивое развлечение.\n\n\"Остановитесь!\" вы слышите за спиной.\n\nВы поворачиваетесь.\n\nВедущий моряк догоняет вас, на лице у неё серьёзное выражение.\n\n\"Покажи мне это,\" говорит она.\n\n\"Я должен был его иметь,\" вы вскрикиваете.\n\n\"Я знаю. Дайте мне его,\" говорит она.\n\nБез других вариантов вы передаёте его ей.\n\nОна внимательно осматривает его.\n\nОна достаёт тряпку из кармана и смазывает тусклый бурый след крови с верхней поверхности чемодана.\n\n\"Это меня беспокоило,\" говорит она. \"А теперь, как бы вы хотели, я купила бы вам напиток?\" Она улыбается.\n\n\"О,\" вы говорите. \"Да. Да. Конечно.\" Моряк смотрит на вас. \"А что если, вы скажете, встретимся здесь через пятнадцать минут?\"\n\n\"Пятнадцать. Понял,\" говорит моряк. \"Я буду ждать.\"\n\nВы поворачиваетесь и уходите, стараясь не ускоряться. Она будет ждать очень долго.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CeresP3FinaleMothman11"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true
+  },
+  {
+    "strName": "CeresP3FinaleMothman11",
+    "strTitle": "Продолжить",
+    "strDesc": "Вы выезжаете из <i>Янцзы-3</i> без препятствий.\n\nЧто за черт, что это было?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aLootItms": [
+      "addus,ItmCrate02_PLOT_Ceres_Brain_Case"
+    ],
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "CeresP3TitanFinale1",
+    "strTitle": "Следователь",
+    "strDesc": "Кто-то следует за вами.\n\nПаника в пространстве Керей начинает влиять на вас, или вы не заметили бы этого. Тень медленно следует за вами по каждому повороту. Вы видите её искажённую в блестящих стенах и случайно видите её, когда вы выглядываете на PDA, чтобы узнать направление.\n\nВаша тень испытывает ужас, когда вы вытягиваете руку из стопки ковров (McArthur's Rugs For All Occasions And Surfaces!) и берёте их за шею. Они кричат и кричат, но они не могут быть более четырёх футов в высоту. Вы ударяете их по щеке и поворачиваете, чтобы они смотрели на вас, неровные волосы всплывают. \"Что происходит, мальчик?\"\n\nНовоприбывшие из заводов или борделя Керей смотрят на вас и пытаются сжаться в пальто, чтобы скрыться и оставить вас с пустым и грязным Extra Small. Вы ударяете их по виску. \"Остановитесь. Почему вы следите за мной? Я больше не спрошу.\"\n\n\"Тебе нужно передать сообщение, <i>#$%#$</i>,\" мальчик выговаривает вам. \"Отпусти меня и дай мне передать.\"\n\n\"Хорошо. Сообщение. Я отпущу вас сейчас,\" вы говорите. \"Если моя счётка была вымыта после этого, я отшвырну вас и буду использовать ваш труп как мишень. Понял?\"\n\nОн смотрит на вас, из его носа стекает слизь. \"Если вы меня ударите, Рокфеллес найдут вас.\"\n\n\"Да, чтобы пожать мне руку и построить мне статую.\"\nВы ставите перед собой ребёнка. \"Говори.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale2"
+    ],
+    "LootCondsUs": "CONDPLOT_CeresP3Finale_Titan",
+    "CTTestUs": "CTPlot_CeresP3Finale",
+    "ShipTestUs": "AnyShip_BCER"
+  },
+  {
+    "strName": "CeresP3TitanFinale2",
+    "strTitle": "Следуй за ним",
+    "strDesc": "Мальчик счастлив, у него есть пирожный с льдом и мешочек с грелкой. Оказывается, он одновременно является посланником и гидом, и было правильно восстановить доверие. \n\nОн ведёт вас от Порта Можаве, обходя главные пещеры Калико и их ветви, и проходит через незнакомые тоннели, не посещённые людьми. Джон Уэйн хочет, чтобы вы встретились с кем-то. \"И чтобы доказать, что это он сказал, он сказал: 'скажи [us-custom-characterGenderCond|его|её|их] жалкое задо, я буду стекать [us-custom-characterGenderCond|по нему|по ней|по ним] вдоль корта Breakout, если [us-custom-characterGenderCond|он не|она не|они не] молчит и делает то, что [us-custom-characterGenderCond|он говорит|она говорит|они говорят].'\" Это имеет логичность.\n\n\"Я рос здесь,\" говорит он в какой-то момент, бросает сухой ледяной стержень и начинает есть мешочек с грелкой. Его имя — Клэй.\n\n\"Керей? Я думал так.\"\n\n\"Нет, дурак,\" говорит Клэй, и указывает на буквы JS43a на стене. \"Вот это.\"\n\nОн означает этот коридор.\n\nПосле большого количества ходов и почти дружелюбной беседы вы начинаете сомневаться, куда вы идёте и сколько времени это будет длиться. Когда вы почти решаете спросить у Клэя эту информацию, не впервые, но, вероятно, последний раз, он делает резкий вдох. \"Это я! У меня есть <i>чужак!</i>\"\n\nСтопка мусора на полу дрожит и поднимается. Это женщина с пистолетом, и она слишком близко для комфорта. \"Ах,\" вы говорите, озадаченно.\n\nОна носит гилли-кавер, сделанный из стандартной скафандры, обернутой в стерильный мусор, пустые коробки и пластины. Она не совсем направляет пистолет в вашу сторону, но она не рада.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale3"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale3",
+    "strTitle": "Здравствуйте её?",
+    "strDesc": "\"Вы тот, кого я должна была встретить?\" вы говорите, как можно более вежливо. Она проигнорирует вас.\n\n\"Вы должны были уведомить дежурного смены,\" говорит она Клэю коротко. \"Вы сработали с 15 ранних сигналах!\"\n\n\"Он обещал мне десять долларов за доставку,\" говорит Клэй. \"Мы изменили маршрут из-за патрулей Коалиции. Это не моё дело.\"\n\nВы не видели никаких признаков патрулей, но вы заметили его удивительное чувство направления. Если он говорит, что были патрули, они, вероятно, были.\n\nЖенщина-мусорщик скидывает оружие на плечо, не радуясь этому. Вы сглатываете облегчение, единственного, кто чувствует напряжение. \"Вы получите десять долларов, как только вы приедете на встречу и не раньше,\" говорит она. \"Кто-то должен вручную сбросить 15 лазерных триггеров. Думаю, это я.\"\n\nОна уходит тем же путём, по которому вы пришли.\n\nКлэй берёт вашу руку и тянет вас вперёд. Вы неохотно позволяете себе быть тянутым. \"Что вы мне ведёте? Кто эти люди?\"\n\n\"Да,\" говорит Клэй. Он выжимает последнюю каплю из мешочка и передаёт его вам пустым. \"Это Революция.\"",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale4"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale4",
+    "strTitle": "Присоединяйтесь к революции",
+    "strDesc": "Одна из стен пещеры — кусок ткани высотой пятнадцать футов: «Звёзды и полоса» вечно, малыш. Флаг натянут на проводах. Красный, белый и синий — выцветшие, на нижней части — заметная жёлто-коричневая пятна, но в целом его легко распознать. — А что, если кто-то хочет присоединиться, но не является американцем? — спрашиваешь ты Джона Уэйна, который лениво вращается на одном из тех старинных стульев, что крепко закреплены на полу.\n\n— Просто, — отвечает Джон. — Они могут съехать и создать свою собственную террористическую ячейку.\n\nПещера ориентирована вокруг флаговой стены, и ряды консолей обращены к ней. Некоторые стулья заняты революционерами Керезии, группой мужчин и женщин, необычной лишь в том, что они излучают усталость. Всего вас восьмёрка, включая вас и Джона Уэйна. — А это всё старое дерьмо? — ты указываешь на консоли, слишком большие для современных технологий.\n\n— Кто-то из прошлого решил, что это должно выглядеть как NORAD, — говорит Джон Уэйн. — Если ты знаешь, что это такое.\n\n— Я не знаю.\n\n— Никто из них не знал, — говорит он, раздражённо. — Кто-то только из фильмов.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale5"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale5",
+    "strTitle": "Зачем я здесь?",
+    "strDesc": "\"Почему ты привёл меня сюда, Джон?\"\n\nОдин из революционеров чистит глотку. \"Да, мне бы тоже хотелось знать это.\" Она лежит на одном из консолей, руки перекрещены, светлые волосы связаны в косу, прикреплённую к спине. Несколько прядей волны в микрогравитации. Она корейско-американка, если бы нужно было угадать. \"Поскольку я должна быть командиром.\"\n\n\"Джейн, это [us-firstname],\" говорит Джон.\n\n\"Джейн?\"\n\n\"<i>Джейн Фонда</i>,\" говорит женщина холодно. \"Он любит свои глупые коды.\"\n\nТы смотрит между ними. \"Джон Уэйн и Джейн Фонда, хорошо,\" говоришь ты. \"Я думаю, что что-то уходит мимо моего понимания.\"\n\n\"Да!\" говорит Джон с радостью. \"Вот, слушайте все! [us-firstname] поможет нам выиграть войну.\" Головы поднимаются — первые признаки жизни среди раздражённого милиции, которую вы видели.\n\n\"[us-custom-characterGenderCond|Он —?|Она —?|Они —?]\", говорит Джейн.\n\n\"Я —?\" ты повторяешь её.\n\n\"Да!\" повторяет Джон. Он берёт дистанционный пульт с консоли и указывает на флаг. Длинный экран опускается на него и начинает отображать материал для разъяснения, когда он нажимает на него через пульт.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale6"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale6",
+    "strTitle": "Продолжить",
+    "strDesc": "\"Это и есть то, что вы ждали,\" говорит Джон. \"Месяцы, годы тренировок, планирования, ожидания: всё это сводится к этому.\"\n\nНа экране появляется изображение пожилого азиатского мужчины. Чёрно-белое, плохо снятый кадр, тесный фон и скрытый передний план — типичные черты телевизионной спойлерской линзы. У него неподходящий по моде прямой волнистый уклад волос.\n\n\"Это Бен Чуонг,\" говорит Джон. \"Капитан здесь искал его повсюду на Церее. Даже спрашивал меня об этом. Ну, Бен знал меня. Знал гораздо больше, чем должно было знать кто-либо здесь. Может быть, именно поэтому пару недель назад он исчез.\"\n\nЗапись с камер безопасности, шумная и прерывистая по кадрам, из коридора, которому вы знакомы: вход в апартаменты Чуонга на станции Ринг. Четыре человека в тяжёлой одежде стоят у двери, лица скрыты неизвестным способом, зелёные квадраты, нарисованные системой безопасности, пытаются и не могут идентифицировать их. Вместо оружия они готовят длинные раздвижные палки. Один из них бьёт в дверь. Группа быстро проникает внутрь.\n\n\"Это он, получивший удар по голове от кого-то, чьё имя неизвестно,\" говорит Джон, улыбаясь вам. \"Не говори, что я ничего не делаю для тебя.\"\n",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale7"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale7",
+    "strTitle": "Продолжить",
+    "strDesc": "Насколько угрожающе выглядит, так и выходит из двери, тянув тело между двумя из них, руки соединены под его плечами. Программное обеспечение камеры с радостью, но излишне, идентифицирует его как Б. Чуонга. Оно выделяет и увеличивает зелёный квадрат, накладываемый на лицо — лицо покрыто кровью, рот раскрыт, голова наклонена в сторону — и прикрепляет к нему транскрипт его рабочего удостоверения на Церисе.\n\n— Я пошёл посмотреть, — говорит Джон, — и я такой тип, что когда я спрашиваю, люди отвечают. Всё это, конечно, обычно. Но не в этом случае. Никто не говорит ничего. Я потратил свои хорошие тумбочки.\"\n\nОн переходит к следующему слайду.\n\nРинг-сторан, пять кликов отсюда. Камера с носа корабля. В центре: самый большой корабль, приставленный к рингу, военный корабль огромного размера.\n\n— Это <i>Янцзя-3</i>, — говорит он. — Наша большая красивая баба в небе. Мы уже несколько месяцев пытались, — он говорит тебе, чтобы ты понял, — поднять кого-то выше, чем мичман. Не получилось. Спасибо марсианам, они знают, когда закрывать ряды. Только что они ошиблись, потому что наш сотрудник по питанию подтвердил это. На борту есть лунец с особыми потребностями. Я думаю, это наш человек.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale8"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale8",
+    "strTitle": "Продолжить",
+    "strDesc": "\"Джейн\" стала вытирать и смазывать пистолет, разбирать его и проникать в него тонким пыльным валиком, металлические щелчки передавали её презрение к всей этой презентации громче, чем слова. Она говорит: — Почему ты привёл иностранца в нашу убежище? Чтобы использовать проектор?\n\n— Нет, — отвечает Джон. — Я хотел, чтобы вы увидели [us-custom-characterGenderCond|его|её|их] лицо. Вы и ваша команда будете приставаться к <i>Янцзя</i>, освобождать Бена Чуонга из тюрьмы и передавать его на [us-custom-characterGenderCond|его|её|их] корабль. <i>[us-shipname]</i>, если я не ошибаюсь.\n\nНа его слова наступает молчание. Это невероятно сложная задача, думаешь. Принимать участие в бою на чужом корабле, не видя ничего, ради чего? Чтобы помочь вам? Но ты понимаешь, что молчание командиров не выражает несогласия. Они изучают военный корабль на экране. Они рассматривают его.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale9",
+      "CeresP3TitanFinale10"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale9",
+    "strTitle": "Это смерть",
+    "strDesc": "\"Это смерть\", вы говорите. Все головы поворачиваются к вам: возможно, это было слишком честно и слишком быстро. \"Это смертельная миссия. Даже если у вас есть месяцы подготовки, неограниченные запасы, вы не можете просто проникнуть и уйти из вражеского корабля.\",\n\nПустые лица керисианцев смотрят на вас. Непроницаемые американцы. Джон хлопает вас по плечу. \"[us-firstname], слово в вашем ухе?\"\n\nОн отводит вас в сторону. Джейн собирает вооружённые силы, быстро выдаёт инструкции, как человек, привыкший к командованию. \"Да, такая вещь действительно является сильной стороной этих людей\", говорит Джон, <i>шёпотом</i>. \"Не буду оспаривать, они умные, сильные воины. Но они выросли на постоянной пище мифов о первоклассных операторах, морские SEAL и армейские рэндера, разрушающие Ирак и Венесуэлу и Вьетнам. Они не любят миссии, если нет шанса, чтобы они могли повесить флаг на гроб, понимаете меня?\"\n\nВы смотрите на революционеров. Ни один из них не старше двадцати пяти лет. \"Это слишком цинично\", вы говорите спокойно. \"Не так ли?\"\n\n\"<i>Когда их слава исчезнет? О их бурном наступлении!</i>\" он цитирует вам. Вы сжимаете зубы. \"Мир циничен, товарищ. Всегда был. Лучше привыкнуть к этому.\",",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale11"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale10",
+    "strTitle": "Держите рот закрытым",
+    "strDesc": "Ты думаешь, возможно, кто-то из них протестует против абсурдных параметров миссии, но никто не делает этого. Вместо этого революционеры начинают разбирать проблему, время от времени задавая Джону несколько логистических вопросов. Из обсуждаемых возможностей становится ясно, что атака на <i>Янцзы</i> была рассмотрена, даже спланирована, в ближайшем прошлом.\n\nНикто не удивляется, что целью миссии стало извлечение человека интереса.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale11"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale11",
+    "strTitle": "Вернуться в Порт Можаве",
+    "strDesc": "Клей возвращает тебя по извилистым тропам к порту. Он радуется полному желудку, десяти долларов в кармане и ещё десяти, которые скоро придут.\n\n\"Что ты думаешь о них?\" спрашиваешь ты его, останавливаясь на перепаде в неприменяемом вентиляционном коридоре. \"О революционерах.\"\n\nКлей задумывается немного. \"Не знаю,\" — говорит он. Может, ты дал ему слишком много доверия.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale12"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale12",
+    "strTitle": "Ждите революции",
+    "strDesc": "Вы возвращаетесь на свою корабль. Проходят пятнадцать стрессовых часов, вы смотрите на <i>Янцзы</i> в прицеле и ждете каких-либо признаков саботажа или тревоги.\n\nПервым является экстренный вызов с Ринг-станции. \"<i>Все корабли, все корабли, локально в районе Кереса</i>\", говорит необычно торопливый оператор АТС. \"<i>Внимание,</i> корабль Янцзы-3 инициировал экстренное отключение, снова, <i>Янцзы</i> отключается от Ринг-станции. Нет плана полёта. Мы не знаем вектора. Все корабли, все корабли, очистите свои входящие или исходящие векторы. Если нужно, посмотрите в окно. АТС выходит.</i>\"\n\nВы наблюдаете, как огромный военный корабль отсоединяется от Ринг-станции. Корабли на расстоянии сотен километров отступают или отменяют свои планы, что, без сомнения, усиливает нагрузку на АТС. Некоторые корабли, прицепленные к станции, следуют за примером <i>Янцзы</i>, решая, что, независимо от того, что делает военный корабль, они тоже должны это делать. Все они получают индивидуальные экстренные предупреждения.\n\nСложно сказать, что происходит. Возможно, команда проникла через станцию и они боятся, что придут репарации. Есть ещё одна значимая возможность —\n\nПоявляются новые контакты, идущие от <i>Янцзы</i>. Жизненные лодки, эвакуационные капсулы.\n\nЗащита от перегрева прицела включается, экран становится белым. Что-то на <i>Янцзы</i> просто взорвалось. \"Святое, боже!\" — вы говорите. \"Святое, боже!\"\n\nКогда прицелы снова видят, корабль разбит на части. Похоже, что корабль был аккуратно уничтожен, а не взорвался в критическом режиме. Взрыв произошёл на расстоянии нескольких сотен километров от Ринг-станции. Кто-то, контролировавший <i>Янцзы</i>, сделал всё возможное, чтобы не повредить станцию, максимально увеличив расстояние между ними. Тем не менее, вы видите, как первая волна осколков проходит через Ринг.\n\nСтанция устойчива к атакам. Взрывное осколочное устройство на их входе — это испытание этой устойчивости. Наверняка люди на борту погибнут, но Ринг выживет. Даже самый революционный человек не захочет, чтобы космическая станция распалась под собственным движением вокруг их планетоида.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "CeresP3TitanFinale13"
+    ]
+  },
+  {
+    "strName": "CeresP3TitanFinale13",
+    "strTitle": "Соединяйтесь с выжившими",
+    "strDesc": "Через несколько минут появляется звонок у двери, так сказать. Одна из жизненных лодок приближается к вашему кораблю, и не отвечает на вызовы.\n\nВы прицепляетесь к ней, хотя это похоже на то, как поймать мяч до того, как он упадёт на землю. Внутри — туман крови. \"Привет?\" — вы говорите по внутреннему коммуникатору. Это ужасно, но очень актуальный вопрос: \"Кто-то живой внутри?\"\n\nНет другого пути: вы признаётесь, что на вашем корабле есть туман крови. Сопровождает его тело, смотрящее на вас безжизненно через вакуумную одежду: Джейн. Кровь — её, она бьётся из отверстий в шее и боку.\n\nОдна из её рук сжимает большой серый ящик. Нет следов её товарищей, нет следов мужчины, которого они пришли забрать.",
+    "strColor": "Dialogue",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "aLootItms": [
+      "addus,ItmCrate02_PLOT_Ceres_Brain_Case"
+    ],
+    "bRecheckThisPlot": true
+  }
+]

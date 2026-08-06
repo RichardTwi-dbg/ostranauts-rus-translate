@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeGalConArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании в GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeGalConArrest",
+    "strNameFriendly": "Арестный лист в GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый арестный лист в Галилеанской конфедерации.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeGalConThreat",
+    "strNameFriendly": "Галкон: враждебный элемент",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или погибшим в Галилеанской конфедерации, и считается враждебным элементом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeGalConTrespass",
+    "strNameFriendly": "Арестный лист за незаконный проникновение в GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] неисполненный ордер на вторжение от Галелейской Конфедерации.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeGalConTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeGalConStolenShip",
+    "strNameFriendly": "Арестный лист за кражу корабля в GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый арестный лист в Галилеанской конфедерации за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeGalConNoUndock",
+    "strNameFriendly": "Арестный лист за несвоевременное отъезд от базы",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый арестный лист в Галилеанской конфедерации за несвоевременное отъезд от базы во время проверки офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

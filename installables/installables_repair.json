@@ -344,6 +344,62 @@
     "strCTThemMultCondUs": "StatInstallRateSENS"
   },
   {
+    "strName": "AlarmSmokeDmgRepair",
+    "strActionCO": "ItmAlarmSmokeDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmAlarmSmokeOff"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "AlarmSmokeDmgLooseRepair",
+    "strActionCO": "ItmAlarmSmokeDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmAlarmSmokeOffLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
     "strName": "AlarmTempDmgRepair",
     "strActionCO": "ItmAlarmTempDmg",
     "strActionGroup": "Work",
@@ -1600,6 +1656,62 @@
     "strCTThemMultCondUs": "StatInstallRateFURN"
   },
   {
+    "strName": "ChairCube01bDmgRepair",
+    "strActionCO": "ItmChairCube01bDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsScrapClothClean=1.0x2",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmChairCube01b"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "ChairCube01bDmgLooseRepair",
+    "strActionCO": "ItmChairCube01bDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsScrapClothClean=1.0x2",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmChairCube01bLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
     "strName": "ChairStrap01DmgRepair",
     "strActionCO": "ItmChairStrap01Dmg",
     "strActionGroup": "Work",
@@ -2096,6 +2208,70 @@
     "strCTThemMultCondUs": "StatInstallRateSoftware"
   },
   {
+    "strName": "DockSys03ClosedDmgRepair",
+    "strActionCO": "ItmDockSys03ClosedDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x2",
+      "TIsMobo=1.0x1",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapCarbonFiber=1.0x1",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsPartsElecSmall=1.0x3"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolStructureCutter",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmDockSys03Closed"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "DockSys03ClosedDmgLooseRepair",
+    "strActionCO": "ItmDockSys03ClosedDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x2",
+      "TIsMobo=1.0x1",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapCarbonFiber=1.0x1",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsPartsElecSmall=1.0x3"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolStructureCutter",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmDockSys03ClosedLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
     "strName": "Dolly01DmgRepair",
     "strActionCO": "ItmDolly01Dmg",
     "strActionGroup": "Work",
@@ -2278,6 +2454,286 @@
     "strActionGroup": "Work",
     "strInteractionTemplate": "ACTLockResetTEMP",
     "CTThem": "TIsDoor01ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door04ClosedDmgRepair",
+    "strActionCO": "ItmDoor04ClosedDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapCarbonFiber=1.0x1",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsPartsElecSmall=1.0x3"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolStructureCutter",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmDoor04Closed"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "Door04ClosedDmgLooseRepair",
+    "strActionCO": "ItmDoor04ClosedDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapCarbonFiber=1.0x1",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsPartsElecSmall=1.0x3"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolStructureCutter",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmDoor04ClosedLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "Door04ClosedOnReset",
+    "strActionCO": "ItmDoor04ClosedOn",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor04ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door04ClosedOnLockedReset",
+    "strActionCO": "ItmDoor04ClosedOnLocked",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor04ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door04OpenOnReset",
+    "strActionCO": "ItmDoor04OpenOn",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor04ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door04OpenOnLockedReset",
+    "strActionCO": "ItmDoor04OpenOnLocked",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor04ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door05ClosedDmgRepair",
+    "strActionCO": "ItmDoor05ClosedDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsScrapSteel=1.0x5",
+      "TIsScrapCarbonFiber=1.0x3",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsPartsElecSmall=1.0x3"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolStructureCutter",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmDoor05Closed"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "Door05ClosedDmgLooseRepair",
+    "strActionCO": "ItmDoor05ClosedDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsScrapSteel=1.0x5",
+      "TIsScrapCarbonFiber=1.0x3",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsPartsElecSmall=1.0x3"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolStructureCutter",
+      "TIsToolWelding"
+    ],
+    "aLootCOs": [
+      "ItmDoor05ClosedLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHULL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateHULL"
+  },
+  {
+    "strName": "Door05ClosedOnReset",
+    "strActionCO": "ItmDoor05ClosedOn",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor05ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door05ClosedOnLockedReset",
+    "strActionCO": "ItmDoor05ClosedOnLocked",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor05ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door05OpenOnReset",
+    "strActionCO": "ItmDoor05OpenOn",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor05ValidFactoryReset",
+    "aInputs": [],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [],
+    "aLootCOs": [],
+    "strFinishInteraction": "ACTLockResetFinish",
+    "strJobType": "reset",
+    "strAllowLootCTsUs": "CTWorkProgressSoftware",
+    "strAllowLootCTsThem": "CONDDebugProgressx5",
+    "strProgressStat": "StatDebugProgress",
+    "strCTThemMultCondUs": "StatInstallRateSoftware"
+  },
+  {
+    "strName": "Door05OpenOnLockedReset",
+    "strActionCO": "ItmDoor05OpenOnLocked",
+    "strActionGroup": "Work",
+    "strInteractionTemplate": "ACTLockResetTEMP",
+    "CTThem": "TIsDoor05ValidFactoryReset",
     "aInputs": [],
     "fTargetPointRange": 2.0,
     "fDuration": 0.001,
@@ -3133,6 +3589,84 @@
     "aLootCOs": [
       "ItmHeavyLiftRotor01Loose"
     ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressCTRL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateCTRL"
+  },
+  {
+    "strName": "NavModRepair",
+    "strActionCO": "ItmNavModDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsElecSmall=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmNavMod",
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressCTRL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateCTRL"
+  },
+  {
+    "strName": "NavModMoboRepair",
+    "strActionCO": "ItmNavModMoboDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmNavModMobo",
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressCTRL",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateCTRL"
+  },
+  {
+    "strName": "NavModMoboScreenRepair",
+    "strActionCO": "ItmNavModMoboScreenDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsScreen=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmNavModMoboScreen",
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressCTRL",
     "strAllowLootCTsThem": "CONDRepairProgressx5",
@@ -4491,6 +5025,1278 @@
     "strCTThemMultCondUs": "StatInstallRateHVAC"
   },
   {
+    "strName": "SensorEM01DmgRepair",
+    "strActionCO": "ItmSensorEM01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorEM01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorEM01DmgLooseRepair",
+    "strActionCO": "ItmSensorEM01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorEM01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorEM02DmgRepair",
+    "strActionCO": "ItmSensorEM02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorEM02"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorEM02DmgLooseRepair",
+    "strActionCO": "ItmSensorEM02DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorEM02Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorEOIR01DmgRepair",
+    "strActionCO": "ItmSensorEOIR01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x2",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorEOIR01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorEOIR01DmgLooseRepair",
+    "strActionCO": "ItmSensorEOIR01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x2",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorEOIR01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorIR01DmgRepair",
+    "strActionCO": "ItmSensorIR01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorIR01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorIR01DmgLooseRepair",
+    "strActionCO": "ItmSensorIR01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorIR01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorIR02DmgRepair",
+    "strActionCO": "ItmSensorIR02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorIR02"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorIR02DmgLooseRepair",
+    "strActionCO": "ItmSensorIR02DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorIR02Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorOptical01DmgRepair",
+    "strActionCO": "ItmSensorOptical01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorOptical01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorOptical01DmgLooseRepair",
+    "strActionCO": "ItmSensorOptical01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorOptical01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorLidar01DmgRepair",
+    "strActionCO": "ItmSensorLidar01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x2",
+      "TIsHeatSink=1.0x3",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorLidar01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorLidar01DmgLooseRepair",
+    "strActionCO": "ItmSensorLidar01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x2",
+      "TIsHeatSink=1.0x3",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorLidar01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorLidar02DmgRepair",
+    "strActionCO": "ItmSensorLidar02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x3",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x6",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorLidar02"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorLidar02DmgLooseRepair",
+    "strActionCO": "ItmSensorLidar02DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x3",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x6",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorLidar02Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorRadar01DmgRepair",
+    "strActionCO": "ItmSensorRadar01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x3",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x10",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapAluminum=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorRadar01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorRadar01DmgLooseRepair",
+    "strActionCO": "ItmSensorRadar01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x3",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x10",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapAluminum=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorRadar01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorRadar02DmgRepair",
+    "strActionCO": "ItmSensorRadar02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x4",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorRadar02"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "SensorRadar02DmgLooseRepair",
+    "strActionCO": "ItmSensorRadar02DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x4",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x2",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSensorRadar02Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressSENS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateSENS"
+  },
+  {
+    "strName": "ShipWeaponDecoyLauncher01DmgRepair",
+    "strActionCO": "ItmShipWeaponDecoyLauncher01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsMotor=1.0x2",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x5",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponDecoyLauncher01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponDecoyLauncher01DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponDecoyLauncher01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsMotor=1.0x2",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x5",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponDecoyLauncher01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponPDC01DmgRepair",
+    "strActionCO": "ItmShipWeaponPDC01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsMotor=1.0x4",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x3",
+      "TIsPartsMechSmall=1.0x8",
+      "TIsScrapSteel=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponPDC01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponPDC01DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponPDC01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsMotor=1.0x4",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x3",
+      "TIsPartsMechSmall=1.0x8",
+      "TIsScrapSteel=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponPDC01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponPDC02DmgRepair",
+    "strActionCO": "ItmShipWeaponPDC02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x2",
+      "TIsMotor=1.0x3",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x7",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponPDC02"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponPDC02DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponPDC02DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x2",
+      "TIsMotor=1.0x1",
+      "TIsHeatSink=1.0x3",
+      "TIsPartsElecSmall=1.0x7",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponPDC02Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponPDC03DmgRepair",
+    "strActionCO": "ItmShipWeaponPDC03Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsMotor=1.0x5",
+      "TIsHeatSink=1.0x3",
+      "TIsPartsElecSmall=1.0x4",
+      "TIsPartsMechSmall=1.0x10",
+      "TIsScrapSteel=1.0x4"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponPDC03"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponPDC03DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponPDC03DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsMotor=1.0x5",
+      "TIsHeatSink=1.0x3",
+      "TIsPartsElecSmall=1.0x4",
+      "TIsPartsMechSmall=1.0x10",
+      "TIsScrapSteel=1.0x4"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponPDC03Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMassThrower01DmgRepair",
+    "strActionCO": "ItmShipWeaponMassThrower01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsHeatSink=1.0x4",
+      "TIsPartsElecSmall=1.0x6",
+      "TIsPartsMechSmall=1.0x3",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMassThrower01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMassThrower01DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponMassThrower01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsHeatSink=1.0x4",
+      "TIsPartsElecSmall=1.0x6",
+      "TIsPartsMechSmall=1.0x3",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMassThrower01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMassThrower02DmgRepair",
+    "strActionCO": "ItmShipWeaponMassThrower02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x2",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x6",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMassThrower02"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMassThrower02DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponMassThrower02DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x2",
+      "TIsHeatSink=1.0x2",
+      "TIsPartsElecSmall=1.0x6",
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapAluminum=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMassThrower02Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMassThrower03DmgRepair",
+    "strActionCO": "ItmShipWeaponMassThrower03Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsHeatSink=1.0x4",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapSteel=1.0x3",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMassThrower03"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMassThrower03DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponMassThrower03DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsHeatSink=1.0x4",
+      "TIsPartsElecSmall=1.0x8",
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapSteel=1.0x3",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMassThrower03Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMissileLauncher01DmgRepair",
+    "strActionCO": "ItmShipWeaponMissileLauncher01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x3",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x8",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMissileLauncher01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMissileLauncher01DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponMissileLauncher01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x3",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x8",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMissileLauncher01Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMissileLauncher02DmgRepair",
+    "strActionCO": "ItmShipWeaponMissileLauncher02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x2",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x5",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMissileLauncher02"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMissileLauncher02DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponMissileLauncher02DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x2",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsPartsMechSmall=1.0x5",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x1",
+      "TIsScrapAluminum=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMissileLauncher02Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMissileLauncher03DmgRepair",
+    "strActionCO": "ItmShipWeaponMissileLauncher03Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x4",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x10",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMissileLauncher03"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
+    "strName": "ShipWeaponMissileLauncher03DmgLooseRepair",
+    "strActionCO": "ItmShipWeaponMissileLauncher03DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x4",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsPartsMechSmall=1.0x10",
+      "TIsScrapSteel=1.0x1",
+      "TIsScrapCarbonFiber=1.0x2"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmShipWeaponMissileLauncher03Loose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressWPNS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolSoldering",
+    "strCTThemMultCondUs": "StatInstallRateWPNS"
+  },
+  {
     "strName": "StationNavDebug",
     "strActionCO": "ItmStationNav",
     "strActionGroup": "Work",
@@ -4517,7 +6323,6 @@
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsStationNavInstalledDmg",
     "aInputs": [
-      "TIsScreen=1.0x1",
       "TIsHeatSink=1.0x1",
       "TIsMobo=1.0x1",
       "TIsPartsElecSmall=1.0x5",
@@ -4546,7 +6351,6 @@
     "strInteractionTemplate": "ACTRepairTEMP",
     "CTThem": "TIsRepairableNotContained",
     "aInputs": [
-      "TIsScreen=1.0x1",
       "TIsHeatSink=1.0x1",
       "TIsMobo=1.0x1",
       "TIsPartsElecSmall=1.0x5",
@@ -4736,6 +6540,67 @@
     ],
     "aLootCOs": [
       "ItmToolFireEx01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressAPPS",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolDrillMining01DmgRepair",
+    "strActionCO": "ItmToolDrillMining01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsHeatSink=1.0x1",
+      "TIsPartsElecSmall=1.0x1",
+      "TIsPartsMechSmall=1.0x1",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmToolDrillMining01"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateAPPS"
+  },
+  {
+    "strName": "ToolDrillMining02DmgRepair",
+    "strActionCO": "ItmToolDrillMining02Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Восстанавливает предмет в рабочее состояние.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsHeatSink=1.0x1",
+      "TIsMotor01=1.0x1",
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x2",
+      "TIsScrapSteel=1.0x1"
+    ],
+    "fTargetPointRange": 2.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmToolDrillMining02"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressAPPS",

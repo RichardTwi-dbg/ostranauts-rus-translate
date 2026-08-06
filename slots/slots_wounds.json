@@ -91,7 +91,7 @@
   },
   {
     "strName": "WoundArmLowerR",
-    "strNameFriendly": "Повреждение нижней части правого предплечья",
+    "strNameFriendly": "Рана в нижней правой руке",
     "strHitboxImage": "paperdoll/HBarmLowerR",
     "nItems": 1,
     "nDepth": 4,
@@ -391,7 +391,7 @@
   },
   {
     "strName": "WoundLegLowerL",
-    "strNameFriendly": "Повреждение нижней левой ноги",
+    "strNameFriendly": "Повреждение нижней части левой ноги",
     "strHitboxImage": "paperdoll/HBLegLowerL",
     "nItems": 1,
     "nDepth": 4,
@@ -406,7 +406,7 @@
   },
   {
     "strName": "WoundItemLegLowerL",
-    "strNameFriendly": "Повреждение нижней левой ноги (предмет)",
+    "strNameFriendly": "Повреждение нижней части левой ноги (предмет)",
     "strHitboxImage": "paperdoll/HBLegLowerL",
     "nItems": 1,
     "nDepth": 4,
@@ -421,7 +421,7 @@
   },
   {
     "strName": "WoundLegLowerR",
-    "strNameFriendly": "Повреждение нижней правой ноги",
+    "strNameFriendly": "Повреждение нижней части правой ноги",
     "strHitboxImage": "paperdoll/HBLegLowerR",
     "nItems": 1,
     "nDepth": 4,
@@ -436,7 +436,7 @@
   },
   {
     "strName": "WoundItemLegLowerR",
-    "strNameFriendly": "Повреждение нижней правой ноги (предмет)",
+    "strNameFriendly": "Повреждение нижней части правой ноги (предмет)",
     "strHitboxImage": "paperdoll/HBLegLowerR",
     "nItems": 1,
     "nDepth": 4,
@@ -466,7 +466,7 @@
   },
   {
     "strName": "WoundItemRobotMovementUnit",
-    "strNameFriendly": "Повреждение модуля движения робота (предмет)",
+    "strNameFriendly": "Рана от движения робота (предмет)",
     "strHitboxImage": "paperdoll/HBLegUpperR",
     "nItems": 1,
     "nDepth": 4,
@@ -541,7 +541,7 @@
   },
   {
     "strName": "WoundLegUpperL",
-    "strNameFriendly": "Повреждение верхней левой ноги",
+    "strNameFriendly": "Повреждение верхней части левой ноги",
     "strHitboxImage": "paperdoll/HBLegUpperL",
     "nItems": 1,
     "nDepth": 4,
@@ -556,7 +556,7 @@
   },
   {
     "strName": "WoundItemLegUpperL",
-    "strNameFriendly": "Повреждение верхней левой ноги (предмет)",
+    "strNameFriendly": "Повреждение верхней части левой ноги (предмет)",
     "strHitboxImage": "paperdoll/HBLegUpperL",
     "nItems": 1,
     "nDepth": 4,
@@ -571,7 +571,7 @@
   },
   {
     "strName": "WoundLegUpperR",
-    "strNameFriendly": "Повреждение верхней правой ноги",
+    "strNameFriendly": "Повреждение верхней части правой ноги",
     "strHitboxImage": "paperdoll/HBLegUpperR",
     "nItems": 1,
     "nDepth": 4,
@@ -586,7 +586,7 @@
   },
   {
     "strName": "WoundItemLegUpperR",
-    "strNameFriendly": "Повреждение верхней левой ноги (предмет)",
+    "strNameFriendly": "Повреждение верхней части левой ноги (предмет)",
     "strHitboxImage": "paperdoll/HBLegUpperR",
     "nItems": 1,
     "nDepth": 4,

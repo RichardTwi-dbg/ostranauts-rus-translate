@@ -1,0 +1,37 @@
+[
+  {
+    "strName": "DenouementStart",
+    "strTitle": "Учитывать последствия",
+    "strDesc": "PLACEHOLDER: Мы находимся в неизведанной зоне. Игроку нужно сообщить о изменениях, которые вызвали его действия, и, возможно, начать работать над 79 AU. Где дальше?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "DenouementStart2"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strTooltip": "PLACEHOLDER: Игрок нажимает на что-то, чтобы начать завершение сюжета."
+  },
+  {
+    "strName": "DenouementStart2",
+    "strTitle": "Завершить последствия",
+    "strDesc": "PLACEHOLDER: Какие выборы сделал игрок? Нам нужно средство для изучения этого — либо персонаж, либо экспозиция, либо какая-то сцена действия!",
+    "strThemType": "Self",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_DenouementStart2",
+    "CTTestUs": "CTPlot_DenouementStart2",
+    "bRecheckThisPlot": true
+  }
+]

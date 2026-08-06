@@ -1,0 +1,1175 @@
+[
+  {
+    "strName": "Plot_Ceres_The_AV_Club_Watch_News",
+    "fTargetPointRange": 5,
+    "nLogging": 1,
+    "strTitle": "Посмотрите новости о странных просмотре в группах",
+    "CTTestUs": "CTPlot_Plot_Ceres_The_AV_Club_Watch_News",
+    "LootCondsUs": "CONDPLOT_Plot_Ceres_The_AV_Club_Watch_News",
+    "strDesc": "[us] внимательно изучает их и узнаёт о группе эксцентриков, которые собираются в тайне, чтобы смотреть видео, которое они называют редким и изменяющим сознание. В сцене B-roll показано неофициальное театра на Флотилле, где зрители с размытыми лицами смотрят на видео и курят из больших общих труб.",
+    "CTTestThem": "TIsTV01News",
+    "strTargetPoint": "Use",
+    "strAnim": "Yes",
+    "strActionGroup": "Use",
+    "strColor": "Dialogue"
+  },
+  {
+    "strName": "Plot_Ceres_The_AV_Club_Lookup_Watch_Party",
+    "fTargetPointRange": 2,
+    "nLogging": 1,
+    "strTitle": "Смотрите вверх — просмотр в группах",
+    "strDesc": "[us] ищет информацию о дроп-партях, питаемых наркотиками, в районе ОКЛГ, используя [them].",
+    "LootCondsUs": "CONDPLOT_Plot_Ceres_The_AV_Club_Lookup_Watch_Party",
+    "CTTestUs": "CTPlot_Plot_Ceres_The_AV_Club_Lookup_Watch_Party",
+    "CTTestThem": "TIsTerminal01Installed",
+    "ShipTestThem": "AnyStation_OKLG",
+    "strTargetPoint": "use",
+    "strAnim": "Talk",
+    "strActionGroup": "Use",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Ceres_The_AV_Club_Lookup_Watch_Party_Reply"
+    ]
+  },
+  {
+    "strName": "Plot_Ceres_The_AV_Club_Lookup_Watch_Party_Reply",
+    "strDesc": "[them] использует [them], чтобы найти криптографические сообщения в форумах, упоминающие Флотиллу, золото, что-то, называемое «Чёрным Солнцем» и странный видеоматериал, которого вы никогда не слышали, — VHS-тапы.",
+    "strTitle": "Смотрите вверх — просмотр в группах. Ответ"
+  },
+  {
+    "strName": "InspectVideotape",
+    "strTitle": "Проверить видеотап",
+    "strDesc": "Это маленький чёрный обелиск, чего вы никогда не видели до сих пор.\n\nВы поднимаете свой ПДА и ждёте, пока система распознаёт изображение. В описании говорится, что это «видеотап» — ранний аналоговый носитель, доступный через VHS-проигрыватель. Он с энтузиазмом вспоминает бессмысленные вещи о «Войне форматов». Вы отстраняете его.\n\nНа корпусе есть две прозрачные окна. Через них видны два катушечных вала, на которых намотаны пленки. Возможно, это как у стиральной машины на станции, и вы можете заглянуть внутрь проигрывателя и наблюдать за тем, как пленка проходит.\n\nЧто за хуя было здесь? ",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "TurnTapeOver",
+      "VideotapeDecideResearch"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "CTTestUs": "CTPlot_VideotapeEncounterTest",
+    "aSocialNew": null,
+    "CTTestThem": "TIsVideotape",
+    "LootCondsUs": "CONDPLOT_VideotapeEncounterTest",
+    "strActionGroup": "Use",
+    "strTooltip": "Посмотрите на коробку подробнее",
+    "strPlot": "Ceres",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "TurnTapeOver",
+    "strTitle": "Поверните тап",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "VideotapeInspectFinish",
+      "VideotapeDecideResearch"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strThemType": "Self",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "CTTestUs": "CTPlot_TurnTapeOver",
+    "strDesc": "Вы поворачиваете корпус в своих руках. Обратная сторона покрыта яркими наклейками.\n\n<mark=#ffd700ff><color=\"black\">               BE KIND, REWIND :)<alpha=#00>a</alpha></color></mark>\n\n<mark=#ff0000ff><color=\"black\">               WARNING: DO NOT COPY.<alpha=#00>a</alpha></color></mark>\n<mark=#ff0000ff><color=\"black\">               COPYING TAPES IS A FELONY<alpha=#00>a</alpha></color></mark>\n\n<mark=#ff00ffff><color=\"green\">               NEW RELEASE! ONE NIGHT RENTAL!<alpha=#00>a</alpha></color></mark>\n\nПДА считает, что эти надписи соответствуют эпохе, что не помогает вам.\n\nВы замечаете, что на одной из длинных сторон приклеена жёлтая лента. Толстые буквы, написанные маркером, читаются так: <mark=#ffa600ff><color=\"black\">    \"VOID OPAL INHALANTS #3.\"     </color></mark>. Это, вероятно, название, и оно даже меньше смысла.\n\nМожет быть, вам нужно посмотреть на Инхаланты 1 и 2, чтобы понять это.",
+    "LootCondsUs": "CONDPLOT_TurnTapeOver"
+  },
+  {
+    "strName": "VideotapeOnlineResearch",
+    "strTitle": "Исследуйте «видеотапы» в интернете",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "CTTestThem": "TIsPDAHeldUnlocked",
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "CTTestUs": "CTPlot_VideotapeOnlineResearch",
+    "aInverse": [
+      "VideotapeOnlineResearchHub",
+      "ENCFinishTitleQuit"
+    ],
+    "strActionGroup": "Use",
+    "strDesc": "Нет смысла смотреть на тап. Две неподвижные окна корпуса не дадут никаких сведений. Вам нужно спросить других людей, и у вас нет друзей — ни тех, кто знает о старых домашних медиа. Почему бы не посмотреть, что говорит местная сеть?",
+    "strTooltip": "Интернет знает, что делать"
+  },
+  {
+    "strName": "VideotapeOnlineResearchHub",
+    "strTitle": "Главная экран",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strThemType": "Self",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "strActionGroup": "talk",
+    "aInverse": [
+      "VideotapeOnlineResearchMakePost",
+      "VideotapeOnlineResearchScrollForums",
+      "VideotapeOnlineResearchScrollForumsReturn",
+      "VideotapeOnlineResearchLookupManuf"
+    ],
+    "strDesc": "ПДА светится и готов помочь вам в поиске."
+  },
+  {
+    "strName": "VideotapeOnlineResearchScrollForums",
+    "strTitle": "Ищите обсуждения о видеотапах",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "talk",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "strDesc": "K-LEG has three main bulletin boards: the Ayotimiwa employee forums, the K-LEG official Subreddit, and Cho-Cho-Cho, the latter of which is by far the most popular, even if most of the features don't work. It's built that way on purpose.\n\nA cursory scan of the employee forums turns up nothing, and the subreddit has only a sticky post about how it's evil to pirate media. CCC, on the other hand, has more to say.\n\nYou read several long chat threads about a 'videotape' and how excited the posters are to see it live. These actually concern an X-pop singer whose new single, <i>videotape</i>, is charting well across the inner system. But soon enough you strike gold.\n\nIt's a locked thread, and the OP's account has been deleted. What remains are the replies from another concerned user, leaving behind a one sided conversation.\n\n>>> Do you mean like box? How big\n\n> DELETED\n\n>>> Ohh, I get you. no never. But ill keep my eyes peeled.\n\n> DELETED\n\n>>> Sorry i misunderstood. Sure I can take a look at it. Im at NoodlEgg stand for another 15 if you want to meet.\n\n> DELETED\n\n>>> hello? :fish_emoji:\n\nThe timestamps are ten minutes apart between the final few posts. It's unclear if the deleted user showed up.",
+    "aInverse": [
+      "VideotapeOnlineResearchHub"
+    ],
+    "LootCondsUs": "CONDPLOT_VideotapeOnlineResearchScrollForums",
+    "CTTestUs": "CTPlot_VideotapeOnlineResearchScrollForums"
+  },
+  {
+    "strName": "VideotapeOnlineResearchMakePost",
+    "strTitle": "Спросите на форуме ответов",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "talk",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "aInverse": [
+      "VideotapeOnlineResearchMakePostPlain",
+      "VideotapeOnlineResearchMakePostSurreptitious"
+    ],
+    "strDesc": "Форумы K-LEG Q/A наполнены хаотичным движением усталости и тиранией модераторов. Три верхних страницы — жалобы на вопросы, которые уже были ответлены миллион раз, и посты, в которых задаются те же вечные вопросы.",
+    "CTTestUs": "CT_VideotapeOnlineResearchMakePost"
+  },
+  {
+    "strName": "VideotapeOnlineResearchScrollForumsReturn",
+    "strTitle": "Вернитесь к одностороннему обсуждению",
+    "strDesc": "Попытка просмотреть полуподелённый поток вызывает ошибки 404. Похоже, что эта страница никогда не существовала.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "VideotapeOnlineResearchHub"
+    ],
+    "strActionGroup": "talk",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "CTTestUs": "CT_VideotapeOnlineResearchScrollForums_1_Ready",
+    "LootCondsUs": "CONDPLOT_VideotapeOnlineResearchScrollForumsReturn"
+  },
+  {
+    "strName": "VideotapeOnlineResearchMakePostSurreptitious",
+    "strTitle": "Сделайте криптографическую ссылку",
+    "strDesc": "Может быть, вам нужно быть осторожным. Лучше ловить комаров с медом.\n\nЗаголовок и текст вашего поста: «Кто видел Вой Вентилянты №3?»\n\nПоявляется оживлённая реакция. Нет текста — только «не нравится». Вы выбираете ноготь, пока ждёте, слушая шуршание и шёпот вентилятора.\n\nНаконец появляется ответ.\n\n«Привет! Не №3, но я видел 2, 7 и 8», — отвечает сообщение. Аватар — большой перевёрнутый улыбающийся круг, соответствующий их нику — «Smiley». «У вас есть №3? Что в нём?»\n\n«Я надеялся, что вы сможете мне помочь», — отвечаете вы. «Я не знаю, как это работает».\n\n«Мы можем это сделать!» — отвечает мгновенно. Кто же «мы»? «Вы — местный житель K-LEG, верно? Приходите к Flotilla.»\n\nSmiley прикрепляет строку цифр. Ваш PDA с радостью подчёркивает её как адрес жилого района в Flotilla.\n\n«В любое время! Днём или ночью.»",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "VideotapeOnlineResearchHub"
+    ],
+    "strActionGroup": "talk",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "LootCondsUs": "CONDPLOT_VideotapeOnlineResearchMakePostSurreptitious",
+    "CTTestUs": "CTPlot_VideotapeOnlineResearchMakePostSurreptitious",
+    "strPlot": "Ceres",
+    "strSetPlotObjective": "name|The Videotape: Find 'Smiley'|ct|CTPLOT_Ceres_Is_Smiley|desc|The person known as Smiley wants to meet you on Flotilla (OKLG_FLOT).",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "VideotapeOnlineResearchMakePostPlain",
+    "strTitle": "Оставьте простое описание и запрос информации",
+    "strDesc": "Вы записываете основные характеристики видеокассеты — размер, форму, базовые сведения, которые вы получили о медиа VHS, и спрашиваете общую публику, не встречали ли они подобного.\n\nОстаётся только ждать, пока кто-то из интернет-стрangerов —\n\n— подождите.\n\nВаш пост исчезает перед вами. Обновление возвращает вас на главную страницу CCC. Что за бред?",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "VideotapeOnlineResearchHub"
+    ],
+    "strActionGroup": "talk",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "LootCondsUs": "CONDPLOT_VideotapeOnlineResearchMakePostPlain",
+    "CTTestUs": "CTPlot_VideotapeOnlineResearchMakePostPlain"
+  },
+  {
+    "strName": "VideotapeOnlineResearchLookupManuf",
+    "strTitle": "Ищите производителя",
+    "strDesc": "Вы пролистываете каталоги и специализированные издания Renbao и др., надеясь найти узкую специализированную линейку или независимое предприятие, производящее домашние медиа из прошлого столетия. Ничего не найдено. В сегменте потребительской электроники вы не можете купить кассету или плеер.\n\nАвтоматизированный продавец Renbao открывает окно сообщения и начинает предлагать заказ на специальный заказ производства реплики VHS-устройства. После краткого вопроса-ответа он признаётся, что не понимает, о чём вы и он говорите.\n\n«Могу ли я поговорить с человеком?» — пишете вы.\n\n«У нас здесь нет людей», — отвечает он. Возможно, с извинением.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "VideotapeOnlineResearchHub"
+    ],
+    "strActionGroup": "talk",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bHumanOnly": true,
+    "ShipTestUs": "OKLG_MAINSTATIONS",
+    "LootCondsUs": "CONDPLOT_VideotapeOnlineResearchLookupManuf",
+    "CTTestUs": "CTPlot_VideotapeOnlineResearchLookupManuf"
+  },
+  {
+    "strName": "VideotapeInspectFinish",
+    "strTitle": "Спрячьте кассету",
+    "strDesc": "Вы кладёте кассету в карман и уходите.",
+    "fTargetPointRange": 0,
+    "fForcedChance": 0,
+    "strColor": "Dialogue",
+    "fRotation": 0,
+    "nQabOrderPriority": 0,
+    "strThemType": "Self",
+    "bHumanOnly": true,
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strSetPlotObjective": "name|The Videotape: Research 'VHS'|ct|TIsPDAHeldUnlocked|desc|Return to an OKLG station and search the local mesh on your PDA.|img|ItmWristPDA01",
+    "LootCondsUs": "CONDPLOT_VideotapeInspectFinish",
+    "CTTestUs": "CTPlot_VideotapeInspectFinish"
+  },
+  {
+    "strName": "VideotapeDecideResearch",
+    "strTitle": "Решите узнать больше",
+    "strDesc": "Так же, как стальная труба, вращающаяся в бесконечности в космической кабине, не делает этого, это кажется важным.\n\nДолжен быть эксперт на K-LEG, который знает больше о том... 'VHS'. Конечно, не кто-то из ваших знакомых, но кто-то на станции должен знать.\n\nВы можете попробовать найти это в локальном интернете OKLG. Ваш PDA может получить доступ к нему, если вы находитесь на одной из его аффилированных станций.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "VideotapeInspectFinish",
+      "TurnTapeOver"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "LootCondsUs": "CONDPLOT_VideotapeDecideResearch",
+    "CTTestUs": "CTPlot_VideotapeDecideResearch"
+  },
+  {
+    "strName": "AVClub_Smiley_Inside",
+    "strTitle": "Следуй за ним внутрь",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strThemType": "Self",
+    "strDesc": "Вы проникаете сквозь толстую ткань, которую многие общежития используют для изоляции систем вентиляции и отопления.\n\nВнутри — просторная общая комната с низким потолком. Под ногами — беспорядочная разметка ковров и мягкой плитки, все ориентированные на экран на стене. В задней части — кухонная ниша. Smiley ждёт вас на ковре, с перекрещенными ногами, волосы мягко обрамляют его плечи. Вы садитесь напротив него.\n\n«Покажи мне», — говорит он.\n\nВы достаёте видеокассету. Его глаза светятся. «Ого!» — кричит он. Вы позволяете ему взять кассету.\n\n«Это настоящее», — говорит он, внимательно изучая её, проверяя клей на наклейке с помощью сжатых пальцев. «Как я и сказал, у нас есть другие — 2, 7 и несколько 8-ов. Первый 3!»\n\nВы сглатываете. Он возвращается к вам, глаза мигают за огромными очками.\n\n«Да, да. Что это? Это видео. Что на видео? Страшные вещи, брат, страшные вещи. Люди совершают какую-то ритуальную практику. Кто я? Никто. Кто мы? Мы — те, кто хочет смотреть. Мы собираемся и смотрим. Сравниваем, теоризируем. Спорим. Это как небольшой клуб. Понял?»\n\nВы киваете, размышляя. «Ритуал?»\n\nОн отмахивается. «Я покажу вам, если хотите. Не волнуйтесь. Это огромный день для нас. Сколько лет прошло с последнего нового материала. Я полностью на вашей стороне.»",
+    "aInverse": [
+      "AVClub_Smiley_Tape2",
+      "AVClub_Smiley_Tape3"
+    ]
+  },
+  {
+    "strName": "AVClub_Start",
+    "strTitle": "Попросите встретиться с Smiley",
+    "strDesc": "Мужчина имеет высокую линию лба и уходящую в сторону волосы. Его волосы, где они растут, длинные, доходят до плеч. Он должен быть старше, но его чистая кожа не делает его старше трёхдесяти. Он носит большие трёхочковые очки и широкую, спокойную улыбку.\n\n«Вы — Smiley?» — спрашиваете вы. «Из сообщения в потоке.»\n\n«Namaste», — отвечает он, «и jeete raho. Я — он.»\n\nВы неопределённо шепчете. «У меня есть видеокассета. Знайте ли вы, что это такое? Что оно делает?»\n\nЕго улыбка становится шире. «Оно воспроизводит видео. Или должно, но если это как у других, то оно сломано.»\n\n«Но вы смотрели на них.»\n\n«Я смотрел на них.»\n\n«Как?» — вы подавляете нетерпение.\n\nSmiley поднимает глаза и смотрит вдоль коридора с подозрением. В коридоре обычное количество людей, что означает, что есть, и обычное количество интереса к вашему разговору, что означает, что нет. «Не здесь. Внутри.» Smiley исчезает в жилом помещении.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "AVClub_Smiley_Inside"
+    ],
+    "strActionGroup": "Use",
+    "strTargetPoint": "Talk",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestThem": "CTPLOT_Ceres_Is_Smiley",
+    "ShipTestUs": "AnyShip_OKLG",
+    "LootCondsUs": "CONDPLOT_AVClub_Start",
+    "CTTestUs": "CTPlot_AVClub_Start",
+    "strTooltip": "Он ждёт там, где сказал.",
+    "fTargetPointRange": 3
+  },
+  {
+    "strName": "AVClub_Smiley_Tape2",
+    "strTitle": "Попросите посмотреть ещё одну кассету",
+    "strDesc": "Smiley никогда не теряет свой характерный дурацкий улыбку, но она тускнеет и светится, и теперь она светится. «Я надеялся, что вы это сделаете.»\n\nОн запускает видео на стеновом экране. Воспроизведение останавливается на первом кадре, двойные бары символа остановки блокируют вид. Smiley настаивает на том, чтобы сначала приготовить свой специальный попкорн, «как делают пищевые лавки, но лучше». \n\nПока он пел из кухонной ниши, вы изучаете статичный кадр.\n\nЭто изображение в жёстком свете; камера и объект — это EVA. Верхняя часть кадра — тёмная сторона астероида. Мягкая кривая горизонта, где чёрное тело становится занавесом звёзд, предполагает, что это маленький камень, размером в сто метров, если не больше. Мягкий звук сзади вас — раскрытие первого зерна.\n\nПод астероидом, висящий неподвижно (видео остановлено), — жёсткая тень космического костюма. У его руки вытянута, указывая вверх к поверхности, как Адам, протягивающий руку к Богу.\n\nКадр шумный, с дефектами. Это может быть связано с ISO-уровнем, на котором было снято, но Smiley сказал, что это снято с кассеты на целлюлозе, как у вашей кассеты... так что кто знает, когда появились дефекты?\n\nSmiley вдруг появляется рядом с вами, заставляя вас вздрогнуть. Он колеблёт бокал с попкорном. «Готовы?» — спрашивает он. «Первый проход я ничего не скажу. Если хотите, мы можем посмотреть повторно, и я могу дать вам дополнительный комментарий.»\n\nОн предлагает вам бокал.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "aInverse": [
+      "AVClub_FirstWatch"
+    ],
+    "LootCondsUs": "CONDPLOT_AVClub_Smiley_Tape2",
+    "CTTestUs": "CTPlot_AVClub_Smiley_Tape2",
+    "strThemType": "Self"
+  },
+  {
+    "strName": "AVClub_Smiley_Tape3",
+    "strTitle": "Попросите посмотреть кассету 3",
+    "strDesc": "\"Нет, не могу,\" — говорит он.\n\nОн указывает на вашу кассету. \"Это не работает. В ней есть видео <i>внутри</i>, где-то. Но первое, что мы сделали — это то, что Abacho и Xavier собрали рабочий VHS-плеер. Нам пришлось разобрать головку, это маленькое игольчатое устройство для чтения кассеты, и заказать его у производителя на Венере, и затем нам пришлось искать странных людей на Луне, которые утверждали, что у них есть настоящие копии стандартов PAL и NTSC, и потом они исчезли, блять, блять. Это и есть то, как группа начала.\"\n\n\"А что дальше?\"\n\n\"Итак, кратко говоря, мы создали рабочий VHS-плеер. Мы думаем. Он работал с другой кассетой, которую мы нашли на аукционе. Но наша кассета не воспроизводилась. Зачем?\"\n\nВы не могли бы знать, но он наслаждается рассказом и не ждёт ответа. \"Потому что это фальшивка! Это не VHS-кассета. Это пластиковая копия, в которой находится катушка современного аналогового целлюлозного фильма. Венерский сырьё, откуда берётся целлюлоза. Мы никогда не открывали это, чтобы проверить.\"\n\nУ вас появляется очевидный вопрос, но он уже давно беспокоит вас, поэтому вы просто выносите его. \"Почему бы кого-то не сделать это?\"\n\n\"Мы не знаем! Именно поэтому это так интересно! Мы проводим опрос.» Он открывает на стеновом экране таблицу. \"Xavier имеет 300 на ARG. Molly Liu считает это искусством, не входящим в традицию. Molly 2 считает это пришельцами. Xavier считает, — он моргает, — это окончательное доказательство того, что Вселенная — это симуляция, которая начинает разрушаться. Мы не любим его, но он поставил много денег, так что что угодно.\"\n",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strThemType": "Self",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "CTPLOT_Ceres_Is_Smiley",
+    "ShipTestUs": "AnyShip_OKLG",
+    "aInverse": [
+      "AVClub_Smiley_Tape3_Again"
+    ],
+    "LootCondsUs": "CONDPLOT_AVClub_Smiley_Tape3",
+    "CTTestUs": "CTPlot_AVClub_Smiley_Tape3"
+  },
+  {
+    "strName": "AVClub_FirstWatch",
+    "strTitle": "Смотрите фильм",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "strDesc": "Видео начинает воспроизводиться.\n\nСтатичная фигура оживает. На расстоянии до верхней части руки из её запястья вырывается пламя газа. На темном фоне мелькает след, как будто снаряд был запущен в астероид с длинным шнуровым кабелем. Кабель резко натягивается, и космический костюм поднимается в пеньюар астероида.\n\nГигантская кепка космического костюма скользит перед камерой, когда вторая фигура входит в сцену. Стёкла кепки отражают звёздную ночь, вызывая тишину, характерную для космического вида. Она медленно проходит мимо камеры, делая короткий жест «всё в порядке», затем запускает свой захват на первый костюм.\n\nПо мере того как второй костюм движется, вверх становится вниз, и он падает. Камера смещается в сторону, и запись резко теряется в минусе.\n\nРезкий переход:\n\nВставки проходят слишком быстро, чтобы их можно было прочитать. Появляется алфавитно-цифровая строка '1-400', затем перечень логов memtest, логотип Волтера, который переходит в низкокачественное видео ориентации, взятое из интернета. Звук включается, слишком громко после тишины, и начинает воспроизводиться над студентами, отдыхающими в общежитии на Луне. «— более десяти тысяч студентов на каждого вступления, вы обязательно найдёте партнёра на всю жизнь». Студенты играют в Breakout в зале для перекуса. «Таким образом BNW обеспечивает будущее нашей системы сегодня». \n\nСтуденты смеются в знаменитом квадрате Волтера. Камера отступает за пределы, и CEO поворачивается к камере, улыбаясь. «Готовы ли вы к завтрашнему дню?»\n\nОно захватывает —orrow, —orrow, —orrow, затем тёмнело и замолчало.\n\nРезкий переход:\n\nТонкая полоса света проникает сквозь экран, показывая трещину в скале. Огни мигают в ответ на камеру, образуя кольцо, которое поглощает всё. Они уходят. Его владелец осторожно движется сквозь щель. По движению камеры можно судить, что и снимает его сцены.\n\nРезкий переход:\n\nЧёрная звезда. Чёрное солнце. Вокруг него — белый фон. Как на отрицательной фотографии или в инфракрасном изображении. Его поверхность волнуется. Это Солнце? Не могу сказать. Звук усиливается, появляется резкий цифровой стаккато, который ускоряется, и затем превращается в голос, а затем в крик.\n\nРезкий переход:\n\n— О, благородный новый мир — говорит CEO, читая с телепромпта — в котором такие люди живут. Он указывает на свою группу счастливых студентов.\n\n— Режиссёр! — кричит кто-то. Студенты растворяются в белой стене. CEO падает на пустую LED-площадку. — У нас всё получилось, — говорит другой голос, успокаивающе.\n\n— Спасибо, черт, — говорит он, отключаясь. — Я добрался до конца — скажи маркетингу, чтобы дали мне простые предложения —\n\nРезкий переход:\n\nОгни освещают ещё одну незаполненную пещеру на астероиде. Один из двух космических костюмов приближается к камере. Руки вытягиваются. Камера смещается и стабилизируется. Жестоко? Нет. Это просто кадрирование. Костюм уходит.\n\nВключаются потолочные лампы, яркие и мощные. Небольшая промышленная комната, почти как закрытый пластиковый пузырь, расширенный в стену скалы.\n\nВ центре помещения что-то огромное светится. Фигура, человеческая, длинная. Голубая голова. Руки перекрещены на груди. Детальные рельефы придают ей вид спящего человека. Фигура? Нет, это гроб.\n\nОн изготовлен из чистого золота.\n\nМедиа-плеер достигает конца трека.",
+    "aInverse": [
+      "AVClub_FirstWatch_Debrief"
+    ]
+  },
+  {
+    "strName": "AVClub_Smiley_Tape3_Again",
+    "strTitle": "Просмотрите трек 3... снова",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "CTPLOT_Ceres_Is_Smiley",
+    "ShipTestUs": "AnyShip_OKLG",
+    "strDesc": "\"Как,\" вы говорите, включая в себя ресурс терпения, которого вы никогда не знали, \"мы можем увидеть, что на моём треке?\"\n\n\"Просто,\" говорит Смайли. \"Здесь на Флотилле есть женщина, которая цифрово обрабатывает их для нас. Исамбард Круз. Принесите её, скажите, что я отправил вас. Или не приводите. Я думаю, она не очень любит меня.\"\n\n\"Это жалко,\" вы говорите нейтрально.\n\n\"В любом случае, вам нужно позвонить ей по внутреннему коммуникатору. Вы найдёте его на двери, прямо в коридоре здесь.\"\nСмайли продолжает. \"Она, ум, не часто выходит на улицу.\"\n\nОн даёт вам местоположение двери с внутренним коммуникатором на Флотилле, в коридоре и на одном повороте.\n\n\"И можете ли вы обещать, что вернёте копию нам? Закон о нахождении, право на вывоз и т.д. Но,\" говорит он с извинением, \"я уже организовал просмотр трека сегодня вечером. Все теряют сознание, жаждут увидеть новый трек. Приходите? Вы станете героем этого часа.\"\n\n\"Я посмотрю, что могу сделать.\"",
+    "aInverse": [
+      "AVClub_Smiley_Tape2",
+      "AVClub_FirstWatch_Leave",
+      "AVClub_FirstWatch_Extras"
+    ],
+    "LootCondsUs": "CONDPLOT_AVClub_Smiley_Tape3_Again",
+    "CTTestUs": "CTPlot_AVClub_Smiley_Tape3_Again",
+    "strPlot": "Ceres",
+    "strSetPlotObjective": "name|The Videotape: Find Isambard Cruz|ct|CTPLOT_Ceres_Is_Isambard|desc|Follow Smiley's directions to Isambard's strange little store.",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "AVClub_FirstWatch_Debrief",
+    "strTitle": "Обсудить с Смайли трек",
+    "strDesc": "Вы выдохнули, освободившись от напряжения. Что это значит? Может быть, всё. Может быть, ничего. В любом случае, нет ничего загадочного в том, как это привлекло внимание группы уставших инженеров.\n\nВы смотрите на Смайли. Смайли смотрит на вас.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "aInverse": [
+      "AVClub_FirstWatch_Intrigued",
+      "AVClub_FirstWatch_Rubbish"
+    ]
+  },
+  {
+    "strName": "AVClub_FirstWatch_Intrigued",
+    "strTitle": "Вы выражаете интерес",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "strDesc": "\"Я должен признать,\" говорите вы. \"Это довольно круто.\"\n\n\"Да!\" говорит он. \"Я знал, что вы скажете. У вас отличный вкус.\"",
+    "aInverse": [
+      "AVClub_Smiley_Tape3",
+      "AVClub_FirstWatch_Leave",
+      "AVClub_FirstWatch_Extras"
+    ],
+    "LootCondsUs": "CONDPLOT_AVClub_FirstWatch_Intrigued",
+    "CTTestUs": "CTPlot_AVClub_FirstWatch_Intrigued"
+  },
+  {
+    "strName": "AVClub_FirstWatch_Rubbish",
+    "strTitle": "Вы говорите, что это полный бред",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "strDesc": "\"Полный бред!\" — говорите вы прямо. \n\nСмайли кивает, его улыбка исчезает и превращается в редкое выражение серьёзности. \"Конечно, понятно,\" — говорит он. \"Не то чтобы... нет, вы, конечно, правы.\"",
+    "aInverse": [
+      "AVClub_Smiley_Tape3",
+      "AVClub_FirstWatch_Leave"
+    ]
+  },
+  {
+    "strName": "AVClub_FirstWatch_Leave",
+    "strTitle": "Найдите предлог для ухода",
+    "strDesc": "Вы уходите в поисках Изамбарда Круза.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "LootCondsUs": "CONDPLOT_AVClub_FirstWatch_Leave",
+    "CTTestUs": "CTPlot_AVClub_FirstWatch_Leave",
+    "aInverse": [
+      "ENCFinishTitleLeave"
+    ]
+  },
+  {
+    "strName": "Isambard_Start",
+    "strTitle": "Используйте странный интерком",
+    "strDesc": "Это, без сомнения, адрес, который дал вам Смайли — дыра в стене корабля с прочной дверью, закреплённой на болтах. Кто именно он отправил вас встречать?\n\nВы нажимаете на кнопку. Потом — пауза, прежде чем женщина произносит: \"Да?\" — с сарказмом, коротко, не совсем враждебно.\n\n\"Смайли отправил меня,\" говорите вы, \"если это его имя. Я нашёл видеозапись. Вы видели такие раньше?\"\n\n\"Покажите её камере.\"\n\nВы наклоняете метку \"Вдыхания\" к маленькому красному лампочке.\n\nЕщё мгновение, пока ваше предложение рассматривается без тела женщины. Дверь раскрывается с громким <i>кер-чак!</i>.\n\n\"Входите.\"",
+    "strTooltip": "Горит красный свет — сигнал записи специальной системы безопасности.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strTargetPoint": "Talk",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "CTTestThem": "CTPLOT_Ceres_Is_Isambard",
+    "LootCondsUs": "CONDPLOT_Isambard_Start",
+    "CTTestUs": "CTPlot_Isambard_Start",
+    "aInverse": [
+      "Isambard_InsideShop"
+    ],
+    "fTargetPointRange": 3
+  },
+  {
+    "strName": "Isambard_InsideShop",
+    "strDesc": "Изамбард Круз напоминает вам учителя, которого вы имели на уроке арифметики в диске 2. Высокий, старый, немного худой, голос очень тихий, влекущий и раздражающий. Она перекручивает видеокассету в своих руках, как природный образец. \"Да,\" говорит она, \"я знаю, что это такое.\"\n\nНе отрываясь от сосредоточенности, она приглашает вас ближе. Она указывает пальцем. \"Вы знаете VHS, да? Вот и вот — фальшивые штифты. Не настоящие, ха, рельс.\" Слова, похожие по звучанию, отскакивают от вашей головы. Она поднимает глаза и смотрит на вас с презрением. \"Фальшивые.\"\n\n\"Почему бы кого-то не сделать фальшивую видеозапись?\" спрашиваете вы.\n\nКруз вздыхает. \"Земляне, фетишисты. Они любят кубики для автомобилей и я люблю шляпы I<3NY. Они платят за это. Платили за это. Земля — прошлое. Рынок умирает.\"\n\nОна вдыхает ещё раз. \"Пусть умрёт.\"\n\nОна, вероятно, была достаточно старой, чтобы родиться на Земле, вы думаете. Она не жалеет.\n\n\"А что на кассете?\" Вы поднимаете руку, чтобы взять её, но она поворачивается и уходит глубже в свой магазин. \"Я хочу её посмотреть.\"\n\nВы следите за ней, вдыхая смесь масла от машин и аромата. Вы наступаете на кота, который выдыхает на вас, прежде чем вернуться к своему бездействию. Когда вы догоняете её, она открывает кассету на рабочем столе. Она поднимает кусок кассеты к единственной мощной лампочке.\n\n\"Что-то есть,\" говорит она. \"Старые глаза не видят. Посмотрите, приходите.\"\n\nОна предлагает вам взять кассету. Вы держите её к лицу, поворачивая её в разные стороны. Она продолжает говорить сама себе. \"Настоящая кассета, магнитная.\"\n\nЗвучат звуки из угла, где вращается вентилятор на столе. Кот мяукает. \"Фальшивые кассеты имеют фильм. Как то, что вы видите?\"\n\nИзображение резко появляется. Бело-золотой человекообразный объект, саркофаг в миниатюре. Представление настолько ужасающе, что вы смещаетесь, будто от электрического удара. Круз смеётся тихо. \"Да,\" говорит она печально. \"Это никогда не хорошо.\"\n",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "strTitle": "Пойти внутрь",
+    "strThemType": "Self",
+    "aInverse": [
+      "Isambard_InsideShop_1"
+    ]
+  },
+  {
+    "strName": "Isambard_InsideShop_1",
+    "strTitle": "Смотрите, как она работает",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "strThemType": "Self",
+    "strDesc": "Она берёт кусок кассеты у вас и перемещается к другой машине. Она нажимает на её огромную клавиатуру с звуком клик-клак. Машина — серебристо-медь, с индикатором, наклонённым к ней, включается, издаёт шум.\n\nОна поднимает один конец кассеты к вам, будто вы понимаете, что делает, и хотите присоединиться к ней, и вставляет его в отверстие в верхней части машины. Звук машины усиливается, и глубокий шум начинает трясти пол. Неужели она... разрушает его?\n\nОна чувствует ваше беспокойство. \"Цифровизация,\" говорит она с радостью, немного захлебываясь от английского слова. С одной рукой она вводит кассету, звук отражается. \"Камеры внутри,\" говорит она, скользя пальцем по краю. \"И ножи. Кассета, идёт — чоп-чоп-чоп-чоп — пофу! Все мелкие кусочки, отслеживаются мелкими лазерами. В конце получаем идеальную копию.\"\n\n\"Вы не можете просто снять с него фото?\"\n\nМашина кричит. Изамбард покачивает головой. \"Такой способ не даёт идеального результата. Этот способ сохранит его в облаке навсегда.\"\n\nДля цифровизации остального всего занимает минуту. Вы протягиваете руку к коту Petware. Она смотрит на вас внимательно. \"Сколько лет ей?\"\n\n\"Шесть месяцев за гарантией,\" говорит Изамбард. \"Как и мне!\" И она смеётся.\n\nМашина прекращает звук. С такой же быстротой она передаёт вам карточку с данными и неуклонно ведёт вас обратно туда, откуда пришли.\n\n\"Вы не хотите посмотреть, что на ней?\" спрашиваете вы.\n\n\"Боже, нет,\" отвечает она, и закрывает дверь перед вами.",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "LootCondsUs": "DigitalVideotape",
+    "strPlot": "Ceres",
+    "strSetPlotObjective": "name|The Videotape: Return to Smiley|ct|CTPLOT_Ceres_Is_Smiley|desc|Doesn't this guy have a job?",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "AVClub_The_Return",
+    "strTitle": "Доставьте цифровизированную кассету",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strTargetPoint": "Talk",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "CTTestThem": "CTPLOT_Ceres_Is_Smiley",
+    "aInverse": [
+      "AVClub_The_Return_2,[us],[us]"
+    ],
+    "CTTestUs": "CT_AVClub_The_Return_Ready",
+    "LootCondsUs": "CONDPLOT_AVClub_The_Return",
+    "strDesc": "Смайли радостно останавливает вас. \"Входите, входите!\" говорит он. \"Все здесь.\"\n\nОн ведёт вас внутрь.",
+    "strTooltip": "Он всё ещё здесь. Неужели у него нет работы?",
+    "fTargetPointRange": 3
+  },
+  {
+    "strName": "AVClub_The_Return_2",
+    "strTitle": "Следуй за ним внутрь",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Домашний блок наполнен электрическим теплом; кондиционер работает в ускоренном темпе, пытаясь справиться с десятком тёплых тел. Как только ты входишь, тебя сразу охватывает толпа, желающая посмотреть на видео. \"Святой черт, это новичок! / У тебя есть это? / Что там внутри?\"\n\nСмайли вырывает из толпы и тянет тебя на сцену. \"Уходите! Это [us-custom-characterGenderCond|мужчина|женщина|герой] часа. Дайте им дышать.\"\n\nПростое действие — передача диска с видео — приобретает неотвратимую торжественность. В клубе наступает тихое, удовлетворённое молчание, когда Смайли вставляет диск в свой PDA. Он переходит к файлу и наводит курсор на его выбор. \"Перед тем как начать,\" говорит он, \"давайте выпьем.\"\n\nВы замечали, что большинство людей имеют электронные сигареты или ручно поджигаемые сигареты рядом. Теперь каждый из них держит одну или другую и с большим интересом курит. Высокий мужчина, которого вы, возможно, идентифицируете как Абачо, передаёт вам маленькую чёрную пыльную трубку. \"Поверьте мне,\" говорит он, \"это редкость в жизни.\"\n\n\"Что в нём?\" — спрашиваете вы.\n\n\"Марихуана,\" — отвечает он, — и улыбается.",
+    "aInverse": [
+      "AVClub_The_Return_Smoke",
+      "AVClub_The_Return_DontSmoke"
+    ],
+    "aCustomInfos": [
+      "Ceres=EndP1"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_Smoke",
+    "strTitle": "Посмотрите",
+    "strDesc": "Вы отмахиваетесь и берёте дым из пыльной трубки. Ожидаете, что будете кашлять, но ощущение невероятно гладкое, вкус сладкий, совсем не похожий на острый зелёный привкус марихуаны.\n\nВы всё равно кашляете, чтобы проверить, смотрите между трубкой и Абачо. \"Нет никакого шанса, что это марихуана. Что же это на самом деле?\"\n\n\"Это выращено на даче,\" настаивает он. \"Оно вкуснее, не так ли?\"\n\nВы возвращаете трубку. Она отскакивает к нему. \"Оно должно быть вкусно, как марихуана, если это марихуаана. Уходите от меня, мужчина.\"",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "AVClub_The_Return_Watch"
+    ],
+    "LootCondsUs": "CeresPlotSmoke"
+  },
+  {
+    "strName": "AVClub_The_Return_DontSmoke",
+    "strTitle": "Отклоняем ручку",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "\"Спасибо, но нет,\" вы говорите. \"То есть, это и есть суть вечеринки? Просто получить кайф? Не вини меня, но это как каждая третья общежитие на К-ЛЕГ.\"\n\nАбачо пытается выглядеть обиженным, но не может не сжечь пальцы на палочке. \"Мы все о кине. Вы увидите.\"",
+    "aInverse": [
+      "AVClub_The_Return_Watch"
+    ],
+    "LootCondsUs": "CeresPlotDidNotSmoke"
+  },
+  {
+    "strName": "AVClub_The_Return_Watch",
+    "strTitle": "Смотрите на видео",
+    "strDesc": "Игрок начинает. Сначала ничего не происходит.\n\nСмайли видит вас, непонятно почему, с тревогой, будто вы что-то испортили.\n\n\"Приходите ко мне,\" говорит голос. Комнату дрожит. Кто-то кричит, другой смеётся от страха.\n\n\"Кто сказал это?\" спрашивает одна из Молли, и все молча её утихают.\n\n\"Приходите ко мне,\" говорит голос. Нейтральный, без тонов, мягкий, но резонирующий в этой маленькой комнате. На краях изображения появляются белые дуги. Вы смотрите в чёрное солнце, когда удаляетесь.\n\n\"Приходите ко мне,\" говорит голос.\n\n\"Правило трёх,\" говорит кто-то, зная это. \"Да, я точно приду!\" говорит другой.\n\nИгрок останавливается. Все кричат на Смайли, его рука на ПДА. Он поднимает руку, чтобы успокоить. \"Без слов! Это первый просмотр! Без слов!\"\n\nКомната успокаивается. Молли Лю выглядит, как будто увидела призрака. Абачо борется с тем, чтобы не открыть глаза, и снова и снова нажимает на ручку. Смайли нажимает на кнопку воспроизведения.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "AVClub_The_Return_Watch_1"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_Watch_1",
+    "strTitle": "Продолжайте смотреть",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "<i>«— для многих народов эти были первые боги. И самый великий из богов, король всех богов, Юпитер.»</i>\n\nФильм снимается незаметно у кого-то за столом, смотрит вниз по амфитеатру на лектора, который говорит в полной беседе.\n\nРезкий переход:\n\nНа столе кладётся гирлянда, белые цветы соединены золотой тесьмой, перед ним — молодой человек с чёрными волосами. Незримый голос задаёт вопрос, молодой человек отвечает. Жёсткие жёлтые подсказки переводят текст с русского или схожего славянского языка.\n\nПодсказки: «Как ты себя чувствуешь?» / «Хорошо».\n\nМолодой человек улыбается. Его глаза ярко-золотые.\n\nРезкий переход:\n\n«А что насчёт вестальных девственниц? Они были жертвованы». Студент рядом опускает руку, смотрит с гордостью.\n\n<i>«Они были убиты за преступление. Капитальное наказание. Очень распространённый способ, до сих пор практикуемый. Жертвование людьми — колониальная изобретение»,</i> говорит лектор, <i>«обвинение конкистадоров, чтобы оправдать вторжение. Вы можете делать с кем угодно, кого считаете демоном.»</i>\n\nРезкий переход:\n\nГлубокий голос дрожит. Молодой человек с гирляндой опускается по металлическому переходу, белые щиты развеваются за ним. За ним и перед ним идут мужчины и женщины в обычных скафандрах, что-то вроде охраны. Скафандры украшены яркими вышивками, яркими красными и синими цветами.\n\nВторой и третий голоса присоединяются к дрожанию в идеальных пятых. Появляется ещё несколько голосов, начинают исполнять контрапункт. Мелодия насыщена вибрацией, приближается к четвёртой степени. Это, вероятно, традиция, хотя вы её не слышали.\n\nОни проходят через перегородку в широкий грузовой отсек. Молодой человек прыгает внутрь. Охрана вращается вокруг неё, пели.\n\nС другой стороны от отсека — склеп.\n\nРезкий переход:\n\nДиалог продолжается. «Но не видели ли колонисты жертвование людьми? Как тогда это может быть обвинением, если это действительно произошло?»\n\n<i>«Наука в этом вопросе поразительно слаба.»</i> Лектор заменяется перевёрнутым видом лица документатора, прямо у его носа. Это молодой человек из Синьхуана или Малайзии, он трёт нос, уставший. <i>«Я думаю, что скорее всего они видели культурные практики, чуждые им, которые они неправильно интерпретировали, что было удобно для них.»</i>\n\nРезкий переход:\n\nПение прекратилось, остался только один голос, который продолжает мелодию, пока молодой человек опускается в открытый склеп. Она входит внутрь, с серьёзным выражением лица. Певец закрывает крышку.\n\nОкружающие склеп тонкие трубки и стальные цилиндры. Охрана собирается у центрального панели, все, кроме певца, который склоняется у стороны склепа.\n\nПневматический шипение из цилиндров. Певец останавливает своё пение и дважды постукивает по крышке. Изнутри идёт тяжёлый удар. Певец показывает пальцем вверх тем, кто находится у панели. Вместе они возвращаются к пению.\n\nОпять включается воспроизведение, пение прерывается. Взрывы из клуба становятся ещё более ожесточёнными, но снова Смайли призывает к тишине, жестикулируя упрямо.\n\n«Слушайте! Вы слышите это?»",
+    "aInverse": [
+      "AVClub_The_Return_Listen"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_Listen",
+    "strTitle": "Слушайте",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "На далёком расстоянии, грустный голос кричит: <i>«Цзю? Где ты? Цзю?»</i>\n\nЭто крик, известный на К-ЛЕГ. Менее распространённый, возможно, на Флотилле. Прибывают Айо-Сек.\n\n«Это сканирование!» Комната взрывается хаосом. Несколько человек бегут к двери. Даже если они приходят к этой группе, лучше не оставаться, чтобы выяснить.\n\nУ вас может быть всего тридцать секунд, чтобы действовать.",
+    "aInverse": [
+      "AVClub_The_Return_LookEscape",
+      "AVClub_The_Return_Cops_MakeBreak",
+      "AVClub_The_Return_FinishTape",
+      "AVClub_The_Return_FindSmiley"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_Cops_MakeBreak",
+    "strTitle": "Сделать резкий бег",
+    "strDesc": "То, что на этом кассете, не стоит того, чтобы ввязываться в правовые споры. Вы бежите к выходу, достигая его чуть раньше других.\n\nЧерез несколько секунд вы находитесь снаружи, в коридоре. Вам приходится резко отступить, чтобы избежать старого космонавта, который бежит к вам.\n\nСтабильный поток людей, бегущих рука об руку, оттягивает вас от основных путей доступа.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "AVClub_The_Return_Cops_MakeBreak_RunAway",
+      "AVClub_The_Return_Cops_MakeBreak_RunAgainst"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_Cops_MakeBreak_RunAway",
+    "strTitle": "Бежать с толпой",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Вы доверяете мудрости толпы.\n\nФлотиля — это лабиринт, и вы не знакомы с ним. Если кто-то имеет цель, он не останавливается, чтобы рассказать вам. Вы присоединяйтесь к бегущему хаосу, время от времени останавливаясь, чтобы слышать звуки Айо-Сек позади вас и, в один момент, перед вами.\n\nСвязанные корабли эхом отражают выстрелы и крики. Редко Айо-Сек выходят за пределы своих зон действия вокруг Ганимеда, но как знают флотилляне, это не исключение. Вы слышите, когда Айо находит группу сопротивления: темп огня резко возрастает, и тон ответных огнестрельных снарядов приобретает явно запрещённый характер.\n\nПосле того, как вы получили некоторое расстояние от приближающихся корпоративных сил, толпа замедляется, и настроение меняется с паники на осторожность. Люди из медленно движущихся групп, координирующиеся и проверяющие, пытаются как можно скорее подключиться к беспроводной сети.",
+    "aInverse": [
+      "AVClub_The_Return_Cops_MakeBreak_Keepgoing",
+      "AVClub_The_Return_Cops_Slipthrough"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_Cops_MakeBreak_RunAgainst",
+    "strTitle": "Бежать против толпы",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Попытка проникнуть сквозь панический поток людей трудна. Никто не готов к тому, что вы, как сумасшедший, врезаетесь в них. В течение следующих минут наступает кинетический хаос, когда вы постоянно перебегаете по периферии, и каждый раз, когда вам нужно пересечь проход, вы сталкиваетесь с двумя или тремя людьми.\n\nПоток против вас внезапно прекращается. Обходя угол вы сталкиваетесь с командой Айо-Сек по соблюдению законов.",
+    "aInverse": [
+      "AVClub_The_Return_ShieldWall"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_FinishTape",
+    "strTitle": "Завершить кассету",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Смайли исчезает из своего обычного положения на ПДА. Вы нажимаете на воспроизведение, не обращая внимания на беспорядок вокруг.\n\nПение возвращается в полной силе, теплый контрапункт к наступающей угрозе. Превью временной линии показывает, что охрана движется без изменений, поэтому вы несколько раз перемещаетесь вперёд, чтобы найти что-то выдающееся. Пение резко прерывается.\n\nВот! Появляется миг. Вы возвращаетесь назад. Запись переполнена шумом, и в мгновение ока склеп становится ярче, чем солнце, выключая экран.\n\n«Что за хуя!» — говорит кто-то в комнате, либо следит за видео, либо не готов к яркому свету, либо вспышке огня.\n\n«Это Айо-Тими-Сек», — говорит усилённый голос снаружи. «Это обычная проверка соблюдения зон. Предоставьте документы и удостоверение регистрации. Покажите пустые руки или вы будете убиты на месте.»\n\nВы перемещаетесь к концу видео. Охрана радуется, обнимаются, плачут от радости.\n\nСклеп открыт, и молодая женщина исчезла из виду.",
+    "aInverse": [
+      "AVClub_The_Return_LookEscape"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_LookEscape",
+    "strTitle": "Ищите другой способ выбраться",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Флотилла с самого начала стала жертвой необычных модификаций. Скорее всего, есть ещё один путь наружу.\n\nПроводя оценку комнаты, Смайли не видно ни в одном месте. На двери — давление, несколько людей пытаются выйти одновременно. Абахо нервно стоит у одной стены. Он машет вам.\n\nВы быстро прыгаете через низкую общую зону, почти сталкиваясь с Молли Лью, которая выходит из кухонного уголка с пистолетом-пистолетом с отрезанным наконечником. Вы отступаете. Она включает пистолет, сжимает его и направляется к выходу.\n\nВы достигаете Абахо быстро, отскакиваете от стены. Он поймал вас. \"Внутрь, вон туда!\" — говорит он.",
+    "aInverse": [
+      "AVClub_The_Return_LookEscape_GoInside"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_LookEscape_GoInside",
+    "strTitle": "Пойти внутрь",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Это спальня, где три других человека из клуба ждут нервно.\n\nДве стены тесной спальни — это шкафы, стоящие на четырёх уровнях. Противоположная стена усеяна раздвижными блоками хранения, все закрыты. Один из них покрыт плакатом \"Держитесь!\", на котором изображён сильный кот Petware, выполняющий подтягивания на баре.\n\nАбахо рвёт плакат и показывает открытое отверстие вентиляции. \"Есть убежище. Следуй влево, пятьдесят метров. Два раза направо, затем влево. Понял?\" — Всё это подчёркивается торопливым согласием. \"Достаточно. Входите!\"\n\nОстатки AV-клуба встают в вентиляцию. Когда приходит ваша очередь, Абахо встаёт между вами и отверстием. \"Мгновение. Это важно.\"\n",
+    "aInverse": [
+      "AVClub_The_Return_LookEscape_Smoked",
+      "AVClub_The_Return_LookEscape_DidNotSmoke"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_LookEscape_Smoked",
+    "strTitle": "Продолжить",
+    "strDesc": "Он смотрит вам в глаза. Без воли вы смотрите в них. Это ваше воображение или в них присутствуют кусочки золота?\n\nОн кивает, удовлетворён. \"Я должен был знать. Смайли порекомендовал вас, но он ушёл. Он может быть шпионом, я не знаю. Но вы хороши.\"\n\n\"Айосек приходит к вам?\"\n\nОн махает руками. \"Не важно. Всё равно что-то придёт.\"\nОн ложится на пол, руки над головой. \"Уходите отсюда. Я — официальный житель. Возможно, они просто позволят мне жить.\"\n\nС последним взглядом на лежащего человека вы прыгаете в вентиляцию.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "AVClub_The_Return_VentEscape"
+    ],
+    "CTTestUs": "CeresCheckSmoked"
+  },
+  {
+    "strName": "AVClub_The_Return_LookEscape_DidNotSmoke",
+    "strTitle": "Продолжить",
+    "strDesc": "Абахо достаёт пыльный пистолет, который вы ранее отвергли.\n\n\"У нас нет времени, поэтому я буду чётким. Вдохните, сейчас. Или рискуйте за пределами.\"\n\nВсе сомнения и гнев сжимаются в одно слово: \"Что?!\" Но Абахо не впечатлён.\n\n\"Вдохните сейчас,\" он повторяет раздражённо. \"3, 2, 1, вдохните.\"\n",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestUs": "CeresCheckNotSmoked",
+    "aInverse": [
+      "AVClub_The_ReturnAcceptSmoke",
+      "AVClub_The_ReturnRefuseSmoke"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_VentEscape",
+    "strTitle": "Спускаетесь по вентиляционным каналам",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Проход очень медленный. Сеть вентиляций почти неестественно тесна, и каждый привыкает к случайным ударам по лицу. Направления Абахо лишены смысла, так как его маршрут — единственный, который вы можете пройти.\n\nВ то же время, у вас есть многое, чтобы послушать. Металл под ногами издает звук, как шаги, крики и редкие выстрелы. Ваши пальцы скользят по поверхности, а пот образует жирный слой на верхней части тела.\n\nВсе замеряют, когда вы проходите мимо спальни, где щель позволяет просачиваться света, и в неё входят сотрудники безопасности. Офицеры атакуют комнату, собирают жителей и привязывают их руки. У вас почти нет возможностей, кроме как ждать, с жалостью боясь шуметь. Один из более молодых и энергичных пленников пытается убежать, когда видит возможность, но гель-пистолет ловит его в спине до того, как он достигнет двери. Несмотря на то, что это не оружие, он останавливается.\n\nЗатем начинается театральная сцена, когда каждый из них проходит сканирование идентификационных данных, которые всегда оказываются недостаточными, и собираются в кубы на лодке, стоящей в коридоре.",
+    "aInverse": [
+      "AVClub_The_Return_VentEscape2"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_VentEscape2",
+    "strTitle": "Продолжайте движение к убежищу",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "После неопределённого периода ползания вы слышите ужасающий звук, который разбудит вас из монотонности.\n\nСзади вас, вдоль трубы, звучит ужасающий шипение. \"Муравьи,\" вы говорите, удивлённо. \"Муравьи!\" — кричите вы снова тем, кто находится впереди, и толкаете их ботинки.\n\n\"Муравьи, муравьи!\" — кричат те, кто находится впереди, и внезапно молчание забыто — вы бегаете, как можно быстрее, руки вверх.\n\nПрактически бесполезно. Первый враг проникает мимо вас, стремясь к голове вашей группы. Вы видите его — злой маленький насекомый с тонкой насадкой. Самый последний инструмент противодействия несоответствию Айосека.\n\nСвоеобразный вихрь на вас наступает, огромное количество насекомых в группе. Вы извиваетесь, пытаясь избавиться от иголок, вонзившихся в одежду и кожу. Первая иголка, которая входит в соприкосновение, входит в левую плечевую кость. Ужасающий прокол боли; океан безмятежного облегчения охватывает ваше тело. Муравей падает с вашей спины, мёртвый, его нагрузка доставлена.\n\nВ таинственной синхронизации, вихрь проходит мимо вас, ищет следующую жертву, но это плохой кусок, слишком близко к костям. Вы всё ещё можете двигаться. Сонный, вы наблюдаете, как женщина впереди вас получает укусы и становится безжизненной.",
+    "aInverse": [
+      "AVClub_The_Return_VentEscape_Help"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_VentEscape_Help",
+    "strTitle": "Протягивайте её с собой",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Простота целей фиксируется. Каждый шаг приходит к вам как ясное, конкретное действие, активируя выживание, которое ваше мягкое сознание никогда не полностью понимает. Отодвигайте ноги. Изгибайтесь, пока не станете параллельными. Подхватите руку под руку. Используйте другую руку для тяги. Используйте тяговую руку, чтобы предотвратить падение. Падайте всё равно. Восстановитесь, почти. Повторяйте.\n\nПамять прекращает запись. Тело продолжает двигаться. Калейдоскоп вентиляций и вентиляторов и тел расщепляется и перестраивается.\n\nЧёрно-белый шар из видеозаписи 3 устанавливается внутри ваших глаз, скользя по новым цепочкам серотонина. \"Приходите ко мне,\" говорит он. Девушка входит в саркофаг. Голоса начинают гармонично сопровождать. \"Приходите ко мне.\"\n\n\"Я сказал, что сделаю,\" вы шепчете. Вы чувствуете, как ваши руки машут, пытаясь плавать. \"Вы не обязаны повторять это.\"\n\n\"Я увижу вас скоро,\" говорит он.",
+    "aInverse": [
+      "AVClub_The_Return_WakeUpSafehouse"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_VentEscape_Squeeze",
+    "strTitle": "Пропускайте её",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "AVClub_The_Return_VentEscape_Leave",
+    "strTitle": "Найдите выход",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "AVClub_The_Return_WakeUpSafehouse",
+    "strTitle": "Пробуждайся",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "\"Я не могу двигаться,\" вы говорите. Ваши глаза закрыты.\n\n\"Вы привязаны к стене,\" говорит мужской голос, \"потому что вы ещё спите.\"\n\nС усилием вы открываете глаза.\n\nВы находитесь в привязке к стене в жёстком пластиковом пакете. Половина дюжины людей с вами в небольшом пространстве, пытаются прижиматься к поверхностям; с обеих сторон — спящие люди привязаны к стене — включая женщину, которую вы спасли. Вы опускаете голову. Ваше сердце расширяется.",
+    "aInverse": [
+      "AVClub_The_Return_WakeUpSafehouse_Leave"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_WakeUpSafehouse_Leave",
+    "strTitle": "Ждите, пока будет безопасно",
+    "strDesc": "Вы переключаетесь между сном и пробуждением. Другие жители убежища становятся всё менее тревожными каждый раз, когда вы просыпаетесь, и звуки из остальной части Флотиллы становятся менее пугающими. Со временем вы восстанавливаете большинство своих двигательных функций. Вскоре вы можете покидать убежище в одиночку.\n\nВы покидаете убежище вместе с женщиной, которую вы спасли — Молли Олэдле, которую AV-клуб назвали Молли Две. Вы возвращаетесь к потоку людей в Флотилле. Он опущен, разбит; экстренные службы работают на каждом из боковых стен, и измождённые люди бродят впустую или плачут в коридорах.\n\nПриходит время, когда вы должны расстаться, вы — на ваше корабль, она — на смену на посту. Неприятное ощущение проходит между вами. \"Спасибо,\" говорит она наконец, \"за то, что вы сделали.\"\n\nВы стараетесь отклониться. Она игнорирует ваши слова. \"Я имею сны. Всё это закончится.\"\n\nОна смотрит вам прямо в глаза, внезапно интенсивно. \"Проводите свои последние дни с умом. Делайте их значимыми.\"\n\nВы должны сдержать язык, когда она, после этого, уходит на работу.",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strPlot": "Ceres",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "AVClub_FirstWatch_Extras",
+    "strTitle": "Запросите комментарии Смайли по дополнительным материалам",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "CTTestUs": "CT_AVClub_FirstWatch_Extras_Ready",
+    "strDesc": "Смайли с радостью возвращается к видео и начинает указывать на каждый деталь, основываясь на своих знаниях, а также на нескольких предположениях, маскирующихся под знания.\n\n\"Мы пытались определить, где мы находимся, сначала,\" говорит он, указывая на астероид и звёздное поле. \"Молли 2 проводила недели, пытаясь определить координаты по звёздам и углу солнца. Я думаю, это чуть сбило её с ума.\"\n\n\"Что она узнала?\"\n\nСмайли хмыкает. \"То, что это где-то в поясе,\" говорит он. \"Это не помогло нам. У нас было лучшее впечатление от приспособленных установок. Они редки, и только несколько сообществ на нескольких астероидах используют их, с их пиком в период колонизации. Конечно, если это было снято в тот период, который мы не знаем, то мы возвращаемся к началу.\"\n\n\"Что вы будете делать, если найдёте это?\" — спрашиваете вы. \"Пойдёте туда?\"\n\nСмайли смеётся, но радость быстро исчезает. \"Нет. Мы здесь застряли.\"\n",
+    "aInverse": [
+      "AVClub_FirstWatch_Extras_FF"
+    ]
+  },
+  {
+    "strName": "AVClub_FirstWatch_Extras_FF",
+    "strTitle": "Позвольте Смайли пропустить",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "strDesc": "Смайли прыгает до рекламы университета. \"Окей, теперь это, это — Волтер-университет, верно? На Луне. Там — Земля,\" говорит он.\n\n\"Там она,\" согласяетесь вы.\n\n\"То, что странно — официально такого объявления не существует,\" говорит он. \"Я сам провёл поиски. Немного сумасшедший, звонил всем, кто отвечал на сообщения на Луне, и просил проникнуть в архивы и т.д. Я смотрел много рекламы, чтобы найти это.\" В его тоне чувствуется, что это сотни и сотни часов медиа.\n\n\"То есть это фальшивое объявление?\"\n\nСмайли тщательно жуёт попкорн. \"Не знаю. В клубе существует небольшая святая война о том, является ли это ИИ или нет. Это ветвь главной войны о том, являются ли все видеозаписи ИИ или нет.\"\n\nПолный хаос. Вы изучаете замерзшую улыбку директора и сравниваете её с Смайли. Возможно, там есть родство. \"Вы, кажется, имеете мнение по этому вопросу,\" говорите вы.\n\n\"О, да,\" говорит он легко. \"Я знаю, что это не ИИ, потому что оно не пытается продать мне что-то.\"\n",
+    "aInverse": [
+      "AVClub_FirstWatch_Extras_FF2"
+    ]
+  },
+  {
+    "strName": "AVClub_FirstWatch_Extras_FF2",
+    "strTitle": "Пусть Смайли прокрутит ещё дальше",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "ShipTestUs": "AnyShip_OKLG",
+    "strDesc": "Он снова прокручивает, оставляя разрозненные комментарии и держа их на саркофаге.\n\nВы тратите минуту, чтобы внимательно изучить детали, насколько это возможно в условиях размытого освещения и низкого разрешения.\n\n— Теперь — спрашиваете вы — что же здесь происходит?\n\n— Это вопрос в миллион долларов, — серьёзно отвечает он. — Мы не знаем.\n\n— Это всё, что вы можете сказать? Вы не знаете?\n\nЕго улыбка немного тускнеет. — Это краткий вариант. Короткая история, ну, средняя, так что саркофаг появляется здесь, в #2, и снова в #8. Числа не значимы. — Он корректирует себя. — Не значимы, но и не хронологичны.\n\n— А что это такое?\n\n— Большой золотой человеческий образ, — говорит он. — Не знаю. Люди в видео, кажется, поклоняются ему. Они его почитают. В другом видео вокруг него ставят всякие научные приспособления и говорят с ним или молятся ему, но нет звука. Это как гностическая, новая эра, высокотехнологичная религия. Если бы древние египтяне могли увидеть нас сейчас.\n\n— Должно быть, есть причина, — говорите вы. — Люди не поклоняются вещам без причины.\n\nСмайли задумывается над этим. — Я думаю, — говорит он, — люди поклоняются тем, что им говорят.\n",
+    "aInverse": [
+      "AVClub_Smiley_Tape3",
+      "AVClub_FirstWatch_Leave"
+    ],
+    "LootCondsUs": "CONDPLOT_AVClub_FirstWatch_Extras_FF2",
+    "CTTestUs": "CTPlot_AVClub_FirstWatch_Extras_FF2"
+  },
+  {
+    "strName": "AVClub_The_Return_Cops_MakeBreak_Keepgoing",
+    "strTitle": "Продолжайте следовать толпе",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Толпа медленно вплывает в заброшенную кабину на шахтном корабле, ранее известном как <i>Primary Consumer</i>.\n\nОбщина Флотиллы организовала временный пункт помощи. Переселенцы плавают туда-сюда, звонят, пишут сообщения или задают друг другу глубокие вопросы. Там также присутствуют неловкие представители Айосека, временно проявляющие хорошее поведение, в то время как их командиры ведут переговоры с уставшими и уставшими руководителями сообщества.\n\nВы берёте кусок стены и скрываетесь. Показ вроде бы закончился, даже если он продолжает оставаться в том виде, в каком плохие шоу оставляют. Вы слышите шум руморов. Никто не знает, что происходит, кроме того, что забастовка Айо закончилась, и они, кажется, теряют интерес к делу.\n\nПока у вас нет ничего, кроме ожидания, вы задумываетесь. Время проведения проверки кажется далеко от случайного. Это связано с видеозаписью? С клубом Смайли? Может быть, это даже касается вас? Влияние на финансовую стабильность Айотимивы будет негативным; огромные расходы, которые, по вашему мнению, не приносят никаких реальных результатов.\n\nКонечно, это не связано с содержимым видеозаписи, — утверждает часть вас. Неисправная, фальшивая ARG не стоит того, чтобы убивать за неё... если она может. Не может ли это изменить смысл видеозаписей? Какая часть из них была важна?\n\nВаши мысли вращаются в кругах, и вы почти не замечаете, как дрон Айо сканирует вашу идентификацию и приказывает вам вернуться на свой корабль.",
+    "strSetPlotObjective": "name|The Videotape|ct|TIsPlayer|desc|Lay low until all of this blows over.",
+    "bRecheckThisPlot": true,
+    "aInverse": [
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_Cops_MakeBreak_TryTalk",
+    "strTitle": "Попробуйте поговорить с кем-то",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "AVClub_The_Return_Cops_Slipthrough",
+    "strTitle": "Попробуйте проникнуть сквозь линии Айосека",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Обратившись в сторону, вы двигаетесь под углом к опасности, ищете неиспользованное открытие, щель в сети.\n\nК сожалению, Айосек знает этот лабиринт лучше, чем вы. Каждый раз, когда вы подходите к перспективному пути, вы оказываетесь лицом к лицу с быстрозатверевающими пены, установленными с противоположной стороны, полностью непроницаемыми в условиях, которые у вас есть. При отступлении ваши варианты сужаются, и сужаются снова, пока, наконец, ваша удача исчерпывается.",
+    "aInverse": [
+      "AVClub_The_Return_ShieldWall"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_ShieldWall",
+    "strTitle": "Изучите противника",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Мужчины и женщины на передовой прижимаются к ряду переплетённых баллистических стёкол. Они надевают жёсткие костюмы Testudo, их шлемы покрыты громоздкими изображающими технологиями, а их коротконосые оружия торчат из отверстий в стене защитных щитов. Дальше по коридору вы видите корпус лодки — необычно квадратной формы, доспех, который Айо использует для поддержки армии.\n\nГромкий голос раздается через динамик, резкий и командный. «<i>Продвигайтесь!</i>» Тонкий, хриплый свист прозвучал, и он был издан кем-то, кто находится за линией фронта. Щиты дрожат, в костюмах шипят реактивные двигатели. Стенка медленно, неизбежно, продвигается к вам.",
+    "aInverse": [
+      "AVClub_The_Return_ShieldWallSurrender"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_ShieldWallSurrender",
+    "strTitle": "Сдаюсь",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Вы резко ложитесь на спину, руки за голову. «Гражданин!» — кричите в пол, слюна отскакивает обратно в лицо. «Гражданин Азиквэ!»\n\n<i>«Продвигайтесь»</i> — снова громко и коротко, почти с усталостью, говорит усиленный голос офицера. <i>«Убейте всех, кто движется».</i>\n\nОни открывают огонь: серия резких звуков, за которыми следует странное шипение подзвуковых снарядов, летящих мимо вашей головы.\n\nРезкие, шероховатые перчатки и удар по голове переносят вас за линию, когда щиты плавают над вами.\n\n«<i>Остановите, удерживайте, проверьте</i>», — говорит голос офицера. Вы поворачиваетесь лицом к пленникам, и в это же время вас толкают в стену, ваша голова звучит, как колокол.\n\nПосле того, как ваша идентификация будет проверена, вас вбивают в человеческий хранилище, где у вас есть достаточно времени для размышлений, но почти ничего не делать.",
+    "aInverse": [
+      "AVClub_The_Return_ShieldWallSurrenderProcessed"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_ShieldWallSurrenderProcessed",
+    "strTitle": "Ждём",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strSetPlotObjective": "name|The Videotape|ct|TIsPlayer|desc|Lay low until all of this blows over.",
+    "strDesc": "Проходит неизвестное количество времени в хранилище. Пространство и окружающее движение достаточно, чтобы вы постоянно, буквально, бились о стены.\n\nЧерез неизвестный период времени, который не может превышать полчаса, поднимаются просмотровое окно. На него смотрит судья Айо. Она рассматривает ваш случай за 23 секунды. Вы обнаружены несоответствующими восьми из ключевых областей роста — управления временем, коммуникацией и уважением к власти. «Что это значит?» — спрашиваете вы. Она нажимает на экран своего ПДА, где ваш HR-специалист сидит в голосовом чате.\n\n«Примерно, это значит — неправильное место, неправильное время», — говорит ваш HR-специалист, его аудио-иконка колеблется с каждым словом. «Всего, вы потеряете 523 доллара».\n\n«Пятьсот долларов?!»\n\n«И двадцать три», — говорит он спокойно. «Если хотите, мы можем попытаться снизить эту сумму, но как ваш представитель, я рекомендую вам принять наказание и взять дополнительные смены».\n\nВы сжимаеты зубы. Сложно договориться, когда вы сжаты в кубе, как высохший гриб. «Готовы к обвинению». Судья кивает, и просмотровое окно опускается.\n\nЧерез ещё четыре минуты вас выпускают на станцию трамвая.",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strLedgerDef": "PLOT_Ceres_AyoPunitive",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "AVClub_The_ReturnRefuseSmoke",
+    "strTitle": "Отказаться",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "\"Нет, никак!\" — ты говоришь. \"Я не буду курить твою дрянь!\"\n\nОн отмахивается, бросает тебе это. Оно отскакивает от твоего виска, достаточно сильно, чтобы пронзить. \"Приятного вечера, офицер.\"\n\n\"Я не полицейский,\" ты возражаешь, осознавая, что твои слова проходят мимо. \"Я просто не хочу курить марихуану в данный момент!\"\n\nАбачо ложится на спину, руки за голову, готовясь к аресту. \"Это не марихуана,\" говорит он. \"Но я думаю, ты это знаешь.\"\n\n\"<i>Я не знал этого!</i>\"\n\nОн держит лицо к полу, сознательно. \"Тогда, если бы я был на твоём месте, я бы начал бежать.\"\n",
+    "aInverse": [
+      "AVClub_The_ReturnRefuseSmokeBack"
+    ]
+  },
+  {
+    "strName": "AVClub_The_ReturnRefuseSmokeBack",
+    "strTitle": "Уйти",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "В общей комнате вечер закончился. Постельные матрацы разбросаны, попкорн в воздухе, как конфетти.\n\nПолицейские на улице звучат очень близко. Без других возможностей ты выходишь на улицу, чтобы встретить их.",
+    "aInverse": [
+      "AVClub_The_Return_ShieldWall"
+    ]
+  },
+  {
+    "strName": "AVClub_The_Return_FindSmiley",
+    "strTitle": "Найди Смайли",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "AVClub_The_Return_LookEscape",
+      "AVClub_The_Return_Cops_MakeBreak"
+    ],
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Где же Смайли? Он стоял прямо передо мной, не мгновение назад.\n\n\"Смайли? Смайли!\" — ты кричишь в панику. Ты понимаешь, что это был лишь ник в форуме. Какой был его настоящий имя? Он когда-то представился.\n\nТы касаешься плеча кого-то, и тем самым отталкиваешь его. \"Что?!\" — говорит он. Это Хавьер, местный теоретик симуляций клуба.\n\n\"Где Смайли? Где он?\"\n\n\"Срочно отойди от меня!\" — кричит Хавьер, встаёт, и бежит за другими.\n\nЧто-то толкает твой плечевой сустав: лёгкий контакт объектов в пространстве. Это очки Смайли. Ты ухватываешь их на отскоке. Да, это та же самая пара. Забыли ли они их?\n\nПриглядываясь, ты замечаешь ещё одно необычное украшение, торчащее из-под матраса. Что-то изящное, на пушистом материале. Ты тянет за один край.\n\nИз этого предмета выходит. Это протез бороды, прикреплённый к особому венчурному элементу с уходящей линией волос.\n\nВ каждой руке ты держишь два самых узнаваемых признака мужчины, которого ты знал как Смайли."
+  },
+  {
+    "strName": "AVClub_The_ReturnAcceptSmoke",
+    "strTitle": "Принятие",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "AVClub_The_Return_VentEscape"
+    ],
+    "strDesc": "Мужчина серьёзно. Ты должен курить это вещество или иначе.\n\n\"Ладно,\" ты говоришь, сжимая слово. \"Ладно! Дай!\"\n\nТы вдыхаешь через ручку. <i>Один Тарсис, два Тарсис, три</i>... ты смотришь на Абачо. Он жестом подсказывает продолжать. Ты смотрит на него, и продолжаешь вдыхать.\n\nВ конце концов, достаточно. Ты возвращаешь ручку.\n\n\"Это не марихуана,\" ты говоришь. Появляется ли острое ощущение в углах зрения? Нет. \"А что это такое?\"\n\nАбачо махает рукой. Он отходит от вентиляционного отверстия. \"Лево, два правых, лево. Запомни. Уходи, пока есть время.\"\n"
+  }
+]

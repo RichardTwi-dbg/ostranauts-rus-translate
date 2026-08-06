@@ -1,5 +1,170 @@
 [
   {
+    "strName": "AF_BeltPirates",
+    "strTitle": "Тест фракции БелтПиратов",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BeltPirates"
+  },
+  {
+    "strName": "AF_GalConCiv",
+    "strTitle": "Тест фракции Галилея",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_GalConCiv"
+  },
+  {
+    "strName": "AF_GalCon",
+    "strTitle": "Тест фракции Галилея в орбите Земли",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_GalCon"
+  },
+  {
+    "strName": "AF_BCRS",
+    "strTitle": "Тест фракции CCRE в орбите Земли",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BCRS"
+  },
+  {
+    "strName": "AF_BCRSCiv",
+    "strTitle": "Тест фракции CCRE",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BCRSCiv"
+  },
+  {
+    "strName": "AF_EJDRCiv",
+    "strTitle": "Тест фракции Старого Китая",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_EJDRCiv"
+  },
+  {
+    "strName": "AF_EJDR",
+    "strTitle": "Тест фракции Старого Китая в орбите Земли",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_EJDR"
+  },
+  {
+    "strName": "AF_HQCHCiv",
+    "strTitle": "Тест фракции Прокопьева",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_HQCHCiv"
+  },
+  {
+    "strName": "AF_HQCH",
+    "strTitle": "Тест фракции Прокопьева в орбите Земли",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_HQCH"
+  },
+  {
+    "strName": "AF_AtlantisCiv",
+    "strTitle": "Тест фракции Атлантиды",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_AtlantisCiv"
+  },
+  {
+    "strName": "AF_Atlantis",
+    "strTitle": "Atlantis LEO Фракция Тест",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_AtlantisLEO"
+  },
+  {
+    "strName": "AF_MHNGCiv",
+    "strTitle": "Тест фракции Ханьчжоу",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_MHNGCiv"
+  },
+  {
+    "strName": "AF_MHNG",
+    "strTitle": "Тест фракции Ханьчжоу в орбите Земли",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_MHNG"
+  },
+  {
+    "strName": "AF_MSUZCiv",
+    "strTitle": "Тест фракции Сючжоу",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_MSUZCiv"
+  },
+  {
+    "strName": "AF_MSUZ",
+    "strTitle": "Тест фракции Сючжоу в орбите Земли",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_MSUZ"
+  },
+  {
     "strName": "AF_OKLGCiv",
     "strTitle": "Тест фракции OKLGCiv",
     "strColor": "Neutral",
@@ -56,7 +221,7 @@
   },
   {
     "strName": "AF_OKLGPirates",
-    "strTitle": "Тест фракции OKLGPirates",
+    "strTitle": "Тест фракции ОКЛГ Пираты",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -67,7 +232,7 @@
   },
   {
     "strName": "AF_OKLGScav",
-    "strTitle": "Тест фракции OKLGScav",
+    "strTitle": "Тест фракции ОКЛГ Скав",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -77,8 +242,30 @@
     "PSpecTestThem": "AF_OKLGScav"
   },
   {
+    "strName": "AF_TitanCiv",
+    "strTitle": "Тест фракции Титан",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_TitanCiv"
+  },
+  {
+    "strName": "AF_Titan",
+    "strTitle": "Тест фракции Титан ЛЕО",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_Titan"
+  },
+  {
     "strName": "AF_VCBRCiv",
-    "strTitle": "Тест фракции VCBRCiv",
+    "strTitle": "Тест фракции ВСБР Цивилизация",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -89,7 +276,7 @@
   },
   {
     "strName": "AF_VCBRLEO",
-    "strTitle": "Тест фракции VCBRLEO",
+    "strTitle": "Тест фракции ВСБР ЛЕО",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -100,7 +287,7 @@
   },
   {
     "strName": "AF_VENCCiv",
-    "strTitle": "Тест фракции VENCCiv",
+    "strTitle": "Тест фракции ВЕНЦ Цивилизация",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -111,7 +298,7 @@
   },
   {
     "strName": "AF_VENCLEO",
-    "strTitle": "Тест фракции VENCLEO",
+    "strTitle": "Тест фракции ВЕНЦ ЛЕО",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -122,7 +309,7 @@
   },
   {
     "strName": "AF_VenusCrim",
-    "strTitle": "Тест фракции VenusCrim",
+    "strTitle": "Тест фракции Венера Крим",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -133,7 +320,7 @@
   },
   {
     "strName": "AF_VenusPirates",
-    "strTitle": "Тест фракции Venus Pirates",
+    "strTitle": "Тест фракции Венера Пираты",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -144,7 +331,7 @@
   },
   {
     "strName": "AF_VNCACiv",
-    "strTitle": "Тест фракции VNCACiv",
+    "strTitle": "Тест фракции ВНЦА Цивилизация",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -155,7 +342,7 @@
   },
   {
     "strName": "AF_VNCALEO",
-    "strTitle": "Тест фракции VNCALEO",
+    "strTitle": "Тест фракции ВНЦА ЛЕО",
     "strColor": "Neutral",
     "aInverse": [],
     "fDuration": 0.0,
@@ -163,5 +350,27 @@
     "nLogging": 0,
     "bIgnoreFeelings": true,
     "PSpecTestThem": "AF_VNCALEO"
+  },
+  {
+    "strName": "AF_XinhuaCiv",
+    "strTitle": "Тест фракции Синьхуа",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_XinhuaCiv"
+  },
+  {
+    "strName": "AF_Xinhua",
+    "strTitle": "Тест фракции Синьхуа ЛЕО",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_Xinhua"
   }
 ]

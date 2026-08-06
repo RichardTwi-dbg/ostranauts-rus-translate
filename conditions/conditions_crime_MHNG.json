@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeMHNGArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании MHNG",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMHNGArrest",
+    "strNameFriendly": "MHNG Ордер на арест",
+    "strColor": "Bad",
+    "strDesc": "[us] у Hangzhou есть незавершённый ордер на арест.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMHNGThreat",
+    "strNameFriendly": "MHNG — враг государства",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или живым в Hangzhou, и считается общественным врагом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMHNGTrespass",
+    "strNameFriendly": "MHNG Ордер о вторжении",
+    "strColor": "Bad",
+    "strDesc": "[us] у Hangzhou есть незавершённый ордер на нарушение границ.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeMHNGTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeMHNGStolenShip",
+    "strNameFriendly": "Ордер на арест MHNG за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] у Hangzhou есть незавершённый ордер на арест за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMHNGNoUndock",
+    "strNameFriendly": "Ордер на арест MHNG за несвоевременное отцепление",
+    "strColor": "Bad",
+    "strDesc": "[us] у Hangzhou есть незавершённый ордер на арест за несвоевременное отцепление во время проверки офицеров.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

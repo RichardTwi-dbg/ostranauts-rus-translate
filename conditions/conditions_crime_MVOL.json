@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeMVOLArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании MVOL",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMVOLArrest",
+    "strNameFriendly": "Ордер на арест MVOL",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Волтаире, Деймосе.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMVOLThreat",
+    "strNameFriendly": "MVOL - враждебный элемент",
+    "strColor": "Bad",
+    "strDesc": "[us] преследуется как убитый или живой в Волтаире, Деймосе, и считается враждебным элементом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMVOLTrespass",
+    "strNameFriendly": "Предписание о нарушении MVOL",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о нарушении в Волтаире, Деймосе.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeMVOLTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeMVOLStolenShip",
+    "strNameFriendly": "Предписание о задержании MVOL за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Волтаире за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMVOLNoUndock",
+    "strNameFriendly": "Предписание о задержании MVOL за несвоевременное отъезд из стоянки",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Волта и за несвоевременное отъезд из стоянки во время проверки офицеров.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

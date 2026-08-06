@@ -1,7 +1,7 @@
 [
   {
     "strName": "ItmChargerBattDrill01",
-    "strNameShort": "Зарядное устройство для аккумулятора",
+    "strNameShort": "Зарядное устройство",
     "strNameFriendly": "Зарядное устройство: Gott",
     "strItemDef": "ItmChargerBattDrill01",
     "strType": "Item",
@@ -32,8 +32,8 @@
       "IsSignalable=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerDrill01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryDrill01",
       "ItmChargerBattDrill01Full"
@@ -61,7 +61,7 @@
   },
   {
     "strName": "ItmChargerBattDrill01Dmg",
-    "strNameShort": "Зарядное устройство для аккумулятора",
+    "strNameShort": "Зарядное устройство",
     "strNameFriendly": "Зарядное устройство: Gott (повреждено)",
     "strItemDef": "ItmChargerBattDrill01Dmg",
     "strType": "Item",
@@ -87,8 +87,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerDrill01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryDrill01",
       "ItmChargerBattDrill01FullDmg"
@@ -103,8 +103,8 @@
   },
   {
     "strName": "ItmChargerBattDrill01DmgLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядное устройство: Gott (слабо закреплено, повреждено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Зарядное устройство: Gott (сломано, повреждено)",
     "strItemDef": "ItmChargerBattDrill01DmgLoose",
     "strType": "Item",
     "aInteractions": [
@@ -127,8 +127,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerDrill01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryDrill01",
       "ItmChargerBattDrill01FullDmgLoose"
@@ -149,7 +149,7 @@
   },
   {
     "strName": "ItmChargerBattDrill01Off",
-    "strNameShort": "Зарядное устройство для аккумулятора",
+    "strNameShort": "Зарядное устройство",
     "strNameFriendly": "Зарядное устройство: Gott (выключено)",
     "strItemDef": "ItmChargerBattDrill01Off",
     "strType": "Item",
@@ -175,8 +175,8 @@
       "IsSignalable=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerDrill01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryDrill01",
       "ItmChargerBattDrill01FullOff"
@@ -200,8 +200,8 @@
   },
   {
     "strName": "ItmChargerBattDrill01OffLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядное устройство: Gott (слабо закреплено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Зарядное устройство: Gott (сломано)",
     "strItemDef": "ItmChargerBattDrill01OffLoose",
     "strType": "Item",
     "aInteractions": [
@@ -223,8 +223,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerDrill01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryDrill01",
       "ItmChargerBattDrill01FullOffLoose"
@@ -245,8 +245,8 @@
   },
   {
     "strName": "ItmChargerBattEVA",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядная станция: Bingham-12 EVA",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Станция зарядки аккумулятора: Bingham-12 EVA",
     "strItemDef": "ItmChargerBattEVA",
     "strType": "Item",
     "strLoot": null,
@@ -307,8 +307,8 @@
   },
   {
     "strName": "ItmChargerBattEVAOffLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядная станция: Bingham-12 EVA (слабо закреплено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Станция зарядки аккумулятора: Bingham-12 EVA (сломано)",
     "strItemDef": "ItmChargerBattEVAOffLoose",
     "strType": "Item",
     "aInteractions": [
@@ -352,8 +352,8 @@
   },
   {
     "strName": "ItmChargerBattEVAOff",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядная станция: Bingham-12 EVA (выключено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Станция зарядки аккумулятора: Bingham-12 EVA (выключено)",
     "strItemDef": "ItmChargerBattEVAOff",
     "strType": "Item",
     "strLoot": null,
@@ -406,8 +406,8 @@
   },
   {
     "strName": "ItmChargerBattEVADmgLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядная станция: Bingham-12 EVA (слабо закреплено, повреждено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Станция зарядки аккумулятора: Bingham-12 EVA (сломано, повреждено)",
     "strItemDef": "ItmChargerBattEVADmgLoose",
     "strType": "Item",
     "aInteractions": [
@@ -455,8 +455,8 @@
   },
   {
     "strName": "ItmChargerBattEVADmg",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядная станция: Bingham-12 EVA (выключено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Станция зарядки аккумулятора: Bingham-12 EVA (выключено)",
     "strItemDef": "ItmChargerBattEVADmg",
     "strType": "Item",
     "strLoot": null,
@@ -498,7 +498,7 @@
   },
   {
     "strName": "ItmChargerBattery04",
-    "strNameShort": "Зарядное устройство для аккумулятора",
+    "strNameShort": "Зарядное устройство",
     "strNameFriendly": "Станция зарядки аккумулятора: Weber Laser",
     "strItemDef": "ItmChargerBattery04",
     "strType": "Item",
@@ -529,8 +529,8 @@
       "IsSignalable=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerBattery04",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBattery04",
       "ItmChargerBattery04Full"
@@ -558,7 +558,7 @@
   },
   {
     "strName": "ItmChargerBattery04Dmg",
-    "strNameShort": "Зарядное устройство для аккумулятора",
+    "strNameShort": "Зарядное устройство",
     "strNameFriendly": "Станция зарядки аккумулятора: Weber Laser (повреждено)",
     "strItemDef": "ItmChargerBattery04Dmg",
     "strType": "Item",
@@ -584,8 +584,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerBattery04",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBattery04",
       "ItmChargerBattery04FullDmg"
@@ -601,8 +601,8 @@
   },
   {
     "strName": "ItmChargerBattery04DmgLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Станция зарядки аккумулятора: Weber Laser (слабо закреплено, повреждено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Станция зарядки аккумулятора: Weber Laser (сломано, повреждено)",
     "strItemDef": "ItmChargerBattery04DmgLoose",
     "strType": "Item",
     "aInteractions": [
@@ -626,8 +626,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerBattery04",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBattery04",
       "ItmChargerBattery04FullDmgLoose"
@@ -650,7 +650,7 @@
   },
   {
     "strName": "ItmChargerBattery04Off",
-    "strNameShort": "Зарядное устройство для аккумулятора",
+    "strNameShort": "Зарядное устройство",
     "strNameFriendly": "Станция зарядки аккумулятора: Weber Laser (выключено)",
     "strItemDef": "ItmChargerBattery04Off",
     "strType": "Item",
@@ -676,8 +676,8 @@
       "IsSignalable=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerBattery04",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBattery04",
       "ItmChargerBattery04FullOff"
@@ -701,8 +701,8 @@
   },
   {
     "strName": "ItmChargerBattery04OffLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Станция зарядки аккумулятора: Weber Laser (слабо закреплено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Станция зарядки аккумулятора: Weber Laser (сломано)",
     "strItemDef": "ItmChargerBattery04OffLoose",
     "strType": "Item",
     "aInteractions": [
@@ -725,8 +725,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerBattery04",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBattery04",
       "ItmChargerBattery04FullOffLoose"
@@ -749,8 +749,8 @@
   },
   {
     "strName": "ItmChargerBattWelder01",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядное устройство для аккумулятора: Halvorson",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Зарядное устройство: Halvorson",
     "strItemDef": "ItmChargerBattWelder01",
     "strType": "Item",
     "strLoot": null,
@@ -780,8 +780,8 @@
       "IsSignalable=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerWelder01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryWelder01",
       "ItmChargerBattWelder01Full"
@@ -809,8 +809,8 @@
   },
   {
     "strName": "ItmChargerBattWelder01OffLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядное устройство для аккумулятора: Halvorson (слабо закреплено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Зарядное устройство: Halvorson (сломано)",
     "strItemDef": "ItmChargerBattWelder01OffLoose",
     "strType": "Item",
     "aInteractions": [
@@ -832,8 +832,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerWelder01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryWelder01",
       "ItmChargerBattWelder01FullOffLoose"
@@ -854,8 +854,8 @@
   },
   {
     "strName": "ItmChargerBattWelder01Off",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядное устройство для аккумулятора: Halvorson (выключено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Зарядное устройство: Halvorson (выключено)",
     "strItemDef": "ItmChargerBattWelder01Off",
     "strType": "Item",
     "strLoot": null,
@@ -880,8 +880,8 @@
       "IsSignalable=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerWelder01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryWelder01",
       "ItmChargerBattWelder01FullOff"
@@ -906,8 +906,8 @@
   },
   {
     "strName": "ItmChargerBattWelder01DmgLoose",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядное устройство для аккумулятора: Halvorson (слабо закреплено, повреждено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Зарядное устройство: Halvorson (сломано, повреждено)",
     "strItemDef": "ItmChargerBattWelder01DmgLoose",
     "strType": "Item",
     "aInteractions": [
@@ -930,8 +930,8 @@
       "IsCategoryElectronics=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerWelder01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryWelder01",
       "ItmChargerBattWelder01FullDmgLoose"
@@ -952,8 +952,8 @@
   },
   {
     "strName": "ItmChargerBattWelder01Dmg",
-    "strNameShort": "Зарядное устройство для аккумулятора",
-    "strNameFriendly": "Зарядное устройство для аккумулятора: Halvorson (повреждено)",
+    "strNameShort": "Зарядное устройство",
+    "strNameFriendly": "Зарядное устройство: Halvorson (повреждено)",
     "strItemDef": "ItmChargerBattWelder01Dmg",
     "strType": "Item",
     "strLoot": null,
@@ -979,8 +979,8 @@
       "IsSignalable=1.0x1"
     ],
     "strContainerCT": "TIsFitContainerWelder01Battery",
-    "nContainerHeight": 1,
-    "nContainerWidth": 1,
+    "nContainerHeight": 2,
+    "nContainerWidth": 2,
     "mapAltItemDefs": [
       "IsBatteryWelder01",
       "ItmChargerBattWelder01FullDmg"

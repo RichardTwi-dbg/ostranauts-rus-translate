@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeSVIRArrestWarning",
+    "strNameFriendly": "СВИР: Предупреждение об аресте",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeSVIRArrest",
+    "strNameFriendly": "СВИР: Ордер на арест",
+    "strColor": "Bad",
+    "strDesc": "[us] у Вирджинии, Титан, есть незакрытый ордер на арест.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeSVIRThreat",
+    "strNameFriendly": "СВИР: Публичный враг",
+    "strColor": "Bad",
+    "strDesc": "[us] является объектом поиска и уничтожения в Вирджинии, Титан, и считается публичным врагом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeSVIRTrespass",
+    "strNameFriendly": "СВИР: Ордер на нарушение границ",
+    "strColor": "Bad",
+    "strDesc": "[us] у Вирджинии, Титан, есть незакрытый ордер на нарушение границ.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeSVIRTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeSVIRStolenShip",
+    "strNameFriendly": "СВИР: Ордер на арест за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] у Вирджинии, Титан, есть незакрытый ордер на арест за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeSVIRNoUndock",
+    "strNameFriendly": "СВИР: Ордер на арест за несвоевременное отъезд из стоянки",
+    "strColor": "Bad",
+    "strDesc": "[us] у Вирджинии, Титан, есть незакрытый ордер на арест за несвоевременное отъезд из стоянки во время проверки офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

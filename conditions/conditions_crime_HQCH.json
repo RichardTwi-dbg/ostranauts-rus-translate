@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeHQCHArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании HQCH",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeHQCHArrest",
+    "strNameFriendly": "Ордер на арест HQCH",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Цинчэнге.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeHQCHThreat",
+    "strNameFriendly": "HQCH враг государства",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или в живых Qincheng LAs и считается враждебным лицом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeHQCHTrespass",
+    "strNameFriendly": "Ордер о вторжении HQCH",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о проникновении в Цинчэнге.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeHQCHTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeHQCHStolenShip",
+    "strNameFriendly": "Ордер на арест HQCH за украденный корабль",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Цинчэнге за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeHQCHNoUndock",
+    "strNameFriendly": "Ордер на арест HQCH за отказ отстыковать",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Цинчэнге за несвоевременное отъезде во время проверки офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

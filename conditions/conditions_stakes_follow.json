@@ -1,0 +1,32 @@
+[
+  {
+    "strName": "IsSTKFollow_Fail_Cooldown",
+    "strNameFriendly": "Ограничение попытки STKFollow",
+    "strColor": "Neutral",
+    "strDesc": "[us] попытался выполнить STKFollow и ещё не может попробовать снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKFollow_Fail_Avoid",
+    "strNameFriendly": "Ограничение попытки STKFollow (мягкое)",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал мягкое отклонение в STKFollow, чтобы избежать твёрдого отклонения, и ещё не может использовать его снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKFollow_Chitchat_Trait_Used",
+    "strNameFriendly": "Использовано свойство общения в STKFollow",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал действие общения в STKFollow и ещё не может использовать его снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeMSUZArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMSUZArrest",
+    "strNameFriendly": "Заводское предписание о задержании MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Шуцзяу.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMSUZThreat",
+    "strNameFriendly": "MSUZ - враг общественности",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или живым в Шуцзяу, и считается общественным врагом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMSUZTrespass",
+    "strNameFriendly": "MSUZ - предписание о незаконном проникновении",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о незаконном проникновении в Шуцзяу.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeMSUZTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeMSUZStolenShip",
+    "strNameFriendly": "MSU-Заводское предписание о задержании за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Шуцзяу за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMSUZNoUndock",
+    "strNameFriendly": "MSUZ - предписание о задержании за несвоевременное отъезд из порта",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённое предписание о задержании в Шуцзяу за несвоевременное отъезд из порта во время проверки сотрудника",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

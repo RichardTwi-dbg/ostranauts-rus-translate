@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "AICrimeArrestJATLLEODo",
+    "strNameFriendly": "Атака",
+    "strType": "repeat",
+    "strIATrigger": "PLGAICrimeJATLLEOArrestDo",
+    "aIAEnd": [
+      "PLGAICrimeLEOArrestCancelScan",
+      "PLGAICrimeJATLLEOArrestEnd"
+    ],
+    "strThemID": "[them]",
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
+    "strName": "AICrimeAttackJATLLEO",
+    "strNameFriendly": "Атака",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeJATLLEOThreat",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
+    "strName": "AICrimeArrestJATLLEOStart",
+    "strNameFriendly": "Арест преступника",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeJATLLEOArrest",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 6
+  },
+  {
+    "strName": "AICrimeArrestJATLLEOStolenShipStart",
+    "strNameFriendly": "Арест преступника",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeJATLLEOArrestStolenShip",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 6
+  },
+  {
+    "strName": "AIReportCrimeJATLArrest",
+    "strNameFriendly": "Сообщить о преступлении",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIReportCrimeJATLArrest",
+    "aIAEnd": [
+      "PLGAIReportCrimeJATLArrestDone"
+    ],
+    "strThemID": null,
+    "nPriority": 6
+  },
+  {
+    "strName": "AIReportCrimeJATLThreat",
+    "strNameFriendly": "Сообщить о преступлении",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIReportCrimeJATLThreat",
+    "aIAEnd": [
+      "PLGAIReportCrimeJATLThreatDone"
+    ],
+    "strThemID": null,
+    "nPriority": 6
+  }
+]

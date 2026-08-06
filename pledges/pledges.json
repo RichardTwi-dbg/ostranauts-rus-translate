@@ -8,7 +8,7 @@
       "PLGEquipHelmetFinished"
     ],
     "strThemID": null,
-    "nPriority": 10
+    "nPriority": 11
   },
   {
     "strName": "AIEquipSpaceSuitAndHelmet",
@@ -19,7 +19,7 @@
       "PLGAIWearSuitAndHelmetFinished"
     ],
     "strThemID": null,
-    "nPriority": 10
+    "nPriority": 11
   },
   {
     "strName": "AIEquipSuit",
@@ -30,7 +30,7 @@
       "PLGEquipSuitFinished"
     ],
     "strThemID": null,
-    "nPriority": 10
+    "nPriority": 11
   },
   {
     "strName": "AISurviveCO2",
@@ -40,7 +40,7 @@
     "aIAEnd": null,
     "strIAEmergency": "PLGAISurviveCO2Emergency",
     "strThemID": null,
-    "nPriority": 10
+    "nPriority": 11
   },
   {
     "strName": "AISurviveO2",
@@ -50,11 +50,11 @@
     "aIAEnd": null,
     "strThemID": null,
     "strIAEmergency": "PLGAISurviveO2Emergency",
-    "nPriority": 10
+    "nPriority": 11
   },
   {
     "strName": "AICombat",
-    "strNameFriendly": "Бороться",
+    "strNameFriendly": "Бой",
     "strType": "combat",
     "strIATrigger": "PLGCombatTrigger",
     "aIAEnd": [
@@ -62,7 +62,7 @@
       "PLGAIEndDecoy"
     ],
     "strThemID": "[them]",
-    "nPriority": 9
+    "nPriority": 10
   },
   {
     "strName": "AIStandUp",
@@ -71,7 +71,7 @@
     "strIATrigger": "ACTStandUp",
     "aIAEnd": null,
     "strThemID": null,
-    "nPriority": 9
+    "nPriority": 10
   },
   {
     "strName": "AICombatJoin",
@@ -80,6 +80,51 @@
     "strIATrigger": "PLGCombatTrigger",
     "aIAEnd": null,
     "strThemID": "[3rd]",
+    "nPriority": 10
+  },
+  {
+    "strName": "AIFirefight",
+    "strNameFriendly": "Перестрелка",
+    "strType": "firefight",
+    "strIATrigger": "PLGAIFirefightDo",
+    "strIAEmergency": "PLGAIFirefightEmergency",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 9
+  },
+  {
+    "strName": "AIRechargeBatteries",
+    "strNameFriendly": "Зарядить батареи",
+    "strType": "recharge",
+    "strIATrigger": "PLGRechargeBatteriesDo",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 4
+  },
+  {
+    "strName": "AIReplaceO2Bottles",
+    "strNameFriendly": "Заменить бутылки с O2",
+    "strType": "replaceo2",
+    "strIATrigger": "PLGReplaceO2BottlesDo",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 9
+  },
+  {
+    "strName": "AIMaintenanceTechWorkFireExtinguish",
+    "strNameFriendly": "Обслуживание: выключить технику",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIMaintenanceTechWorkFireExtinguishDo",
+    "aIAEnd": [],
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "bThemForgetOnDo": true,
     "nPriority": 9
   },
   {
@@ -95,11 +140,23 @@
     "nPriority": 9
   },
   {
+    "strName": "AICombatBoarding",
+    "strNameFriendly": "Боевое захватывание",
+    "strType": "repeat",
+    "strIATrigger": "PLGAICombatBoarding",
+    "aIAEnd": [
+      "PLGAICombatBoardingEnd"
+    ],
+    "strThemID": null,
+    "nPriority": 8
+  },
+  {
     "strName": "AICrimeArrestOKLGLEODo",
     "strNameFriendly": "Арест",
     "strType": "repeat",
     "strIATrigger": "PLGAICrimeOKLGLEOArrestDo",
     "aIAEnd": [
+      "PLGAICrimeLEOArrestCancelScan",
       "PLGAICrimeOKLGLEOArrestEnd"
     ],
     "strThemID": "[them]",
@@ -108,7 +165,7 @@
   },
   {
     "strName": "AICrimeAttackOKLGLEO",
-    "strNameFriendly": "Атаковать",
+    "strNameFriendly": "Атака",
     "strType": "crime",
     "strIATrigger": "PLGAICrimeOKLGLEOThreat",
     "aIAEnd": null,
@@ -117,11 +174,25 @@
     "nPriority": 8
   },
   {
+    "strName": "AICrimeArrestCCRELEODo",
+    "strNameFriendly": "Атака",
+    "strType": "repeat",
+    "strIATrigger": "PLGAICrimeCCRELEOArrestDo",
+    "aIAEnd": [
+      "PLGAICrimeLEOArrestCancelScan",
+      "PLGAICrimeCCRELEOArrestEnd"
+    ],
+    "strThemID": "[them]",
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
     "strName": "AICrimeArrestVenusLEODo",
-    "strNameFriendly": "Атаковать",
+    "strNameFriendly": "Атака",
     "strType": "repeat",
     "strIATrigger": "PLGAICrimeVenusLEOArrestDo",
     "aIAEnd": [
+      "PLGAICrimeLEOArrestCancelScan",
       "PLGAICrimeVenusLEOArrestEnd",
       "PLGAIEndHack",
       "PLGAIEndDecoy"
@@ -131,8 +202,18 @@
     "nPriority": 8
   },
   {
+    "strName": "AICrimeAttackCCRELEO",
+    "strNameFriendly": "Атака",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeCCRELEOThreat",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
     "strName": "AICrimeAttackVenusLEO",
-    "strNameFriendly": "Атаковать",
+    "strNameFriendly": "Атака",
     "strType": "crime",
     "strIATrigger": "PLGAICrimeVenusLEOThreat",
     "aIAEnd": null,
@@ -142,7 +223,7 @@
   },
   {
     "strName": "AIRobberyStart",
-    "strNameFriendly": "Нарушить",
+    "strNameFriendly": "Роб",
     "strType": "repeat",
     "strIATrigger": "PLGAIRobbery",
     "aIAEnd": null,
@@ -151,7 +232,7 @@
   },
   {
     "strName": "AIRobberyDo",
-    "strNameFriendly": "Нарушить",
+    "strNameFriendly": "Роб",
     "strType": "repeat",
     "strIATrigger": "PLGAIRobberyDo",
     "aIAEnd": [
@@ -162,7 +243,7 @@
   },
   {
     "strName": "AIShipRobberyStart",
-    "strNameFriendly": "Нарушить",
+    "strNameFriendly": "Роб",
     "strType": "repeat",
     "strIATrigger": "PLGAIShipRobbery",
     "aIAEnd": null,
@@ -172,7 +253,7 @@
   },
   {
     "strName": "AIShipRobberyDo",
-    "strNameFriendly": "Нарушить",
+    "strNameFriendly": "Роб",
     "strType": "repeat",
     "strIATrigger": "PLGAIRobberyDo",
     "aIAEnd": [
@@ -185,7 +266,7 @@
   },
   {
     "strName": "AIMaintenanceTechWorkOKLGPatch",
-    "strNameFriendly": "Обслуживание: нанесение патча",
+    "strNameFriendly": "Обновление технического специалиста",
     "strType": "repeat",
     "strIATrigger": "PLGAIMaintenanceTechWorkPatchDo",
     "aIAEnd": null,
@@ -195,8 +276,55 @@
     "nPriority": 8
   },
   {
+    "strName": "AIGreetCaptainStart",
+    "strNameFriendly": "Приветствие капитана",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIGreetCaptainDo",
+    "aIAEnd": null,
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
+    "strName": "AIGreetEnemyStart",
+    "strNameFriendly": "Приветствие врага",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIGreetEnemyDo",
+    "aIAEnd": null,
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
+    "strName": "AIGreetFriendStart",
+    "strNameFriendly": "Приветствие друга",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIGreetFriendDo",
+    "aIAEnd": null,
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
+    "strName": "AIGreetLoverStart",
+    "strNameFriendly": "Приветствие любимого",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIGreetLoverDo",
+    "aIAEnd": null,
+    "bThemAllowDocked": true,
+    "nPriority": 8
+  },
+  {
+    "strName": "AIFreeUpSpace",
+    "strNameFriendly": "Освобождение места",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIFreeUpSpace",
+    "aIAEnd": [
+      "PLGAIFreeUpSpaceDone"
+    ],
+    "strThemID": null,
+    "nPriority": 8
+  },
+  {
     "strName": "AIEat",
-    "strNameFriendly": "Есть",
+    "strNameFriendly": "Питаться",
     "strType": "eat",
     "strIATrigger": "PLGAIEat",
     "aIAEnd": null,
@@ -205,7 +333,7 @@
   },
   {
     "strName": "AIDrink",
-    "strNameFriendly": "Пейте",
+    "strNameFriendly": "Пить",
     "strType": "drink",
     "strIATrigger": "PLGAIDrink",
     "aIAEnd": null,
@@ -227,6 +355,26 @@
     "strNameFriendly": "Арест преступника",
     "strType": "crime",
     "strIATrigger": "PLGAICrimeOKLGLEOArrestStolenShip",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 6
+  },
+  {
+    "strName": "AICrimeArrestCCRELEOStart",
+    "strNameFriendly": "Арест преступника",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeCCRELEOArrest",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": true,
+    "nPriority": 6
+  },
+  {
+    "strName": "AICrimeArrestCCRELEOStolenShipStart",
+    "strNameFriendly": "Арест преступника",
+    "strType": "crime",
+    "strIATrigger": "PLGAICrimeCCRELEOArrestStolenShip",
     "aIAEnd": null,
     "strThemID": null,
     "bThemAllowDocked": true,
@@ -265,7 +413,7 @@
   },
   {
     "strName": "AIMaintenanceTechWorkRetrieveDead",
-    "strNameFriendly": "Извлечение техника обслуживания",
+    "strNameFriendly": "Техник по обслуживанию извлекает",
     "strType": "repeat",
     "strIATrigger": "PLGAIMaintenanceTechWorkRetrieveDead",
     "aIAEnd": [],
@@ -276,10 +424,11 @@
   },
   {
     "strName": "AIMaintenanceTechWorkRetrieveDeadDo",
-    "strNameFriendly": "Извлечение техника обслуживания",
+    "strNameFriendly": "Техник по обслуживанию извлекает",
     "strType": "repeat",
     "strIATrigger": "PLGAIMaintenanceTechWorkRetrieveDeadDo",
     "aIAEnd": [
+      "PLGAIMaintenanceTechWorkRetrieveDeadDoEndOffShip",
       "PLGAIMaintenanceTechWorkRetrieveDeadDoEnd"
     ],
     "strThemID": "[them]",
@@ -288,7 +437,7 @@
   },
   {
     "strName": "AIMaintenanceTechWorkRetrieveDeadDeliver",
-    "strNameFriendly": "Доставка техника обслуживания",
+    "strNameFriendly": "Техник по обслуживанию доставляет",
     "strType": "repeat",
     "strIATrigger": "PLGAIMaintenanceTechWorkRetrieveDeadDoDeliverBodyShim",
     "aIAEnd": [
@@ -299,102 +448,30 @@
     "nPriority": 6
   },
   {
-    "strName": "AIMaintenanceTechWorkRepair",
-    "strNameFriendly": "Ремонт техника обслуживания",
+    "strName": "AIReportCrimeCCREArrest",
+    "strNameFriendly": "Сообщить о преступлении",
     "strType": "repeat",
-    "strIATrigger": "PLGAIMaintenanceTechWorkRepairDo",
-    "aIAEnd": [],
-    "strThemID": null,
-    "bThemAllowDocked": false,
-    "bThemForgetOnDo": true,
-    "nPriority": 5
-  },
-  {
-    "strName": "AIMaintenanceTechWorkReplaceCan",
-    "strNameFriendly": "Замена техника обслуживания",
-    "strType": "repeat",
-    "strIATrigger": "PLGAIMaintenanceTechWorkReplaceCanDo",
-    "aIAEnd": [],
-    "strThemID": null,
-    "bThemAllowDocked": false,
-    "bThemForgetOnDo": true,
-    "nPriority": 5
-  },
-  {
-    "strName": "AIMaintenanceTechWorkRest",
-    "strNameFriendly": "Отдых техника обслуживания",
-    "strType": "repeat",
-    "strIATrigger": "PLGAIMaintenanceTechWorkRestDo",
-    "aIAEnd": null,
-    "strThemID": null,
-    "bThemAllowDocked": false,
-    "nPriority": 4
-  },
-  {
-    "strName": "AIMaintenanceTechWorkOKLGRestorePriority",
-    "strNameFriendly": "Восстановление техника обслуживания",
-    "strType": "repeat",
-    "strIATrigger": "PLGAIMaintenanceTechWorkRestorePriorityDo",
-    "aIAEnd": null,
-    "strThemID": null,
-    "bThemAllowDocked": false,
-    "bThemForgetOnDo": true,
-    "nPriority": 4
-  },
-  {
-    "strName": "AIMaintenanceTechWorkOKLGRestorePriority2",
-    "strNameFriendly": "Восстановление техника обслуживания",
-    "strType": "repeat",
-    "strIATrigger": "PLGAIMaintenanceTechWorkRestorePriority2Do",
-    "aIAEnd": null,
-    "strThemID": null,
-    "bThemAllowDocked": false,
-    "bThemForgetOnDo": true,
-    "nPriority": 3
-  },
-  {
-    "strName": "AIMaintenanceTechWorkOKLGRestore",
-    "strNameFriendly": "Восстановление техника обслуживания",
-    "strType": "repeat",
-    "strIATrigger": "PLGAIMaintenanceTechWorkRestoreDo",
-    "aIAEnd": null,
-    "strThemID": null,
-    "bThemAllowDocked": false,
-    "bThemForgetOnDo": true,
-    "nPriority": 2
-  },
-  {
-    "strName": "AIFactionFight",
-    "strNameFriendly": "Бой с фракцией",
-    "strType": "faction",
-    "strIATrigger": "PLGAIFaction",
-    "aIAEnd": null,
+    "strIATrigger": "PLGAIReportCrimeCCREArrest",
+    "aIAEnd": [
+      "PLGAIReportCrimeCCREArrestDone"
+    ],
     "strThemID": null,
     "nPriority": 6
   },
   {
-    "strName": "AIFreeUpSpace",
-    "strNameFriendly": "Освобождение места",
+    "strName": "AIReportCrimeCCREThreat",
+    "strNameFriendly": "Сообщить о преступлении",
     "strType": "repeat",
-    "strIATrigger": "PLGAIFreeUpSpace",
+    "strIATrigger": "PLGAIReportCrimeCCREThreat",
     "aIAEnd": [
-      "PLGAIFreeUpSpaceDone"
+      "PLGAIReportCrimeCCREThreatDone"
     ],
     "strThemID": null,
-    "nPriority": 8
-  },
-  {
-    "strName": "AIReply",
-    "strNameFriendly": "Ответить",
-    "strType": "reply",
-    "strIATrigger": "Blank",
-    "aIAEnd": null,
-    "strThemID": null,
-    "nPriority": 5
+    "nPriority": 6
   },
   {
     "strName": "AIReportCrimeOKLGArrest",
-    "strNameFriendly": "Доклад о преступлении",
+    "strNameFriendly": "Сообщить о преступлении",
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeOKLGArrest",
     "aIAEnd": [
@@ -405,7 +482,7 @@
   },
   {
     "strName": "AIReportCrimeOKLGThreat",
-    "strNameFriendly": "Доклад о преступлении",
+    "strNameFriendly": "Сообщить о преступлении",
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeOKLGThreat",
     "aIAEnd": [
@@ -416,7 +493,7 @@
   },
   {
     "strName": "AIReportCrimeVenusArrest",
-    "strNameFriendly": "Доклад о преступлении",
+    "strNameFriendly": "Сообщить о преступлении",
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeVenusArrest",
     "aIAEnd": [
@@ -427,7 +504,7 @@
   },
   {
     "strName": "AIReportCrimeVenusThreat",
-    "strNameFriendly": "Доклад о преступлении",
+    "strNameFriendly": "Сообщить о преступлении",
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeVenusThreat",
     "aIAEnd": [
@@ -438,7 +515,7 @@
   },
   {
     "strName": "AIReportCrimeVenusTrespass",
-    "strNameFriendly": "Доклад о преступлении",
+    "strNameFriendly": "Сообщить о преступлении",
     "strType": "repeat",
     "strIATrigger": "PLGAIReportCrimeVenusTrespass",
     "aIAEnd": [
@@ -449,38 +526,22 @@
     "nPriority": 6
   },
   {
-    "strName": "Bartender",
-    "strType": "repeat",
-    "strIATrigger": "PLGBartend",
+    "strName": "AIFactionFight",
+    "strNameFriendly": "Бой фракций",
+    "strType": "faction",
+    "strIATrigger": "PLGAIFaction",
+    "aIAEnd": null,
+    "strThemID": null,
+    "nPriority": 6
+  },
+  {
+    "strName": "AIReply",
+    "strNameFriendly": "Ответить",
+    "strType": "reply",
+    "strIATrigger": "Blank",
     "aIAEnd": null,
     "strThemID": null,
     "nPriority": 5
-  },
-  {
-    "strName": "FlotillaBroker",
-    "strType": "repeat",
-    "strIATrigger": "PLGFlotillaBroker",
-    "aIAEnd": null,
-    "strThemID": null,
-    "nPriority": 4
-  },
-  {
-    "strName": "FlotillaOrganizer",
-    "strType": "repeat",
-    "strIATrigger": "PLGFlotillaOrganizer",
-    "aIAEnd": null,
-    "strThemID": null,
-    "nPriority": 4
-  },
-  {
-    "strName": "Patrol",
-    "strNameFriendly": "Патрулирование",
-    "strType": "patrol",
-    "strIATrigger": "PLGPatrolCommand",
-    "aIAEnd": [],
-    "strThemID": null,
-    "bThemAllowDocked": false,
-    "nPriority": 3
   },
   {
     "strName": "DisembarkCommand",
@@ -496,7 +557,7 @@
   },
   {
     "strName": "DisembarkAndUndock",
-    "strNameFriendly": "Выходить и отсоединяться",
+    "strNameFriendly": "Высадка и отстыковка",
     "strType": "disembark",
     "strIATrigger": "PLGDisembarkCommand",
     "aIAEnd": [
@@ -508,7 +569,7 @@
   },
   {
     "strName": "UndockStart",
-    "strNameFriendly": "Разъединить",
+    "strNameFriendly": "Отцепиться",
     "strType": "repeat",
     "strIATrigger": "PLGUseNav",
     "aIAEnd": [
@@ -518,8 +579,51 @@
     "nPriority": 5
   },
   {
+    "strName": "AIMaintenanceTechWorkRepair",
+    "strNameFriendly": "Ремонт техники (поддержка)",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIMaintenanceTechWorkRepairDo",
+    "aIAEnd": [],
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 5
+  },
+  {
+    "strName": "AIMaintenanceTechWorkReplaceCan",
+    "strNameFriendly": "Замена техники (поддержка)",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIMaintenanceTechWorkReplaceCanDo",
+    "aIAEnd": [],
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 5
+  },
+  {
+    "strName": "AIMaintenanceTechWorkRest",
+    "strNameFriendly": "Отдых техники (поддержка)",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIMaintenanceTechWorkRestDo",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "nPriority": 4
+  },
+  {
+    "strName": "AIMaintenanceTechWorkOKLGRestorePriority",
+    "strNameFriendly": "Техник по обслуживанию восстанавливает",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIMaintenanceTechWorkRestorePriorityDo",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 4
+  },
+  {
     "strName": "AutoClose",
-    "strNameFriendly": "Закрытие",
+    "strNameFriendly": "Закрыть",
     "strType": "repeat",
     "strIATrigger": "PLGAutoClose",
     "aIAEnd": null,
@@ -528,7 +632,7 @@
   },
   {
     "strName": "EmbarkCommand",
-    "strNameFriendly": "Прибывать",
+    "strNameFriendly": "Погрузка",
     "strType": "embark",
     "strIATrigger": "PLGEmbarkCommand",
     "aIAEnd": [
@@ -552,7 +656,7 @@
   },
   {
     "strName": "PoliceShakedown",
-    "strNameFriendly": "Проверка состояния",
+    "strNameFriendly": "Проверка",
     "strType": "repeat",
     "strIATrigger": "SOCPoliceIntroduction",
     "aIAEnd": [
@@ -731,5 +835,79 @@
     "aIAEnd": null,
     "strThemID": null,
     "nPriority": 4
+  },
+  {
+    "strName": "FlotillaBroker",
+    "strType": "repeat",
+    "strIATrigger": "PLGFlotillaBroker",
+    "aIAEnd": null,
+    "strThemID": null,
+    "nPriority": 4
+  },
+  {
+    "strName": "FlotillaOrganizer",
+    "strType": "repeat",
+    "strIATrigger": "PLGFlotillaOrganizer",
+    "aIAEnd": null,
+    "strThemID": null,
+    "nPriority": 4
+  },
+  {
+    "strName": "AIUnwearSuit",
+    "strNameFriendly": "Убрать костюм",
+    "strType": "unwearsuit",
+    "strIATrigger": "PLGAIUnwearSuit",
+    "aIAEnd": null,
+    "strThemID": null,
+    "nPriority": 4
+  },
+  {
+    "strName": "AIHygiene",
+    "strNameFriendly": "Гигиена",
+    "strType": "hygiene",
+    "strIATrigger": "PLGAIHygiene",
+    "aIAEnd": null,
+    "strThemID": null,
+    "nPriority": 3
+  },
+  {
+    "strName": "Bartender",
+    "strType": "repeat",
+    "strIATrigger": "PLGBartend",
+    "aIAEnd": null,
+    "strThemID": null,
+    "nPriority": 3
+  },
+  {
+    "strName": "Patrol",
+    "strNameFriendly": "Патрулирование",
+    "strType": "patrol",
+    "strIATrigger": "PLGPatrolCommand",
+    "aIAEnd": [],
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "nPriority": 3
+  },
+  {
+    "strName": "AIMaintenanceTechWorkOKLGRestorePriority2",
+    "strNameFriendly": "Техник по обслуживанию восстанавливает",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIMaintenanceTechWorkRestorePriority2Do",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 3
+  },
+  {
+    "strName": "AIMaintenanceTechWorkOKLGRestore",
+    "strNameFriendly": "Техник по обслуживанию восстанавливает",
+    "strType": "repeat",
+    "strIATrigger": "PLGAIMaintenanceTechWorkRestoreDo",
+    "aIAEnd": null,
+    "strThemID": null,
+    "bThemAllowDocked": false,
+    "bThemForgetOnDo": true,
+    "nPriority": 2
   }
 ]

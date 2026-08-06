@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeEJDRArrestWarning",
+    "strNameFriendly": "Предупреждение об аресте EJDR",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeEJDRArrest",
+    "strNameFriendly": "Арестный лист EJDR",
+    "strColor": "Bad",
+    "strDesc": "[us] у Jade Rabbit есть незакрытый арестный лист.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeEJDRThreat",
+    "strNameFriendly": "EJDR - враждебный элемент",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или живым в Jade Rabbit LAs и считается враждебным элементом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeEJDRTrespass",
+    "strNameFriendly": "EJDR - запрещение на проникновение",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет неисполненный ордер на вторжение от Jade Rabbit.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeEJDRTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeEJDRStolenShip",
+    "strNameFriendly": "EJ-арестный лист за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] у Jade Rabbit есть незакрытый арестный лист за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeEJDRNoUndock",
+    "strNameFriendly": "EJDR - арестный лист за неудовлетворение требований при отъезде",
+    "strColor": "Bad",
+    "strDesc": "[us] у Jade Rabbit есть незакрытый арестный лист за нарушение требований при отъезде во время проверки офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

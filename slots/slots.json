@@ -16,7 +16,7 @@
   },
   {
     "strName": "armLowerR",
-    "strNameFriendly": "Нижняя правая рука",
+    "strNameFriendly": "Правый нижний предплечье",
     "strHitboxImage": "paperdoll/HBarmLowerR",
     "strIconImage": "paperdoll/HBarmLowerRIcon",
     "nItems": 1,
@@ -136,7 +136,7 @@
   },
   {
     "strName": "handL",
-    "strNameFriendly": "Левая рука (использована)",
+    "strNameFriendly": "Левая рука (надета)",
     "strHitboxImage": "paperdoll/HBheldL",
     "strIconImage": "paperdoll/HBheldLIcon",
     "nItems": 1,
@@ -151,7 +151,7 @@
   },
   {
     "strName": "handR",
-    "strNameFriendly": "Правая рука (использована)",
+    "strNameFriendly": "Правая рука (надета)",
     "strHitboxImage": "paperdoll/HBheldR",
     "strIconImage": "paperdoll/HBheldRIcon",
     "nItems": 1,
@@ -271,7 +271,7 @@
   },
   {
     "strName": "legLowerR",
-    "strNameFriendly": "Нижняя правая нога",
+    "strNameFriendly": "Правая нижняя нога",
     "strHitboxImage": "paperdoll/HBlegLowerR",
     "strIconImage": "paperdoll/HBlegLowerRIcon",
     "nItems": 1,
@@ -361,7 +361,7 @@
   },
   {
     "strName": "pledges",
-    "strNameFriendly": "Признания",
+    "strNameFriendly": "Обещания",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 0,
@@ -403,7 +403,7 @@
   },
   {
     "strName": "pocket_clip01",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -417,7 +417,7 @@
   },
   {
     "strName": "pocket_clip02",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -431,7 +431,7 @@
   },
   {
     "strName": "pocket_clip03",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -445,7 +445,7 @@
   },
   {
     "strName": "pocket_clip04",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -459,7 +459,7 @@
   },
   {
     "strName": "pocket_clip05",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -473,7 +473,7 @@
   },
   {
     "strName": "pocket_clip06",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -487,7 +487,7 @@
   },
   {
     "strName": "pocket_clip07",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -501,7 +501,7 @@
   },
   {
     "strName": "pocket_clip08",
-    "strNameFriendly": "Клип-точка",
+    "strNameFriendly": "Точка крепления",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -543,7 +543,7 @@
   },
   {
     "strName": "pocket_EVABatt",
-    "strNameFriendly": "Батарея для ЕВА (комpartment)",
+    "strNameFriendly": "Отсек аккумулятора EVA",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -557,7 +557,7 @@
   },
   {
     "strName": "pocket_EVACO2",
-    "strNameFriendly": "Фильтр CO2 для ЕВА (комpartment)",
+    "strNameFriendly": "Отсек фильтра CO2 EVA",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -571,7 +571,7 @@
   },
   {
     "strName": "pocket_EVAO2",
-    "strNameFriendly": "Комpartment бутылки кислорода ЭВА",
+    "strNameFriendly": "Отсек баллона O2 EVA",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -613,7 +613,7 @@
   },
   {
     "strName": "pocket_hoodie01",
-    "strNameFriendly": "Рюкзак на пальто",
+    "strNameFriendly": "Кармашек на худи",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -627,7 +627,7 @@
   },
   {
     "strName": "pocket_hoodie02",
-    "strNameFriendly": "Рюкзак на пальто",
+    "strNameFriendly": "Кармашек на худи",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -641,7 +641,7 @@
   },
   {
     "strName": "pocket_hoodie03",
-    "strNameFriendly": "Рюкзак на пальто",
+    "strNameFriendly": "Кармашек на худи",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -655,7 +655,7 @@
   },
   {
     "strName": "pocket_hoodie04",
-    "strNameFriendly": "Рюкзак на пальто",
+    "strNameFriendly": "Кармашек на худи",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -669,7 +669,7 @@
   },
   {
     "strName": "pocket_pouchSm01",
-    "strNameFriendly": "Маленький пакет",
+    "strNameFriendly": "Маленький мешочек",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -683,7 +683,7 @@
   },
   {
     "strName": "pocket_pouchSm02",
-    "strNameFriendly": "Маленький пакет",
+    "strNameFriendly": "Маленький мешочек",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -697,7 +697,7 @@
   },
   {
     "strName": "pocket_pouchSm03",
-    "strNameFriendly": "Маленький пакет",
+    "strNameFriendly": "Маленький мешочек",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -711,7 +711,7 @@
   },
   {
     "strName": "pocket_pouchSm04",
-    "strNameFriendly": "Маленький пакет",
+    "strNameFriendly": "Маленький мешочек",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -725,7 +725,7 @@
   },
   {
     "strName": "pocket_cargo01",
-    "strNameFriendly": "Полезный карман",
+    "strNameFriendly": "Карман на брюках-карго",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -739,7 +739,7 @@
   },
   {
     "strName": "pocket_cargo02",
-    "strNameFriendly": "Полезный карман",
+    "strNameFriendly": "Карман на брюках-карго",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -753,7 +753,7 @@
   },
   {
     "strName": "pocket_cargo03",
-    "strNameFriendly": "Полезный карман",
+    "strNameFriendly": "Карман на брюках-карго",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -767,7 +767,7 @@
   },
   {
     "strName": "pocket_cargo04",
-    "strNameFriendly": "Полезный карман",
+    "strNameFriendly": "Карман на брюках-карго",
     "strHitboxImage": "blank",
     "nItems": 1,
     "nDepth": 15,
@@ -781,7 +781,7 @@
   },
   {
     "strName": "robotHandL",
-    "strNameFriendly": "Левая рука (использована)",
+    "strNameFriendly": "Левая рука (надета)",
     "strHitboxImage": "paperdoll/HBheldL",
     "nItems": 1,
     "nDepth": 1,
@@ -795,7 +795,7 @@
   },
   {
     "strName": "robotHandR",
-    "strNameFriendly": "Правая рука (использована)",
+    "strNameFriendly": "Правая рука (надета)",
     "strHitboxImage": "paperdoll/HBheldR",
     "nItems": 1,
     "nDepth": 1,
@@ -955,7 +955,7 @@
   },
   {
     "strName": "wristL",
-    "strNameFriendly": "Рукоятка",
+    "strNameFriendly": "Запястье",
     "strHitboxImage": "paperdoll/HBwristL",
     "strIconImage": "paperdoll/HBwristLIcon",
     "nItems": 1,

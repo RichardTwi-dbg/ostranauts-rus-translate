@@ -3,7 +3,7 @@
     "strName": "WoundArmFractureL",
     "strNameFriendly": "Левая рука",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой левой руке.",
+    "strDesc": "Повреждение на левой руке человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -32,7 +32,7 @@
     "strName": "WoundArmFractureR",
     "strNameFriendly": "Правая рука",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой правой руке.",
+    "strDesc": "Повреждение на правой руке человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -61,7 +61,7 @@
     "strName": "WoundArmLowerL",
     "strNameFriendly": "Нижняя левая рука",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой нижней левой руке.",
+    "strDesc": "Повреждение на нижней левой руке человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -92,9 +92,9 @@
   },
   {
     "strName": "WoundArmLowerR",
-    "strNameFriendly": "Нижняя правая рука",
+    "strNameFriendly": "Правый нижний предплечье",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой нижней правой руке.",
+    "strDesc": "Повреждение на нижней правой руке человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -127,7 +127,7 @@
     "strName": "WoundArmUpperL",
     "strNameFriendly": "Верхняя левая рука",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой верхней левой руке.",
+    "strDesc": "Повреждение на верхней левой руке человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -160,7 +160,7 @@
     "strName": "WoundArmUpperR",
     "strNameFriendly": "Верхняя правая рука",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждий на человеческой верхней правой руке.",
+    "strDesc": "Повреждение на верхней правой руке человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -193,7 +193,7 @@
     "strName": "WoundAbdomenLower",
     "strNameFriendly": "Нижняя часть живота",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой нижней части живота.",
+    "strDesc": "Повреждение на нижней части живота человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -226,7 +226,7 @@
     "strName": "WoundAbdomenUpper",
     "strNameFriendly": "Верхняя часть живота",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой верхней части живота.",
+    "strDesc": "Повреждение на верхней части живота человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -259,7 +259,7 @@
     "strName": "WoundChestLower",
     "strNameFriendly": "Нижняя часть груди",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой нижней части груди.",
+    "strDesc": "Повреждение на нижней части груди человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -267,6 +267,7 @@
     "aStartingConds": [
       "IsSystem=1.0x1",
       "IsWound=1.0x1",
+      "IsWoundVital=1.0x1",
       "StatWoundFractureMin=1.0x1"
     ],
     "aUpdateCommands": [
@@ -292,7 +293,7 @@
     "strName": "WoundChestUpper",
     "strNameFriendly": "Верхняя часть груди",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой верхней части груди.",
+    "strDesc": "Повреждение на верхней части груди человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -300,6 +301,7 @@
     "aStartingConds": [
       "IsSystem=1.0x1",
       "IsWound=1.0x1",
+      "IsWoundVital=1.0x1",
       "StatWoundFractureMin=1.0x1"
     ],
     "aUpdateCommands": [
@@ -325,7 +327,7 @@
     "strName": "WoundHead",
     "strNameFriendly": "Голова",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой голове.",
+    "strDesc": "Повреждение на голове человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -333,6 +335,7 @@
     "aStartingConds": [
       "IsSystem=1.0x1",
       "IsWound=1.0x1",
+      "IsWoundVital=1.0x1",
       "StatWoundFractureMin=1.0x1"
     ],
     "aUpdateCommands": [
@@ -358,7 +361,7 @@
     "strName": "WoundLegFractureL",
     "strNameFriendly": "Левая нога",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на человеческой левой ноге.",
+    "strDesc": "Повреждение на левой ноге человека.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
@@ -447,7 +450,7 @@
   },
   {
     "strName": "WoundLegLowerR",
-    "strNameFriendly": "Нижняя правая нога",
+    "strNameFriendly": "Правая нижняя нога",
     "strItemDef": "ItmBodyPart01",
     "strDesc": "Повреждение на правой нижней ноге человека.",
     "strType": "Item",
@@ -575,16 +578,17 @@
   },
   {
     "strName": "WoundRobotTorso",
-    "strNameFriendly": "Тело робота",
+    "strNameFriendly": "Торс робота",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждение на теле робота.",
+    "strDesc": "Повреждение на торсе робота.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
     "aInteractions": [],
     "aStartingConds": [
       "IsSystem=1.0x1",
-      "IsWound=1.0x1"
+      "IsWound=1.0x1",
+      "IsWoundVital=1.0x1"
     ],
     "aUpdateCommands": [
       "Wound,WoundRobotTorso"
@@ -606,14 +610,15 @@
     "strName": "WoundRobotHead",
     "strNameFriendly": "Голова робота",
     "strItemDef": "ItmBodyPart01",
-    "strDesc": "Повреждий на голове робота.",
+    "strDesc": "Повреждение головы робота.",
     "strType": "Item",
     "strLoot": null,
     "bSlotLocked": true,
     "aInteractions": [],
     "aStartingConds": [
       "IsSystem=1.0x1",
-      "IsWound=1.0x1"
+      "IsWound=1.0x1",
+      "IsWoundVital=1.0x1"
     ],
     "aUpdateCommands": [
       "Wound,WoundRobotHead"

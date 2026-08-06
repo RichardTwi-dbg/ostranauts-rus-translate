@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeJFTSArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании JFTS",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeJFTSArrest",
+    "strNameFriendly": "Официальный вызов к задержанию JFTS",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый вызов к задержанию в Форт Симпсоне.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeJFTSThreat",
+    "strNameFriendly": "JFTS — враждебный элемент",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или погибшим властями Форта Симпсон, и считается враждебным элементом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeJFTSTrespass",
+    "strNameFriendly": "Официальный вызов к нарушению границ JFTS",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый вызов к нарушению границ с Форт Симпсоном.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeJFTSTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeJFTSStolenShip",
+    "strNameFriendly": "Вызов к задержанию JFTS за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый вызов к задержанию с Форт Симпсоном за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeJFTSNoUndock",
+    "strNameFriendly": "Вызов к задержанию JFTS за несвоевременное отъезжание",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый вызов к задержанию в Форт Симпсоне за несвоевременное отъезжание во время проверки офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

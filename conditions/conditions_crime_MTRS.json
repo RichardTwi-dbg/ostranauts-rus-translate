@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeMTRSArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании MTRS",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMTRSArrest",
+    "strNameFriendly": "Официальный ордер на арест MTRS",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый ордер на арест в Тарсис Лэндинге.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMTRSThreat",
+    "strNameFriendly": "MTRS - враждебный элемент",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или погибшим властями Тарсис Лэндинга и считается враждебным элементом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMTRSTrespass",
+    "strNameFriendly": "Ордер на нарушение границ MTRS",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый ордер на нарушение границ с Тарсис Лэндингом.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeMTRSTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeMTRSStolenShip",
+    "strNameFriendly": "Ордер на арест за кражу корабля MTRS",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый ордер на арест в Тарси Лэндинге за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMTRSNoUndock",
+    "strNameFriendly": "MTRS Арест наряд за неспособность отстыковать",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый ордер в Тарсис Лэндинге за несвоевременное отцепление во время проверки офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

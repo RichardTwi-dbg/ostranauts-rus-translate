@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeJATLArrestWarning",
+    "strNameFriendly": "Предупреждение о задержании JATL",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] получал предупреждение о задержании столько раз.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeJATLArrest",
+    "strNameFriendly": "Официальный вызов к аресту JATL",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый вызов к аресту в Атлантиде.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeJATLThreat",
+    "strNameFriendly": "JATL — враг общественности",
+    "strColor": "Bad",
+    "strDesc": "[us] объявлен убитым или погибшим Атлантидскими полицейскими и считается общественным врагом.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeJATLTrespass",
+    "strNameFriendly": "JATL Повестка о вторжении",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] активная повестка о вторжении с Atlantis.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeJATLTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeJATLStolenShip",
+    "strNameFriendly": "Вызов к аресту JAT-Л за кражу корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый вызов к аресту в Атлантиде за кражу корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeJATLNoUndock",
+    "strNameFriendly": "Вызов к аресту JATL за несвоевременное отъезд из стоянки",
+    "strColor": "Bad",
+    "strDesc": "[us] имеет незавершённый вызов к аресту в Атлантиде за несвоевременное отъезд из стоянки во время проверки офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

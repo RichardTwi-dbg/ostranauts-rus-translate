@@ -32,7 +32,7 @@
   },
   {
     "strName": "VenusBronze",
-    "strNameFriendly": "Лига бронзы на Венере",
+    "strNameFriendly": "Бронзовая Лига Венеры",
     "strDescription": "Entry level league for every rookie racing pilot",
     "strImgPath": "leaguebronzelogo.png",
     "ctLeagueHost": null,
@@ -63,7 +63,7 @@
   },
   {
     "strName": "VenusSilver",
-    "strNameFriendly": "Лига серебра на Венере",
+    "strNameFriendly": "Серебряная Лига Венеры",
     "strDescription": "Entry level league for every rookie racing pilot",
     "strImgPath": "leaguesilverlogo.png",
     "ctLeagueHost": null,
@@ -94,7 +94,7 @@
   },
   {
     "strName": "VenusGold",
-    "strNameFriendly": "Лига золота на Венере",
+    "strNameFriendly": "Золотая лига Венеры",
     "strDescription": "Gold level league only for experienced racing pilots",
     "strImgPath": "leaguegoldlogo.png",
     "ctLeagueHost": null,
@@ -126,7 +126,7 @@
   {
     "strName": "GrandePremioEncantato",
     "strNameFriendly": "Гран-при Энканта-do",
-    "strDescription": "One of the systems top tier racing leagues",
+    "strDescription": "One of the system's top tier racing leagues",
     "strImgPath": "racing/encantado.png",
     "ctLeagueHost": null,
     "ctEntryRequirements": "TIsRaceLicenseDiamond",

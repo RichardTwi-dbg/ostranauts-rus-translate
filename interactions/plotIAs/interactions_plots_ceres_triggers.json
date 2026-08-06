@@ -1,0 +1,87 @@
+[
+  {
+    "strName": "PLOT_Ceres_StartTrigger1_Isambard",
+    "strTitle": "Срабатывает триггер начала сюжета по плану Кереса для создания Изамбарда",
+    "strDesc": "[us-contractIs] погружён в ностальгию по прошлому [us-subj], которое никогда не испытывало.",
+    "strActionGroup": "Use",
+    "bIgnoreFeelings": true,
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "strPlot": "Ceres",
+    "nLogging": 1,
+    "strColor": "Dialogue",
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_StartTrigger1_Isambard_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
+    "aSocialNew": [
+      "Plot_Ceres_Smiley_Make"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_AV_Club_Trigger",
+    "strTitle": "Срабатывает триггер продвижения сюжета по плану Кереса, бит-клуб AV",
+    "strDesc": "[us] [has] вошёл в пустыню зеркал.",
+    "strThemType": "Other",
+    "strPlot": "Ceres",
+    "strColor": "Dialogue",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_AV_Club_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_AV_Club_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Trigger",
+    "strTitle": "Срабатывает триггер продвижения учёного",
+    "strDesc": "Учёный исчез. Единственные следы, которые [us] [has] оставил, — это его собственные.",
+    "strColor": "Dialogue",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Trigger",
+    "strTitle": "Срабатывает триггер продвижения скрытых взаимодействий",
+    "strDesc": "[us] [has] объявил свою сторону — или так, или иначе.",
+    "strColor": "Dialogue",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Our_System_For_Whom_Trigger",
+    "strTitle": "Триггер для продвижения сюжета Ceres Наша система Для кого победил",
+    "strDesc": "[us] [has] начал материальную поддержку и разрушение в войне Кереса как прокси.",
+    "strColor": "Dialogue",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed"
+  },
+  {
+    "strName": "PLOT_Ceres_Valkyrie_Trigger",
+    "strTitle": "Срабатывает триггер продвижения сюжета по плану Кереса, бит Валькирий",
+    "strDesc": "[us] [sees] видение мира и всех чудес, которые были потеряны.",
+    "strColor": "Dialogue",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Valkyrie_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Valkyrie_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Our_Strange_Denouement_Trigger",
+    "strTitle": "Срабатывает триггер продвижения сюжета по плану Кереса, наш странный финал бит",
+    "strDesc": "[us] [has] использовал мощную технологию и должен решить, кем она должна принадлежать, чтобы изменить судьбу Кереса и всей системы.",
+    "strColor": "Dialogue",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
+    "nLogging": 1
+  }
+]

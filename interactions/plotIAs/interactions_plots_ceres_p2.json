@@ -1,0 +1,1068 @@
+[
+  {
+    "strName": "PLOT_Ceres_Ask_Prove_BCER",
+    "strTitle": "Спросить, как доказать свою верность",
+    "strTooltip": "Пан Тан может дать вам советы, как доказать свою лояльность Титану.",
+    "strDesc": "Вы подходите к Пан Тану к его обычному месту для курения и спрашиваете, как человеку, подобному вам, можно доказать свою лояльность к цели Титана.\n\n\"Мало вариантов,\" говорит Тан. \"Первый — территория. Весь пояс находится в ситуации, подобной королевству. Если вы сделаете сделку за маяк Титана, вы можете вывести его в незанятую зону рядом с прибыльными астероидами. Разверните его и получите видимость на этих камнях. Это обеспечит открытие наших линий снабжения.\"\n\n\"Хиньхуа любит устанавливать свои собственные маяки, поэтому вы всегда можете разрушить их. Это довольно весело, и офицеры получают большое удовольствие от этого.\"\n\n\"Если вы чувствуете себя как лягушка, вы всегда можете прыгнуть. Я имею в виду: захватить или разрушить корабль союзника Хиньхуа. Требовать их капитуляцию или, знаете, просто — бам!\"\n\n\"Наконец, вы можете посетить шахты. Остались много хороших камней. Получите руду и продайте её одному из наших киосков здесь. Это даст вам хорошие деньги, а также похвалу от нужных людей.\n\n\"Кроме того, вы можете попробовать выполнить специальные миссии для господина Уэйна. Он не дает их всем, поэтому если он доверяет вам их выполнять, это, вероятно, хорошая идея. Проверьте плантер у 'Рта' на наличие сообщений.\"",
+    "fTargetPointRange": 2,
+    "nLogging": 0,
+    "bRecheckThisPlot": true,
+    "ShipTestThem": "BCER",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Talk",
+    "strTargetPoint": "Talk",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestThem": "TIsProspectorBCER",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Ask_Prove_BCER"
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+    "strTitle": "Спросить о Бенджамине Чуонге",
+    "strDesc": "Пан Тан физически худой для работника причала. Вы видите его, как он опирается на стену, держа сигарету в руке, которая бьётся на стене в ритмичном ритме.\n\n\"Пан Тан,\" вы говорите, не совсем вопросом.\n\n\"Слушай,\" он отвечает, не совсем обращая внимания.\n\n\"Как вы знаете Бенджамина Чуонге?\"\n\nПан прищуривается в вашу сторону, делает затяг, и говорит: \"Друг по питью. Что с ним случилось?\"\n\n\"Ничего уже довольно давно,\" вы говорите. \"Он исчез. Ты, ну, ты просто несчастный человек.\"\n\n\"Эй, приятель,\" он говорит, \"ты мне не в теме. Я не знаю тебя. Почему бы тебе не поступить как Бенджамин Чуонг и уйти?\" Он возвращается к наблюдению за грузовыми дронами, которые двигаются вверх и вниз по тоннелю.\n\nВы хлопаете его по лицу. \"Снимай с себя шум. Кто-то, кто открыл его дом, не заметил записку с вашим именем на ней. Это был ты, дурак?\"\n\nЭто привлекает его внимание. \"Ты серьёзно,\" говорит он. Вы серьёзны. Он вздыхает. \"Этот дурак... мне не хватает денег, чтобы с этим справляться.\"\nОн качает головой. \"В центре Калико есть бар под названием «Ангел Вингс». Пойдите туда. Вы найдёте того, кого хотите поговорить. Уходите от меня, пожалуйста,\" он говорит уставшим голосом, \"это было предполагалось как мой перерыв.\"",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+    "CTTestThem": "TIsProspectorBCER",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim"
+    ],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "ShipTestThem": "BCER",
+    "strActionGroup": "Talk",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strSubUI": "Landscape01",
+    "bPause": true,
+    "strTooltip": "'Пан Тан' — это одно из имен на записке в квартире Чуонга."
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply",
+    "strTitle": "Establish_Contact_CCRE_Reply_Success",
+    "strDesc": "[us] удивлённо смотрит на [them] и говорит, чтобы последовать за ними в более тайный и ожидать дальнейшего контакта.",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "strAnim": "Talk",
+    "fDuration": 0.0005,
+    "strActionGroup": "Talk",
+    "strThemType": "Other",
+    "nLogging": 1,
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim"
+    ],
+    "fForcedChance": 1
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim",
+    "strTitle": "Перейти к тайном собранию",
+    "strDesc": "Вы прибываете в Ангел Вингс через семнадцать минут. В баре один человек.\n\nОн носит большой шляпу — белую стетсон, в сочетании с синим фланелевым рубашкой и джинсами. Он хлопает по вашей руке, и ворот рубашки касается ваших пальцев — идеально гладко. Это не может быть фланелевая ткань. \"Я — Джон Уэйн, ваш сервис, сэр.\"\nОн поднимает два пальца. Две стаканы, наполненные до краев, скользят по бару, не капая ни капли.\n\nОн высокий и худой, почти мёртвый. Коричневая кожа, которая может быть от загара или от наследственной меланины. Он пьёт свой напиток и ждёт вас с ожиданием. Он сжигает вашу глотку. Он медленно кивает. \"Если вы можете выдержать алкоголь, у нас не будет проблем.\"\nОн уже поднимает руку, чтобы взять ещё два.\n\n\"Слушайте меня,\" говорит он, поднимая руку, прежде чем вы сможете сказать слово. \"Мы будем пить до тех пор, пока не сможем видеть прямо. Затем мы пойдём по улице к Палмеру. Ещё несколько там. Затем вверх по улице к Красной двери. Два там, и тогда я буду вступать в бой. Вы будете за мной. Солдаты Хиньхуа полны денег, мы их забираем, это наше. Мы атакуем Афродиту. Я на горячей волне, я выиграл 5 тысяч в этой неделе. Мы делаем большие шаги, да? Следуйте за мной. После этого, я знаю человека — Мухаммада или Мустафу или что-то подобное. Он знает людей, женщин, что угодно. Мы соберём всё это вместе,\" говорит он, принимая свой напиток, \"и наш вечер будет установлен.\"\n\nВы оставляете стакан на месте. \"Вы убили Бенджамина Чуонга?\"\n\nОн сжимает губы. \"Не знаю, возможно. Что он выглядел?\"\n\n\"Если вы не знаете, вы теряете моё время.\"\n\n\"Хорошо, хорошо,\" говорит он, махая рукой. \"Сядьте спокойно. Вы хороший клиент. Нет, я не убил его. Он исчез на Керее. Люди так делают.\"\nОн поднимает рубашку, чтобы показать белый револьвер на бедре. \"Я несусь. Вы должны быть тоже.\"\n\n\"Вы даже не пытаетесь скрыть свою природу. Почему?\" Вы смотрите на него, на странного образа человека. \"Вы выделяетесь, как сильная боль.\"\n\nОн долго смотрит на вас. Удивительный взгляд от человека, который пьёт столько алкоголя. \"Ну, сын,\" говорит он медленно, \"это война. Вы должны это знать к этому моменту. И война имеет правила.\" Он замечает ваше выражение лица. \"О, конечно, люди нарушают их. Но они есть. По крайней мере, на время. И, черт, я жив, не так ли?\" Он улыбается. \"'<i>Он сжимает скалу с неправильными руками, близко к солнцу в одиночных землях, окружённый синим миром, он стоит</i>.'\"\n\n\"Что это было?\"\n\nЕго лицо темнеет. \"Это поэзия, блядь. Теперь,\" он фокусируется на вас. \"По словам великого позднего господина Сегера — Пит, а не Боб, помните. Я ненавижу эту «Ночь движений» — С какой стороны вы?\"",
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "strActionGroup": "Use",
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strSubUI": "Landscape01",
+    "bPause": true,
+    "strThemType": "Self",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Enter",
+    "strTitle": "Подойти к дому Чуонга",
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Corner_Bed",
+      "Plot_Scholar_Flat_Workbench",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks"
+    ],
+    "strDesc": "Инструкции Исамбарда приводят вас к квартире Бенджамина Чуонга без особого труда. Дом — это небольшая квартира в эконом-классе, вставленная среди десятков других в относительно дорогом районе станции. Ряд одинаковых дверей не даёт вам остановиться, но дверь Чуонга, близко к концу, мигает зелёным индикатором. Очевидно, дверь открыта. Вы входите внутрь.\n\nМесто было разорвано. То, что изначально было аккуратным пространством для жизни и работы, теперь показывает признаки жестоких борьб. Каждая коробка и полка раскрыта, как будто улыбается. Пол покрыт внутренними частями терминалов: источниками питания, кабелями и материнскими платами. Нет жестких дисков в виду. Кто-то пришёл сюда, зная, что ищет.\n\nЧуонг не находится ни где.\n\nМожет быть, здесь что-то даст вам понимание того, что произошло. Где вы сначала ищете?",
+    "CTTestThem": "CTPLOT_Ceres_Is_ChoongDoor",
+    "strTooltip": "Панель двери отображает имя Бенджамина Чуонга",
+    "LootCondsUs": "CONDPLOT_Plot_Scholar_Flat_Enter",
+    "CTTestUs": "CTPlot_Plot_Scholar_Flat_Enter",
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Corner_Bed",
+    "strTitle": "Искать уголок кровати",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "Кровать высокого качества, дорогая, но не поднята. Вы задаёте себе вопрос, был ли Чуонг здесь, когда его увезли так быстро. Это было неприятное пробуждение.",
+    "aInverse": [
+      "Plot_Scholar_Flat_Workbench",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Workbench",
+    "strTitle": "Искать рабочий стол",
+    "strDesc": "Из всех пространств, которые вы видите, рабочий стол — самый разрушенный. Странно вырезанные терминалы, разбитые лабораторные принадлежности и клубы электроники покрывают поверхность. В центре стола — полная пустота. Даже тонкий слой пыли вокруг остальной части квартиры не достигает здесь.\n\nНиже пустоты вы находите пачку спичек. Это из бара на Порте Можаве. Внутри — записка, написанная тонким чернилами. Контактный номер и инициалы под ним: PT.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Corner_Bed",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette",
+    "strTitle": "Искать кухонную зону",
+    "strDesc": "Вы видите полуприоткрытый холодильник, небольшой обеденный стол с одним стулом и различные кухонные предметы, явно брошенные во время беспорядочного поиска.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Fridge",
+      "Plot_Scholar_Flat_Kitchenette_Table",
+      "Plot_Scholar_Flat_Kitchenette_Ground",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette_Fridge",
+    "strTitle": "Искать холодильник",
+    "strDesc": "Он остается относительно не тронутым. Дорогие продукты с высоким содержанием питательных веществ выстроены в аккуратные ряды. Вы видите около десяти бутылок воды, все полные, а также партию охлажденных добавок, некоторые из которых вы не узнаете. Чуонг явно знал, как себя ухаживать. Почему вы начинаете думать о нём в прошлом времени?",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Ground",
+      "Plot_Scholar_Flat_Kitchenette_Table",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette_Table",
+    "strTitle": "Искать на столе",
+    "strDesc": "Вы находитесь перед пустым чашкой кофе, разбитым портативным терминалом, из которого изъята жесткая пластина, и бумажником. Не дешевое, это. Книга под названием «День триффидов» автора Джона Виндхэма.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Ground",
+      "Plot_Scholar_Flat_Kitchenette_Fridge",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Kitchenette_Ground",
+    "strTitle": "Искать на земле",
+    "strDesc": "Разбитые посуда, разбитые стекла и разные бумаги лежат здесь. Вы тщательно перебираете бумаги, но они написаны на языке, который вам не понятен. В текстах упоминаются редкие минералы и их свойства при сжигании при определённых температурах.\n\nТолько когда вы почти готовы отказаться от поиска, вы замечаете яркий цвет в урне. Вы приближаетесь и внимательно осматриваете. Цветок?\n\nВы достаёте букет. Вы наклоняетесь, чтобы запахнуть, но не чувствуете запаха. Они хрупкие, холодные, с сетчатой структурой. Это бумага. Удивительный труд, создать всё это вручную. Внутри — записка:\n\n<i>Спасибо, что встретились. Не нужно искать меня в следующий раз, когда вы будете на Кольце. Я найду вас.\n\n— Франсиско Ортега</i>",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Flat_Kitchenette_Fridge",
+      "Plot_Scholar_Flat_Kitchenette_Table",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ],
+    "LootCondsUs": "CONDPLOT_Plot_Scholar_Flat_Kitchenette_Ground",
+    "CTTestUs": "CTPlot_Plot_Scholar_Flat_Kitchenette_Ground"
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Racks",
+    "strTitle": "Искать на полках и ящиках",
+    "strDesc": "Около дюжины контейнеров различных размеров расположены на стенах. Некоторые встроены в пол. Где начать?",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_North",
+      "Plot_Scholar_Racks_East",
+      "Plot_Scholar_Racks_Floor",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_North",
+    "strTitle": "Искать на северной стене",
+    "strDesc": "Здесь только сборники научных трудов. Вы удивлены разнообразием тем: математика, инженерия, искусство, химия и истории древних цивилизаций Земли.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_East",
+      "Plot_Scholar_Racks_Floor",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_East",
+    "strTitle": "Искать на восточной стене",
+    "strDesc": "Этот набор, близко к столярному столу, полон инструментов и мелких деталей. Некоторые аккуратно упорядочены. Другие упали на пол.",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_North",
+      "Plot_Scholar_Racks_Floor",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_Floor",
+    "strTitle": "Искать на полу",
+    "strDesc": "Эти контейнеры предназначены для хранения больших предметов. Бумаги тканей, стопки тонких металлических листов, измеренные стеклянные сосуды, некоторые более крупные инструменты и... что-то за паяльником? Пропил?",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "Plot_Scholar_Racks_Floor_Seam",
+      "Plot_Scholar_Racks_East",
+      "Plot_Scholar_Racks_North",
+      "Plot_Scholar_Flat_ContinueLooking"
+    ]
+  },
+  {
+    "strName": "Plot_Scholar_Racks_Floor_Seam",
+    "strTitle": "Исследовать пропил",
+    "strDesc": "Вы убираете инструменты и мягко нажимаете на пропил. Он отпускает пружину и открывает небольшую щель, размером с ладонь. Внутри вы находитесь с небольшой чёрной тетрадью. Это графическая книга, написанная аккуратной рукой. Названия, даты и последняя колонка, не обозначенная в верхней части, но с записями под каждым именем.\n\n<i>Джон Уэйн (Галкон)\nФрансиско Ортойга (Синхуа)\nХан Сяоли (Галкон Дабл)\nЛауренс Мастерсон (Галкон)\nПан Тао (Галкон)</i>\n\nПереворачиваясь к последней странице тетради, вы находите две дополнительные строки\n\n<i>Галгон: Вопрос: Где истинный Запад? Ответ: Следуй за вечерним красным.\nСинхуа: Вопрос: Вы когда-нибудь выращивали ночной шоколад? Ответ: Только в заимствованной почве.</i>",
+    "strColor": "Dialogue",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strSetPlotObjective": "name|Proxy War: Ben's List|ct|TIsProspectorBCRSorBCER|desc|Try to find one of the names from Ben's notebook.",
+    "LootCondsUs": "CONDPLOT_Plot_Scholar_Racks_Floor_Seam",
+    "CTTestUs": "CTPlot_Plot_Scholar_Racks_Floor_Seam",
+    "aLootItms": [
+      "addus,Itm_PLOT_Plot_Scholar_Notebook"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_Ask_Prove_BCRS",
+    "strTitle": "Спросить, как доказать свою верность",
+    "strTooltip": "[them-firstname] может дать совет, как доказать свою верность Xinhua.",
+    "strDesc": "Вы подходите к Франсиско Ортеге. Он обычно взволнован. Вы осторожно спрашиваете, как человеку, как вы, можно доказать свою верность Xinhua.\n\n\"У вас есть несколько вариантов,\" начинает Ортега.\n\n\"Первый — территория. Весь пояс находится в состоянии открытого конфликта. Сила определяет правду. Если вы сделаете сделку с Xinhua, вы можете взять их маятник и разместить его в незанятой зоне рядом с прибыльными астероидами. Разместите его и у вас будет видение этих тел. Это поддерживает ваши линии снабжения.\",\n\n\"Титан развертывает свои собственные маятники. Вы можете их нейтрализовать — при условии, что вы чувствуете себя в безопасности в вражеской зоне.\",\n\n\"Причина всегда нуждается в опытных пилотах. Если вы чувствуете себя смелыми, вы можете захватить или разрушить корабль союзника Титана. Вы можете потребовать их капитуляцию или уничтожить их силой.\",\n\n\"Наконец, добыча. Пояс богат. Если вы найдёте руду, вы можете продать её одним из наших киосков здесь. Это даёт вам скрип, который можно использовать для покупки оружия и маятников, и помогает пополнить наши казны.\",\n\n\"Кроме того, вы можете попробовать выполнить специальные... поручения для нашего общего друга. Проверьте кофемашину. Это скрытый канал, поэтому мы не должны встречаться так часто.\"",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "nLogging": 0,
+    "bRecheckThisPlot": true,
+    "ShipTestThem": "BCRS",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Talk",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestThem": "TIsProspectorBCRS",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Ask_Prove_BCRS"
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+    "strTitle": "Спросить о Бенджамине Чуонге",
+    "strTooltip": "Социальный профиль [them-firstname] совпадает с именем на скрытом документе Чуонга. Возможно, [them-subj] знает что-то.",
+    "strDesc": "Мужчина ест почти половину бургера из грибов. \"Франсиско Ортега?\" спрашиваете.\n\n\"Да?\" он отвечает, доставая со снаряжения капсулу со специями.\n\n\"Я ищу Бенджамина Чуонга.\"\n\nОртега хватается, хватает крошки и один мокрый кусок. Он резко обернулся. \"Кто вы вообще? Откуда вы?\" — шепчет он. Вы перекрещиваете руки и не отвечаете. Он напряжённо смотрит по сторонам. \"Я найду кого-то с разрешением. Фонтан, через полчаса. Будьте там.\"\n\nОн проходит мимо вас, торопясь, чтобы казалось, что вы никогда не встречались.",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "nLogging": 0,
+    "bRecheckThisPlot": true,
+    "ShipTestThem": "BCRS",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Shim"
+    ],
+    "strActionGroup": "Talk",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "CTTestThem": "TIsProspectorBCRS",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS"
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Shim",
+    "strTitle": "Пойдите на встречу",
+    "strTooltip": "Это совсем близко. Вы вернётесь, не осознавая этого.",
+    "strDesc": "Проваленные трубы из перерабатывающего завода проходят над вами, шумят и шуршат. Вы смеётесь, но никто не слышит — такой шум, каким-то образом, затягивает вас. Это — «Фонтан», огромная часть кольца, и ближайшее к публичному пространству на станции. Стулья и камни на подставках указывают на сад, а несколько необычных подоконников добавляют в это атмосферу. Стулья заняты парами, которые разговаривают тихо. По кривой кольца, бегут к вам, группа морских солдат Коалиции, на первом смене тренировок.\n\nВаш взгляд, пронизывающий пространство, падает на кого-то, смотрящего на вас. Красный чонгсам, афро-азиат. Их рука опускается легко, ладонь вверх. Приглашение.\n\nВы идёте рядом с ним. Пахнет сандалом, думаете вы, и, сознательно, пытаетесь вспомнить последний раз, когда у вас была такая роскошь. У них много макияжа, возможно, они вообще не имеют его. Возможно, у них просто хорошее лицо.\n\n\"-?\" вы говорите, ваш голос исчезает под шумом воды над головой. \"Вы убили Бэна Чуонга?\"\n\nОни не смотрят на вас, когда отвечают. \"Я искренне надеюсь, что нет,\" они говорят. Их интонация, вдруг, американского происхождения, с голосом, напоминающим фриз. \"Я отвечаю за своего работодателя, да. Я лежал в постели сорок минут назад.\"\n\n\"Вы надеетесь, что нет?\"\n\n\"Снизьте голос,\" говорят они спокойно. \"Даже здесь. Если вы начнёте шуметь, мне придётся привлечь сотрудников безопасности, или я рискую потерять свою маску.\" Уголок их улыбки. \"Поняли?\"\n\nСмотря за спину, вы чувствуете, что кто-то значительно более крупный, чем вы, держится на расстоянии, с уважением, но не двигаясь.\n\n\"Поняли, конечно,\" отвечаете вы, стараясь подражать их тону. \"И вы понимаете это: если вы не скажете мне, что происходит, я буду вести себя как нестабильный космический капитан, который прошёл 3 астрономических единицы впустую.\"\n\nОни останавливаются, чтобы оценить интересный камень на белом подставке. Вы смотрите на их профиль, пока они кивают, соглашаясь. Затем вы смотрите на камень.\n\n\"Мы в порядке, капитан. И верю, что мне хотелось бы рассказать вам, что я знаю. Но сначала мне нужно знать, где вы стоите. Так?\"",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strThemType": "Self",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty",
+    "strTitle": "Выразите лояльность Галкону и Титану",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strThemType": "Self",
+    "strDesc": "\"Ну, бля, да. Другой солдат для хороших людей.\"\n\n\"Теперь давайте посмотрим,\" продолжает Уэйн. \"Я не могу сказать, занимаетесь ли вы покраской домов. Иногда это трудно собрать. Но если не относится к вашей сфере, мы могли бы использовать кого-то, кто умеет крепить. Но я не рекомендую это самому. Хиньхуа-бегуны не шутят. Два шага вперёд и вы окажетесь с целым набором не очень приятных фотографий на карте данных, которую вы уверены, что стёрли много лет назад. Это случилось с другом моим несколько лет назад и он до сих пор дышит вдоль Прокопьева. Я должен бы отправить ему пакет...\"",
+    "bRecheckThisPlot": true,
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_More"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+    "strTitle": "Выразите лояльность Хиньхуа",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strThemType": "Self",
+    "strDesc": "\"Не хочу слышать, приятель,\" говорит Уэйн. \"Я думаю, это прощание.\"\n\nОн поднимает голову и показывает ещё два пальца. \"Покажем на дорогу?\"\n\nОн пьёт маленькую чашку, как будто делал это миллион раз. Вы смотрите на свою чашку с подозрением, учитывая обстоятельства.\n\n\"Больше для меня, думаю,\" говорит он, и пьёт вашу чашку. Он разворачивается с стула и медленно уходит из бара.\n\nДжон Уэйн, да? По крайней мере, имя не будет трудно запомнить.\n\nОсобенно, поскольку он оставил вам счёт.",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
+    "strTitle": "Выразите нейтральность по отношению к прокси-власти",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strThemType": "Self",
+    "strDesc": "\"Играю на всех полках, вижу,\" говорит Уэйн. Он улыбается. \"Я люблю того, кто остаётся открытым. Больше денег в этом. Хотя вы можете умереть.\"\n\nУэйн поднимает ещё два пальца, не спрашивая, пьёте ли вы.\n\n\"Ну,\" говорит он. \"Я больше не помогу вам, потому что вы не знаете, за кем работаете, и я точно не знаю.\"\n\nПриходят бокалы, и он пьёт оба, прежде чем уйти без слова прощания.\n\nДжон Уэйн, да? Нечто странное, несомненно.\n\nОн оставил вам счёт.",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+    "strTitle": "Выразите лояльность Хиньхуа",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "\"Это ободряет, по крайней мере,\" говорят они. \"Если не ваша... агрессивная инициатива. Но лояльность должна быть доказана, вы понимаете. Так что. Проведём тест.\"\n\n\"Поговорите, пожалуйста,\" отвечаете вы.\n\n\"На главном этаже BCRS есть кофейный киоск. Не много, но проверьте под заброшенными пакетами, и вы можете найти то, что ищете.\"\n\n\"А что это?\"\n\nОни наклоняются, чтобы более тщательно осмотреть камень. Вы задаёте себе вопрос, может ли камень хранить ответ на все ваши вопросы.\n\n\"Знаете ли вы, на Земле,\" начинают они. \"Перед тем, как аблация привела нас к потере всего мира. Некоторые говорят, что наша страна мыслит не в десятилетиях, а в столетиях.\"\n\nОни поворачиваются и смотрят на вас снизу.\n\n\"Такая терпимость может быть вам полезна сейчас, капитан,\" говорят они, прежде чем встать, почистить руки и уйти вверх по тропинке, по которой они пришли.",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+    "strSetPlotObjective": "name|Proxy War: Prove Your Loyalty|ct|TIsProspectorBCRS|desc|Prove your worth with Xinhua. Maybe Ortega can help?",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+    "strTitle": "Выразите нейтральность по отношению к прокси-власти",
+    "strDesc": "\"Средне-холодно,\" говорят они. \"Это плохой знак. Вы окажетесь выброшены из рта Бога с таким настроением.\"\n\n\"Я никогда не был поклонником слепой лояльности,\" отвечаете вы.\n\n\"Вот и время, чтобы вы это увидели,\" говорят они.\n\nИ с этим они продолжают свой путь вверх по тропинке.",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
+    "strTitle": "Выразите лояльность Галкону и Титану",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strDesc": "\"Ах,\" говорят они. \"Жаль. Я имел такие высокие ожидания от вас.\"\n\n\"Что это должно означать?\" спрашиваете вы.\n\n\"Волны меняются, капитан. Вам будет выгодно не попасть в течения подводного потока,\" говорят они.\n\nИ с этим они продолжают свой путь вверх по тропинке.",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
+    "bRecheckThisPlot": true
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfo",
+    "strTitle": "Попробуйте определить своё местоположение",
+    "strDesc": "Пока вы пытаетесь понять, где вас оставили, вы слышите хриплый голос у себя за плечом: \"Может, подсветку?\"\n\nМаленькая женщина машет вам незажженным Вичероем. У неё толстые белые брови, толстые черные оправы очков и акцент, который невозможно определить. Она не выглядит как торговцы, которых вы только что избегали.\n\n\"Вы собираетесь продать мне что-то?\" спрашиваете вы.\n\nОна машет сигаретой. \"Вероятно, нет.\"\n\nПосле того, как сигарета зажжена, она делает глубокий вдох и выдыхает длинную струю через нос. \"Вы только что вышли с <i>[us-shipname]</i>, верно?\"\n\n\"Как вы это знаете?\"\n\n\"Расслабьтесь,\" говорит она легко. \"Это всё, что говорят на кольце. Каждый шахтёр здесь — это богатый человек, и все остальные хотят этого. Ретейл-наблюдение формирует ваш профиль личности в данный момент. Лицо, имя, сколько времени вы смотрите на её тёти, как показано на эротической рекламе, которую вы ещё не видели, сколько шагов вы сделали, где вы остановились, откуда вы пришли, куда вы идёте.\"\n\nОна даёт вам время, чтобы подумать, затем указывает на себя. \"Элени Константинидис. Я торговец, как и вы, в определённом смысле. Капитаны кораблей заботятся о друг друге. Позвольте мне купить вам кофе.\"",
+    "aInverse": [
+      "ENCFirstDockBCRSInfoAccept",
+      "ENCFirstDockBCRSInfoRefuse"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfoAccept",
+    "strTitle": "Принятие",
+    "strDesc": "Несмотря на то, что она заявляет о своей неинтересности в продаже вам чего-либо, или, возможно, из-за этого, вы насторожены. Вы следуете за её неподвластными шагами, немного сбоку от конвейера, в ещё более переполненный, но менее резкий перекрёсток, и в тёмный кофейный киоск.\n\nНизкий свет, лучшее звучание и возвращение вашей личной территории — немедленные и постоянные улучшения. Клиенты напоминают Элену по поведению, если не по внешности: серьёзные мужчины и женщины сидят в одиночных кабинках, вступая в жесткие, но невидимые споры. Реальные сделки делаются здесь.\n\nЭлени коротко болтает на греческом с хозяином, который садит вас в её любимую кабинку.\n\n\"Давайте начнём с основ жизни в пространстве Кереса,\" говорит она, \"и это будет быстрее, если вы спросите меня о том, что не знаете, чем я буду пытаться угадать. Например, о войне. Вы знаете о войне?\"\n\n\"Я не знаю,\" говорите вы. \"Знаю ли я?\"\n\n\"Точно,\" говорит Элени. \"Так что спросите меня о войне. Спасибо, Нико.\" Хозяин кладёт свежий чай и два кружки между вами. Вы пьёте, и останавливаетесь, чтобы не вылить, не сопротивляясь, лучшего кофе, который когда-либо был у вас в жизни.",
+    "aInverse": [
+      "ENCFirstDockBCRSInfoAskWar",
+      "ENCFirstDockBCRSInfoAskCalico",
+      "ENCFirstDockBCRSInfoAskGalCon"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfoAskWar",
+    "strTitle": "Спросите её о войне",
+    "strDesc": "Элени тянется с браслетом, перемещая бусы по нити с одной руки. Это дешёвый фальшивый предмет, по вашему мнению. Возможно, он имеет сентиментальную ценность.\n\n\"Так это происходит. Марс и Титан — Хиньхуа и Соединённые Штаты. У них есть все деньги. Они хотят, им нужно, металл. Металл есть, повсюду, огромное количество, в астероидах, в поясе, у Юпитера, не важно. Но у них есть проблемы. Это океан супа, и у них оба есть маленькие пластиковые ложки.\" Она поднимает комплект небольшой пластиковой ложки, упакованной в пакет, и бросает её. \n\n\"Попробовали ли вы прорвать астероид, собрать все пыль и камни, отсеивать всё, что не стоит, и тогда у вас есть огромное количество камакита и ваша душа в руках, но вы <i>хотите</i> стальную катушку, которую можно продать. У вас есть плавильная печь и достаточно воды, чтобы плавиться?\" Она не ждёт ответа. \"Пусть это шум. Это дорого, трудоёмко и опасно. Они предпочитают, чтобы мы делали это за них.\"\n\n\"Я знаком с добычей,\" говорите вы.\n\n\"Тогда вы знаете, как добыча исчезает здесь,\" говорит она равнодушно, \"и под словом 'исчезают' я имею в виду, что они последний раз были видны при входе в тороидную оболочку неподключённого корабля, после чего произошёл полный отказ существования. Они не шутят, мой молодой друг. Здесь есть убийства.\" Она наклоняется вперёд, смотрит сквозь очки, которые чуть-чуть скользят по носу. \"Убедитесь, что это не вы.\"\n\n\"Хорошо.\"\n\n\"Спасибо.\" Она пьёт свой кофе.",
+    "aInverse": [
+      "ENCFirstDockBCRSInfoAskWar2",
+      "ENCFirstDockBCRSInfoAskGalCon",
+      "ENCFirstDockBCRSInfoAskCalico"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_ENCFirstDockBCRSInfoAskWar",
+    "CTTestUs": "CTPlot_ENCFirstDockBCRSInfoAskWar"
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfoAskWar2",
+    "strTitle": "Спроси у неё, кто убивает",
+    "strDesc": "Элени опускает палец в чашку. Она рисует на подоконнике: станцию «Ринг» и её родной объект — Цереру, которые оба напоминают грязные, коричневые кружки кофе. Она рисует ещё одну — большую, с множеством точек.\n\n«Это мы, станция «Ринг» и Церера, и это они — король Юпитер и его спутники. Как только они здесь, в тайне, разрушая нас каждый раз, когда мы уснём за рулём, наши мужчины и женщины там делают то же самое с галилеями.»\n\n«Станция не может остановить деятельность галилеев здесь?»\n\n«Станция пытается», — говорит она. «Все жители города Калико устают от корпоративного гнета, и они — основной источник шахтёров для Коалиции. В круге Венна есть небольшое пересечение между теми, кто недоволен, и теми, кто весело живёт на консольной площадке за пределами картины Босча», — говорит она. Вы киваете, будто видели эту картину раньше, или, может быть, любую другую. Неужели картины не должны быть красивыми?\n\n«Если они слишком настойчивы, люди отреагируют. И Коалиция окажется перед новой революцией прямо у своих дверей.»",
+    "aInverse": [
+      "ENCFirstDockBCRSInfoAskWar3",
+      "ENCFirstDockBCRSInfoAskGalCon",
+      "ENCFirstDockBCRSInfoAskCalico"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_ENCFirstDockBCRSInfoAskWar2",
+    "CTTestUs": "CTPlot_ENCFirstDockBCRSInfoAskWar2"
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfoAskWar3",
+    "strTitle": "Почему галилеи так сильно заинтересованы?",
+    "strDesc": "\"Большее изображение,\" спрашиваете вы, \"почему конкуренция так сильна? Почему разрушают корабли друг друга?\"\n\n\"Это экономика, дурак.\" Вы усаживаетесь. Она улыбается, будто на любимого ребёнка. \"Посмотрите в какую-то книгу, я не говорю вам дураком. Все войны ведутся за деньги или за то, что превращается в деньги, например, власть, контроль или рабы. Церера и Юпитер продают всё это Марсу и Титану, и тот, кто контролирует пояс, может лишить своего противника пищи.\"\n\n\"Синьхуа контролирует Коалицию, благодаря сложной финансовой магии. Каждая корпорация с долей, если вы глубоко проникнёте, частично или полностью принадлежит к другой и другой, и так далее, вплоть до Синьхуа.\"\n\n\"А Титан?\"\n\n\"Юпитер,\" — говорит она, \"или, Галилеевская конфедерация, теперь они так называют. У них больше спутников, чем нейронных клеток. Они свергли группу Троя-Юпитер, объявили о себе и теперь Титан — единственный элемент, поддерживающий их. Ваша догадка, как и моя, неясна: выживут ли они пять лет или пять недель.\"\n\n\"Теперь я понял,\" говорите вы медленно, \"вы говорите, что Синьхуа и США ведут холодную войну за контроль над поясом, а при этом, контроль над поясом поможет выиграть войну за пояс?\"\n\nОна задумывается над этим предложением, затем поднимает руку к хосту, чтобы попросить наполнить. \"Это почти всё, что я хотела сказать.\"\n",
+    "aInverse": [
+      "ENCFirstDockBCRSLeave",
+      "ENCFirstDockBCRSHmm"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_ENCFirstDockBCRSInfoAskWar3",
+    "CTTestUs": "CTPlot_ENCFirstDockBCRSInfoAskWar3"
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfoRefuse",
+    "strTitle": "Отказаться",
+    "strDesc": "\"Приятно, спасибо,\" говорит она. Не теряя ни секунды, она входит в ближайший бар.\n\nВремя для покупок, действительно.",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "CruzCall",
+    "strTitle": "Сообщение в квадрате",
+    "strDesc": "В вашем ящике находится сообщение о сообщении: ZaraFone — небольшая фирма, которая предоставляет профессиональное и комфортное пространство для межпланетных коммуникаций, ожидает вас. Отправитель скрыт. И, конечно, вы не можете смотреть это на своём устройстве; вы должны лично приехать и сесть в кабину, чтобы общаться. Как иначе они могут зарабатывать?\n\nКогда у вас появляется несколько минут свободного времени, вы проходите мимо ZaraPhone. Работник показывает вам свой кабинет, включает парфюмерный вапоризатор и оставляет горячий пакет зелёного чая, медленно вращающийся в воздухе у вашей шеи. Затем они закрывают дверь.\n\nСветы тускнеют. Ваша кресло из искусственной кожи имеет толстый клавиатурный блок в одной из рук, с помощью которого вы приказываете комнате воспроизвести сообщение.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CruzCall2"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "nLogging": 0,
+    "bHumanOnly": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_CruzCall",
+    "CTTestUs": "CTPlot_CruzCall",
+    "ShipTestUs": "AnyStation"
+  },
+  {
+    "strName": "CruzCall2",
+    "strTitle": "Изабард возвращается",
+    "strDesc": "Изабард появляется на экране. Она находится в кабинете записи, но неизвестно, рядом или на другом планете.\n\n\"Привет, молодой [us-custom-characterGenderCond|мужчина|девушка|... человек]. Это я — Изабард Круз! Мы не так давно встретились. Не много говорили, но иногда именно так формируются сильные связи.» У неё рядом стоят блоки хранения, все в режиме поездки. У неё на верху стопки — кот в коробке. \"И вы проявили вежливый интерес к Джомари. Это очень важно.\"\n\nОна вдыхает. \"Я посмотрела запись, которую вы нашли. Возможно, я — гипокритка. Не важно. Запись меня тревожит. Абахо и его друзья находятся в опасности. С законом... с другими. Избегайте их. Или, — она улыбается, — пойдите и увидите их. Это будет ваша похоронная встреча.\"\n\nНе лучшее время. Почему бы ей не позвонить, когда вы оба находились на станции? ... Думала ли она, что это будет уместно?",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CruzCall3"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "nLogging": 0,
+    "bHumanOnly": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "CruzCall3",
+    "strTitle": "Путешествие Круза",
+    "strDesc": "Изабард продолжает после паузы, улыбаясь загадочно. \"У меня есть подсказка для вас, если вы избегаете похорон. Я узнала человека в видео. Ученик в классе, поднял камеру к носу. Он работал у меня много лет назад. Он был старше — он старше и сейчас. Это он, я уверена. Бенджамин Чуонг,\" — говорит она, чётко произнося, и повторяет это для подчёркивания. \"С двумя О.\"\n\n\"Он живёт на станции «Ринг» на Церере, в старом центре. Он не отвечает на моё сообщение... Я знаю адрес. Возьмите свой корабль, поедьте на Цереру, найдите его квартиру. Возможно, он расскажет вам, почему его личное видео было на необычной VHS. И вы проведите проверку. Оставьте ответ для меня через ZaraFone, пожалуйста.\"\n\nОна достаёт, не глядя, и трогает голову кота — Джомари? — через перегородку коробки. \"Я бы поехала, но боюсь, что опасность может наступить и на меня. Вместо этого я иду туда, где никто не смотрит. Поэтому мне нужен бродячий детектив — и вы здесь! Такая идеальная ситуация не может не быть предложена.\"\n\nОна улыбается с раздражением. \"После просмотра этого сообщения вы получили 200 000 долларов США. Используйте эти деньги, чтобы добраться до Цереры — любые остатки вы можете оставить себе. Если вы возьмёте деньги, но не поедете, вы станете плохим человеком и столкнетесь с тяжёлым концом. Хорошо. Удачи. До свидания.» Она нажимает кнопку, и видео заканчивается. Не та, что для церемонии.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "CruzCall4"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "nLogging": 0,
+    "bHumanOnly": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "CruzCall4",
+    "strTitle": "Новый Церер",
+    "strDesc": "Вы проверяете свой аккаунт. Как и обещали, вы стали здоровее на 200 000 долларов. И всё это стоило угрозу проклятия от старой филиппинки.\n\nКак показатель, это слабый. Как мотивация, это слабый. Но это всё, что у вас есть. Если вы хотите узнать, кто сделал эту запись, вам, кажется, придётся добраться до Цереры.",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strSetPlotObjective": "name|The Videotape: Benjamin Choong|ct|CTPLOT_Ceres_Is_ChoongDoor|desc|Head to Ben Choong's last known address on Old Ring Station, Ceres.",
+    "nLogging": 0,
+    "bHumanOnly": true,
+    "strLedgerDef": "PLOT_Ceres_CruzCall3",
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "Plot_Scholar_Flat_ContinueLooking",
+    "strTitle": "Продолжайте искать",
+    "strDesc": "Вы возвращаетесь в центральное место в квартире и осматриваете помещение, решая, где искать дальше.",
+    "strTooltip": "Панель двери отображает имя Бенджамина Чуонга",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Scholar_Flat_Corner_Bed",
+      "Plot_Scholar_Flat_Workbench",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks",
+      "ENCFinish"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strThemType": "Self"
+  },
+  {
+    "strName": "Plot_Scholar_Flat_Enter1",
+    "strTitle": "Посмотрите ещё раз",
+    "strDesc": "Вы возвращаетесь в квартиру Чуонга, думая, что могло упустить что-то. Вы осматриваете помещение, думая, где начать проверку.",
+    "strTooltip": "Панель двери отображает имя Бенджамина Чуонга",
+    "strColor": "Dialogue",
+    "aInverse": [
+      "Plot_Scholar_Flat_Corner_Bed",
+      "Plot_Scholar_Flat_Workbench",
+      "Plot_Scholar_Flat_Kitchenette",
+      "Plot_Scholar_Flat_Racks"
+    ],
+    "strActionGroup": "Use",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_Plot_Scholar_Flat_Enter1",
+    "CTTestUs": "CTPlot_Plot_Scholar_Flat_Enter1",
+    "CTTestThem": "CTPLOT_Ceres_Is_ChoongDoor"
+  },
+  {
+    "strName": "ENCFirstDockBCERCalico",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "strTitle": "Вход в Калико",
+    "strDesc": "Вы проводите некоторое время, наблюдая за работой города, держа за безопасный барьер у терминала на верхнем этаже. Это единственный такой элемент безопасности, который вы видите. Керезиане, кажется, очень комфортно перемещаются из здания в здание, плывут по неотмеченным объемам, которые они, как будто, знают, что предназначены для общественного транспорта, и никогда не сталкиваются. Помощная плакатная надпись советует посетителям и нерезидентам использовать программное обеспечение для перемещения по этим артериям.\n\nСкорее всего, когда вы следуете светящимся плавающим стрелкам, нанесённым на экране вашего ПДА, у вас происходит первый столкновение. Существуют два типа перемещающихся керезиан: одиночные, уставшие, зарабатывающие людей, и группы молодых людей, болтающих на американском сленге. Именно последних вы сталкиваете, хотя вы, кажется, уверенно следовали стрелке. Некоторая часть тела зацепляется, и вы врезаетесь в их тело, как в бильярдную шару.\n\nИх голоса меняются от громких и радостных до резких и злых. Высокий мальчик в поло-рубашке с изображением раздражённого Вегеты отрывается от своих друзей. Он медленно плывёт к вам, останавливаясь с помощью всплеска из его ручных джетов. «Привет, Оффвуд», — говорит он, и очевидно, что это адрес, предназначенный как оскорбление. «Ты совершил ошибку в тот момент. Ты мог бы извиниться перед моими друзьями, здесь?»\n\nЕго правая рука переходит к левому боку. Небольшое движение пальцев оттягивает рубашку, чтобы выявить характерный деревянный упор пистолета Colt 1911, выступающий из пояса его джинсов.",
+    "aInverse": [
+      "ENCFirstDockBCERCalicoApologise",
+      "ENCFirstDockBCERCalicoHoldYourGround",
+      "ENCFirstDockBCERCalicoCarrying"
+    ]
+  },
+  {
+    "strName": "ENCFirstDockBCERCalicoApologise",
+    "strTitle": "Извиниться",
+    "strDesc": "\"Это была полностью моя вина,\" вы говорите. \"Я не знаю, как перемещаться. Надеюсь, никто не пострадал.\"\n\n\"Мм,\" он говорит, размышляя. \"Тот пес, он не пойдёт охотиться.\" Его друзья, теперь переросшие в группу энтузиастов, смеются и шепчут.\n\n\"Кто-то должен научить тебя правильно извиняться, Оффвуд,\" говорит он, держа пистолет в руке. \"Кто-то, как я.\"\n\n\"Конечно, если вы хорошо извиняете, вы можете дать мне несколько советов,\" вы говорите. Смех его друзей прекращается. О-о-о. Оказывается, их мозги развиты достаточно, чтобы распознавать иронию.\n\nОн достаёт пистолет. Его последователи счастливо вздыхают. Его рука сейчас опущена, но его глаза — глаза, как иголки злобы. Что с этим мальчиком не так?\n\n\"Просите, Оффвуд,\" говорит он. \"Просите о своей жизни.\"\n",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFirstDockBCERCalicoBeg",
+      "ENCFirstDockBCERCalicoBegIronically"
+    ]
+  },
+  {
+    "strName": "ENCFirstDockBCERCalicoBeg",
+    "strTitle": "Просить",
+    "strDesc": "\"Пожалуйста, не убивайте меня,\" вы говорите с упорством. \"Я действительно, действительно, действительно не хочу умирать, и не так, не из-за какого-то несчастного случая.\"\n\n\"<i>Не так?</i>\" он повторяет, раздражённо. \"Было бы честь умереть от моих рук. Я отправил четыре души в Ад. Хотите присоединиться к ним?\"\n\nЧёрт, теперь он говорит как злой шекспировский враг. \"Нет, нет, сэр,\" вы говорите с умом. За вашей туннельной видимостью, смотрящей на этого психопата, держащего музея пистолет, вы чувствуете, как поток транспорта проигнорировал уличную драму с невероятной уместностью. \"Я не хочу посрамлять вас, потратив вашу пулю на бесполезных иностранных мусора, таких как я.\"\n\nОн поворачивает голову. \"Это было не так плохо, впрочем.\" Один из его подчинённых серьёзно кивает. \"Хорошо. Я оставлю вашу жалкую жизнь. Но, возможно, я сделаю один из рук неисправным, чтобы вы не забыли.\" Он устанавливает нацеление, его рука медленно опускается, чтобы направить на вашу плечо.",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFirstDockBCERCalicoAuntLiz"
+    ]
+  },
+  {
+    "strName": "ENCFirstDockBCERCalicoAuntLiz",
+    "strTitle": "Продолжить",
+    "strDesc": "\"ЧАДВИК О'НЕЙЛ,\" — громко говорит женский голос с неба. Высокий мальчик — Чадвик — сразу же сжимается, и пистолет больше не направлен на вас. Вы выпускаете дыхание, которого не знали, что держите.\n\nКороткая, старшая женщина — хотя она не может быть старше сорока — срывается вниз, как ангел. Она ставит себя перед Чадвиком, который не может встретиться с её взглядом. Его друзья начинают уходить по одному и двоим. \"Что бы сказал ваша мать, если бы она увидела, как вы обращаетесь с этим неуклюжим иностранным человеком? А что бы сказал ваш отец, пусть покой его душа?\"\n\n\"Это не было так, тётя Лиз,\" Чадвик говорит на земле. \"Я был только —\"\n\nТётя Лиз ударяет его по лицу. Это не просто акт. Она носит кольца. Кровь расходится к городским светам. Она ударяет его снова с той же силой. Когда он поднимает голову, у него уже появляется синяк. Его ужасающий внешний вид разрушается, и в нём появляется испуганный ребёнок.\n\n\"Иди в свою комнату,\" говорит она. Тихо сказано, но, возможно, весь улица услышала. Чадвик убегает, как может, прыгая и уходя на свои газовые джеты, не имея прежней грации.\n\nТётя Лиз —, вероятно, Лиз, для вас — медленно приближается к своей второй приоритетной цели. \"Спасибо,\" вы говорите. \"Я не знаю, что я сделал, но —\"\n\n\"Тишина, Оффвуд,\" говорит она. В ней нет злобы, но она гораздо более острым, чем когда её племянник сказал это. \"Я говорю. Если у вас нет, купите пистолет и несите его открыто. Без него вы приглашаете дуэли или нежелательные сексуальные приставки.\"\n\n\"Вы серьёзно?\" вы спрашиваете.\n\n\"Да,\" говорит она. \"Лучше всего, чтобы вы управляли своими делами здесь и уходили из Калико как только сможете.\"\n\nОна поворачивается на один джет и уходит.",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfoAskCalico",
+    "strTitle": "Спросить о Керезе и Калико-Городе",
+    "aInverse": [
+      "ENCFirstDockBCRSInfoAskWar2",
+      "ENCFirstDockBCRSInfoAskWar",
+      "ENCFirstDockBCRSInfoAskGalCon",
+      "ENCFirstDockBCRSInfoAskWar3"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_ENCFirstDockBCRSInfoAskCalico",
+    "CTTestUs": "CTPlot_ENCFirstDockBCRSInfoAskCalico",
+    "strDesc": "\"Калико-Город — это довольно сумасшедший мир, верно?\" вы говорите.\n\n\"Что вы ожидаете? Американская колония, оставленная своими кредиторами давно; затем приходит Синьхуа.\" Она моргает. \"Одиночный, иностранный, остановленный в состоянии архивного развития под иностранным супердержавой, с упором на свои мифы о великой прошлой — всё это, в целом, и с долгосрочной перспективой, они — вполне нормальные люди. Они учились поклоняться образу жизни, который никогда не существовал...\"\n\nОна останавливается на мысли, затем продолжает немного более резко. \"Нарушение нормы — нормально, на этом мировом уровне.\" Она наклоняется и шепчет вам секрет. \"Горячие источники — божественные. Криовулканическая минеральная вода очень хороша для кожи.\"\n\n\"Я должен проверить это,\" вы говорите.\n\n\"Мм, хорошо, убедитесь, что вы всегда вооружены. Они любят свои ковбои. Если вы оскорбите кого-то —\" она поднимает пальцем-пистолетом к вам. \"Пэ! Пэ, пэ!\" \n\nВозможно, некоторые люди никогда не освоили ономатопею."
+  },
+  {
+    "strName": "ENCFirstDockBCRSInfoAskGalCon",
+    "strTitle": "Спросить о Галилийской Конфедерации",
+    "aInverse": [
+      "ENCFirstDockBCRSInfoAskWar2",
+      "ENCFirstDockBCRSInfoAskCalico",
+      "ENCFirstDockBCRSInfoAskWar",
+      "ENCFirstDockBCRSInfoAskWar3"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "LootCondsUs": "CONDPLOT_ENCFirstDockBCRSInfoAskGalCon",
+    "CTTestUs": "CTPlot_ENCFirstDockBCRSInfoAskGalCon",
+    "strDesc": "\"Что с Галилийской Конфедерацией?\"\n\n\"Оу, с чего начать,\" говорит она. \"Вы знаете о Трои-Юпитере, всё это?\"\n\n\"Вроде да,\" вы говорите.\n\n\"Вы, возможно, видели их в новостях несколько лет назад. Группа Трои-Юпитер. Локальные монархи на Юпитере; большинство из них — двадцать лун. Предупреждение,\" она махает пальцем, \"о том, насколько можно унизить рабство до того, как они что-то сделают.\"\n\n\"Было ли это так мало?\" вы спрашиваете с подозрением.\n\n\"Конечно, не так мало,\" говорит она. Она улыбается. \"Ну, не так мало. Несколько поставок пропали, которые должны были дойти. Несмотря на это, кто из вас считался первым с половиной нормы?\"\n\n\"Высшие руководители и их семьи, как способ мягко признать вину,\" вы говорите. Элени хмыкает. \"Вероятно, и правоохранительные органы тоже, чтобы показать единство.\"\n\n\"То, что последнее действительно произошло,\" говорит она, \"и именно поэтому мы получили Галилийскую Конфедерацию, и почему Трои-Юпитер больше не существует.\"\n"
+  },
+  {
+    "strName": "ENCFirstDockBCERCalicoHoldYourGround",
+    "strTitle": "Держаться на месте",
+    "strDesc": "\"Я не извиняюсь ни за что,\" вы говорите. \"Вы столкнулись со мной. Я видел всё — я был там.\"\n\nОн достаёт пистолет. \"Я должен сжечь эту рубашку,\" говорит он, задумываясь. \"Потому что на ней осталась влага Оффвуда, или кровь Оффвуда.\" Он направляет его на вас. \"Выбирайте сами. Просите, Оффвуд.\"\n",
+    "aInverse": [
+      "ENCFirstDockBCERCalicoBeg",
+      "ENCFirstDockBCERCalicoCarrying"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "ENCFirstDockBCERCalicoCarrying",
+    "strTitle": "Показать, что вы вооружены, тоже",
+    "strDesc": "Вы позволяете своей руке медленно опуститься к оружию.\n\n\"Если я совершил ошибку, это не будет мной, кто будет платить за это,\" вы говорите спокойно. \"Ваши друзья выглядят как взрослые.\" Неправда, безвредная. \"Если они пострадали, они могут выразить это сами.\"\n\nВы смотрите прямо в глаза. Не трудно понять его. Он хочет сохранить лицо, и если вы отступите, он не сможет. Он сначала отводит взгляд. Он улыбается своим друзьям, которые выглядят не пострадавшими.\n\n\"Я думаю, мы в порядке здесь,\" говорит он. Внезапно он становится дружелюбным, даже привлекательным. \"Добро пожаловать в Калико, друг. Надеемся, вам понравится ваше посещение.\"\n\nОни уходят в порядке. Никто на улице не поднимает глаз.\n\nЧто происходит с этим местом?",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "ENCFirstDockBCERCalicoBegIronically",
+    "strTitle": "Быть более ироничным в просьбе",
+    "strDesc": "\"Конечно, я могу это сделать,\" вы говорите. \"Вы ложитесь на ботинки здесь? Как вы относитесь к ботинкам?\"\n\nВенец в его лбу пульсирует. \"Хорошо, не то. Что насчёт этого: я компенсирую вам. Позвоните в мать. Я проведу её на ужин. Покажу ей всё, заплатил за всё, поеду в её коробку, позвоню утром.\" <i>Да-да</i>, шепчет один из его групп, в уважении или отвращении.\n\nВы раскрываете руки. \"Ну что, где моя пуля, парень? У меня есть куда срочно поехать.\"\n\nСлезы появляются у краёв его глаз, он опускает пистолет. Он уходит, плечи сжаты. Одна из девушек преследует его, обеспокоенная.\n\nДоллары на донаты, что это было копией. Или пустое. Вы смотрите на его уходящую спину, раздражённые и ошеломлённые.\n\nОдин из его друзей проходит мимо вас, с упрёком на лице. \"Не круто,\" говорит он. \"Чад проходит через трудный период сейчас.\"\n\nВы киваете, озадаченно. Отвечать было бы потратой усилий.",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFirstDockBCERCalicoAuntLiz"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_More",
+    "strTitle": "Спросить, что он говорит о чём?",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "strDesc": "\"Муравьи, дураки! Синьхуа-мыши. Место полон их. Иногда мы их пугаем, а иногда —, ну, меры более радикальные, если вы понимаете.\"\n\n\"Теперь вот как вы их распознаёте,\" Вэйн приближается так близко, что вы можете почувствовать запах Бисмитерной на его дыхании. \"Они хорошо тренируются на Марсе. Компьютеры, как я сказал, но и борьба. Ручной бой, настоящие близкие кварталы. Они любят проникать и уходить незаметно, поэтому следите за теми, кто скрыт. Они — злые маленькие дьяволы, но они не глупы. Большинство из них гораздо умнее меня, и это говорит о чём-то.\"\n\n\"В любом случае,\" говорит он. \"Если вы встречаете кого-то такого, вероятно, это наша молва. Сбросьте свою половину кодового фразы, и если они знают остальную часть, хорошо, тогда это означает что-то, не так ли?\"",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes",
+    "strTitle": "Спросить о кодовой фразе",
+    "strDesc": "\"Давайте спросим: где истинный запад?\"\n\n\"Зависит от того, где вы стоите,\" вы отвечаете.\n\n\"Нет. Где истинный запад?\" он спрашивает снова.\n\nВы сомневаетесь в ответе.\n\n\"Лично я бы сказал, следует следовать вечернему красному цвету. Но это только моя мысль,\" Вэйн говорит, и делает вам улыбку.\n\n\"Так что, смертный сброс,\" Вэйн продолжает. \"Вы знаете посольство на этой станции? В соседнем здании есть корабль и домовые киоски с растением в углу. Фикус или что-то подобное. Если вы действительно хотите проявить лояльность Богу Галкону, проникните туда, как шпион. Пришлось переместить это десять раз в прошлом месяце, и честно говоря, я уже устал от этого.\"\n\nВэйн отступает, наклоняется и поднимает два пальца. \"Приготовились к выезду?\"\n\nОн пьёт маленькую чашку, как будто это делало тысячи раз. Вы смотрите на свою чашку с явным подозрением, учитывая обстоятельства. \n\n\"Более для меня, думаю,\" говорит он, и пьёт вашу чашку до дна, прежде чем медленно выходит из бара без оплаты.",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_Codes",
+    "strSetPlotObjective": "name|Proxy War: Prove Your Loyalty|ct|TIsProspectorBCER|desc|Prove your worth with Titan. Maybe Pan Tao can help?"
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Discuss_Tradecraft",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "strTitle": "Разговор о традиционных методах",
+    "strDesc": "Пан Тао скривляется, когда ты подходит к нему, и зажигает новую сигарету, используя первую. \"Как это прошло?\" спрашивает он, не смотря на тебя.\n\n\"Почти как ты и ожидал,\" отвечаешь ты.\n\nПан Тао нахмуривается и кивает. \"Да,\" говорит он. \"Уэйн любит свою маленькую 'самодовольную' мелкую актёрскую игру. Не позволяй ей обмануть тебя. Вероятно, он уже смотрит на нас сейчас.\"\n\nМеньше агрессии, чем раньше. Полезно, даже.",
+    "PSpecTestThem": "ProspectorBCERFind",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Discuss_Tradecraft",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Discuss_Tradecraft",
+    "aInverse": [
+      "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Mole",
+      "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Blackhat",
+      "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Wetwork"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Mole",
+    "strTitle": "Попросить совета о шпионе",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strDesc": "\"Если вообще есть такой,\" говорит Пан. \"Разговоры, слухи. Каждый пьяный на этом острове имеет свою историю. Я почти потерял отсчёт.\"\n\n\"Скажи мне одну,\" просишь ты.\n\n\"Ну, вот несколько дней назад атмосферная система рядом с жилыми районами вышла из строя, верно? Сначала это не выглядело странным. Станция — это хуи. Но потом, на другом конце острова, ещё одна вышла из строя. Потом ещё одна. Вы поняли, куда это идёт?\"\n\n\"Не случайность,\" отвечаешь ты.\n\n\"Может быть! Это и есть суть. Послушай, если действительно существует шпион в глубине нашей сети, он будет очень умён. Очень умён. Хакер, способный сделать это и больше. Он будет знать, как говорить. Хорошо работает с богатыми, хорошо с военными. Реальный 'друг всему' тип. Иначе как бы он получил доступ к информации?\"\n\nПолезно. \"Есть ещё советы?\" спрашиваешь ты.\n\n\"Да, блядь,\" говорит он. \"Мы даже не проводили этот разговор.\"\n"
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Wetwork",
+    "strTitle": "Получить совет от работников ветеринарной службы",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strDesc": "\"Парень-художник, которого я вижу,\" говорит Пан. \"Я скажу вам, что я говорю всем: начните с плана выхода. Всё идёт быстрее, чем вы думаете. После того, как дело будет сделано, я имею в виду.\""
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Discuss_Tradecraft_Blackhat",
+    "strTargetPoint": "Talk",
+    "fTargetPointRange": 2,
+    "fForcedChance": 1,
+    "strColor": "Dialogue",
+    "strActionGroup": "Use",
+    "strThemType": "Self",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "strTitle": "Получить совет от чёрных хакеров",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strDesc": "\"Не мой сектор,\" говорит Пан. \"Я больше предпочитаю практический подход.\""
+  },
+  {
+    "strName": "ENCFirstDockBCRSHmm",
+    "strTitle": "Что-то беспокоит тебя",
+    "strDesc": "\"Извините, давайте перепроверим?\" ты говоришь. Что-то беспокоит тебя. Что-то тревожит на грани памяти и времени.\n\n\"Мм? Что, или где, мой друг?\" Она улыбается.\n\n\"Это было что-то, что ты сказала раньше,\" говоришь ты. Она снова играет с подвеской. Стеклянные бусины скользят по нити, мягко стучат друг о друга.\n\nЧто ты сказала? Что-то о Калико-городе. \"Извините,\" говоришь ты, моргая. \"Не приходит мне в голову, что это вообще такое.\"\n\n\"Это совершенно нормально.\"",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFirstDockBCRSLeave",
+      "ENCFirstDockBCRSHmm1"
+    ],
+    "LootCondsUs": "CONDPLOT_ENCFirstDockBCRSHmm",
+    "CTTestUs": "CTPlot_ENCFirstDockBCRSHmm"
+  },
+  {
+    "strName": "ENCFirstDockBCRSHmm1",
+    "strTitle": "Мы встречались раньше?",
+    "strDesc": "\"Мы встречались раньше?\" спрашиваешь ты её вдруг. Ты не думаешь, что ты встречался с ней — это ощущение, впечатление, а не воспоминание. Возможно, ты встречался с её сестрой. \"Вы были в К-Лег?\"\n\n\"О, конечно нет,\" говорит она. \"Я была там раза два, но я бы помнила, если бы мы встречались.\"\n\n\"Это логично,\" говоришь ты. \"Да. Просто забудь, что спрашивал.\"",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFirstDockBCRSLeave",
+      "ENCFirstDockBCRSHmm3"
+    ]
+  },
+  {
+    "strName": "ENCFirstDockBCRSLeave",
+    "strTitle": "Пойти по отдельным направлениям",
+    "strDesc": "Твоя встреча с Элени заканчивается на этом, с обычным расчётом за оплату и долги, которые нужно пройти — нейтральное и пустое пространство, в противоположность странным событиям, которые произошли в ходе разговора. Она настаивает на оплате. Ты даёшь ей, и обещаешь взять следующую, но это никогда не произойдёт.\n\nТы медленно возвращаешься в консультационный зал, чтобы попрощаться. Страх перед покупателями и продавцами теперь ослаблен, и больше никто не пытается втягивать тебя в магазины, так как изменился твой аура.\n\n\"До свидания,\" говорит Элени. Она делает странную круговую жест — прощание? — и исчезает.\n\nКакая странная птица.",
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true,
+    "aInverse": [
+      "ENCFinish"
+    ]
+  },
+  {
+    "strName": "ENCFirstDockBCRSHmm3",
+    "strTitle": "Постараться вспомнить",
+    "strDesc": "\"Сними это,\" говоришь ты, \"не забудь, что я спрашивал. Я хочу уточнить, что-то такое.\"\n\n\"Мм?\" говорит она, улыбаясь вежливо, без смысла.\n\nТо есть всё. То есть это.\n\n\"Ты сказала,\" говоришь ты медленно. Это как будто ты на грани пробуждения. Слова есть, но они борются с тем, чтобы быть сказаны. \"Ты сказала, что Каликоны...\"\n\n\"Да,\" говорит она неудовольственно.\n\n\"Ты сказала, что они учились поклоняться образу жизни, который никогда не существовал...\"\n\n\"Я сказала,\" говорит она. \"Я действительно сказала это.\" Она смотрит на тебя с недовольным выражением. Но это просто мимика. В ней нет чувства.\n\n\"Мужчина из К-Лег сказал мне что-то похожее перед тем, как я ушёл,\" говоришь ты.\n\nОна поднимает руку, как будто спрашивает.",
+    "aInverse": [
+      "ENCFirstDockBCRSLeave",
+      "ENCFirstDockBCRSHmm4"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "ENCFirstDockBCRSHmm4",
+    "strTitle": "Сделать резкое обвинение",
+    "strDesc": "\"Я спрошу ещё раз,\" говоришь ты. \"Скажи мне правду. Знам ли я тебя?\"\n\nЭлени останавливает движение с подвеской и кладёт руки на колени. \"Ну, хорошо. Это вопрос, который я не могу ответить.\"\n\nЕё глаза, за толстыми очками, выглядят как у насекомого. Расширенные рога достигают жёстких краёв оправы, когда они бегут по комнате. Они возвращаются, и она смотрит на тебя с необычайно жёстким взглядом.\n\nВнутри этой жёсткости — след к золоту.\n\nСлово появляется в твоих губах без воли, и как только оно появилось, оно отказывается уйти. Оно не имеет смысла, но всё же выходит. \"...Смайли?\"\n\nВопрос висит между вами, как оружие, ищущее цель.\n\nОна улыбается тебе. Нет больше материнской доброты. Это напоминает фирменный смайлик Смайли — но с новым элементом, который делает широкую улыбку хищной.\n\n\"Я сама. В живом виде,\" говорит она — он? Они? — и вздыхает. \"В живом виде и, возможно, 3 кг силиконовых протезов. Блядь. [us-firstname], как ты?\"\n\n\"Как ты?\" говоришь ты пусто. \"Сволочь. Кто ты вообще, уходи, блядь. Что происходит?\"\n\n\"Я пытаюсь помочь тебе,\" говорит она — ты пока выбираешь «она», потому что ничего другого нет. \"Ты ушёл от К-Лега и попал в Керес, из жарких панцирей в огонь, действительно. И, возможно, у меня есть душа за другим членом клуба AV.\"\n\n\"Я больше не хочу с тобой иметь ничего общего.\"\nТы встаёшь. Глаза людей поворачиваются к тебе. Ты не стараешься снизить голос.\n\n\"Сядь,\" говорит она спокойно. Одна из её рук под столом отслеживает каждый твой шаг.\n\nТы медленно возвращаешься в стул. Ты видел людей в подобных ситуациях в толпах на К-Леге. Ты пытается как можно лучше вспомнить, как они закончили.\n\n\"Спасибо,\" говорит она в разговорном тоне, будто бы ты передал ей пакет соуса. Она скользит языком по зубам, затем достаёт изо рта. Она выдыхает в руку, и бросает на стол большой набор протезов. Длинные белые зубы капают, слюна висит между точками.\n\n\"То,\" говорит она, снова скользя языком по рту, \"мне было неловко.\"",
+    "aInverse": [
+      "ENCFirstDockBCRSHmm2"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  },
+  {
+    "strName": "ENCFirstDockBCRSHmm2",
+    "strTitle": "Продолжить",
+    "strDesc": "\"Что теперь?\" спрашиваешь ты.\n\n\"Мы просто разговариваем,\" говорит она. Это сюрреалистично: серебряные волосы женщины полностью убедительны, даже теперь ты знаешь — хорошо, что ты знаешь? \"Разговариваем нормально, спокойно. Не будем вводить Нико в заблуждение. Мне пришлось изучить греческий язык для этого, я не хочу сжечь его.\"\n\n\"Так ты не гречанка?\"\n\n\"Я не гречанка.\"\n\n\"А что тогда?\"\n\n\"Эпископальский христианин,\" говорит она. \"Что это тебе доходит?\"\n\n\"Ты убила всех своих друзей на К-Леге или отправила их в Прокофьёва,\" шепчешь ты. \"Почти меня тоже. Это то, что это для меня.\"\n\n\"То,\" говорит она, появляясь немного обиженной, \"не было моей вины. Это был серьёзный удар для меня, на самом деле. Я собираюсь собрать остатки.\"\n\n\"Ты думаешь, что ты жертва в этом?\"\n\n\"Я не сказала этого,\" говорит она, улыбаясь жаждой. \"Это старая поговорка — вы знаете, 'никто не думает о себе как о враге'. Правда? Когда взрослый говорит это ребёнку, они подразумевают: 'поэтому, потому что это относительное, не существует врага!' Это раннее заблуждение в понимании других людей, и люди сразу же переходят в зрелость, не возвращаясь к этому.\"\n\nТы смотрит на неё через стол. \"Что за хуя ты говоришь?\"\n\n\"Я пытаюсь сказать, один контрпример разрушает всё.\"\nОна указывает на себя. \"И это я. Я контрпример.\"\n\nТы не хочешь повторять себя, поэтому думаешь о следующем важном вопросе. \"Могу ли я уйти?\"\n\nСмайли, Элени, кто она вообще, первым выходит из кабинки. \"Я ухожу вперёд. Это на мою счётку.\"\nТы видишь пистолет. По крайней мере, ты не попал в ложь — это хорошо. Она прячет его под пальто.\n\n\"Я действительно пыталась помочь,\" говорит она. \"До свидания.\"\n\nОна уходит из кафе. Хозяин поднимает глаза, смотрит на неё и нахмуривается.\n\nТы заканчиваешь свой кофе, пытаясь избавиться от внезапного нападения деперсонализации. Видеозапись... не впервые с К-Лега ты жалеешь, что ты её нашёл.",
+    "aInverse": [
+      "ENCFinish"
+    ],
+    "strRaiseUI": "SocialCombat",
+    "strSubUI": "Landscape01",
+    "strImage": "encounters/ENCPlanetSunrise",
+    "bPause": true,
+    "bIgnoreFeelings": true
+  }
+]

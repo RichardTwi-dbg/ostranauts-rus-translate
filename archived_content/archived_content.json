@@ -1,8 +1,8 @@
 [
   {
     "strName": "SOCPoliceShakedownNameDrop",
-    "strTitle": "Назвать своего менеджера OKLG и указать контакт",
-    "strDesc": "[мы] говорим [им], что будет жалко, если [третий] узнает об этом.",
+    "strTitle": "Назвать своего менеджера OKLG",
+    "strDesc": "[us] говорит [them], что было бы жалко, если бы [3rd] узнал об этом.",
     "strTargetPoint": "use",
     "fTargetPointRange": 2,
     "strAnim": "Use",
@@ -25,8 +25,8 @@
   },
   {
     "strName": "SOCPoliceShakedownNameDropAllow",
-    "strTitle": "Отреагировать на названия менеджера OKLG",
-    "strDesc": "[мы] явно дрожат при упоминании [третьего] и стammer-апологии.",
+    "strTitle": "Реагировать на названия менеджера OKLG",
+    "strDesc": "[us] заметно взволнован упоминанием [3rd] и запинается с извинениями.",
     "strTargetPoint": "use",
     "fTargetPointRange": 2,
     "strAnim": "Use",
@@ -49,7 +49,7 @@
   {
     "strName": "ENCPoliceBoardAllow",
     "strTitle": "Согласиться",
-    "strDesc": "[мы] соглашаемся встретиться с [ними].",
+    "strDesc": "[us] соглашается встретиться с [them].",
     "strColor": "Dialogue",
     "bSocial": true,
     "aInverse": [
@@ -72,8 +72,8 @@
   },
   {
     "strName": "ENCPoliceBoardIgnore",
-    "strTitle": "Игнорировать их",
-    "strDesc": "[мы] игнорируют [них].",
+    "strTitle": "Игнорировать",
+    "strDesc": "[us] игнорирует [them].",
     "strColor": "Dialogue",
     "bSocial": true,
     "aInverse": [
@@ -95,7 +95,7 @@
   {
     "strName": "ENCPoliceBoardGetAttention",
     "strTitle": "Получить внимание",
-    "strDesc": "[мы] требуют внимания [них].",
+    "strDesc": "[us] требует внимания [them].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -121,7 +121,7 @@
   {
     "strName": "ENCPoliceBoardForceResponse",
     "strTitle": "Признать",
-    "strDesc": "[мы] обращаются к [ним].",
+    "strDesc": "[us] обращается к [them].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -147,7 +147,7 @@
   {
     "strName": "ENCPoliceBoardThinking",
     "strTitle": "Рассматривать",
-    "strDesc": "[мы] размышляют, как поступить с [ними].",
+    "strDesc": "[us] размышляет, что делать с [them].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -171,7 +171,7 @@
   {
     "strName": "ENCPoliceBoardQuestioning",
     "strTitle": "Рутинные вопросы",
-    "strDesc": "[мы] задают [ним] рутинные вопросы.",
+    "strDesc": "[us] задаёт [them] рутинные вопросы.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -199,7 +199,7 @@
   {
     "strName": "ENCPoliceBoardQuestioningAnswerTruthfully",
     "strTitle": "Отвечать честно",
-    "strDesc": "[мы] отвечают [ним] на основе собственной памяти.",
+    "strDesc": "[us] отвечает [them] на основе собственной памяти.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -226,7 +226,7 @@
   {
     "strName": "ENCPoliceBoardQuestioningAnswerEvasively",
     "strTitle": "Отвечать избегающе",
-    "strDesc": "[мы] не outright лгут, но искренность не подчёркивается.",
+    "strDesc": "[us] не лжет откровенно, но и правда не представлена в полной мере.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -253,7 +253,7 @@
   {
     "strName": "ENCPoliceBoardQuestioningLie",
     "strTitle": "Ложь",
-    "strDesc": "[мы] прямо ложимся в их зубы.",
+    "strDesc": "[us] прямо лжёт, пронизывая зубы.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -280,7 +280,7 @@
   {
     "strName": "ENCPoliceBoardLieBelieves",
     "strTitle": "Принятие",
-    "strDesc": "[мы] кажутся готовыми принять ложь [них].",
+    "strDesc": "[us] кажется, что принимает ложь [them].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -305,8 +305,8 @@
   },
   {
     "strName": "ENCPoliceBoardSuspiciousQuestioning",
-    "strTitle": "Подозрительное допросы",
-    "strDesc": "[мы] думаем, что [они] скрывают что-то, и вопросы становятся всё более уточнёнными.",
+    "strTitle": "Подозрительные вопросы",
+    "strDesc": "[us] думает, что [them] скрывает что-то, и допрос становится всё более уточнённым.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -330,7 +330,7 @@
   {
     "strName": "ENCPoliceBoardFishForBribe",
     "strTitle": "Допрос",
-    "strDesc": "[мы] случайно намекают, что, возможно, [они] должны убеждать их.",
+    "strDesc": "[us] непринужденно намекает, что, возможно, им стоит дать взятку.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,

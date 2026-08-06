@@ -1,7 +1,7 @@
 [
   {
     "strName": "SLOTBodyFoot",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -14,7 +14,7 @@
   },
   {
     "strName": "SLOTClothesLightweight01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -27,7 +27,7 @@
   },
   {
     "strName": "SLOTClothesMidweight01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -40,7 +40,7 @@
   },
   {
     "strName": "SLOTClothesPantsLight01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -53,7 +53,7 @@
   },
   {
     "strName": "SLOTClothesLeggings01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -66,7 +66,7 @@
   },
   {
     "strName": "SLOTClothesLeggings02",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -79,7 +79,7 @@
   },
   {
     "strName": "SLOTEVASuit01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "SLOTEVASuit01Skilled,[us],[them]",
       "SLOTEVASuit01Unskilled,[us],[them]"
@@ -97,7 +97,7 @@
   },
   {
     "strName": "SLOTEVASuit01Skilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -110,7 +110,7 @@
   },
   {
     "strName": "SLOTEVASuit01Unskilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -124,7 +124,7 @@
   },
   {
     "strName": "SLOTEVASuit01Off",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "SLOTEVASuit01OffSkilled,[us],[them]",
       "SLOTEVASuit01OffUnskilled,[us],[them]"
@@ -142,7 +142,7 @@
   },
   {
     "strName": "SLOTEVASuit01OffSkilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -155,7 +155,7 @@
   },
   {
     "strName": "SLOTEVASuit01OffUnskilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -169,7 +169,7 @@
   },
   {
     "strName": "SLOTHandLamp01L",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -186,7 +186,7 @@
   },
   {
     "strName": "SLOTHandLamp01R",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -203,7 +203,7 @@
   },
   {
     "strName": "SLOTHandPDA01L",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -220,7 +220,7 @@
   },
   {
     "strName": "SLOTHandPDA01R",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -237,7 +237,7 @@
   },
   {
     "strName": "SLOTHelmet01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -250,7 +250,7 @@
   },
   {
     "strName": "SLOTHelmet01Dmg",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -263,7 +263,7 @@
   },
   {
     "strName": "SLOTHelmet02",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -276,7 +276,7 @@
   },
   {
     "strName": "SLOTHelmet02Dmg",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -289,7 +289,7 @@
   },
   {
     "strName": "SLOTPressureSuit01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -302,7 +302,7 @@
   },
   {
     "strName": "SLOTClothesShirt01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -315,7 +315,7 @@
   },
   {
     "strName": "SLOTClothesShoe01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -328,7 +328,7 @@
   },
   {
     "strName": "SLOTClothesShoe01Wrong",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -341,7 +341,7 @@
   },
   {
     "strName": "SLOTWound",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -354,7 +354,7 @@
   },
   {
     "strName": "SLOTWoundBandageClean",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -370,7 +370,7 @@
   },
   {
     "strName": "SLOTWoundCoffeeDrink",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "SLOTWoundCoffeeDrinkEffect,[us],[them]",
       "SLOTWoundCoffeeDrinkNoEffect,[us],[them]"
@@ -387,7 +387,7 @@
   },
   {
     "strName": "SLOTWoundCoffeeDrinkEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -403,7 +403,7 @@
   },
   {
     "strName": "SLOTWoundCoffeeDrinkNoEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -419,7 +419,7 @@
   },
   {
     "strName": "SLOTWoundLiquorHard",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "SLOTWoundLiquorHardEffect,[us],[them]",
       "SLOTWoundLiquorHardNoEffect,[us],[them]"
@@ -436,7 +436,7 @@
   },
   {
     "strName": "SLOTWoundLiquorHardEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -452,7 +452,7 @@
   },
   {
     "strName": "SLOTWoundLiquorHardNoEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -468,7 +468,7 @@
   },
   {
     "strName": "SLOTWoundLiquorWeak",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "SLOTWoundLiquorWeakEffect,[us],[them]",
       "SLOTWoundLiquorWeakNoEffect,[us],[them]"
@@ -485,7 +485,7 @@
   },
   {
     "strName": "SLOTWoundLiquorWeakEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -501,7 +501,7 @@
   },
   {
     "strName": "SLOTWoundLiquorWeakNoEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -517,7 +517,7 @@
   },
   {
     "strName": "SLOTWoundWaterClean",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "SLOTWoundWaterCleanEffect,[us],[them]",
       "SLOTWoundWaterCleanNoEffect,[us],[them]"
@@ -534,7 +534,7 @@
   },
   {
     "strName": "SLOTWoundWaterCleanEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -550,7 +550,7 @@
   },
   {
     "strName": "SLOTWoundWaterCleanNoEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -566,7 +566,7 @@
   },
   {
     "strName": "SLOTWoundWaterCleanSoap",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "SLOTWoundWaterCleanSoapEffect,[us],[them]",
       "SLOTWoundWaterCleanSoapNoEffect,[us],[them]"
@@ -583,7 +583,7 @@
   },
   {
     "strName": "SLOTWoundWaterCleanSoapEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -599,7 +599,7 @@
   },
   {
     "strName": "SLOTWoundWaterCleanSoapNoEffect",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -615,7 +615,7 @@
   },
   {
     "strName": "SLOTWoundAbdomenUpperBlunt02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -629,7 +629,7 @@
   },
   {
     "strName": "SLOTWoundAbdomenUpperCut03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -643,7 +643,7 @@
   },
   {
     "strName": "SLOTWoundChestLowerBlunt02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -657,7 +657,7 @@
   },
   {
     "strName": "SLOTWoundChestLowerBlunt02b",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -671,7 +671,7 @@
   },
   {
     "strName": "SLOTWoundChestLowerBlunt03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -685,7 +685,7 @@
   },
   {
     "strName": "SLOTWoundChestLowerBlunt03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -699,7 +699,7 @@
   },
   {
     "strName": "SLOTWoundChestLowerCut02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -713,7 +713,7 @@
   },
   {
     "strName": "SLOTWoundChestLowerCut03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -727,7 +727,7 @@
   },
   {
     "strName": "SLOTWoundChestLowerCut04a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -741,7 +741,7 @@
   },
   {
     "strName": "SLOTWoundRobotTorso02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -755,7 +755,7 @@
   },
   {
     "strName": "UNSLOTWoundRobotTorso02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -769,7 +769,7 @@
   },
   {
     "strName": "SLOTWoundRobotTorso04",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -783,7 +783,7 @@
   },
   {
     "strName": "UNSLOTWoundRobotTorso04",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -797,7 +797,7 @@
   },
   {
     "strName": "SLOTWoundChestUpperBlunt02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -811,7 +811,7 @@
   },
   {
     "strName": "SLOTWoundChestUpperBlunt02b",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -825,7 +825,7 @@
   },
   {
     "strName": "SLOTWoundChestUpperBlunt03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -839,7 +839,7 @@
   },
   {
     "strName": "SLOTWoundChestUpperBlunt03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -853,7 +853,7 @@
   },
   {
     "strName": "SLOTWoundChestUpperCut02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -867,7 +867,7 @@
   },
   {
     "strName": "SLOTWoundChestUpperCut03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -881,7 +881,7 @@
   },
   {
     "strName": "SLOTWoundChestUpperCut04a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -895,7 +895,7 @@
   },
   {
     "strName": "SLOTWoundHeadBlunt02",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -909,7 +909,7 @@
   },
   {
     "strName": "SLOTWoundHeadBlunt03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -923,7 +923,7 @@
   },
   {
     "strName": "SLOTWoundHeadBlunt04",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -937,7 +937,7 @@
   },
   {
     "strName": "SLOTWoundHeadBlunt05",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -951,7 +951,7 @@
   },
   {
     "strName": "SLOTWoundHeadCut05",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -965,7 +965,7 @@
   },
   {
     "strName": "SLOTWoundBandageDirty",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -979,7 +979,7 @@
   },
   {
     "strName": "SLOTWoundSplinted",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -993,7 +993,7 @@
   },
   {
     "strName": "SLOTWristPDA01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1006,7 +1006,7 @@
   },
   {
     "strName": "SLOTWristPDA01Locked",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1019,7 +1019,7 @@
   },
   {
     "strName": "SLOTWristPDA01Dmg",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1032,7 +1032,7 @@
   },
   {
     "strName": "UNSLOTBodyFoot",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1045,7 +1045,7 @@
   },
   {
     "strName": "UNSLOTClothesLightweight01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1058,7 +1058,7 @@
   },
   {
     "strName": "UNSLOTClothesMidweight01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1071,7 +1071,7 @@
   },
   {
     "strName": "UNSLOTClothesPantsLight01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1084,7 +1084,7 @@
   },
   {
     "strName": "UNSLOTClothesLeggings01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1097,7 +1097,7 @@
   },
   {
     "strName": "UNSLOTClothesLeggings02",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1110,7 +1110,7 @@
   },
   {
     "strName": "UNSLOTEVASuit01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "UNSLOTEVASuit01Skilled,[us],[them]",
       "UNSLOTEVASuit01Unskilled,[us],[them]"
@@ -1128,7 +1128,7 @@
   },
   {
     "strName": "UNSLOTEVASuit01Skilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1141,7 +1141,7 @@
   },
   {
     "strName": "UNSLOTEVASuit01Unskilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1155,7 +1155,7 @@
   },
   {
     "strName": "UNSLOTEVASuit01Off",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [
       "UNSLOTEVASuit01OffSkilled,[us],[them]",
       "UNSLOTEVASuit01OffUnskilled,[us],[them]"
@@ -1173,7 +1173,7 @@
   },
   {
     "strName": "UNSLOTEVASuit01OffSkilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1186,7 +1186,7 @@
   },
   {
     "strName": "UNSLOTEVASuit01OffUnskilled",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1200,7 +1200,7 @@
   },
   {
     "strName": "UNSLOTHandLamp01L",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1217,7 +1217,7 @@
   },
   {
     "strName": "UNSLOTHandLamp01R",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1234,7 +1234,7 @@
   },
   {
     "strName": "UNSLOTHandPDA01L",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1251,7 +1251,7 @@
   },
   {
     "strName": "UNSLOTHandPDA01R",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1268,7 +1268,7 @@
   },
   {
     "strName": "UNSLOTHelmet01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1281,7 +1281,7 @@
   },
   {
     "strName": "UNSLOTHelmet01Dmg",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1294,7 +1294,7 @@
   },
   {
     "strName": "UNSLOTHelmet02",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1307,7 +1307,7 @@
   },
   {
     "strName": "UNSLOTHelmet02Dmg",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1320,7 +1320,7 @@
   },
   {
     "strName": "UNSLOTPressureSuit01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1333,7 +1333,7 @@
   },
   {
     "strName": "UNSLOTClothesShirt01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1346,7 +1346,7 @@
   },
   {
     "strName": "UNSLOTClothesShoe01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1359,7 +1359,7 @@
   },
   {
     "strName": "UNSLOTClothesShoe01Wrong",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1372,7 +1372,7 @@
   },
   {
     "strName": "UNSLOTWound",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1385,7 +1385,7 @@
   },
   {
     "strName": "UNSLOTWoundBandageClean",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1401,7 +1401,7 @@
   },
   {
     "strName": "UNSLOTWoundAbdomenLowerBlunt02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1415,7 +1415,7 @@
   },
   {
     "strName": "UNSLOTWoundAbdomenLowerCut03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1429,7 +1429,7 @@
   },
   {
     "strName": "UNSLOTWoundAbdomenUpperBlunt02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1443,7 +1443,7 @@
   },
   {
     "strName": "UNSLOTWoundAbdomenUpperCut03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1457,7 +1457,7 @@
   },
   {
     "strName": "UNSLOTWoundChestLowerBlunt02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1471,7 +1471,7 @@
   },
   {
     "strName": "UNSLOTWoundChestLowerBlunt02b",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1485,7 +1485,7 @@
   },
   {
     "strName": "UNSLOTWoundChestLowerBlunt03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1499,7 +1499,7 @@
   },
   {
     "strName": "UNSLOTWoundChestLowerBlunt03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1513,7 +1513,7 @@
   },
   {
     "strName": "UNSLOTWoundChestLowerCut02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1527,7 +1527,7 @@
   },
   {
     "strName": "UNSLOTWoundChestLowerCut03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1541,7 +1541,7 @@
   },
   {
     "strName": "UNSLOTWoundChestLowerCut04a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1555,7 +1555,7 @@
   },
   {
     "strName": "UNSLOTWoundChestUpperBlunt02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1569,7 +1569,7 @@
   },
   {
     "strName": "UNSLOTWoundChestUpperBlunt02b",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1583,7 +1583,7 @@
   },
   {
     "strName": "UNSLOTWoundChestUpperBlunt03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1597,7 +1597,7 @@
   },
   {
     "strName": "UNSLOTWoundChestUpperBlunt03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1611,7 +1611,7 @@
   },
   {
     "strName": "UNSLOTWoundChestUpperCut02a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1625,7 +1625,7 @@
   },
   {
     "strName": "UNSLOTWoundChestUpperCut03a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1639,7 +1639,7 @@
   },
   {
     "strName": "UNSLOTWoundChestUpperCut04a",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1653,7 +1653,7 @@
   },
   {
     "strName": "UNSLOTWoundHeadBlunt02",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1667,7 +1667,7 @@
   },
   {
     "strName": "UNSLOTWoundHeadBlunt03",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1681,7 +1681,7 @@
   },
   {
     "strName": "UNSLOTWoundHeadBlunt04",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1695,7 +1695,7 @@
   },
   {
     "strName": "UNSLOTWoundHeadBlunt05",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1709,7 +1709,7 @@
   },
   {
     "strName": "UNSLOTWoundHeadCut05",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1723,7 +1723,7 @@
   },
   {
     "strName": "UNSLOTWoundSplinted",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1737,7 +1737,7 @@
   },
   {
     "strName": "UNSLOTWristPDA01",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1750,7 +1750,7 @@
   },
   {
     "strName": "UNSLOTWristPDA01Locked",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
@@ -1763,7 +1763,7 @@
   },
   {
     "strName": "UNSLOTWristPDA01Dmg",
-    "strDesc": "[мы] заняты на [них].",
+    "strDesc": "[us] включён в [them].",
     "aInverse": [],
     "strThemType": "Other",
     "nLogging": 0,
